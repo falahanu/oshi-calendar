@@ -20,11 +20,26 @@ export default function Menu({ onSelectPage }: MenuProps) {
         🎫 チケット
       </p>
 
-      <p className="menu-item">📺 メディア出演</p>
+      <p
+        className="menu-item"
+        onClick={() => onSelectPage("media")}
+      >
+        📺 メディア出演
+      </p>
 
-      <p className="menu-item">⭐ お気に入り</p>
+      <p
+        className="menu-item"
+        onClick={() => onSelectPage("favorite")}
+      >
+        ⭐ お気に入り
+      </p>
 
-      <p className="menu-item">⚙️ 設定</p>
+      <p
+        className="menu-item"
+        onClick={() => onSelectPage("settings")}
+      >
+        ⚙️ 設定
+      </p>
     </div>
   );
 }
