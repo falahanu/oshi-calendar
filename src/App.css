@@ -25,3 +25,53 @@ body {
 .menu-item:hover {
   background-color: #f0f8ff;
 }
+
+h3 {
+  margin-bottom: 4px;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.event-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 16px;
+  margin: 16px auto;
+  max-width: 600px;
+  text-align: left;
+  background: #fafafa;
+}
+
+.event-date {
+  font-size: 14px;
+  color: gray;
+}
+
+.event-category {
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.event-title {
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.event-detail {
+  margin-top: 8px;
+}
+.event-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 16px;
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: left;
+  background: white;
+}
