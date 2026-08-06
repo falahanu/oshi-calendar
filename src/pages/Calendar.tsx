@@ -1,51 +1,504 @@
-import MonthlyCalendar from "../components/MonthlyCalendar"; import { useEffect, useState } from "react";
+import { groupEvents } from "../utils/groupEvents";
+import { useEffect, useMemo, useRef, useState } from "react";
+import jaLocale from "@fullcalendar/core/locales/ja";
+import FullCalendar from "@fullcalendar/react";
+import dayGridPlugin from "@fullcalendar/daygrid";
+import interactionPlugin from "@fullcalendar/interaction";
 
 type Event = {
-  date: string;
-  artist: string;
-  category: string;
+  id: string;
+  date: string; // yyyy-MM-dd
   title: string;
-  detail: string;
+  category: string;
+  place: string;
+  performers: string;
   url: string;
+  status: string;
+  source: string;
+  detail: string;
 };
 
-export default function Calendar() {
+function normalizeDate(date: string) {
+  return date.replaceAll("/", "-");
+}
+
+function formatDate(date: Date) {
+  const y = date.getFullYear();
+  const m = String(date.getMonth() + 1).padStart(2, "0");
+  const d = String(date.getDate()).padStart(2, "0");
+  return `${y}-${m}-${d}`;
+}
+
+export default function CalendarPage() {
   const [events, setEvents] = useState<Event[]>([]);
+  const [selectedDate, setSelectedDate] = useState<string>("");
+  const [selectedEventId, setSelectedEventId] = useState<string>("");
+  const [categoryFilter, setCategoryFilter] = useState<string[]>([]);
+  const [isLoading, setIsLoading] = useState(false);
+  const listRef = useRef<HTMLDivElement>(null);
+
+  const loadEvents = () => {
+
+    fetch("https://script.google.com/macros/s/AKfycbw8N96LIXRrtqoWi0FgDYD4HDAjZluEviiq3dMx5m9npOJ3CnvhxgwUPswddlCt_Kq5Sw/exec")
+      .then((res) => res.json())
+      .then((data: Event[]) => {
+
+        const normalized = data.map((event) => ({
+          ...event,
+          date: normalizeDate(event.date),
+        }));
+
+        const sorted = [...normalized].sort((a, b) =>
+          a.date.localeCompare(b.date)
+        );
+
+        setEvents(sorted);
+        alert("最新情報を取得しました。");
+      })
+      .catch((error) => {
+        console.error(error);
+        alert("最新情報の取得に失敗しました。");
+      });
+
+  };
 
   useEffect(() => {
-    fetch("https://script.google.com/macros/s/AKfycbw8N96LIXRrtqoWi0FgDYD4HDAjZluEviiq3dMx5m9npOJ3CnvhxgwUPswddlCt_Kq5Sw/exec")
-      .then((response) => response.json())
-      .then((data) => {
-        console.log(data);
-        setEvents(data);
-      });
+    loadEvents();
   }, []);
+
+  const groupedEvents = useMemo(
+    () => groupEvents(events),
+    [events]
+  );
+
+  const filteredEvents = useMemo(() => {
+
+    if (categoryFilter.length === 0) {
+      return groupedEvents;
+    }
+
+    return groupedEvents.filter((event: any) =>
+      categoryFilter.includes(event.category)
+    );
+
+  }, [events, categoryFilter]);
+
+  const selectedEvents = useMemo(() => {
+
+    let result = filteredEvents;
+
+    if (selectedDate) {
+      result = result.filter(event => event.date === selectedDate);
+    }
+
+    return result;
+
+  }, [filteredEvents, selectedDate]);
 
   return (
     <div>
-      <h2>📅 カレンダー</h2>
-      <MonthlyCalendar events={events} />
-      {events.map((event, index) => (
-        <div className="event-card" key={index}>
-          <div>{event.date}</div>
+      <h2 style={{ fontSize: 28, fontWeight: "bold", marginBottom: 16 }}>
+        カレンダー
+      </h2>
 
-          <div>{event.artist}</div>
+      <div
+        style={{
+          display: "flex",
+          gap: 8,
+          flexWrap: "wrap",
+          marginBottom: 16,
+        }}
+      >
+        {["すべて", "ライブ", "テレビ", "ラジオ", "チケット"].map((category) => (
+          <button
+            key={category}
+            onClick={() => {
 
-          <div>{event.category}</div>
+              if (category === "すべて") {
 
-          <h3>{event.title}</h3>
+                setCategoryFilter([]);
 
-          <p>{event.detail}</p>
+                return;
 
-          <a
-            href={event.url}
-            target="_blank"
-            rel="noopener noreferrer"
+              }
+
+              if (categoryFilter.includes(category)) {
+
+                setCategoryFilter(
+                  categoryFilter.filter(c => c !== category)
+                );
+
+              } else {
+
+                setCategoryFilter([
+                  ...categoryFilter,
+                  category
+                ]);
+
+              }
+
+            }}
+            style={{
+              borderRadius: 20,
+              border: "none",
+              cursor: "pointer",
+              fontWeight: "bold",
+              background:
+
+                category === "すべて"
+
+                  ? categoryFilter.length === 0
+                    ? "#2563eb"
+                    : "#e5e7eb"
+
+                  : categoryFilter.includes(category)
+                    ? "#2563eb"
+                    : "#e5e7eb",
+
+              color:
+                category === "すべて"
+                  ? categoryFilter.length === 0
+                    ? "white"
+                    : "black"
+
+                  : categoryFilter.includes(category)
+                    ? "white"
+                    : "black",
+            }}
           >
-            公式サイトを見る
-          </a>
+            {category}
+          </button>
+        ))}
+      </div>
+
+
+      <FullCalendar
+        plugins={[dayGridPlugin, interactionPlugin]}
+        initialView="dayGridMonth"
+        locale={jaLocale}
+        height="auto"
+        eventDisplay="block"
+        fixedWeekCount={false}
+
+        events={filteredEvents.map(event => ({
+
+          id: event.id || `${event.date}-${event.title}`,
+
+          title: event.title,
+
+          date: event.date,
+
+          backgroundColor:
+            event.category === "ライブ"
+              ? "#ef4444"
+              : event.category === "テレビ"
+                ? "#3b82f6"
+                : event.category === "ラジオ"
+                  ? "#22c55e"
+                  : event.category === "チケット"
+                    ? "#f59e0b"
+                    : "#8b5cf6",
+
+          borderColor:
+            event.category === "ライブ"
+              ? "#ef4444"
+              : event.category === "テレビ"
+                ? "#3b82f6"
+                : event.category === "ラジオ"
+                  ? "#22c55e"
+                  : event.category === "チケット"
+                    ? "#f59e0b"
+                    : "#8b5cf6",
+
+        }))
+        }
+
+        dateClick={(info) => {
+
+          setSelectedDate(info.dateStr);
+          setSelectedEventId("");
+
+        }}
+
+        eventClick={(info) => {
+
+          setSelectedDate(info.event.startStr);
+
+          setSelectedEventId(info.event.id);
+
+          setTimeout(() => {
+
+            listRef.current?.scrollIntoView({
+              behavior: "smooth"
+            });
+
+          }, 100);
+
+        }}
+        dayCellContent={(arg) => {
+
+          const dateStr = formatDate(arg.date);
+
+          return (
+            <div
+              style={{
+                width: 30,
+                height: 30,
+                margin: "0 auto",
+                borderRadius: "50%",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+
+                background:
+                  dateStr === selectedDate
+                    ? "#2563EB"
+                    : arg.isToday
+                      ? "#FDE68A"
+                      : "transparent",
+
+                color:
+                  dateStr === selectedDate
+                    ? "white"
+                    : "inherit",
+
+                fontWeight: "bold"
+              }}
+            >
+              {arg.dayNumberText.replace("日", "")}
+            </div>
+          );
+
+        }}
+      />
+      <div style={{ marginTop: 16, marginBottom: 20 }}>
+
+        <button disabled={isLoading}
+          onClick={async () => {
+            if (isLoading) return;
+
+            setIsLoading(true);
+
+            try {
+              const res = await fetch("http://localhost:3001/crawl", {
+                method: "POST",
+              });
+
+              const result = await res.json();
+
+              if (result.success) {
+                await loadEvents();
+              } else {
+                alert("情報取得に失敗しました。");
+              }
+            } catch (e) {
+              console.error(e);
+              alert("サーバーに接続できません。");
+            } finally {
+              setIsLoading(false);
+            }
+          }}
+          style={{
+            padding: "10px 18px",
+            borderRadius: 8,
+            border: "none",
+            background: "#2563eb",
+            color: "white",
+            fontWeight: "bold",
+            cursor: "pointer"
+          }}
+        >
+          {isLoading ? "🔄 取得中..." : "🔄 最新情報を取得"}
+        </button>
+
+        <button
+          onClick={async () => {
+
+            await fetch("http://localhost:3001/createPublicJson", {
+              method: "POST"
+            });
+
+            alert("公開データを更新しました");
+
+          }}
+          style={{
+            padding: "10px 18px",
+            borderRadius: 8,
+            border: "none",
+            background: "#2563eb",
+            color: "white",
+            fontWeight: "bold",
+            cursor: "pointer"
+          }}
+        >
+          公開ページ更新
+        </button>
+
+      </div>
+
+      <div
+        ref={listRef}
+        style={{ marginTop: 24 }}
+      >
+        <h3 style={{ fontSize: 22, fontWeight: "bold", marginBottom: 12 }}>
+          イベント一覧 {selectedDate ? `（${selectedDate}）` : ""}
+        </h3>
+
+        <div style={{ marginBottom: 16 }}>
         </div>
-      ))}
+
+        {selectedDate && (
+          <button
+            onClick={() => {
+              setSelectedDate("");
+              setSelectedEventId("");
+            }}
+            style={{
+              marginBottom: 12,
+              padding: "6px 10px",
+              border: "1px solid #ccc",
+              borderRadius: 8,
+              background: "white",
+            }}
+          >
+            全日表示に戻す
+          </button>
+        )}
+        {selectedEvents.length === 0 && (
+
+          <div
+            style={{
+              border: "1px solid #ddd",
+              borderRadius: 12,
+              padding: 20,
+              marginBottom: 12,
+              textAlign: "center",
+            }}
+          >
+            この日のイベントはありません
+          </div>
+
+        )}
+        {selectedEvents.map((event) => (
+          <div
+            key={event.id || `${event.date}-${event.title}`}
+            style={{
+
+              border:
+                event.id === selectedEventId
+                  ? "3px solid #2563eb"
+                  : "1px solid #ddd",
+
+              background:
+                event.id === selectedEventId
+                  ? "#eff6ff"
+                  : "white",
+
+              borderRadius: 14,
+
+              padding: 18,
+
+              marginBottom: 16,
+
+              boxShadow: "0 2px 6px rgba(0,0,0,.08)"
+
+            }}
+          >
+
+            <div
+              style={{
+                display: "inline-block",
+                padding: "4px 10px",
+                borderRadius: 20,
+                background:
+                  event.category === "ライブ"
+                    ? "#FEE2E2"
+                    : event.category === "テレビ"
+                      ? "#DBEAFE"
+                      : event.category === "ラジオ"
+                        ? "#DCFCE7"
+                        : "#FEF3C7",
+                fontWeight: "bold",
+                marginBottom: 10
+              }}
+            >
+              {event.category}
+            </div>
+
+            <div
+              style={{
+                fontSize: 22,
+                fontWeight: "bold",
+                marginBottom: 12
+              }}
+            >
+              {event.title}
+            </div>
+
+            <div style={{ marginBottom: 6 }}>
+              📅 {event.date}
+            </div>
+
+            <div style={{ marginBottom: 6 }}>
+              📍{" "}
+              <a
+                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(event.place)}`}
+                target="_blank"
+                rel="noreferrer"
+                style={{
+                  color: "#2563eb",
+                  textDecoration: "none",
+                  fontWeight: "bold",
+                }}
+              >
+                {event.place}
+              </a>
+            </div>
+
+            <div style={{ marginBottom: 6 }}>
+              👥 {event.performers}
+            </div>
+
+            <div style={{ marginBottom: 12 }}>
+
+              🌐{" "}
+
+              {event.sources?.map((s: any, index: number) => (
+
+                <span key={index}>
+
+                  {index > 0 && " ・ "}
+
+                  {s.source}
+
+                </span>
+
+              ))}
+
+            </div>
+
+            {event.sources?.length > 0 && (
+              <a
+                href={event.url}
+                target="_blank"
+                rel="noreferrer"
+                style={{
+                  display: "inline-block",
+                  padding: "8px 14px",
+                  borderRadius: 8,
+                  background: "#2563eb",
+                  color: "white",
+                  textDecoration: "none",
+                  fontWeight: "bold"
+                }}
+              >
+                🎫 チケット・詳細を見る
+              </a>
+            )}
+
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
