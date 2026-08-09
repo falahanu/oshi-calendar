@@ -1,4 +1,4 @@
-import { groupEvents } from "../utils/groupEvents";
+import { groupEvents } from "../../shared/groupEvents";
 import { useEffect, useMemo, useRef, useState } from "react";
 import jaLocale from "@fullcalendar/core/locales/ja";
 import FullCalendar from "@fullcalendar/react";
