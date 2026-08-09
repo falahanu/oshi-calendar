@@ -14,7 +14,7 @@ function App() {
   const [selectedEvent, setSelectedEvent] = useState<any>(null);
   return (
     <div className="app">
-      <h1 className="title">🎤 推し活マネージャー</h1>
+      <h1 className="title">🎙️ 推し活マネージャー</h1>
 
       <hr />
       <Menu onSelectPage={setCurrentPage} />

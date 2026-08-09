@@ -46,24 +46,67 @@ export async function getOfficialEvents() {
 
         const line = lines[i];
 
-        if (!line.match(/^2026\/\d{2}\/\d{2}/)) {
+        const dateMatch = line.match(
+            /^(\d{4})\/(\d{2})\/(\d{2})/
+        );
+
+        if (!dateMatch) {
             continue;
         }
 
-        const date = line.match(/^\d{4}\/\d{2}\/\d{2}/)[0];
+        const date = dateMatch[0];
 
-        let rest = line.replace(date, "").trim();
+        let rest = line
+            .replace(date, "")
+            .trim();
 
+        // ================================
         // 時間
-        let time = "";
-        const timeMatch = rest.match(/\d{1,2}:\d{2}～\d{1,2}:\d{2}/);
+        // ================================
 
-        if (timeMatch) {
-            time = timeMatch[0];
-            rest = rest.replace(time, "").trim();
+        let time = "";
+
+        // テレビ・ラジオなど
+        // 例：25:30～26:00
+        const timeRangeMatch = rest.match(
+            /\d{1,2}:\d{2}\s*[～~]\s*\d{1,2}:\d{2}/
+        );
+
+        if (timeRangeMatch) {
+
+            time = timeRangeMatch[0];
+
+            rest = rest
+                .replace(timeRangeMatch[0], "")
+                .trim();
+
+        }
+        else {
+
+            // ライブなど
+            // 例：
+            // 開場 15:00 ／ 開演 16:00
+            // 1部：開場 12:00 ／ 開演 13:00
+            const liveTimeMatch = rest.match(
+                /(?:\d部：)?\s*開場\s*\d{1,2}:\d{2}\s*[／/]\s*開演\s*\d{1,2}:\d{2}(?:.*)?/
+            );
+
+            if (liveTimeMatch) {
+
+                time = liveTimeMatch[0];
+
+                rest = rest
+                    .replace(liveTimeMatch[0], "")
+                    .trim();
+
+            }
+
         }
 
+        // ================================
         // カテゴリ
+        // ================================
+
         let category = "その他";
 
         if (
@@ -77,33 +120,47 @@ export async function getOfficialEvents() {
 
             category = "テレビ";
 
-        } else if (
+        }
+        else if (
             rest.includes("ラジオ") ||
             rest.includes("Podcast")
         ) {
 
             category = "ラジオ";
 
-        } else if (
-            rest.includes("開演") ||
-            rest.includes("開場")
+        }
+        else if (
+            line.includes("開演") ||
+            line.includes("開場")
         ) {
 
             category = "ライブ";
 
         }
 
+        // ================================
+        // 場所・タイトル
+        // ================================
+
         let place = "";
         let title = rest;
 
-        if (category === "テレビ" || category === "ラジオ") {
+        if (
+            category === "テレビ" ||
+            category === "ラジオ"
+        ) {
 
             const idx = rest.indexOf("「");
 
             if (idx > 0) {
 
-                place = rest.substring(0, idx).trim();
-                title = rest.substring(idx).replace(/[「」]/g, "");
+                place = rest
+                    .substring(0, idx)
+                    .trim();
+
+                title = rest
+                    .substring(idx)
+                    .replace(/[「」]/g, "");
 
             }
 
@@ -115,12 +172,33 @@ export async function getOfficialEvents() {
 
             if (idx > 0) {
 
-                place = rest.substring(0, idx).trim();
-                title = rest.substring(idx).replace(/[［］]/g, "");
+                place = rest
+                    .substring(0, idx)
+                    .trim();
+
+                title = rest
+                    .substring(idx)
+                    .replace(/[［］]/g, "");
 
             }
 
         }
+        // ================================
+        // 1部・2部をタイトルに付ける
+        // ================================
+
+        const partMatch = time.match(
+            /(\d)部：/
+        );
+
+        if (partMatch) {
+
+            title = `${title}【${partMatch[1]}部】`;
+
+        }
+        // ================================
+        // イベントデータ
+        // ================================
 
         events.push({
 
@@ -129,7 +207,6 @@ export async function getOfficialEvents() {
             category,
             place,
             performers: "ヤーレンズ",
-            url: "https://www.kdashstage.jp/profile/archives/4",
             source: "公式HP",
             status: "開催予定",
             detail: time
@@ -143,5 +220,4 @@ export async function getOfficialEvents() {
     await browser.close();
 
     return events;
-
 }

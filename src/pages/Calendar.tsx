@@ -7,7 +7,8 @@ import interactionPlugin from "@fullcalendar/interaction";
 
 type Event = {
   id: string;
-  date: string; // yyyy-MM-dd
+  date: string;
+  time: string;
   title: string;
   category: string;
   place: string;
@@ -16,6 +17,13 @@ type Event = {
   status: string;
   source: string;
   detail: string;
+  management: string;
+
+  sources?: {
+    source: string;
+    url?: string;
+  }[];
+  streamingUrl?: string;
 };
 
 function normalizeDate(date: string) {
@@ -31,15 +39,17 @@ function formatDate(date: Date) {
 
 export default function CalendarPage() {
   const [events, setEvents] = useState<Event[]>([]);
-  const [selectedDate, setSelectedDate] = useState<string>("");
-  const [selectedEventId, setSelectedEventId] = useState<string>("");
+  const [selectedDate, setSelectedDate] = useState("");
+  const [selectedEventId, setSelectedEventId] = useState("");
   const [categoryFilter, setCategoryFilter] = useState<string[]>([]);
   const [isLoading, setIsLoading] = useState(false);
-  const listRef = useRef<HTMLDivElement>(null);
+  const listRef = useRef<HTMLDivElement | null>(null);
 
   const loadEvents = () => {
 
-    fetch("https://script.google.com/macros/s/AKfycbw8N96LIXRrtqoWi0FgDYD4HDAjZluEviiq3dMx5m9npOJ3CnvhxgwUPswddlCt_Kq5Sw/exec")
+    fetch(
+      "https://script.google.com/macros/s/AKfycbw8N96LIXRrtqoWi0FgDYD4HDAjZluEviiq3dMx5m9npOJ3CnvhxgwUPswddlCt_Kq5Sw/exec"
+    )
       .then((res) => res.json())
       .then((data: Event[]) => {
 
@@ -53,7 +63,6 @@ export default function CalendarPage() {
         );
 
         setEvents(sorted);
-        alert("最新情報を取得しました。");
       })
       .catch((error) => {
         console.error(error);
@@ -67,7 +76,10 @@ export default function CalendarPage() {
   }, []);
 
   const groupedEvents = useMemo(
-    () => groupEvents(events),
+    () =>
+      groupEvents(events).filter(
+        (event: any) => event.category !== "配信"
+      ),
     [events]
   );
 
@@ -88,7 +100,9 @@ export default function CalendarPage() {
     let result = filteredEvents;
 
     if (selectedDate) {
-      result = result.filter(event => event.date === selectedDate);
+      result = result.filter(
+        (event: any) => event.date === selectedDate
+      );
     }
 
     return result;
@@ -97,7 +111,14 @@ export default function CalendarPage() {
 
   return (
     <div>
-      <h2 style={{ fontSize: 28, fontWeight: "bold", marginBottom: 16 }}>
+
+      <h2
+        style={{
+          fontSize: 28,
+          fontWeight: "bold",
+          marginBottom: 16
+        }}
+      >
         カレンダー
       </h2>
 
@@ -109,80 +130,99 @@ export default function CalendarPage() {
           marginBottom: 16,
         }}
       >
-        {["すべて", "ライブ", "テレビ", "ラジオ", "チケット"].map((category) => (
-          <button
-            key={category}
-            onClick={() => {
 
-              if (category === "すべて") {
+        {["すべて", "ライブ", "テレビ", "ラジオ", "チケット"].map(
+          (category) => (
 
-                setCategoryFilter([]);
+            <button
+              key={category}
+              onClick={() => {
 
-                return;
+                if (category === "すべて") {
 
-              }
+                  setCategoryFilter([]);
 
-              if (categoryFilter.includes(category)) {
+                  return;
 
-                setCategoryFilter(
-                  categoryFilter.filter(c => c !== category)
-                );
+                }
 
-              } else {
+                if (categoryFilter.includes(category)) {
 
-                setCategoryFilter([
-                  ...categoryFilter,
-                  category
-                ]);
+                  setCategoryFilter(
+                    categoryFilter.filter(
+                      (c) => c !== category
+                    )
+                  );
 
-              }
+                } else {
 
-            }}
-            style={{
-              borderRadius: 20,
-              border: "none",
-              cursor: "pointer",
-              fontWeight: "bold",
-              background:
+                  setCategoryFilter([
+                    ...categoryFilter,
+                    category
+                  ]);
 
-                category === "すべて"
+                }
 
-                  ? categoryFilter.length === 0
-                    ? "#2563eb"
-                    : "#e5e7eb"
+              }}
+              style={{
+                borderRadius: 20,
+                border: "none",
+                cursor: "pointer",
+                fontWeight: "bold",
 
-                  : categoryFilter.includes(category)
-                    ? "#2563eb"
-                    : "#e5e7eb",
+                background:
+                  category === "すべて"
 
-              color:
-                category === "すべて"
-                  ? categoryFilter.length === 0
-                    ? "white"
-                    : "black"
+                    ? categoryFilter.length === 0
+                      ? "#2563eb"
+                      : "#e5e7eb"
 
-                  : categoryFilter.includes(category)
-                    ? "white"
-                    : "black",
-            }}
-          >
-            {category}
-          </button>
-        ))}
+                    : categoryFilter.includes(category)
+                      ? "#2563eb"
+                      : "#e5e7eb",
+
+                color:
+                  category === "すべて"
+
+                    ? categoryFilter.length === 0
+                      ? "white"
+                      : "black"
+
+                    : categoryFilter.includes(category)
+                      ? "white"
+                      : "black",
+              }}
+            >
+              {category}
+            </button>
+
+          )
+        )}
+
       </div>
 
-
       <FullCalendar
-        plugins={[dayGridPlugin, interactionPlugin]}
+
+        plugins={[
+          dayGridPlugin,
+          interactionPlugin
+        ]}
+
         initialView="dayGridMonth"
+
         locale={jaLocale}
+
         height="auto"
+
         eventDisplay="block"
+
         fixedWeekCount={false}
 
-        events={filteredEvents.map(event => ({
+        events={filteredEvents.map((event: any) => ({
 
-          id: event.id || `${event.date}-${event.title}`,
+          id:
+            event.id ||
+            `${event.date}-${event.title}`,
 
           title: event.title,
 
@@ -210,12 +250,12 @@ export default function CalendarPage() {
                     ? "#f59e0b"
                     : "#8b5cf6",
 
-        }))
-        }
+        }))}
 
         dateClick={(info) => {
 
           setSelectedDate(info.dateStr);
+
           setSelectedEventId("");
 
         }}
@@ -235,9 +275,11 @@ export default function CalendarPage() {
           }, 100);
 
         }}
+
         dayCellContent={(arg) => {
 
-          const dateStr = formatDate(arg.date);
+          const dateStr =
+            formatDate(arg.date);
 
           return (
             <div
@@ -270,33 +312,63 @@ export default function CalendarPage() {
           );
 
         }}
-      />
-      <div style={{ marginTop: 16, marginBottom: 20 }}>
 
-        <button disabled={isLoading}
+      />
+
+      <div
+        style={{
+          marginTop: 16,
+          marginBottom: 20
+        }}
+      >
+
+        <button
+          disabled={isLoading}
           onClick={async () => {
+
             if (isLoading) return;
 
             setIsLoading(true);
 
             try {
-              const res = await fetch("http://localhost:3001/crawl", {
-                method: "POST",
-              });
 
-              const result = await res.json();
+              const res =
+                await fetch(
+                  "http://localhost:3001/crawl",
+                  {
+                    method: "POST",
+                  }
+                );
+
+              const result =
+                await res.json();
 
               if (result.success) {
+
                 await loadEvents();
+
               } else {
-                alert("情報取得に失敗しました。");
+
+                alert(
+                  "情報取得に失敗しました。"
+                );
+
               }
+
             } catch (e) {
+
               console.error(e);
-              alert("サーバーに接続できません。");
+
+              alert(
+                "サーバーに接続できません。"
+              );
+
             } finally {
+
               setIsLoading(false);
+
             }
+
           }}
           style={{
             padding: "10px 18px",
@@ -308,17 +380,24 @@ export default function CalendarPage() {
             cursor: "pointer"
           }}
         >
-          {isLoading ? "🔄 取得中..." : "🔄 最新情報を取得"}
+          {isLoading
+            ? "🔄 取得中..."
+            : "🔄 最新情報を取得"}
         </button>
 
         <button
           onClick={async () => {
 
-            await fetch("http://localhost:3001/createPublicJson", {
-              method: "POST"
-            });
+            await fetch(
+              "http://localhost:3001/createPublicJson",
+              {
+                method: "POST"
+              }
+            );
 
-            alert("公開データを更新しました");
+            alert(
+              "公開データを更新しました"
+            );
 
           }}
           style={{
@@ -334,24 +413,66 @@ export default function CalendarPage() {
           公開ページ更新
         </button>
 
+        <button
+          onClick={() => {
+
+            window.open(
+              "https://docs.google.com/spreadsheets/d/1fwHIox9YnZ1_5jyXONUoBoUYV4DfG5BCsvVpOcxmWE8/edit",
+              "_blank"
+            );
+
+          }}
+          style={{
+            padding: "10px 18px",
+            borderRadius: 8,
+            border: "none",
+            background: "#16a34a",
+            color: "white",
+            fontWeight: "bold",
+            cursor: "pointer"
+          }}
+        >
+          📊 スプレッドシートを開く
+        </button>
+
       </div>
 
       <div
         ref={listRef}
-        style={{ marginTop: 24 }}
+        style={{
+          marginTop: 24
+        }}
       >
-        <h3 style={{ fontSize: 22, fontWeight: "bold", marginBottom: 12 }}>
-          イベント一覧 {selectedDate ? `（${selectedDate}）` : ""}
+
+        <h3
+          style={{
+            fontSize: 22,
+            fontWeight: "bold",
+            marginBottom: 12
+          }}
+        >
+          イベント一覧{" "}
+          {selectedDate
+            ? `（${selectedDate}）`
+            : ""}
         </h3>
 
-        <div style={{ marginBottom: 16 }}>
+        <div
+          style={{
+            marginBottom: 16
+          }}
+        >
         </div>
 
         {selectedDate && (
+
           <button
             onClick={() => {
+
               setSelectedDate("");
+
               setSelectedEventId("");
+
             }}
             style={{
               marginBottom: 12,
@@ -363,7 +484,9 @@ export default function CalendarPage() {
           >
             全日表示に戻す
           </button>
+
         )}
+
         {selectedEvents.length === 0 && (
 
           <div
@@ -379,9 +502,14 @@ export default function CalendarPage() {
           </div>
 
         )}
-        {selectedEvents.map((event) => (
+
+        {selectedEvents.map((event: any) => (
+
           <div
-            key={event.id || `${event.date}-${event.title}`}
+            key={
+              event.id ||
+              `${event.date}-${event.title}`
+            }
             style={{
 
               border:
@@ -400,7 +528,8 @@ export default function CalendarPage() {
 
               marginBottom: 16,
 
-              boxShadow: "0 2px 6px rgba(0,0,0,.08)"
+              boxShadow:
+                "0 2px 6px rgba(0,0,0,.08)"
 
             }}
           >
@@ -410,6 +539,7 @@ export default function CalendarPage() {
                 display: "inline-block",
                 padding: "4px 10px",
                 borderRadius: 20,
+
                 background:
                   event.category === "ライブ"
                     ? "#FEE2E2"
@@ -418,7 +548,9 @@ export default function CalendarPage() {
                       : event.category === "ラジオ"
                         ? "#DCFCE7"
                         : "#FEF3C7",
+
                 fontWeight: "bold",
+
                 marginBottom: 10
               }}
             >
@@ -435,14 +567,60 @@ export default function CalendarPage() {
               {event.title}
             </div>
 
-            <div style={{ marginBottom: 6 }}>
+            <div
+              style={{
+                marginBottom: 6
+              }}
+            >
               📅 {event.date}
             </div>
 
-            <div style={{ marginBottom: 6 }}>
+            {event.detail && (
+
+              <div
+                style={{
+                  marginBottom: 6
+                }}
+              >
+                🕐{" "}
+
+                {event.detail === "配信あり" && event.streamingUrl ? (
+
+                  <a
+                    href={event.streamingUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    style={{
+                      color: "#2563eb",
+                      textDecoration: "none",
+                      fontWeight: "bold",
+                      cursor: "pointer",
+                    }}
+                  >
+                    配信あり
+                  </a>
+
+                ) : (
+
+                  event.detail
+
+                )}
+
+              </div>
+
+            )}
+
+            <div
+              style={{
+                marginBottom: 6
+              }}
+            >
               📍{" "}
+
               <a
-                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(event.place)}`}
+                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+                  event.place
+                )}`}
                 target="_blank"
                 rel="noreferrer"
                 style={{
@@ -453,52 +631,75 @@ export default function CalendarPage() {
               >
                 {event.place}
               </a>
+
             </div>
 
-            <div style={{ marginBottom: 6 }}>
+            <div
+              style={{
+                marginBottom: 6
+              }}
+            >
               👥 {event.performers}
             </div>
 
-            <div style={{ marginBottom: 12 }}>
+            <div
+              style={{
+                marginBottom: 12
+              }}
+            >
 
               🌐{" "}
 
-              {event.sources?.map((s: any, index: number) => (
+              {event.sources?.map(
+                (
+                  s: {
+                    source: string;
+                    url?: string;
+                  },
+                  index: number
+                ) => (
 
-                <span key={index}>
+                  <span key={index}>
 
-                  {index > 0 && " ・ "}
+                    {index > 0 && " ・ "}
 
-                  {s.source}
+                    {s.url ? (
 
-                </span>
+                      <a
+                        href={s.url}
+                        target="_blank"
+                        rel="noreferrer"
+                        style={{
+                          color: "#2563eb",
+                          textDecoration: "none",
+                          fontWeight: "bold",
+                          cursor: "pointer",
+                        }}
+                      >
+                        {s.source}
+                      </a>
 
-              ))}
+                    ) : (
+
+                      <span>
+                        {s.source}
+                      </span>
+
+                    )}
+
+                  </span>
+
+                )
+              )}
 
             </div>
 
-            {event.sources?.length > 0 && (
-              <a
-                href={event.url}
-                target="_blank"
-                rel="noreferrer"
-                style={{
-                  display: "inline-block",
-                  padding: "8px 14px",
-                  borderRadius: 8,
-                  background: "#2563eb",
-                  color: "white",
-                  textDecoration: "none",
-                  fontWeight: "bold"
-                }}
-              >
-                🎫 チケット・詳細を見る
-              </a>
-            )}
-
           </div>
+
         ))}
+
       </div>
+
     </div>
   );
 }

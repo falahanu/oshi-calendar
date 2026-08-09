@@ -1,43 +1,91 @@
 export function groupEvents(events: any[]) {
 
-  return Object.values(
+  const grouped: Record<string, any> = {};
 
-    events.reduce((acc: any, event: any) => {
+  for (const event of events) {
 
-      const key = `${event.date}_${event.title}_${event.category}`;
+    const key =
+      `${event.date}_${event.title}`;
 
-      if (!acc[key]) {
+    // ========================================
+    // ① 初めて出てきたイベント
+    // ========================================
 
-        acc[key] = {
+    if (!grouped[key]) {
 
-          ...event,
+      grouped[key] = {
+        ...event,
 
-          sources: [{
+        sources: event.sources
+          ? [...event.sources]
+          : [
+              {
+                source: event.source,
+                url: event.url
+              }
+            ]
+      };
 
-            source: event.source,
+      continue;
+    }
 
-            url: event.url
+    // ========================================
+    // ② 既に同じイベントがある場合
+    // ========================================
 
-          }]
+    const existing = grouped[key];
 
-        };
+    // ----------------------------------------
+    // 配信イベントの場合
+    // ----------------------------------------
 
-      } else {
+    if (event.category === "配信") {
 
-        acc[key].sources.push({
+      // 「配信あり」をSourceとして追加
+      const alreadyExists =
+        existing.sources?.some(
+          (s: any) => s.source === "配信あり"
+        );
 
-          source: event.source,
+      if (!alreadyExists) {
 
+        existing.sources.push({
+          source: "配信あり",
           url: event.url
-
         });
 
       }
 
-      return acc;
+      continue;
+    }
 
-    }, {})
+    // ----------------------------------------
+    // 通常のイベントの場合
+    // ----------------------------------------
 
+    const alreadyExists =
+      existing.sources?.some(
+        (s: any) =>
+          s.source === event.source &&
+          s.url === event.url
+      );
+
+    if (!alreadyExists) {
+
+      existing.sources.push({
+        source: event.source,
+        url: event.url
+      });
+
+    }
+
+  }
+
+  // ========================================
+  // ③ 配信単独イベントを除外
+  // ========================================
+
+  return Object.values(grouped).filter(
+    (event: any) => event.category !== "配信"
   );
-
 }

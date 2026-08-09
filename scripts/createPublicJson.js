@@ -60,3 +60,52 @@ fs.writeFileSync(
 
 console.log("公開JSON作成完了");
 console.log(publicEvents.length + "件");
+
+import "dotenv/config";
+
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+
+if (!GITHUB_TOKEN) {
+  throw new Error("GITHUB_TOKENが設定されていません。.envを確認してください。");
+}
+
+const owner = "falahanu";
+const repo = "oshi-calendar";
+const filePath = "public/events_public.json";
+
+const fileContent = fs.readFileSync(
+  "../oshi-calendar/public/events_public.json"
+);
+
+const contentBase64 = fileContent.toString("base64");
+
+// 現在のGitHub上のファイル情報を取得
+const fileResponse = await axios.get(
+  `https://api.github.com/repos/${owner}/${repo}/contents/${filePath}`,
+  {
+    headers: {
+      Authorization: `Bearer ${GITHUB_TOKEN}`,
+      Accept: "application/vnd.github+json",
+    },
+  }
+);
+
+const sha = fileResponse.data.sha;
+
+// GitHub上のファイルを更新
+await axios.put(
+  `https://api.github.com/repos/${owner}/${repo}/contents/${filePath}`,
+  {
+    message: "Update events_public.json",
+    content: contentBase64,
+    sha: sha,
+  },
+  {
+    headers: {
+      Authorization: `Bearer ${GITHUB_TOKEN}`,
+      Accept: "application/vnd.github+json",
+    },
+  }
+);
+
+console.log("GitHubのevents_public.jsonを更新しました");

@@ -71,6 +71,7 @@ export async function getFanyEvents() {
         let title = "";
         let place = "";
         let performers = "";
+        let detail = "";
 
         for (let i = 0; i < lines.length; i++) {
 
@@ -83,6 +84,21 @@ export async function getFanyEvents() {
                 title = lines[i + 1] || "";
 
                 place = lines[i + 3] || "";
+
+                // 時間を取得
+                // 例：開場 12:00 / 開演 13:00
+                for (let j = i; j < Math.min(i + 15, lines.length); j++) {
+
+                    const timeMatch = lines[j].match(
+                        /(?:開場\s*)?\d{1,2}:\d{2}\s*(?:[～~\/／]\s*(?:開演\s*)?\d{1,2}:\d{2})?/
+                    );
+
+                    if (timeMatch) {
+                        detail = timeMatch[0];
+                        break;
+                    }
+
+                }
 
                 break;
 
@@ -112,7 +128,7 @@ export async function getFanyEvents() {
                 url,
                 source: "FANY",
                 status: "開催予定",
-                detail: ""
+                detail
             });
 
         }
