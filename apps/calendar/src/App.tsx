@@ -1,3 +1,7 @@
+import {
+  getCategoryColor,
+  getCategoryLightColor,
+} from "../../../shared/categoryColors";
 import { groupEvents } from "../../../shared/groupEvents";
 import { useEffect, useState } from "react";
 import { oshi } from "./config/oshi";
@@ -14,6 +18,7 @@ function App() {
   const [data, setData] = useState<any>(null);
 
   const [selectedEvent, setSelectedEvent] = useState<any>(null);
+  const [categoryFilter, setCategoryFilter] = useState<string[]>([]);
 
   useEffect(() => {
 
@@ -42,6 +47,22 @@ function App() {
 
   const groupedEvents = data?.events ?? [];
 
+  const filteredEvents =
+    categoryFilter.length === 0
+      ? groupedEvents
+      : groupedEvents.filter((event: any) =>
+        categoryFilter.includes(event.category)
+      );
+
+  const today = new Date();
+
+  const todayDate =
+    `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, "0")}-${String(today.getDate()).padStart(2, "0")}`;
+
+  const todayEvents = filteredEvents.filter(
+    (event: any) => event.date === todayDate
+  );
+
   return (
     <div style={{ maxWidth: 1100, margin: "0 auto", padding: 20 }}>
 
@@ -62,8 +83,82 @@ function App() {
 
         </div>
 
-      </div>
+        <div
+          style={{
+            marginTop: 16,
+            padding: "10px 14px",
+            fontSize: 13,
+            color: "#666",
+            background: "#f9fafb",
+            borderRadius: 8,
+            lineHeight: 1.6,
+          }}
+        >
+          個人的にスケジュールを確認するためにまとめています。
+          情報に抜けや反映までのタイムラグがある場合がありますので、
+          あくまで参考程度にご利用ください。
+        </div>
 
+      </div>
+      <div
+        style={{
+          display: "flex",
+          gap: 8,
+          flexWrap: "wrap",
+          marginBottom: 16,
+        }}
+      >
+        {["すべて", "ライブ", "テレビ", "ラジオ", "チケット"].map(
+          (category) => (
+            <button
+              key={category}
+              onClick={() => {
+                if (category === "すべて") {
+                  setCategoryFilter([]);
+                  return;
+                }
+
+                if (categoryFilter.includes(category)) {
+                  setCategoryFilter(
+                    categoryFilter.filter((c) => c !== category)
+                  );
+                } else {
+                  setCategoryFilter([
+                    ...categoryFilter,
+                    category,
+                  ]);
+                }
+              }}
+              style={{
+                borderRadius: 20,
+                border: "none",
+                cursor: "pointer",
+                fontWeight: "bold",
+
+                background:
+                  category === "すべて"
+                    ? categoryFilter.length === 0
+                      ? "#2563eb"
+                      : "#e5e7eb"
+                    : categoryFilter.includes(category)
+                      ? getCategoryColor(category)
+                      : getCategoryLightColor(category),
+
+                color:
+                  category === "すべて"
+                    ? categoryFilter.length === 0
+                      ? "white"
+                      : "black"
+                    : categoryFilter.includes(category)
+                      ? "white"
+                      : getCategoryColor(category),
+              }}
+            >
+              {category}
+            </button>
+          )
+        )}
+      </div>
       <div
         style={{
           border: "1px solid #ddd",
@@ -93,7 +188,7 @@ function App() {
           eventDisplay="block"
           fixedWeekCount={false}
 
-          events={groupedEvents.map((event: any) => ({
+          events={filteredEvents.map((event: any) => ({
 
             id: event.id || `${event.date}-${event.title}`,
 
@@ -101,33 +196,91 @@ function App() {
 
             date: event.date,
 
-            backgroundColor:
-              event.category === "ライブ"
-                ? "#ef4444"
-                : event.category === "テレビ"
-                  ? "#3b82f6"
-                  : event.category === "ラジオ"
-                    ? "#22c55e"
-                    : event.category === "チケット"
-                      ? "#f59e0b"
-                      : "#8b5cf6",
+            backgroundColor: getCategoryColor(event.category),
 
-            borderColor:
-              event.category === "ライブ"
-                ? "#ef4444"
-                : event.category === "テレビ"
-                  ? "#3b82f6"
-                  : event.category === "ラジオ"
-                    ? "#22c55e"
-                    : event.category === "チケット"
-                      ? "#f59e0b"
-                      : "#8b5cf6",
+            borderColor: getCategoryColor(event.category),
 
           }))
           }
 
 
         />
+
+        <div
+          style={{
+            marginTop: 30,
+            textAlign: "left",
+          }}
+        >
+          <h2
+            style={{
+              fontSize: 22,
+              fontWeight: "bold",
+              marginBottom: 12,
+            }}
+          >
+            イベント一覧（今日）
+          </h2>
+
+          {todayEvents.length === 0 && (
+            <div
+              style={{
+                border: "1px solid #ddd",
+                borderRadius: 12,
+                padding: 20,
+                textAlign: "center",
+              }}
+            >
+              本日のイベントはありません
+            </div>
+          )}
+
+          {todayEvents.map((event: any) => (
+            <div
+              key={
+                event.id ||
+                `${event.date}-${event.title}`
+              }
+              onClick={() => setSelectedEvent(event)}
+              style={{
+                border: `2px solid ${getCategoryColor(event.category)}`,
+                borderRadius: 12,
+                padding: 16,
+                marginBottom: 12,
+                cursor: "pointer",
+                background: "white",
+              }}
+            >
+              <div
+                style={{
+                  display: "inline-block",
+                  padding: "4px 10px",
+                  borderRadius: 20,
+                  background: getCategoryLightColor(event.category),
+                  color: getCategoryColor(event.category),
+                  fontWeight: "bold",
+                  marginBottom: 8,
+                }}
+              >
+                {event.category}
+              </div>
+
+              <div
+                style={{
+                  fontSize: 18,
+                  fontWeight: "bold",
+                }}
+              >
+                {event.title}
+              </div>
+
+              <div style={{ marginTop: 6 }}>
+                📅 {event.date}
+              </div>
+            </div>
+          ))}
+        </div>
+
         {selectedEvent && (
 
           <div

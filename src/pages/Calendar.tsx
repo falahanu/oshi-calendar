@@ -1,4 +1,8 @@
 import { groupEvents } from "../../shared/groupEvents";
+import {
+  getCategoryColor,
+  getCategoryLightColor,
+} from "../../shared/categoryColors";
 import { useEffect, useMemo, useRef, useState } from "react";
 import jaLocale from "@fullcalendar/core/locales/ja";
 import FullCalendar from "@fullcalendar/react";
@@ -29,7 +33,9 @@ type Event = {
 function normalizeDate(date: string) {
   return date.replaceAll("/", "-");
 }
-
+function getEventId(event: Event) {
+  return event.id || `${event.date}-${event.title}`;
+}
 function formatDate(date: Date) {
   const y = date.getFullYear();
   const m = String(date.getMonth() + 1).padStart(2, "0");
@@ -39,7 +45,7 @@ function formatDate(date: Date) {
 
 export default function CalendarPage() {
   const [events, setEvents] = useState<Event[]>([]);
-  const [selectedDate, setSelectedDate] = useState("");
+  const [selectedDate, setSelectedDate] = useState(formatDate(new Date()));
   const [selectedEventId, setSelectedEventId] = useState("");
   const [categoryFilter, setCategoryFilter] = useState<string[]>([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -172,25 +178,21 @@ export default function CalendarPage() {
 
                 background:
                   category === "すべて"
-
                     ? categoryFilter.length === 0
                       ? "#2563eb"
                       : "#e5e7eb"
-
                     : categoryFilter.includes(category)
-                      ? "#2563eb"
-                      : "#e5e7eb",
+                      ? getCategoryColor(category)
+                      : getCategoryLightColor(category),
 
                 color:
                   category === "すべて"
-
                     ? categoryFilter.length === 0
                       ? "white"
                       : "black"
-
                     : categoryFilter.includes(category)
                       ? "white"
-                      : "black",
+                      : getCategoryColor(category),
               }}
             >
               {category}
@@ -220,35 +222,15 @@ export default function CalendarPage() {
 
         events={filteredEvents.map((event: any) => ({
 
-          id:
-            event.id ||
-            `${event.date}-${event.title}`,
+          id: getEventId(event),
 
           title: event.title,
 
           date: event.date,
 
-          backgroundColor:
-            event.category === "ライブ"
-              ? "#ef4444"
-              : event.category === "テレビ"
-                ? "#3b82f6"
-                : event.category === "ラジオ"
-                  ? "#22c55e"
-                  : event.category === "チケット"
-                    ? "#f59e0b"
-                    : "#8b5cf6",
+          backgroundColor: getCategoryColor(event.category),
 
-          borderColor:
-            event.category === "ライブ"
-              ? "#ef4444"
-              : event.category === "テレビ"
-                ? "#3b82f6"
-                : event.category === "ラジオ"
-                  ? "#22c55e"
-                  : event.category === "チケット"
-                    ? "#f59e0b"
-                    : "#8b5cf6",
+          borderColor: getCategoryColor(event.category),
 
         }))}
 
@@ -482,7 +464,7 @@ export default function CalendarPage() {
               background: "white",
             }}
           >
-            全日表示に戻す
+            すべてのイベントを表示
           </button>
 
         )}
@@ -506,21 +488,16 @@ export default function CalendarPage() {
         {selectedEvents.map((event: any) => (
 
           <div
-            key={
-              event.id ||
-              `${event.date}-${event.title}`
-            }
+            key={getEventId(event)}
             style={{
 
-              border:
-                event.id === selectedEventId
-                  ? "3px solid #2563eb"
-                  : "1px solid #ddd",
+              border: getEventId(event) === selectedEventId
+                ? `3px solid ${getCategoryColor(event.category)}`
+                : `1px solid ${getCategoryColor(event.category)}`,
 
-              background:
-                event.id === selectedEventId
-                  ? "#eff6ff"
-                  : "white",
+              background: event.id === selectedEventId
+                ? getCategoryLightColor(event.category)
+                : "white",
 
               borderRadius: 14,
 
@@ -540,14 +517,7 @@ export default function CalendarPage() {
                 padding: "4px 10px",
                 borderRadius: 20,
 
-                background:
-                  event.category === "ライブ"
-                    ? "#FEE2E2"
-                    : event.category === "テレビ"
-                      ? "#DBEAFE"
-                      : event.category === "ラジオ"
-                        ? "#DCFCE7"
-                        : "#FEF3C7",
+                background: getCategoryLightColor(event.category),
 
                 fontWeight: "bold",
 
