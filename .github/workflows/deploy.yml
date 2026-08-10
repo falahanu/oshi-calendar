@@ -27,19 +27,16 @@ jobs:
 
       - run: npm install
 
-      - run: npm install
-        working-directory: apps/calendar
+- run: npm run build
 
       - run: npm run build
         working-directory: apps/calendar
 
-      - run: pwd && ls -la && ls -la apps/calendar && ls -la apps/calendar/dist
-
       - uses: actions/configure-pages@v5
 
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: apps/calendar/dist
+- uses: actions/upload-pages-artifact@v3
+  with:
+    path: dist
 
   deploy:
     needs: build
