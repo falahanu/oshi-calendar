@@ -33,6 +33,8 @@ jobs:
       - run: npm run build
         working-directory: apps/calendar
 
+      - run: pwd && ls -la && ls -la apps/calendar && ls -la apps/calendar/dist
+
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3
