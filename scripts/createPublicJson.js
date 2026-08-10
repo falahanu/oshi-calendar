@@ -15,7 +15,10 @@ const response = await axios.get(
   "https://script.google.com/macros/s/AKfycbw8N96LIXRrtqoWi0FgDYD4HDAjZluEviiq3dMx5m9npOJ3CnvhxgwUPswddlCt_Kq5Sw/exec"
 );
 
+import { groupEvents } from "../shared/groupEvents.ts";
 const events = response.data;
+
+console.log(JSON.stringify(events.slice(0, 3), null, 2));
 
 const today = new Date();
 
@@ -26,13 +29,15 @@ const to = new Date(today);
 to.setDate(to.getDate() + 365);
 
 // 前後365日だけ抽出
-const publicEvents = events.filter(event => {
-
+const filteredEvents = events.filter(event => {
   const eventDate = new Date(event.date);
-
   return eventDate >= from && eventDate <= to;
-
 });
+
+// 管理者カレンダーと同じ統合処理を使用
+const publicEvents = groupEvents(filteredEvents);
+
+console.log("公開用統合後:", publicEvents.length + "件");
 
 // 公開用JSON
 const output = {
@@ -49,8 +54,7 @@ const output = {
 
 
 fs.writeFileSync(
-
-  "../oshi-calendar/public/events_public.json",
+  "./apps/calendar/public/events_public.json",
 
   JSON.stringify(output, null, 2),
 
@@ -74,7 +78,7 @@ const repo = "oshi-calendar";
 const filePath = "public/events_public.json";
 
 const fileContent = fs.readFileSync(
-  "../oshi-calendar/public/events_public.json"
+  "./apps/calendar/public/events_public.json"
 );
 
 const contentBase64 = fileContent.toString("base64");

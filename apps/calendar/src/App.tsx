@@ -40,7 +40,7 @@ function App() {
     })
     : "";
 
-  const groupedEvents = groupEvents(data?.events ?? []);
+  const groupedEvents = data?.events ?? [];
 
   return (
     <div style={{ maxWidth: 1100, margin: "0 auto", padding: 20 }}>
@@ -80,6 +80,8 @@ function App() {
               (e: any) =>
                 (e.id || `${e.date}-${e.title}`) === info.event.id
             );
+
+            console.log("クリックしたイベント:", event);
 
             setSelectedEvent(event);
 
