@@ -35,9 +35,9 @@ jobs:
 
       - uses: actions/configure-pages@v5
 
-- uses: actions/upload-pages-artifact@v3
-  with:
-    path: apps/calendar/dist
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: apps/calendar/dist
 
   deploy:
     needs: build
