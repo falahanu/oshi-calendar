@@ -2,7 +2,6 @@ import {
   getCategoryColor,
   getCategoryLightColor,
 } from "../../../shared/categoryColors";
-import { groupEvents } from "../../../shared/groupEvents";
 import { useEffect, useState } from "react";
 import { oshi } from "./config/oshi";
 
