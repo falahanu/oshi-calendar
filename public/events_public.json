@@ -1,0 +1,7183 @@
+{
+  "lastUpdate": "2026-08-12T15:51:55.453Z",
+  "from": "2025-08-12",
+  "to": "2027-08-12",
+  "events": [
+    {
+      "id": "yar_20250816_01",
+      "date": "2025-08-16",
+      "title": "ヤーレンズ第1回単独ライブツアー2025「熱い胸さわぎ」 1部",
+      "category": "ライブ",
+      "place": "サンポートホール高松第1小ホール",
+      "performers": "ヤーレンズ",
+      "url": "https://www.kdashstage.jp/topic/archives/1922",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場13:15／開演14:00～終演15:30",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/1922"
+        },
+        {
+          "source": "LivePocket",
+          "url": "https://t.livepocket.jp/area/kagawa?page=3&sort=1"
+        }
+      ]
+    },
+    {
+      "id": "yar_20250816_02",
+      "date": "2025-08-16",
+      "title": "ヤーレンズ第1回単独ライブツアー2025「熱い胸さわぎ」 2部",
+      "category": "ライブ",
+      "place": "サンポートホール高松第1小ホール",
+      "performers": "ヤーレンズ",
+      "url": "https://www.kdashstage.jp/topic/archives/1922",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場16:45／開演17:30～終演19:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/1922"
+        },
+        {
+          "source": "LivePocket",
+          "url": "https://t.livepocket.jp/area/kagawa?page=3&sort=1"
+        }
+      ]
+    },
+    {
+      "id": "yar_20250824_01",
+      "date": "2025-08-24",
+      "title": "ヤーレンズ第1回単独ライブツアー2025「熱い胸さわぎ」 1部",
+      "category": "ライブ",
+      "place": "札幌教育文化会館小ホール",
+      "performers": "ヤーレンズ",
+      "url": "https://www.kdashstage.jp/topic/archives/1922",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場13:15／開演14:00～終演15:30",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/1922"
+        }
+      ]
+    },
+    {
+      "id": "yar_20250824_02",
+      "date": "2025-08-24",
+      "title": "ヤーレンズ第1回単独ライブツアー2025「熱い胸さわぎ」 2部",
+      "category": "ライブ",
+      "place": "札幌教育文化会館小ホール",
+      "performers": "ヤーレンズ",
+      "url": "https://www.kdashstage.jp/topic/archives/1922",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場16:45／開演17:30～終演19:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/1922"
+        }
+      ]
+    },
+    {
+      "id": "yar_20250904_01",
+      "date": "2025-09-04",
+      "title": "ヤーレンズ第1回単独ライブツアー2025「熱い胸さわぎ」",
+      "category": "ライブ",
+      "place": "北とぴあ・さくらホール",
+      "performers": "ヤーレンズ",
+      "url": "https://www.kdashstage.jp/topic/archives/1922",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場18:30／開演19:30～終演21:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/1922"
+        },
+        {
+          "source": "チケプラ",
+          "url": "https://tixplus.jp/feature/yarlens_250904_02/"
+        }
+      ]
+    },
+    {
+      "id": "yar_20250920_01",
+      "date": "2025-09-20",
+      "title": "ヤーレンズ第1回単独ライブツアー2025「熱い胸さわぎ」 1部",
+      "category": "ライブ",
+      "place": "パピヨン24ガスホール",
+      "performers": "ヤーレンズ",
+      "url": "https://www.kdashstage.jp/topic/archives/1922",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場13:15／開演14:00～終演15:30",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/1922"
+        }
+      ]
+    },
+    {
+      "id": "yar_20250920_02",
+      "date": "2025-09-20",
+      "title": "ヤーレンズ第1回単独ライブツアー2025「熱い胸さわぎ」 2部",
+      "category": "ライブ",
+      "place": "パピヨン24ガスホール",
+      "performers": "ヤーレンズ",
+      "url": "https://www.kdashstage.jp/topic/archives/1922",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場16:45／開演17:30～終演19:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/1922"
+        }
+      ]
+    },
+    {
+      "id": "yar_20251004_01",
+      "date": "2025-10-04",
+      "title": "ヤーレンズ第1回単独ライブツアー2025「熱い胸さわぎ」 1部",
+      "category": "ライブ",
+      "place": "広島市南区民文化センターホール",
+      "performers": "ヤーレンズ",
+      "url": "https://www.kdashstage.jp/topic/archives/1922",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場13:15／開演14:00～終演15:30",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/1922"
+        }
+      ]
+    },
+    {
+      "id": "yar_20251004_02",
+      "date": "2025-10-04",
+      "title": "ヤーレンズ第1回単独ライブツアー2025「熱い胸さわぎ」 2部",
+      "category": "ライブ",
+      "place": "広島市南区民文化センターホール",
+      "performers": "ヤーレンズ",
+      "url": "https://www.kdashstage.jp/topic/archives/1922",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場16:45／開演17:30～終演19:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/1922"
+        }
+      ]
+    },
+    {
+      "id": "yar_20251018_01",
+      "date": "2025-10-18",
+      "title": "ヤーレンズ第1回単独ライブツアー2025「熱い胸さわぎ」 1部",
+      "category": "ライブ",
+      "place": "池田市文化会館アゼリアホール",
+      "performers": "ヤーレンズ",
+      "url": "https://www.kdashstage.jp/topic/archives/1922",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場13:00／開演14:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/1922"
+        },
+        {
+          "source": "チケプラ",
+          "url": "https://tixplus.jp/feature/yarlens_251018_03/"
+        }
+      ]
+    },
+    {
+      "id": "yar_20251018_02",
+      "date": "2025-10-18",
+      "title": "ヤーレンズ第1回単独ライブツアー2025「熱い胸さわぎ」 2部",
+      "category": "ライブ",
+      "place": "池田市文化会館アゼリアホール",
+      "performers": "ヤーレンズ",
+      "url": "https://www.kdashstage.jp/topic/archives/1922",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場16:30／開演17:30",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/1922"
+        },
+        {
+          "source": "チケプラ",
+          "url": "https://tixplus.jp/feature/yarlens_251018_03/"
+        }
+      ]
+    },
+    {
+      "id": "yar_20251107_01",
+      "date": "2025-11-07",
+      "title": "ヤーレンズ第1回単独ライブツアー2025「熱い胸さわぎ」",
+      "category": "ライブ",
+      "place": "日経ホール",
+      "performers": "ヤーレンズ",
+      "url": "https://www.kdashstage.jp/topic/archives/1922",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場18:45／開演19:30～終演21:00／SOLD OUT",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/1922"
+        }
+      ]
+    },
+    {
+      "id": "yar_20251108_01",
+      "date": "2025-11-08",
+      "title": "ヤーレンズ第1回単独ライブツアー2025「熱い胸さわぎ」",
+      "category": "ライブ",
+      "place": "日経ホール",
+      "performers": "ヤーレンズ",
+      "url": "https://www.kdashstage.jp/topic/archives/1922",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場13:15／開演14:00～終演15:30／SOLD OUT",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/1922"
+        }
+      ]
+    },
+    {
+      "id": "yar_20251113_01",
+      "date": "2025-11-13",
+      "title": "ヤーレンズ寄席 ＃14",
+      "category": "ライブ",
+      "place": "西荻窪勤労福祉会館",
+      "performers": "ヤーレンズ、カナメストーン、真空ジェシカ",
+      "url": "https://www.kdashstage.jp/topic/archives/2014",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場19:00／開演19:30／終演21:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/2014"
+        }
+      ]
+    },
+    {
+      "id": "yar_20251122_01",
+      "date": "2025-11-22",
+      "title": "ケイダッシュステージお笑い珍道中 -島根編- 1部",
+      "category": "ライブ",
+      "place": "ビッグハート出雲",
+      "performers": "トム・ブラウン、クロコップ、ヤーレンズ、サツマカワRPG",
+      "url": "https://www.kdashstage.jp/topic/archives/1980",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場12:30／開演13:00／終演14:30",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/1980"
+        }
+      ]
+    },
+    {
+      "id": "yar_20251122_02",
+      "date": "2025-11-22",
+      "title": "ケイダッシュステージお笑い珍道中 -島根編- 2部",
+      "category": "ライブ",
+      "place": "ビッグハート出雲",
+      "performers": "トム・ブラウン、クロコップ、ヤーレンズ、サツマカワRPG",
+      "url": "https://www.kdashstage.jp/topic/archives/1980",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場16:00／開演16:30／終演18:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/1980"
+        }
+      ]
+    },
+    {
+      "id": "yar_20251210_01",
+      "date": "2025-12-10",
+      "title": "ゲキサカ×ヤーレンズ「ボケサカ」初の公開収録",
+      "category": "ライブ",
+      "place": "blue-ing!",
+      "performers": "ヤーレンズ",
+      "url": "https://blueing.jfa.jp/202512-bokesaka",
+      "status": "終了",
+      "source": "情報サイト",
+      "detail": "初の公開収録",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "情報サイト",
+          "url": "https://blueing.jfa.jp/202512-bokesaka"
+        }
+      ]
+    },
+    {
+      "id": "yar_20251212_01",
+      "date": "2025-12-12",
+      "title": "タイタンライブ",
+      "category": "ライブ",
+      "place": "時事通信ホール",
+      "performers": "爆笑問題、ウエストランド、キュウ、シティホテル3号室、ネコニスズ、脳みそ夫、まんじゅう大帝国、春とヒコーキ、須藤ジム、バターヤング、ヤーレンズ、ファイヤーサンダー、ラバーガール、青色1号、ひつじねいり、BOOMER＆プリンプリン",
+      "url": "https://www.titan-net.co.jp/e20251010",
+      "status": "終了",
+      "source": "主催者",
+      "detail": "開場19:00／開演19:30／ヤーレンズはゲスト出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "主催者",
+          "url": "https://www.titan-net.co.jp/e20251010"
+        }
+      ]
+    },
+    {
+      "id": "yar_20251225_01",
+      "date": "2025-12-25",
+      "title": "ヤーレンズトークライブ",
+      "category": "ライブ",
+      "place": "新宿スパークル",
+      "performers": "ヤーレンズ",
+      "url": "https://www.kdashstage.jp/topic/archives/2039",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場18:45／開演19:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/2039"
+        }
+      ]
+    },
+    {
+      "id": "yar_20260128_01",
+      "date": "2026-01-28",
+      "title": "ヤーレンズ寄席 ＃15",
+      "category": "ライブ",
+      "place": "なかのZERO小ホール",
+      "performers": "ヤーレンズ、リニア、ルシファー吉岡、LLR",
+      "url": "https://www.kdashstage.jp/topic/archives/2051",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場19:00／開演19:30／ゲスト：リニア、ルシファー吉岡、LLR",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/2051"
+        },
+        {
+          "source": "LivePocket",
+          "url": "https://livepocket.jp/e/hjsv1"
+        }
+      ]
+    },
+    {
+      "id": "yar_20260212_tv_01",
+      "date": "2026-02-12",
+      "title": "番組出演情報",
+      "category": "テレビ",
+      "place": "テレビ局",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "出演情報更新日：2/12",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260212_radio_01",
+      "date": "2026-02-12",
+      "title": "パンサー向井の＃ふらっと「ヤーレンズの＃ふらっと」",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "8:30～11:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260214_01",
+      "date": "2026-02-14",
+      "title": "ケイダッシュステージお笑い珍道中 -岩手編- 1部",
+      "category": "ライブ",
+      "place": "盛岡劇場メインホール",
+      "performers": "トム・ブラウン、クロコップ、ヤーレンズ、サツマカワRPG",
+      "url": "https://www.kdashstage.jp/topic/archives/2033",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場12:30／開演13:00／終演14:30",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/2033"
+        }
+      ]
+    },
+    {
+      "id": "yar_20260214_02",
+      "date": "2026-02-14",
+      "title": "ケイダッシュステージお笑い珍道中 -岩手編- 2部",
+      "category": "ライブ",
+      "place": "盛岡劇場メインホール",
+      "performers": "トム・ブラウン、クロコップ、ヤーレンズ、サツマカワRPG",
+      "url": "https://www.kdashstage.jp/topic/archives/2033",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場16:00／開演16:30／終演18:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/2033"
+        }
+      ]
+    },
+    {
+      "id": "yar_20260216_radio_01",
+      "date": "2026-02-16",
+      "title": "パンサー向井の＃ふらっと",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "出演情報",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260217_radio_01",
+      "date": "2026-02-17",
+      "title": "パンサー向井の＃ふらっと",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "出演情報",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260218_tv_01",
+      "date": "2026-02-18",
+      "title": "有吉の壁",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260218_radio_01",
+      "date": "2026-02-18",
+      "title": "パンサー向井の＃ふらっと",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "出演情報",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260219_radio_01",
+      "date": "2026-02-19",
+      "title": "パンサー向井の＃ふらっと",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "出演情報",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260220_01",
+      "date": "2026-02-20",
+      "title": "ヤーレンズトークライブ「ハッとして！Talk」",
+      "category": "ライブ",
+      "place": "ばぐちか",
+      "performers": "ヤーレンズ",
+      "url": "https://www.kdashstage.jp/topic/archives/2069",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場18:30／開演19:00／前売3,000円／完売",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/2069"
+        },
+        {
+          "source": "配信あり",
+          "url": "https://kdashstage.zaiko.io/e/yaretalklive"
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260221_tv_01",
+      "date": "2026-02-21",
+      "title": "スマイルスタジアムNST",
+      "category": "テレビ",
+      "place": "新潟総合テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260225_tv_01",
+      "date": "2026-02-25",
+      "title": "ヒルナンデス！",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260226_01",
+      "date": "2026-02-26",
+      "title": "ヤーレンズ寄席＃16",
+      "category": "ライブ",
+      "place": "なかのZERO小ホール",
+      "performers": "ヤーレンズ",
+      "url": "https://www.kdashstage.jp/topic/archives/2068",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場19:00／開演19:30／ゲスト：詳細ページ記載",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/2068"
+        }
+      ]
+    },
+    {
+      "id": "yar_20260226_radio_01",
+      "date": "2026-02-26",
+      "title": "パンサー向井の＃ふらっと「ヤーレンズの＃ふらっと」",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "8:30～11:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260227_tv_01",
+      "date": "2026-02-27",
+      "title": "しくじり先生 俺みたいになるな‼",
+      "category": "テレビ",
+      "place": "テレビ朝日",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260302_tv_01",
+      "date": "2026-03-02",
+      "title": "カズレーザー100％ 傑作選",
+      "category": "テレビ",
+      "place": "テレビ朝日",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260306_tv_01",
+      "date": "2026-03-06",
+      "title": "BMSG TRAINEE トレハン！ 第1弾",
+      "category": "テレビ",
+      "place": "テレビ神奈川",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "再放送",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260306_tv_02",
+      "date": "2026-03-06",
+      "title": "おとな時間研究所",
+      "category": "テレビ",
+      "place": "NHKEテレ",
+      "performers": "ヤーレンズ（出井）",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "出井出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260307_01",
+      "date": "2026-03-07",
+      "title": "ケイダッシュゴールドライブ",
+      "category": "ライブ",
+      "place": "Vatios",
+      "performers": "ヤーレンズ、オッパショ石、どんぐりたけし、ドナタ、祝。エペ、マスオチョップ、ボートヨットカヌー、初恋、マードック、ジャガモンド、おミルク、みのり、ムラタケ、ジネンジョ、インテイク",
+      "url": "https://www.kdashstage.jp/topic/archives/2080",
+      "status": "終了",
+      "source": "公式",
+      "detail": "ヤーレンズはMC／開場18:30／開演19:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/2080"
+        }
+      ]
+    },
+    {
+      "id": "yar_20260307_tv_01",
+      "date": "2026-03-07",
+      "title": "BMSG TRAINEE トレハン！ 第2弾",
+      "category": "テレビ",
+      "place": "テレビ神奈川",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "再放送",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260308_tv_01",
+      "date": "2026-03-08",
+      "title": "BMSG TRAINEE トレハン！ 第3弾",
+      "category": "テレビ",
+      "place": "テレビ神奈川",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260309_tv_01",
+      "date": "2026-03-09",
+      "title": "カズレーザー100％ 傑作選",
+      "category": "テレビ",
+      "place": "テレビ朝日",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260312_tv_01",
+      "date": "2026-03-12",
+      "title": "おとな時間研究所",
+      "category": "テレビ",
+      "place": "NHKEテレ",
+      "performers": "ヤーレンズ（出井）",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "再放送／出井出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260312_tv_02",
+      "date": "2026-03-12",
+      "title": "潜入！リアルスコープ",
+      "category": "テレビ",
+      "place": "フジテレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260312_radio_01",
+      "date": "2026-03-12",
+      "title": "パンサー向井の＃ふらっと「ヤーレンズの＃ふらっと」",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "8:30～11:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260314_tv_01",
+      "date": "2026-03-14",
+      "title": "おかべろ",
+      "category": "テレビ",
+      "place": "関西テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260316_tv_01",
+      "date": "2026-03-16",
+      "title": "カズレーザー100％ 傑作選",
+      "category": "テレビ",
+      "place": "テレビ朝日",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260317_tv_01",
+      "date": "2026-03-17",
+      "title": "おかべろ",
+      "category": "テレビ",
+      "place": "関西テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "再放送",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260318_01",
+      "date": "2026-03-18",
+      "title": "ヤーレンズ寄席＃17",
+      "category": "ライブ",
+      "place": "なかのZERO小ホール",
+      "performers": "ヤーレンズ、カラタチ、スタミナパン、センチネル",
+      "url": "https://www.kdashstage.jp/topic/archives/2083",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場19:00／開演19:30／ゲスト：カラタチ、スタミナパン、センチネル",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/2083"
+        }
+      ]
+    },
+    {
+      "id": "yar_20260319_01",
+      "date": "2026-03-19",
+      "title": "ケイダッシュゴールドライブ",
+      "category": "ライブ",
+      "place": "Vatios",
+      "performers": "ヤーレンズ、オッパショ石、どんぐりたけし、ドナタ、祝。エペ、マスオチョップ、ボートヨットカヌー、初恋、マードック、ジャガモンド、おミルク、みのり、ムラタケ、ジネンジョ、インテイク",
+      "url": "https://www.kdashstage.jp/topic/archives/2080",
+      "status": "終了",
+      "source": "公式",
+      "detail": "MC：ヤーレンズ／開場18:30／開演19:00／ゲスト：インテイク",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/2080"
+        }
+      ]
+    },
+    {
+      "id": "yar_20260322_tv_01",
+      "date": "2026-03-22",
+      "title": "キッズが見てる！もしもタレントじゃなかったら",
+      "category": "テレビ",
+      "place": "沖縄テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260322_tv_02",
+      "date": "2026-03-22",
+      "title": "上沼・高田のクギズケ！",
+      "category": "テレビ",
+      "place": "読売テレビ・中京テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260323_tv_01",
+      "date": "2026-03-23",
+      "title": "カズレーザー100％ 傑作選",
+      "category": "テレビ",
+      "place": "テレビ朝日",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260326_tv_01",
+      "date": "2026-03-26",
+      "title": "名曲考察教室 春の卒業ソングスペシャル！",
+      "category": "テレビ",
+      "place": "NHK",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "「いい日旅立ち」と「3月9日」を徹底考察",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260326_tv_02",
+      "date": "2026-03-26",
+      "title": "BMSG TRAINEE トレハン！ 第3弾",
+      "category": "テレビ",
+      "place": "中京テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260326_radio_01",
+      "date": "2026-03-26",
+      "title": "パンサー向井の＃ふらっと「ヤーレンズの＃ふらっと」",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "8:30～11:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260328_tv_01",
+      "date": "2026-03-28",
+      "title": "名曲考察教室 春の卒業ソングスペシャル！",
+      "category": "テレビ",
+      "place": "NHK",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "再放送",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260328_tv_02",
+      "date": "2026-03-28",
+      "title": "BMSG TRAINEE トレハン！ 第3弾",
+      "category": "テレビ",
+      "place": "青森朝日放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260328_radio_01",
+      "date": "2026-03-28",
+      "title": "ヤーレンズのオールナイトニッポン0",
+      "category": "ラジオ",
+      "place": "ニッポン放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "月1回最終土曜日27:00～29:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260329_tv_01",
+      "date": "2026-03-29",
+      "title": "芸人プランナー",
+      "category": "テレビ",
+      "place": "関西テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260331_tv_01",
+      "date": "2026-03-31",
+      "title": "よ～いドン！",
+      "category": "テレビ",
+      "place": "関西テレビ",
+      "performers": "ヤーレンズ（出井）",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "出井出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260401_tv_01",
+      "date": "2026-04-01",
+      "title": "ヒルナンデス！",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260401_tv_02",
+      "date": "2026-04-01",
+      "title": "真空レンズ",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260403_radio_01",
+      "date": "2026-04-03",
+      "title": "教えて！壁紙のこと。",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ（楢原）",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "「今田耕司のお耳拝借！金曜日」内",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260404_tv_01",
+      "date": "2026-04-04",
+      "title": "王様のブランチ",
+      "category": "テレビ",
+      "place": "TBS",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260404_tv_02",
+      "date": "2026-04-04",
+      "title": "土曜日もよ～いドン！",
+      "category": "テレビ",
+      "place": "関西テレビ",
+      "performers": "ヤーレンズ（出井）",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "出井出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260404_tv_03",
+      "date": "2026-04-04",
+      "title": "ゴッドタン",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260405_01",
+      "date": "2026-04-05",
+      "title": "ヤーレンズ×真空ジェシカツーマンライブ「全然入んねえな、コーヒー」in青森",
+      "category": "ライブ",
+      "place": "弘前市民会館 大ホール",
+      "performers": "ヤーレンズ、真空ジェシカ",
+      "url": "https://www.kdashstage.jp/topic/archives/2090",
+      "status": "終了",
+      "source": "公式",
+      "detail": "ツーマンライブ",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/2090"
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260405_tv_01",
+      "date": "2026-04-05",
+      "title": "まいど！ジャーニ～",
+      "category": "テレビ",
+      "place": "BSフジ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260407_tv_01",
+      "date": "2026-04-07",
+      "title": "よ～いドン！",
+      "category": "テレビ",
+      "place": "関西テレビ",
+      "performers": "ヤーレンズ（出井）",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "出井出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260408_tv_01",
+      "date": "2026-04-08",
+      "title": "くりぃむクイズ ミラクル9 2時間SP",
+      "category": "テレビ",
+      "place": "テレビ朝日",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260409_radio_01",
+      "date": "2026-04-09",
+      "title": "パンサー向井の＃ふらっと「ヤーレンズの＃ふらっと」",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "8:30～11:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260410_tv_01",
+      "date": "2026-04-10",
+      "title": "BMSG TRAINEE トレハン！ 第3弾",
+      "category": "テレビ",
+      "place": "福島中央テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260410_radio_01",
+      "date": "2026-04-10",
+      "title": "教えて！壁紙のこと。",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ（楢原）",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "「今田耕司のお耳拝借！金曜日」内",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260411_tv_01",
+      "date": "2026-04-11",
+      "title": "テレＱ35祭！ 第1部",
+      "category": "テレビ",
+      "place": "九州放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "ファンと一緒に6.5時間ベタナマSP 第1部",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260411_tv_02",
+      "date": "2026-04-11",
+      "title": "くりぃむクイズ ミラクル9 2時間SP",
+      "category": "テレビ",
+      "place": "ABC朝日放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260411_tv_03",
+      "date": "2026-04-11",
+      "title": "スマイルスタジアムNST",
+      "category": "テレビ",
+      "place": "新潟総合テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260411_tv_04",
+      "date": "2026-04-11",
+      "title": "テレＱ35祭！ 第2部",
+      "category": "テレビ",
+      "place": "九州放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "ファンと一緒に6.5時間ベタナマSP 第2部",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260411_tv_05",
+      "date": "2026-04-11",
+      "title": "ゴッドタン",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260412_tv_01",
+      "date": "2026-04-12",
+      "title": "まいど！ジャーニ～",
+      "category": "テレビ",
+      "place": "BSフジ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260416_tv_01",
+      "date": "2026-04-16",
+      "title": "やすとものいたって真剣です",
+      "category": "テレビ",
+      "place": "ABC朝日放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260417_radio_01",
+      "date": "2026-04-17",
+      "title": "教えて！壁紙のこと。",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ（楢原）",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "「今田耕司のお耳拝借！金曜日」内",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260418_tv_01",
+      "date": "2026-04-18",
+      "title": "CUTIE STREETのちきゅーKAWAII計画",
+      "category": "テレビ",
+      "place": "山梨放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260419_tv_01",
+      "date": "2026-04-19",
+      "title": "まいど！ジャーニ～",
+      "category": "テレビ",
+      "place": "BSフジ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260419_tv_02",
+      "date": "2026-04-19",
+      "title": "BMSG TRAINEE トレハン！ 第3弾",
+      "category": "テレビ",
+      "place": "TOKYO MX",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260419_radio_01",
+      "date": "2026-04-19",
+      "title": "NOW OFF AIR",
+      "category": "ラジオ",
+      "place": "RKBラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "出演情報",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260420_tv_01",
+      "date": "2026-04-20",
+      "title": "BMSG TRAINEE トレハン！ 第3弾",
+      "category": "テレビ",
+      "place": "北海道テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260423_01",
+      "date": "2026-04-23",
+      "title": "ヤーレンズ寄席＃18",
+      "category": "ライブ",
+      "place": "なかのZERO小ホール",
+      "performers": "ヤーレンズ、ネコニスズ、吉住、シンクロニシティ、リニア",
+      "url": "https://www.kdashstage.jp/topic/archives/2093",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場19:00／開演19:30／ゲスト：ネコニスズ、吉住、シンクロニシティ、リニア",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/2093"
+        }
+      ]
+    },
+    {
+      "id": "yar_20260423_tv_01",
+      "date": "2026-04-23",
+      "title": "ヒルナンデス！",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260423_radio_01",
+      "date": "2026-04-23",
+      "title": "パンサー向井の＃ふらっと「ヤーレンズの＃ふらっと」",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "8:30～11:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260423_radio_02",
+      "date": "2026-04-23",
+      "title": "カモ☆れでぃ★Ｎｉｇｈｔ！",
+      "category": "ラジオ",
+      "place": "FM愛媛",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "出演情報",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260425_radio_01",
+      "date": "2026-04-25",
+      "title": "ヤーレンズのオールナイトニッポン0",
+      "category": "ラジオ",
+      "place": "ニッポン放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "月1回最終土曜日27:00～29:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260426_tv_01",
+      "date": "2026-04-26",
+      "title": "Golden SixTONES",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260501_tv_01",
+      "date": "2026-05-01",
+      "title": "近未来開発中 #5",
+      "category": "テレビ",
+      "place": "CSテレ朝チャンネル1",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260501_podcast_01",
+      "date": "2026-05-01",
+      "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
+      "category": "ラジオ",
+      "place": "Podcast",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "Podcast配信",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260506_radio_01",
+      "date": "2026-05-06",
+      "title": "異彩を放つ表現者たち ～HERALBONY Art Prize～",
+      "category": "ラジオ",
+      "place": "ニッポン放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "出演情報",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260507_tv_01",
+      "date": "2026-05-07",
+      "title": "近未来開発中 #5",
+      "category": "テレビ",
+      "place": "CSテレ朝チャンネル1",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260507_radio_01",
+      "date": "2026-05-07",
+      "title": "パンサー向井の＃ふらっと「ヤーレンズの＃ふらっと」",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "8:30～11:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260508_tv_01",
+      "date": "2026-05-08",
+      "title": "BMSG TRAINEE トレハン！ 第3弾",
+      "category": "テレビ",
+      "place": "鹿児島放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260508_podcast_01",
+      "date": "2026-05-08",
+      "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
+      "category": "ラジオ",
+      "place": "Podcast",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "Podcast配信",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260509_01",
+      "date": "2026-05-09",
+      "title": "ケイダッシュステージお笑い珍道中 -愛媛編- 1部",
+      "category": "ライブ",
+      "place": "松山市北条市民会館",
+      "performers": "トム・ブラウン、クロコップ、ヤーレンズ、サツマカワRPG",
+      "url": "https://www.kdashstage.jp/topic/archives/2091",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場12:00／開演12:30／終演14:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/2091"
+        }
+      ]
+    },
+    {
+      "id": "yar_20260509_02",
+      "date": "2026-05-09",
+      "title": "ケイダッシュステージお笑い珍道中 -愛媛編- 2部",
+      "category": "ライブ",
+      "place": "松山市北条市民会館",
+      "performers": "トム・ブラウン、クロコップ、ヤーレンズ、サツマカワRPG",
+      "url": "https://www.kdashstage.jp/topic/archives/2091",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場15:00／開演15:30／終演17:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/2091"
+        }
+      ]
+    },
+    {
+      "id": "yar_20260512_tv_01",
+      "date": "2026-05-12",
+      "title": "やすとも・友近のキメツケ！",
+      "category": "テレビ",
+      "place": "関西テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260512_radio_01",
+      "date": "2026-05-12",
+      "title": "BRAND-NEW MORNING",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "出演情報",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260513_tv_01",
+      "date": "2026-05-13",
+      "title": "ヒルナンデス！",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260515_podcast_01",
+      "date": "2026-05-15",
+      "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
+      "category": "ラジオ",
+      "place": "Podcast",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "Podcast配信",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260519_radio_01",
+      "date": "2026-05-19",
+      "title": "BRAND-NEW MORNING",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "出演情報",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260521_radio_01",
+      "date": "2026-05-21",
+      "title": "パンサー向井の＃ふらっと「ヤーレンズの＃ふらっと」",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "8:30～11:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260523_tv_01",
+      "date": "2026-05-23",
+      "title": "スマイルスタジアムNST",
+      "category": "テレビ",
+      "place": "新潟総合テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260524_tv_01",
+      "date": "2026-05-24",
+      "title": "Golden SixTONES",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260524_tv_02",
+      "date": "2026-05-24",
+      "title": "はじめまして！CLASS SEVENです",
+      "category": "テレビ",
+      "place": "テレビ新広島",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "#3・4",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260527_01",
+      "date": "2026-05-27",
+      "title": "ヤーレンズ寄席＃19",
+      "category": "ライブ",
+      "place": "なかのZERO小ホール",
+      "performers": "ヤーレンズ、男性ブランコ、お抹茶、フランツ",
+      "url": "https://www.kdashstage.jp/topic/archives/2113",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場19:00／開演19:30／ゲスト：男性ブランコ、お抹茶、フランツ／SOLD OUT",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/2113"
+        }
+      ]
+    },
+    {
+      "id": "yar_20260527_tv_01",
+      "date": "2026-05-27",
+      "title": "ヒルナンデス！",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260529_radio_01",
+      "date": "2026-05-29",
+      "title": "教えて！壁紙のこと。",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ（出井）",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "「今田耕司のお耳拝借！金曜日」内",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260530_tv_01",
+      "date": "2026-05-30",
+      "title": "近未来開発中 #5",
+      "category": "テレビ",
+      "place": "CSテレ朝チャンネル1",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260530_radio_01",
+      "date": "2026-05-30",
+      "title": "ヤーレンズのオールナイトニッポン0",
+      "category": "ラジオ",
+      "place": "ニッポン放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "月1回最終土曜日27:00～29:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260531_tv_01",
+      "date": "2026-05-31",
+      "title": "BMSG TRAINEE トレハン！ 第3弾",
+      "category": "テレビ",
+      "place": "サンテレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260603_radio_01",
+      "date": "2026-06-03",
+      "title": "佐倉綾音 論理×ロンリー",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "ゲスト出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260604_tv_01",
+      "date": "2026-06-04",
+      "title": "The Wakey Show 春のサニフェス お笑いライブ ヤーレンズ",
+      "category": "テレビ",
+      "place": "NHK Eテレ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260604_radio_01",
+      "date": "2026-06-04",
+      "title": "パンサー向井の＃ふらっと「ヤーレンズの＃ふらっと」",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "8:30～11:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260605_radio_01",
+      "date": "2026-06-05",
+      "title": "教えて！壁紙のこと。",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ（出井）",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "「今田耕司のお耳拝借！金曜日」内",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260606_tv_01",
+      "date": "2026-06-06",
+      "title": "土曜シューイチ",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260606_tv_02",
+      "date": "2026-06-06",
+      "title": "王様のブランチ",
+      "category": "テレビ",
+      "place": "TBS",
+      "performers": "ヤーレンズ（楢原）",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "楢原出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260606_tv_03",
+      "date": "2026-06-06",
+      "title": "BMSG TRAINEE トレハン！ 第3弾",
+      "category": "テレビ",
+      "place": "チバテレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260606_radio_01",
+      "date": "2026-06-06",
+      "title": "丹生明里 HAPPY CARAVAN",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "出演情報",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260610_tv_01",
+      "date": "2026-06-10",
+      "title": "どさんこワイド179",
+      "category": "テレビ",
+      "place": "札幌テレビ放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260612_tv_01",
+      "date": "2026-06-12",
+      "title": "The Wakey Show",
+      "category": "テレビ",
+      "place": "NHK Eテレ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260612_tv_02",
+      "date": "2026-06-12",
+      "title": "おとな時間研究所",
+      "category": "テレビ",
+      "place": "NHK Eテレ",
+      "performers": "ヤーレンズ（出井）",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "再放送／出井出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260613_tv_01",
+      "date": "2026-06-13",
+      "title": "土曜シューイチ",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260613_tv_02",
+      "date": "2026-06-13",
+      "title": "グッチ―な！",
+      "category": "テレビ",
+      "place": "北海道放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260613_radio_01",
+      "date": "2026-06-13",
+      "title": "丹生明里 HAPPY CARAVAN",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "出演情報",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260614_01",
+      "date": "2026-06-14",
+      "title": "交わり",
+      "category": "ライブ",
+      "place": "vatios",
+      "performers": "マードック、祝。エペ、ヤーレンズ、シシガシラ",
+      "url": "https://www.kdashstage.jp/topic/archives/2135",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場17:15／開演17:30／ヤーレンズはゲスト出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/2135"
+        }
+      ]
+    },
+    {
+      "id": "yar_20260614_tv_01",
+      "date": "2026-06-14",
+      "title": "上沼・高田のクギヅケ！",
+      "category": "テレビ",
+      "place": "読売テレビ・中京テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260617_tv_01",
+      "date": "2026-06-17",
+      "title": "ヒルナンデス！",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260618_tv_01",
+      "date": "2026-06-18",
+      "title": "おとな時間研究所",
+      "category": "テレビ",
+      "place": "NHK Eテレ",
+      "performers": "ヤーレンズ（出井）",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "再放送／出井出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260618_radio_01",
+      "date": "2026-06-18",
+      "title": "パンサー向井の＃ふらっと「ヤーレンズの＃ふらっと」",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "8:30～11:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260621_01",
+      "date": "2026-06-21",
+      "title": "ヤーレンズトークライブ「ハッとしてトーク」",
+      "category": "ライブ",
+      "place": "新宿スパークル",
+      "performers": "ヤーレンズ",
+      "url": "https://www.kdashstage.jp/topic/archives/2140",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場18:30／開演19:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/2140"
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260624_01",
+      "date": "2026-06-24",
+      "title": "ヤーレンズ寄席＃20",
+      "category": "ライブ",
+      "place": "なかのZERO小ホール",
+      "performers": "ヤーレンズ、エルフ、TCクラクション、青色1号",
+      "url": "https://www.kdashstage.jp/topic/archives/2128",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場19:00／開演19:30／ゲスト：エルフ、TCクラクション、青色1号",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/2128"
+        }
+      ]
+    },
+    {
+      "id": "yar_20260625_radio_01",
+      "date": "2026-06-25",
+      "title": "GURU GURU！",
+      "category": "ラジオ",
+      "place": "J-WAVE",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "出演情報",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260627_tv_01",
+      "date": "2026-06-27",
+      "title": "サタブラ！",
+      "category": "テレビ",
+      "place": "北海道放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260627_tv_02",
+      "date": "2026-06-27",
+      "title": "スマイルスタジアムNST",
+      "category": "テレビ",
+      "place": "新潟総合テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260627_radio_01",
+      "date": "2026-06-27",
+      "title": "ヤーレンズのオールナイトニッポン0",
+      "category": "ラジオ",
+      "place": "ニッポン放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "月1回最終土曜日27:00～29:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300001",
+      "date": "2026-07-01",
+      "title": "ヒルナンデス",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "11:55～13:55",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300002",
+      "date": "2026-07-02",
+      "title": "パンサー向井の＃ふらっと［ヤーレンズの＃ふらっと］",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "8:30～11:00",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300003",
+      "date": "2026-07-03",
+      "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
+      "category": "ラジオ",
+      "place": "",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "Podcast",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260704_tv_01",
+      "date": "2026-07-04",
+      "title": "錦鯉が行く！のりのり散歩",
+      "category": "テレビ",
+      "place": "北海道テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260705_tv_01",
+      "date": "2026-07-05",
+      "title": "Golden SixTONES",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300005",
+      "date": "2026-07-05",
+      "title": "爆笑☆オン・パレード",
+      "category": "ライブ",
+      "place": "YCC県民文化ホール 大ホール",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "チケットぴあ",
+      "detail": "1部",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "チケットぴあ",
+          "url": ""
+        },
+        {
+          "source": "ローチケ",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300009",
+      "date": "2026-07-06",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "21:15～23:30",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260708_tv_01",
+      "date": "2026-07-08",
+      "title": "バラバラマンスリー 呪霊も普通にいきたいよ 第2話「異体」",
+      "category": "テレビ",
+      "place": "テレビ朝日",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300010",
+      "date": "2026-07-09",
+      "title": "LLRの八門遁甲ライブ～第二…芸人だよバカヤロー！浅草東洋館の門…開！！～",
+      "category": "ライブ",
+      "place": "浅草東洋館",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "FANY",
+      "detail": "19:00開演",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "FANY",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300011",
+      "date": "2026-07-09",
+      "title": "真空レンズ",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "25:30～26:00",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300012",
+      "date": "2026-07-10",
+      "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
+      "category": "ラジオ",
+      "place": "",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "Podcast",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260711_tv_01",
+      "date": "2026-07-11",
+      "title": "錦鯉が行く！のりのり散歩",
+      "category": "テレビ",
+      "place": "北海道テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260712_tv_01",
+      "date": "2026-07-12",
+      "title": "スマイルスタジアムNST",
+      "category": "テレビ",
+      "place": "新潟総合テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260712_tv_02",
+      "date": "2026-07-12",
+      "title": "漫才PARTY",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260713_tv_01",
+      "date": "2026-07-13",
+      "title": "よせによせ",
+      "category": "テレビ",
+      "place": "NHK",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260715_tv_01",
+      "date": "2026-07-15",
+      "title": "バラバラマンスリー 呪霊も普通にいきたいよ 第3話「痛い」",
+      "category": "テレビ",
+      "place": "テレビ朝日",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300013",
+      "date": "2026-07-15",
+      "title": "IMM THEATER 寄席",
+      "category": "ライブ",
+      "place": "IMM THEATER",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "13:00開演",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "FANY",
+          "url": ""
+        },
+        {
+          "source": "チケットぴあ",
+          "url": ""
+        },
+        {
+          "source": "ローチケ",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260716_radio_01",
+      "date": "2026-07-16",
+      "title": "パンサー向井の＃ふらっと「ヤーレンズの＃ふらっと」",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "8:30～11:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300017",
+      "date": "2026-07-16",
+      "title": "ヤーレンズ・ラフ次元のツーマンライブ「ヤレ次元」",
+      "category": "ライブ",
+      "place": "野方区民ホール",
+      "performers": "ヤーレンズ、ラフ次元",
+      "url": "",
+      "status": "終了",
+      "source": "情報サイト",
+      "detail": "19:00開演",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "情報サイト",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300018",
+      "date": "2026-07-17",
+      "title": "東京夜会ショー",
+      "category": "ライブ",
+      "place": "野方区民ホール",
+      "performers": "Dr.ハインリッヒ、ヤーレンズ、街裏ぴんく、カナメストーン",
+      "url": "",
+      "status": "終了",
+      "source": "情報サイト",
+      "detail": "20:00開演",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "情報サイト",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300019",
+      "date": "2026-07-17",
+      "title": "パンサー向井の＃ふらっと［ヤーレンズの＃ふらっと］",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300020",
+      "date": "2026-07-18",
+      "title": "錦鯉が行く！のりのり散歩",
+      "category": "テレビ",
+      "place": "北海道テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260720_tv_01",
+      "date": "2026-07-20",
+      "title": "キッズが見てる！もしもタレントじゃなかったら",
+      "category": "テレビ",
+      "place": "京都放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300021",
+      "date": "2026-07-20",
+      "title": "海の日ライブ ざ・ぶううーーーん！！ ～ネタとコーナーの波乗りSP～",
+      "category": "ライブ",
+      "place": "YES THEATER",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "FANY",
+      "detail": "",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "FANY",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300022",
+      "date": "2026-07-20",
+      "title": "THE FINALIST ～賞レースファイナリストが魅せる、至極のネタとコーナーの60分～",
+      "category": "ライブ",
+      "place": "YES THEATER",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "FANY",
+      "detail": "",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "FANY",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260721_radio_01",
+      "date": "2026-07-21",
+      "title": "パンサー向井の＃ふらっと",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "出演情報",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260722_01",
+      "date": "2026-07-22",
+      "title": "ヤーレンズ寄席＃21",
+      "category": "ライブ",
+      "place": "なかのZERO小ホール",
+      "performers": "ヤーレンズ",
+      "url": "https://www.kdashstage.jp/topic/archives/2146",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場19:00／開演19:30",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/2146"
+        },
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300024",
+      "date": "2026-07-23",
+      "title": "真空レンズ",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "25:30～26:00",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300025",
+      "date": "2026-07-24",
+      "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
+      "category": "ラジオ",
+      "place": "",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "Podcast",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260725_01",
+      "date": "2026-07-25",
+      "title": "ケイダッシュステージお笑い珍道中 -千葉編- 1部",
+      "category": "ライブ",
+      "place": "ホテルスプリングス幕張 スプリングスホール",
+      "performers": "トム・ブラウン、クロコップ、ヤーレンズ、サツマカワRPG",
+      "url": "https://www.kdashstage.jp/topic/archives/2120",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場12:30／開演13:00／終演14:30",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/2120"
+        }
+      ]
+    },
+    {
+      "id": "yar_20260725_02",
+      "date": "2026-07-25",
+      "title": "ケイダッシュステージお笑い珍道中 -千葉編- 2部",
+      "category": "ライブ",
+      "place": "ホテルスプリングス幕張 スプリングスホール",
+      "performers": "トム・ブラウン、クロコップ、ヤーレンズ、サツマカワRPG",
+      "url": "https://www.kdashstage.jp/topic/archives/2120",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場16:00／開演16:30／終演18:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/topic/archives/2120"
+        }
+      ]
+    },
+    {
+      "id": "yar_20260725_radio_01",
+      "date": "2026-07-25",
+      "title": "ヤーレンズのオールナイトニッポン0",
+      "category": "ラジオ",
+      "place": "ニッポン放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "月1回最終土曜日27:00～29:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300026",
+      "date": "2026-07-25",
+      "title": "ケイダッシュステージお笑い珍道中 -千葉編-",
+      "category": "ライブ",
+      "place": "ホテルスプリングス幕張 スプリングスホール",
+      "performers": "トム・ブラウン、クロコップ、ヤーレンズ、サツマカワRPG",
+      "url": "https://livepocket.jp/e/9nbzi",
+      "status": "終了",
+      "source": "LivePocket",
+      "detail": "1部 13:00開演",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "LivePocket",
+          "url": "https://livepocket.jp/e/9nbzi"
+        },
+        {
+          "source": "LivePocket",
+          "url": "https://livepocket.jp/e/q3h6p"
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300028",
+      "date": "2026-07-26",
+      "title": "サンキュータツオとヤーレンズ4",
+      "category": "ライブ",
+      "place": "東新宿cafe COMADO",
+      "performers": "サンキュータツオ、ヤーレンズ、服部拓也",
+      "url": "https://tiget.net/events/497000",
+      "status": "終了",
+      "source": "TIGET",
+      "detail": "19:00開演",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "TIGET",
+          "url": "https://tiget.net/events/497000"
+        },
+        {
+          "source": "配信あり",
+          "url": "https://premier.twitcasting.tv/c:cafecomado/shopcart/438773"
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300030",
+      "date": "2026-07-26",
+      "title": "ヤーレンズのオールナイトニッポン0",
+      "category": "ラジオ",
+      "place": "ニッポン放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "27:00～29:00",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260727_tv_01",
+      "date": "2026-07-27",
+      "title": "上沼・高田のクギズケ！",
+      "category": "テレビ",
+      "place": "読売テレビ・中京テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300031",
+      "date": "2026-07-27",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "21:15～23:30",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260729_tv_01",
+      "date": "2026-07-29",
+      "title": "圏外絶景～北海道で極上のデトックス～",
+      "category": "テレビ",
+      "place": "青森放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260729_tv_02",
+      "date": "2026-07-29",
+      "title": "バラバラマンスリー 呪霊も普通にいきたいよ 第4話",
+      "category": "テレビ",
+      "place": "テレビ朝日",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260730_radio_01",
+      "date": "2026-07-30",
+      "title": "パンサー向井の＃ふらっと「ヤーレンズの＃ふらっと」",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "8:30～11:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300032",
+      "date": "2026-07-30",
+      "title": "パンサー向井の＃ふらっと［ヤーレンズの＃ふらっと］",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "8:30～11:00",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300033",
+      "date": "2026-07-30",
+      "title": "真空レンズ",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "25:30～26:00",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260731_podcast_01",
+      "date": "2026-07-31",
+      "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
+      "category": "ラジオ",
+      "place": "Podcast",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "Podcast配信",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300035",
+      "date": "2026-08-01",
+      "title": "ハピマル～ネタとコーナーをするライブ～",
+      "category": "ライブ",
+      "place": "ユーロライブ",
+      "performers": "ストレッチーズ、ひつじねいり、豆鉄砲、無尽蔵、ヤーレンズ",
+      "url": "https://tiget.net/events/498017",
+      "status": "終了",
+      "source": "TIGET",
+      "detail": "12:30開演",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "TIGET",
+          "url": "https://tiget.net/events/498017"
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300036",
+      "date": "2026-08-02",
+      "title": "爆笑！お笑いライブ in 三島　１部",
+      "category": "ライブ",
+      "place": "三島市民文化会館 大ホール",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "e+",
+      "detail": "11:00開演",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "e+",
+          "url": ""
+        },
+        {
+          "source": "ローチケ",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300038",
+      "date": "2026-08-02",
+      "title": "爆笑！お笑いライブ in 三島　２部",
+      "category": "ライブ",
+      "place": "三島市民文化会館 大ホール",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "e+",
+      "detail": "14:30開演",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "e+",
+          "url": ""
+        },
+        {
+          "source": "ローチケ",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300040",
+      "date": "2026-08-03",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "21:15～23:30",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300041",
+      "date": "2026-08-04",
+      "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」",
+      "category": "ライブ",
+      "place": "なかのZERO 大ホール",
+      "performers": "ヤーレンズ",
+      "url": "https://promoter.livepocket.jp/promoters/893/events/1081286/top",
+      "status": "終了",
+      "source": "LivePocket",
+      "detail": "19:00開演",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "LivePocket",
+          "url": "https://promoter.livepocket.jp/promoters/893/events/1081286/top"
+        },
+        {
+          "source": "チケプラ",
+          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260805_01",
+      "date": "2026-08-05",
+      "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」",
+      "category": "ライブ",
+      "place": "なかのZERO 大ホール",
+      "performers": "ヤーレンズ",
+      "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/",
+      "status": "終了",
+      "source": "チケプラ",
+      "detail": "開場18:00／開演19:00／全席指定4,500円",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "チケプラ",
+          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
+        },
+        {
+          "source": "LivePocket",
+          "url": "https://promoter.livepocket.jp/promoters/893/events/1081286/top"
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300043",
+      "date": "2026-08-09",
+      "title": "つばめお笑いフェス",
+      "category": "ライブ",
+      "place": "燕市文化会館 大ホール",
+      "performers": "ロッチ、や団、ヤーレンズ、真空ジェシカ、キンタロー。、春とヒコーキ、ラパルフェ",
+      "url": "",
+      "status": "終了",
+      "source": "ローチケ",
+      "detail": "14:00開演",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "ローチケ",
+          "url": ""
+        },
+        {
+          "source": "e+",
+          "url": ""
+        },
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260811_01",
+      "date": "2026-08-11",
+      "title": "ケイダッシュステージ若手ネタライブ『笑起到来』",
+      "category": "ライブ",
+      "place": "よみうり大手町ホール",
+      "performers": "有元さくら子、エルクシダー、オッパショ石、おミルク、グランマ、クロコップ、サツマカワRPG、ジネンジョ、しゃがら、ジャガモンド、祝。エペ、SHUNSUKE、チャパティ、出山、ドナタ、トム・ブラウン、どんぐりたけし、初恋、ハルヨ、ボートヨットカヌー、マードック、マスオチョップ、ムラタケ、ヤーレンズ、ヨタロウ。、ワルヂエ",
+      "url": "https://www.kdashstage.jp/",
+      "status": "終了",
+      "source": "公式",
+      "detail": "開場15:00／開演16:00／終演18:30",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/"
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300045",
+      "date": "2026-08-11",
+      "title": "笑起到来",
+      "category": "ライブ",
+      "place": "よみうり大手町ホール",
+      "performers": "ヤーレンズほか",
+      "url": "",
+      "status": "終了",
+      "source": "情報サイト",
+      "detail": "16:00開演",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "情報サイト",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260812_01",
+      "date": "2026-08-12",
+      "title": "紅",
+      "category": "ライブ",
+      "place": "銀座お笑いPLACE",
+      "performers": "ヤーレンズ、ひつじねいり、大王、フランスピアノ、Gパンパンダ、DITO、タワー、ツーナッカン、LLR、ジャンク",
+      "url": "https://tiget.net/events/501813",
+      "status": "予定枚数終了",
+      "source": "TIGET",
+      "detail": "開場19:10／開演19:30／75分／ネタ＋企画",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "TIGET",
+          "url": "https://tiget.net/events/501813"
+        },
+        {
+          "source": "売切れ",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260813_01",
+      "date": "2026-08-13",
+      "title": "真空レンズ",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ",
+      "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%BA",
+      "status": "予定",
+      "source": "公式",
+      "detail": "25:30～26:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%BA"
+        },
+        {
+          "source": "予定",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260813_02",
+      "date": "2026-08-13",
+      "title": "パンサー向井の＃ふらっと",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "8:30～11:00／ヤーレンズの＃ふらっと",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260813_03",
+      "date": "2026-08-13",
+      "title": "エンドレスヤーレンズ",
+      "category": "テレビ",
+      "place": "CSチャンネルNECO",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "22:30～24:00／再放送",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260814_01",
+      "date": "2026-08-14",
+      "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
+      "category": "ラジオ",
+      "place": "Podcast",
+      "performers": "ヤーレンズ",
+      "url": "https://gekisaka.podcast.sonicbowl.cloud/",
+      "status": "予定",
+      "source": "公式",
+      "detail": "配信",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://gekisaka.podcast.sonicbowl.cloud/"
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300047",
+      "date": "2026-08-16",
+      "title": "ぎょうぶサミット2026",
+      "category": "ライブ",
+      "place": "心斎橋PARCO SPACE14",
+      "performers": "ぎょうぶ、ヤーレンズ、デルマパンゲ、タチマチ",
+      "url": "https://ticket.fany.lol/event/detail/18705",
+      "status": "開催予定",
+      "source": "FANY",
+      "detail": "13:30開演",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "FANY",
+          "url": "https://ticket.fany.lol/event/detail/18705"
+        },
+        {
+          "source": "配信あり",
+          "url": ""
+        },
+        {
+          "source": "予定",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260816_02",
+      "date": "2026-08-16",
+      "title": "Golden SixTONES",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "21:00～21:54",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260816_03",
+      "date": "2026-08-16",
+      "title": "道産人間オズブラウン",
+      "category": "テレビ",
+      "place": "札幌テレビ放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "23:25～23:55",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260817_radio_01",
+      "date": "2026-08-17",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%AC%E3%83%B3%E3% ズ",
+      "status": "予定",
+      "source": "公式",
+      "detail": "21:15～23:30",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%AC%E3%83%B3%E3% ズ"
+        },
+        {
+          "source": "公式",
+          "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%BA"
+        },
+        {
+          "source": "予定",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260819_01",
+      "date": "2026-08-19",
+      "title": "ADマーフィー救済ライブ HELP! VOL.9",
+      "category": "ライブ",
+      "place": "阿佐ヶ谷ロフトA",
+      "performers": "ADマーフィー、ヤーレンズ、ネコニスズ、すてきなひととき",
+      "url": "https://search.yahoo.co.jp/realtime/search?ei=UTF-8&ifr=tl_unit&p=%E3%83%A4%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%BA+%E3%83%A9%E3%82%A4%E3%83%96&rkf=1",
+      "status": "不明",
+      "source": "SNS",
+      "detail": "開場・開演19:30／MC：すてきなひととき／ゲスト：ネコニスズ、ヤーレンズ／ゲストからネタアドバイス",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "SNS",
+          "url": "https://search.yahoo.co.jp/realtime/search?ei=UTF-8&ifr=tl_unit&p=%E3%83%A4%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%BA+%E3%83%A9%E3%82%A4%E3%83%96&rkf=1"
+        },
+        {
+          "source": "配信あり",
+          "url": "https://premier.twitcasting.tv/asagayalofta/shopcart/442775"
+        }
+      ]
+    },
+    {
+      "id": "yar_20260820_tv_01",
+      "date": "2026-08-20",
+      "title": "真空レンズ",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ",
+      "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%AC%E3%83%B3%E3% ズ",
+      "status": "予定",
+      "source": "公式",
+      "detail": "25:30～26:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%AC%E3%83%B3%E3% ズ"
+        },
+        {
+          "source": "予定",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260823_01",
+      "date": "2026-08-23",
+      "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」 1部",
+      "category": "ライブ",
+      "place": "福岡国際会議場 メインホール",
+      "performers": "ヤーレンズ",
+      "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/",
+      "status": "予定枚数終了",
+      "source": "チケプラ",
+      "detail": "開場12:00／開演13:00／全席指定4,500円",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "チケプラ",
+          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
+        },
+        {
+          "source": "公式",
+          "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%BA"
+        },
+        {
+          "source": "予定",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260823_02",
+      "date": "2026-08-23",
+      "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」 2部",
+      "category": "ライブ",
+      "place": "福岡国際会議場 メインホール",
+      "performers": "ヤーレンズ",
+      "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/",
+      "status": "予定枚数終了",
+      "source": "チケプラ",
+      "detail": "開場16:00／開演17:00／全席指定4,500円",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "チケプラ",
+          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
+        },
+        {
+          "source": "公式",
+          "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%BA"
+        },
+        {
+          "source": "予定",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260824_radio_01",
+      "date": "2026-08-24",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%AC%E3%83%B3%E3% ズ",
+      "status": "予定",
+      "source": "公式",
+      "detail": "21:15～23:30",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%AC%E3%83%B3%E3% ズ"
+        },
+        {
+          "source": "公式",
+          "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%BA"
+        },
+        {
+          "source": "予定",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260827_tv_01",
+      "date": "2026-08-27",
+      "title": "真空レンズ",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ",
+      "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%AC%E3% ンズ",
+      "status": "予定",
+      "source": "公式",
+      "detail": "25:30～26:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%AC%E3% ンズ"
+        },
+        {
+          "source": "公式",
+          "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%BA"
+        },
+        {
+          "source": "予定",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260829_01",
+      "date": "2026-08-29",
+      "title": "例えば炎×ヤーレンズツーマンライブ「ヤー炎」",
+      "category": "ライブ",
+      "place": "科学技術館 サイエンスホール",
+      "performers": "例えば炎、ヤーレンズ",
+      "url": "https://ticket.fany.lol/event/detail/18633",
+      "status": "販売中",
+      "source": "FANY",
+      "detail": "開場18:00／開演18:30",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "FANY",
+          "url": "https://ticket.fany.lol/event/detail/18633"
+        },
+        {
+          "source": "予定",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260829_02",
+      "date": "2026-08-29",
+      "title": "ヤーレンズのオールナイトニッポン0",
+      "category": "ラジオ",
+      "place": "ニッポン放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "毎月最終土曜日／27:00～29:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "公式",
+          "url": "https://www.allnightnippon.com/zero-sat/"
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300057",
+      "date": "2026-08-30",
+      "title": "マイナビLaughter Night",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "開催予定",
+      "source": "公式",
+      "detail": "",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260831_01",
+      "date": "2026-08-31",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%BA",
+      "status": "予定",
+      "source": "公式",
+      "detail": "21:15～23:30",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%BA"
+        },
+        {
+          "source": "予定",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300058",
+      "date": "2026-09-01",
+      "title": "セカンドデイドリーマー",
+      "category": "ライブ",
+      "place": "ハイジアV-1",
+      "performers": "ツーナッカン、LLR、三日月マンハッタン、ヤーレンズ",
+      "url": "https://ticket.fany.lol/event/detail/18680",
+      "status": "開催予定",
+      "source": "FANY",
+      "detail": "20:30開演／ゲスト：ヤーレンズ",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "FANY",
+          "url": "https://ticket.fany.lol/event/detail/18680"
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300059",
+      "date": "2026-09-01",
+      "title": "中川家＆コント",
+      "category": "テレビ",
+      "place": "BSフジ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "開催予定",
+      "source": "公式",
+      "detail": "",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260904_01",
+      "date": "2026-09-04",
+      "title": "CUTIE STREETのちきゅーKAWAII計画",
+      "category": "テレビ",
+      "place": "テレビ岩手",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "出演予定",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260905_01",
+      "date": "2026-09-05",
+      "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」",
+      "category": "ライブ",
+      "place": "新潟テルサ 多目的ホール",
+      "performers": "ヤーレンズ",
+      "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/",
+      "status": "予定枚数終了",
+      "source": "チケプラ",
+      "detail": "開場16:00／開演17:00／全席指定4,500円",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "チケプラ",
+          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
+        },
+        {
+          "source": "公式",
+          "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%BA"
+        },
+        {
+          "source": "チケプラ",
+          "url": ""
+        },
+        {
+          "source": "公式",
+          "url": ""
+        },
+        {
+          "source": "予定",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260906_01",
+      "date": "2026-09-06",
+      "title": "キッズが見てる！もしもタレントじゃなかったら",
+      "category": "テレビ",
+      "place": "富山テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "出演予定",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300062",
+      "date": "2026-09-07",
+      "title": "さんまのお笑い向上委員会",
+      "category": "テレビ",
+      "place": "フジテレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "開催予定",
+      "source": "公式",
+      "detail": "",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300063",
+      "date": "2026-09-10",
+      "title": "ALABBO",
+      "category": "テレビ",
+      "place": "テレビ朝日",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "開催予定",
+      "source": "公式",
+      "detail": "",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300064",
+      "date": "2026-09-11",
+      "title": "パンサー向井の＃ふらっと［ヤーレンズの＃ふらっと］",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "開催予定",
+      "source": "公式",
+      "detail": "",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260912_01",
+      "date": "2026-09-12",
+      "title": "笑ってノト！2026 SUMMER 1部",
+      "category": "ライブ",
+      "place": "本多の森北電ホール",
+      "performers": "令和ロマン・高比良くるま、ヤーレンズ、さらば青春の光、ママタルト、ザ・マミィ、こたけ正義感、ぱーてぃーちゃん",
+      "url": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2669944",
+      "status": "受付終了",
+      "source": "チケットぴあ",
+      "detail": "1部14:00／石川・能登半島応援ライブ",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "チケットぴあ",
+          "url": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2669944"
+        }
+      ]
+    },
+    {
+      "id": "yar_20260912_02",
+      "date": "2026-09-12",
+      "title": "笑ってノト！2026 SUMMER 2部",
+      "category": "ライブ",
+      "place": "本多の森北電ホール",
+      "performers": "令和ロマン・高比良くるま、ヤーレンズ、さらば青春の光、ママタルト、ザ・マミィ、こたけ正義感、ぱーてぃーちゃん",
+      "url": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2669944",
+      "status": "受付終了",
+      "source": "チケットぴあ",
+      "detail": "2部18:00／石川・能登半島応援ライブ",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "チケットぴあ",
+          "url": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2669944"
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300065",
+      "date": "2026-09-12",
+      "title": "DayDay.",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "開催予定",
+      "source": "公式",
+      "detail": "",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300066",
+      "date": "2026-09-12",
+      "title": "笑ってノト！2026 SUMMER",
+      "category": "ライブ",
+      "place": "本多の森北電ホール",
+      "performers": "ヤーレンズ、さらば青春の光、ママタルト、ザ・マミィ、こたけ正義感、ぱーてぃーちゃんほか",
+      "url": "",
+      "status": "開催予定",
+      "source": "チケットぴあ",
+      "detail": "14:00／18:00",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "チケットぴあ",
+          "url": ""
+        },
+        {
+          "source": "予定",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260913_01",
+      "date": "2026-09-13",
+      "title": "ドデスカ！",
+      "category": "テレビ",
+      "place": "メ～テレ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "出演予定",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260913_02",
+      "date": "2026-09-13",
+      "title": "スマイルスタジアムNST",
+      "category": "テレビ",
+      "place": "新潟総合テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "出演予定",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300067",
+      "date": "2026-09-14",
+      "title": "さんまのお笑い向上委員会",
+      "category": "テレビ",
+      "place": "フジテレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "開催予定",
+      "source": "公式",
+      "detail": "",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300068",
+      "date": "2026-09-15",
+      "title": "中川家＆コント",
+      "category": "テレビ",
+      "place": "BSフジ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "開催予定",
+      "source": "公式",
+      "detail": "再放送",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300069",
+      "date": "2026-09-17",
+      "title": "ALABBO",
+      "category": "テレビ",
+      "place": "テレビ朝日",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "開催予定",
+      "source": "公式",
+      "detail": "",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260917_01",
+      "date": "2026-09-17",
+      "title": "有吉の壁",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "出演予定",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260917_02",
+      "date": "2026-09-17",
+      "title": "ジンギス談！",
+      "category": "テレビ",
+      "place": "北海道放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "出演予定",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260917_03",
+      "date": "2026-09-17",
+      "title": "フットンダ～秋の陣～",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "ヤーレンズ（出井）",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "出井出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260918_01",
+      "date": "2026-09-18",
+      "title": "やすとものいたって真剣です",
+      "category": "テレビ",
+      "place": "ABC朝日放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "出演予定",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260919_01",
+      "date": "2026-09-19",
+      "title": "CUTIE STREETのちきゅーKAWAII計画",
+      "category": "テレビ",
+      "place": "静岡第一テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "出演予定",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260919_02",
+      "date": "2026-09-19",
+      "title": "ケイダッシュステージお笑い珍道中 京都編 1部",
+      "category": "ライブ",
+      "place": "京都市呉竹文化センター",
+      "performers": "トム・ブラウン、クロコップ、ヤーレンズ、サツマカワRPG",
+      "url": "https://www.kdash.jp/profile/archives/4",
+      "status": "予定",
+      "source": "公式",
+      "detail": "12:30開場／13:00開演／14:30終演予定",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdash.jp/profile/archives/4"
+        },
+        {
+          "source": "予定",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260919_03",
+      "date": "2026-09-19",
+      "title": "ケイダッシュステージお笑い珍道中 京都編 2部",
+      "category": "ライブ",
+      "place": "京都市呉竹文化センター",
+      "performers": "トム・ブラウン、クロコップ、ヤーレンズ、サツマカワRPG",
+      "url": "https://www.kdash.jp/profile/archives/4",
+      "status": "予定",
+      "source": "公式",
+      "detail": "16:00開場／16:30開演／18:00終演予定",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdash.jp/profile/archives/4"
+        },
+        {
+          "source": "予定",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300070",
+      "date": "2026-09-20",
+      "title": "DayDay.",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "開催予定",
+      "source": "公式",
+      "detail": "",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260923_01",
+      "date": "2026-09-23",
+      "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」 1部",
+      "category": "ライブ",
+      "place": "北ガス文化ホール 大ホール",
+      "performers": "ヤーレンズ",
+      "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/",
+      "status": "予定枚数終了",
+      "source": "チケプラ",
+      "detail": "開場12:00／開演13:00／全席指定4,500円",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "チケプラ",
+          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
+        },
+        {
+          "source": "公式",
+          "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%BA"
+        },
+        {
+          "source": "予定",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260923_02",
+      "date": "2026-09-23",
+      "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」 2部",
+      "category": "ライブ",
+      "place": "北ガス文化ホール 大ホール",
+      "performers": "ヤーレンズ",
+      "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/",
+      "status": "販売中",
+      "source": "チケプラ",
+      "detail": "開場16:00／開演17:00／全席指定4,500円",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "チケプラ",
+          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
+        },
+        {
+          "source": "公式",
+          "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%BA"
+        },
+        {
+          "source": "予定",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300071",
+      "date": "2026-09-23",
+      "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」",
+      "category": "ライブ",
+      "place": "千歳市民文化センター",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "開催予定",
+      "source": "チケプラ",
+      "detail": "1部 13:00開演",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "チケプラ",
+          "url": ""
+        },
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300075",
+      "date": "2026-09-27",
+      "title": "DayDay.",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "開催予定",
+      "source": "公式",
+      "detail": "",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300076",
+      "date": "2026-09-27",
+      "title": "ヤーレンズのオールナイトニッポン0",
+      "category": "ラジオ",
+      "place": "ニッポン放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "開催予定",
+      "source": "公式",
+      "detail": "",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300077",
+      "date": "2026-09-28",
+      "title": "あすとつながるテレビ～宮城がもっと好きになる記念日～",
+      "category": "テレビ",
+      "place": "東日本放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "開催予定",
+      "source": "公式",
+      "detail": "",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300078",
+      "date": "2026-09-29",
+      "title": "上沼・高田のクギズケ！",
+      "category": "テレビ",
+      "place": "読売テレビ・中京テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "開催予定",
+      "source": "公式",
+      "detail": "",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300079",
+      "date": "2026-09-30",
+      "title": "ヤーレンズのラジオの虎",
+      "category": "ラジオ",
+      "place": "",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "開催予定",
+      "source": "公式",
+      "detail": "GERA",
+      "management": "AI収集",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20261004_01",
+      "date": "2026-10-04",
+      "title": "BMSG TRAINEE トレハン！～トレーニートレンドハンター～",
+      "category": "テレビ",
+      "place": "北海道テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "出演予定",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20261012_01",
+      "date": "2026-10-12",
+      "title": "やすとものどこいこ！？",
+      "category": "テレビ",
+      "place": "テレビ大阪",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "出演予定",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20261012_02",
+      "date": "2026-10-12",
+      "title": "有吉クイズ",
+      "category": "テレビ",
+      "place": "テレビ朝日",
+      "performers": "ヤーレンズ（出井）",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "出井出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20261016_01",
+      "date": "2026-10-16",
+      "title": "HRF2026～偽物だらけの国内最大級フェス～",
+      "category": "ライブ",
+      "place": "東別院テラスホール",
+      "performers": "ヤーレンズ、原口あきまさ、ミラクルひかる、古賀シュウ、ジョニー志村",
+      "url": "https://www.kdash.jp/news/archives/date/2026/10",
+      "status": "予定",
+      "source": "公式",
+      "detail": "18:30開演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdash.jp/news/archives/date/2026/10"
+        },
+        {
+          "source": "予定",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20261017_01",
+      "date": "2026-10-17",
+      "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」",
+      "category": "ライブ",
+      "place": "多賀城市文化センター 大ホール",
+      "performers": "ヤーレンズ",
+      "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/",
+      "status": "予定枚数終了",
+      "source": "チケプラ",
+      "detail": "開場16:00／開演17:00／全席指定4,500円",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "チケプラ",
+          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
+        },
+        {
+          "source": "公式",
+          "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%BA"
+        },
+        {
+          "source": "予定",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20261017_02",
+      "date": "2026-10-17",
+      "title": "HRF2026～偽物だらけの国内最大級フェス～ 1部",
+      "category": "ライブ",
+      "place": "東別院テラスホール",
+      "performers": "ヤーレンズ、原口あきまさ、ミラクルひかる、古賀シュウ、ジョニー志村",
+      "url": "https://www.kdash.jp/news/archives/date/2026/10",
+      "status": "予定",
+      "source": "公式",
+      "detail": "1部12:30開演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdash.jp/news/archives/date/2026/10"
+        }
+      ]
+    },
+    {
+      "id": "yar_20261017_03",
+      "date": "2026-10-17",
+      "title": "HRF2026～偽物だらけの国内最大級フェス～ 2部",
+      "category": "ライブ",
+      "place": "東別院テラスホール",
+      "performers": "ヤーレンズ、原口あきまさ、ミラクルひかる、古賀シュウ、ジョニー志村",
+      "url": "https://www.kdash.jp/news/archives/date/2026/10",
+      "status": "予定",
+      "source": "公式",
+      "detail": "2部17:00開演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdash.jp/news/archives/date/2026/10"
+        }
+      ]
+    },
+    {
+      "id": "yar_20261019_01",
+      "date": "2026-10-19",
+      "title": "有吉のお金発見 突撃！カネオくん",
+      "category": "テレビ",
+      "place": "NHK",
+      "performers": "ヤーレンズ（楢原）",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "楢原出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20261024_01",
+      "date": "2026-10-24",
+      "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」 1部",
+      "category": "ライブ",
+      "place": "池田市文化会館 アゼリアホール",
+      "performers": "ヤーレンズ",
+      "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/",
+      "status": "予定枚数終了",
+      "source": "チケプラ",
+      "detail": "開場12:00／開演13:00／全席指定4,500円",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "チケプラ",
+          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
+        },
+        {
+          "source": "公式",
+          "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%BA"
+        },
+        {
+          "source": "予定",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20261024_02",
+      "date": "2026-10-24",
+      "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」 2部",
+      "category": "ライブ",
+      "place": "池田市文化会館 アゼリアホール",
+      "performers": "ヤーレンズ",
+      "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/",
+      "status": "予定枚数終了",
+      "source": "チケプラ",
+      "detail": "開場16:00／開演17:00／全席指定4,500円",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "チケプラ",
+          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
+        },
+        {
+          "source": "公式",
+          "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%BC%E3%83%AC%E3%83%B3%E3% ズ"
+        },
+        {
+          "source": "予定",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20261024_03",
+      "date": "2026-10-24",
+      "title": "わらたまドッカ～ン",
+      "category": "テレビ",
+      "place": "NHK Eテレ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "出演予定",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20261025_01",
+      "date": "2026-10-25",
+      "title": "わらたまドッカ～ン",
+      "category": "テレビ",
+      "place": "NHK Eテレ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "再放送",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20261026_01",
+      "date": "2026-10-26",
+      "title": "有吉のお金発見 突撃！カネオくん",
+      "category": "テレビ",
+      "place": "NHK",
+      "performers": "ヤーレンズ（楢原）",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "楢原出演／再放送",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20261027_01",
+      "date": "2026-10-27",
+      "title": "まいど！ジャーニ～",
+      "category": "テレビ",
+      "place": "BSフジ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "出演予定",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20261029_01",
+      "date": "2026-10-29",
+      "title": "ハレのちあした",
+      "category": "テレビ",
+      "place": "青森朝日放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "出演予定",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20261030_01",
+      "date": "2026-10-30",
+      "title": "有吉の壁",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "出演予定",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20261030_02",
+      "date": "2026-10-30",
+      "title": "ガリベンチャーV",
+      "category": "テレビ",
+      "place": "テレビ朝日",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "出演予定",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20261124_01",
+      "date": "2026-11-24",
+      "title": "ぐ～たくさん",
+      "category": "テレビ",
+      "place": "中京テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "出演予定",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20261128_01",
+      "date": "2026-11-28",
+      "title": "ぐるぐるナインティナイン",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "出演予定",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20261129_01",
+      "date": "2026-11-29",
+      "title": "インタビューここから・佐久間宣行さん",
+      "category": "テレビ",
+      "place": "NHK",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "再放送／福島・茨城エリアのみ",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20270212_01",
+      "date": "2027-02-12",
+      "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
+      "category": "ラジオ",
+      "place": "Podcast",
+      "performers": "ヤーレンズ",
+      "url": "https://gekisaka.podcast.sonicbowl.cloud/",
+      "status": "予定",
+      "source": "公式",
+      "detail": "隔週金曜日配信予定",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://gekisaka.podcast.sonicbowl.cloud/"
+        }
+      ]
+    },
+    {
+      "id": "yar_20270215_01",
+      "date": "2027-02-15",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "毎週月曜日21:15～23:30",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20270218_01",
+      "date": "2027-02-18",
+      "title": "パンサー向井の＃ふらっと［ヤーレンズの＃ふらっと］",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "隔週木曜日8:30～11:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20270219_01",
+      "date": "2027-02-19",
+      "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
+      "category": "ラジオ",
+      "place": "Podcast",
+      "performers": "ヤーレンズ",
+      "url": "https://gekisaka.podcast.sonicbowl.cloud/",
+      "status": "予定",
+      "source": "公式",
+      "detail": "隔週金曜日配信予定",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://gekisaka.podcast.sonicbowl.cloud/"
+        }
+      ]
+    },
+    {
+      "id": "yar_20270222_01",
+      "date": "2027-02-22",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "毎週月曜日21:15～23:30",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20270226_01",
+      "date": "2027-02-26",
+      "title": "パンサー向井の＃ふらっと［ヤーレンズの＃ふらっと］",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "隔週木曜日8:30～11:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20270226_02",
+      "date": "2027-02-26",
+      "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
+      "category": "ラジオ",
+      "place": "Podcast",
+      "performers": "ヤーレンズ",
+      "url": "https://gekisaka.podcast.sonicbowl.cloud/",
+      "status": "予定",
+      "source": "公式",
+      "detail": "隔週金曜日配信予定",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://gekisaka.podcast.sonicbowl.cloud/"
+        }
+      ]
+    },
+    {
+      "id": "yar_20270227_01",
+      "date": "2027-02-27",
+      "title": "ヤーレンズのオールナイトニッポン0（ZERO）",
+      "category": "ラジオ",
+      "place": "ニッポン放送",
+      "performers": "ヤーレンズ",
+      "url": "https://www.allnightnippon.com/zero-sat/",
+      "status": "予定",
+      "source": "公式",
+      "detail": "月1回最終土曜日27:00～29:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.allnightnippon.com/zero-sat/"
+        }
+      ]
+    },
+    {
+      "id": "yar_20270301_01",
+      "date": "2027-03-01",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "毎週月曜日21:15～23:30",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20270305_01",
+      "date": "2027-03-05",
+      "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
+      "category": "ラジオ",
+      "place": "Podcast",
+      "performers": "ヤーレンズ",
+      "url": "https://gekisaka.podcast.sonicbowl.cloud/",
+      "status": "予定",
+      "source": "公式",
+      "detail": "隔週金曜日配信予定",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://gekisaka.podcast.sonicbowl.cloud/"
+        }
+      ]
+    },
+    {
+      "id": "yar_20270307_01",
+      "date": "2027-03-07",
+      "title": "ヤーレンズ単独ライブ 一万人に漫才 in 日本武道館",
+      "category": "ライブ",
+      "place": "日本武道館",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "開場15:00／開演16:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20270308_01",
+      "date": "2027-03-08",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "毎週月曜日21:15～23:30",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20270312_01",
+      "date": "2027-03-12",
+      "title": "パンサー向井の＃ふらっと［ヤーレンズの＃ふらっと］",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "隔週木曜日8:30～11:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20270312_02",
+      "date": "2027-03-12",
+      "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
+      "category": "ラジオ",
+      "place": "Podcast",
+      "performers": "ヤーレンズ",
+      "url": "https://gekisaka.podcast.sonicbowl.cloud/",
+      "status": "予定",
+      "source": "公式",
+      "detail": "隔週金曜日配信予定",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://gekisaka.podcast.sonicbowl.cloud/"
+        }
+      ]
+    },
+    {
+      "id": "yar_20270315_01",
+      "date": "2027-03-15",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "毎週月曜日21:15～23:30",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20270325_01",
+      "date": "2027-03-25",
+      "title": "パンサー向井の＃ふらっと［ヤーレンズの＃ふらっと］",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "隔週木曜日8:30～11:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20270327_01",
+      "date": "2027-03-27",
+      "title": "ヤーレンズのオールナイトニッポン0（ZERO）",
+      "category": "ラジオ",
+      "place": "ニッポン放送",
+      "performers": "ヤーレンズ",
+      "url": "https://www.allnightnippon.com/zero-sat/",
+      "status": "予定",
+      "source": "公式",
+      "detail": "月1回最終土曜日27:00～29:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.allnightnippon.com/zero-sat/"
+        }
+      ]
+    },
+    {
+      "id": "yar_20270401_01",
+      "date": "2027-04-01",
+      "title": "パンサー向井の＃ふらっと［ヤーレンズの＃ふらっと］",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "隔週木曜日8:30～11:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20270403_01",
+      "date": "2027-04-03",
+      "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
+      "category": "ラジオ",
+      "place": "Podcast",
+      "performers": "ヤーレンズ",
+      "url": "https://gekisaka.podcast.sonicbowl.cloud/",
+      "status": "予定",
+      "source": "公式",
+      "detail": "隔週金曜日配信予定",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://gekisaka.podcast.sonicbowl.cloud/"
+        }
+      ]
+    },
+    {
+      "id": "yar_20270405_01",
+      "date": "2027-04-05",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "毎週月曜日21:15～23:30",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20270415_01",
+      "date": "2027-04-15",
+      "title": "パンサー向井の＃ふらっと［ヤーレンズの＃ふらっと］",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "隔週木曜日8:30～11:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20270417_01",
+      "date": "2027-04-17",
+      "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
+      "category": "ラジオ",
+      "place": "Podcast",
+      "performers": "ヤーレンズ",
+      "url": "https://gekisaka.podcast.sonicbowl.cloud/",
+      "status": "予定",
+      "source": "公式",
+      "detail": "隔週金曜日配信予定",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://gekisaka.podcast.sonicbowl.cloud/"
+        }
+      ]
+    },
+    {
+      "id": "yar_20270424_01",
+      "date": "2027-04-24",
+      "title": "ヤーレンズのオールナイトニッポン0（ZERO）",
+      "category": "ラジオ",
+      "place": "ニッポン放送",
+      "performers": "ヤーレンズ",
+      "url": "https://www.allnightnippon.com/zero-sat/",
+      "status": "予定",
+      "source": "公式",
+      "detail": "月1回最終土曜日27:00～29:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.allnightnippon.com/zero-sat/"
+        }
+      ]
+    },
+    {
+      "id": "yar_05_01",
+      "date": "2027-05-29",
+      "title": "ヤーレンズのオールナイトニッポン0（ZERO）",
+      "category": "ラジオ",
+      "place": "ニッポン放送",
+      "performers": "ヤーレンズ",
+      "url": "https://www.allnightnippon.com/zero-sat/",
+      "status": "予定",
+      "source": "公式",
+      "detail": "月1回最終土曜日27:00～29:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.allnightnippon.com/zero-sat/"
+        }
+      ]
+    },
+    {
+      "id": "yar_06_01",
+      "date": "2027-06-26",
+      "title": "ヤーレンズのオールナイトニッポン0（ZERO）",
+      "category": "ラジオ",
+      "place": "ニッポン放送",
+      "performers": "ヤーレンズ",
+      "url": "https://www.allnightnippon.com/zero-sat/",
+      "status": "予定",
+      "source": "公式",
+      "detail": "月1回最終土曜日27:00～29:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.allnightnippon.com/zero-sat/"
+        }
+      ]
+    },
+    {
+      "id": "yar_07_01",
+      "date": "2027-07-31",
+      "title": "ヤーレンズのオールナイトニッポン0（ZERO）",
+      "category": "ラジオ",
+      "place": "ニッポン放送",
+      "performers": "ヤーレンズ",
+      "url": "https://www.allnightnippon.com/zero-sat/",
+      "status": "予定",
+      "source": "公式",
+      "detail": "月1回最終土曜日27:00～29:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.allnightnippon.com/zero-sat/"
+        }
+      ]
+    },
+    {
+      "id": "MANUAL_1786489637663",
+      "date": "2026-08-28",
+      "title": "ヤーレンズと太福の演芸会",
+      "category": "ライブ",
+      "place": "浅草フランス座演芸場　東洋館 (東京都)",
+      "performers": "ヤ―レンズ",
+      "url": "https://livepocket.jp/e/abd6u",
+      "status": "開催予定",
+      "source": "TIGET",
+      "detail": "開場時間18:30終演時間20:45",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "TIGET",
+          "url": "https://livepocket.jp/e/abd6u"
+        }
+      ]
+    },
+    {
+      "id": "MANUAL_1786489745235",
+      "date": "2026-09-15",
+      "title": "紅 vol.2",
+      "category": "ライブ",
+      "place": "銀座お笑いPLACE(東京都)",
+      "performers": "ヤーレンズ / ひつじねいり / 大王 / DITO / シンクロニシティ / 豆鉄砲 / レインマンズ",
+      "url": "https://tiget.net/events/511601",
+      "status": "開催予定",
+      "source": "TIGET",
+      "detail": "開場 19:10 / 開演 19:30",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "TIGET",
+          "url": "https://tiget.net/events/511601"
+        }
+      ]
+    },
+    {
+      "id": "MANUAL_1786489838356",
+      "date": "2026-10-18",
+      "title": "ねじロックフェス2026　1部",
+      "category": "ライブ",
+      "place": "秋田市にぎわい交流館au(秋田県)",
+      "performers": "ねじ / ヤーレンズ / 街裏ぴんく / 三拍子 / リニア / 虹の黄昏 / ギフト⭐︎矢野 / ドドん",
+      "url": "https://tiget.net/events/512292",
+      "status": "開催予定",
+      "source": "TIGET",
+      "detail": "開場 10:00 / 開演 11:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "TIGET",
+          "url": "https://tiget.net/events/512292"
+        }
+      ]
+    },
+    {
+      "id": "MANUAL_1786489838356",
+      "date": "2026-10-18",
+      "title": "ねじロックフェス2026　2部",
+      "category": "ライブ",
+      "place": "秋田市にぎわい交流館au(秋田県)",
+      "performers": "ねじ / ヤーレンズ / 街裏ぴんく / 三拍子 / リニア / 虹の黄昏 / ギフト⭐︎矢野 / ドドん",
+      "url": "https://tiget.net/events/512292",
+      "status": "開催予定",
+      "source": "TIGET",
+      "detail": "14:30開場",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "TIGET",
+          "url": "https://tiget.net/events/512292"
+        }
+      ]
+    },
+    {
+      "id": "MANUAL_1786490292492",
+      "date": "2026-08-11",
+      "title": "おるぁ！vol.2",
+      "category": "ライブ",
+      "place": "高円寺ジュンジョー(東京都)",
+      "performers": "祝。エペ / ジグロポッカ / フランスピアノ / ポテトカレッジ / レシートズ / 人間横丁 / フランツ / ヤーレンズ / マードック / ヒロ・オクムラ",
+      "url": "https://tiget.net/events/494451",
+      "status": "終了",
+      "source": "TIGET",
+      "detail": "開場 12:45 / 開演 13:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "TIGET",
+          "url": "https://tiget.net/events/494451"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "date": "2026-02-14",
+      "title": "ケイダッシュステージお笑い珍道中 岩手編 1部",
+      "category": "ライブ",
+      "place": "盛岡劇場",
+      "performers": "トム・ブラウン、クロコップ、ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "LivePocket",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "date": "2026-02-14",
+      "title": "ケイダッシュステージお笑い珍道中 岩手編 2部",
+      "category": "ライブ",
+      "place": "盛岡劇場",
+      "performers": "トム・ブラウン、クロコップ、ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "LivePocket",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "date": "2026-02-16",
+      "title": "ヤーレンズWEEK「パンサー向井の#ふらっと」",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "出井隼之介・楢原真樹が向井慧の代役",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "date": "2026-02-17",
+      "title": "ヤーレンズWEEK「パンサー向井の#ふらっと」",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "出井隼之介・楢原真樹が向井慧の代役",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "date": "2026-02-18",
+      "title": "ヤーレンズWEEK「パンサー向井の#ふらっと」",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "出井隼之介・楢原真樹が向井慧の代役",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "date": "2026-02-19",
+      "title": "ヤーレンズWEEK「パンサー向井の#ふらっと」",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "出井隼之介・楢原真樹が向井慧の代役",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "date": "2026-02-23",
+      "title": "豪快レンズ～Impossible～",
+      "category": "ライブ",
+      "place": "COOL JAPAN PARK OSAKA WWホール",
+      "performers": "豪快キャプテン、ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "チケットぴあ",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "date": "2026-02-26",
+      "title": "ヤーレンズ寄席 #16",
+      "category": "ライブ",
+      "place": "なかのZERO 小ホール",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "date": "2026-02-26",
+      "title": "パンサー向井の#ふらっと",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "date": "2026-02-28",
+      "title": "ヤーレンズのオールナイトニッポン0",
+      "category": "ラジオ",
+      "place": "ニッポン放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "date": "2026-03-18",
+      "title": "ヤーレンズ寄席 #17",
+      "category": "ライブ",
+      "place": "なかのZERO 小ホール",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "date": "2026-03-25",
+      "title": "金属バット×ヤーレンズ「厄介な奴ら」",
+      "category": "ライブ",
+      "place": "IMM THEATER",
+      "performers": "金属バット、ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "FANY",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "date": "2026-04-02",
+      "title": "真空レンズ",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ、真空ジェシカ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "date": "2026-04-06",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "date": "2026-04-09",
+      "title": "真空レンズ",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ、真空ジェシカ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "date": "2026-04-09",
+      "title": "パンサー向井の#ふらっと",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "date": "2026-04-10",
+      "title": "第3弾 BMSG TRAINEE トレハン！～トレーニートレンドハンター～",
+      "category": "テレビ",
+      "place": "福島中央テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "date": "2026-04-11",
+      "title": "テレＱ35祭！～ファンと一緒に6.5時間ベタナマSP！～第1部",
+      "category": "テレビ",
+      "place": "九州放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "date": "2026-04-23",
+      "title": "ヤーレンズ寄席 #18",
+      "category": "ライブ",
+      "place": "なかのZERO 小ホール",
+      "performers": "ヤーレンズ、ネコニスズ、吉住、シンクロニシティ、リニア",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "date": "2026-05-10",
+      "title": "ヤーレンズと太福の演芸会",
+      "category": "ライブ",
+      "place": "浅草フランス座演芸場東洋館",
+      "performers": "ヤーレンズ、玉川太福、三遊亭萬橘、街裏ぴんく",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "チケットぴあ",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "date": "2026-05-18",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "date": "2026-05-21",
+      "title": "真空レンズ",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ、真空ジェシカ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "date": "2026-05-21",
+      "title": "パンサー向井の#ふらっと",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "date": "2026-05-22",
+      "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
+      "category": "ラジオ",
+      "place": "Podcast",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "Podcast",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "date": "2026-05-25",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "date": "2026-05-27",
+      "title": "ヤーレンズ寄席 #19",
+      "category": "ライブ",
+      "place": "なかのZERO 小ホール",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "date": "2026-05-27",
+      "title": "ヒルナンデス",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "date": "2026-05-28",
+      "title": "真空レンズ",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ、真空ジェシカ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "date": "2026-05-29",
+      "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
+      "category": "ラジオ",
+      "place": "Podcast",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "Podcast",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "date": "2026-05-31",
+      "title": "第3弾 BMSG TRAINEE トレハン！～トレーニートレンドハンター～",
+      "category": "テレビ",
+      "place": "KBS京都",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "date": "2026-06-07",
+      "title": "爆笑！お笑いエンタメライブ in 金沢",
+      "category": "ライブ",
+      "place": "本多の森北電ホール",
+      "performers": "ヤーレンズほか",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "チケットぴあ",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "date": "2026-06-18",
+      "title": "真空レンズ",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ、真空ジェシカ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "date": "2026-06-18",
+      "title": "パンサー向井の#ふらっと",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "date": "2026-06-19",
+      "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
+      "category": "ラジオ",
+      "place": "Podcast",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "Podcast",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "date": "2026-06-22",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "date": "2026-06-24",
+      "title": "ヤーレンズ寄席 #20",
+      "category": "ライブ",
+      "place": "なかのZERO 小ホール",
+      "performers": "ヤーレンズ、TCクラクション、エルフ、青色1号",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "date": "2026-06-25",
+      "title": "真空レンズ",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ、真空ジェシカ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "date": "2026-06-26",
+      "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
+      "category": "ラジオ",
+      "place": "Podcast",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "Podcast",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "date": "2026-06-29",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "date": "2026-07-02",
+      "title": "パンサー向井の#ふらっと",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "date": "2026-07-09",
+      "title": "ヤーレンズ寄席 #21",
+      "category": "ライブ",
+      "place": "なかのZERO 小ホール",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "date": "2026-07-13",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "date": "2026-07-15",
+      "title": "ヒルナンデス",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "date": "2026-07-16",
+      "title": "真空レンズ",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ、真空ジェシカ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "date": "2026-07-16",
+      "title": "パンサー向井の#ふらっと",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "date": "2026-07-20",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "date": "2026-07-21",
+      "title": "パンサー向井の#ふらっと",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "date": "2026-07-22",
+      "title": "ヤーレンズ寄席 #21",
+      "category": "ライブ",
+      "place": "なかのZERO 小ホール",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "date": "2026-07-25",
+      "title": "ケイダッシュステージお笑い珍道中 千葉編 1部",
+      "category": "ライブ",
+      "place": "ホテルスプリングス幕張 スプリングスホール",
+      "performers": "トム・ブラウン、クロコップ、ヤーレンズ、サツマカワRPG",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "date": "2026-07-25",
+      "title": "ケイダッシュステージお笑い珍道中 千葉編 2部",
+      "category": "ライブ",
+      "place": "ホテルスプリングス幕張 スプリングスホール",
+      "performers": "トム・ブラウン、クロコップ、ヤーレンズ、サツマカワRPG",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "date": "2026-07-25",
+      "title": "サタブラ！",
+      "category": "テレビ",
+      "place": "北海道放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "date": "2026-07-26",
+      "title": "オールナイトニッポン0",
+      "category": "ラジオ",
+      "place": "TOKAI RADIO",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "Gガイド",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "date": "2026-07-29",
+      "title": "おかべろ",
+      "category": "テレビ",
+      "place": "フジテレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "date": "2026-07-30",
+      "title": "パンサー向井の#ふらっと",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "date": "2026-08-01",
+      "title": "ハピマル〜ネタとコーナーをするライブ〜",
+      "category": "ライブ",
+      "place": "ユーロライブ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "TIGET",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "date": "2026-08-02",
+      "title": "爆笑！お笑いライブ in 三島 1部",
+      "category": "ライブ",
+      "place": "三島市民文化会館 大ホール",
+      "performers": "ヤーレンズほか",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "チケットぴあ",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "date": "2026-08-02",
+      "title": "爆笑！お笑いライブ in 三島 2部",
+      "category": "ライブ",
+      "place": "三島市民文化会館 大ホール",
+      "performers": "ヤーレンズほか",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "チケットぴあ",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "date": "2026-08-06",
+      "title": "真空レンズ",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ、真空ジェシカ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "date": "2026-08-10",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "",
+      "source": "終了",
+      "detail": "公式",
+      "management": "自動",
+      "sources": [
+        {
+          "source": "終了",
+          "url": ""
+        }
+      ]
+    }
+  ]
+}
