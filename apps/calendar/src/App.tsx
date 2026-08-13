@@ -28,39 +28,17 @@ function App() {
   }, []);
 
   useEffect(() => {
-    const loadVisitCount = () => {
-      const goatcounter = (window as any).goatcounter;
-
-      if (!goatcounter?.visit_count) {
-        return false;
-      }
-
-      goatcounter.visit_count(
-        {
-          path: "TOTAL",
-          append: false,
-          no_branding: true,
-        },
-        (response: { count: string }) => {
-          console.log("GoatCounterアクセス数:", response.count);
-          setVisitCount(response.count);
-        }
-      );
-
-      return true;
-    };
-
-    if (loadVisitCount()) {
-      return;
-    }
-
-    const timer = setInterval(() => {
-      if (loadVisitCount()) {
-        clearInterval(timer);
-      }
-    }, 100);
-
-    return () => clearInterval(timer);
+    fetch(
+      "https://falahanu.goatcounter.com/counter//.json"
+    )
+      .then(res => res.json())
+      .then(json => {
+        console.log("GoatCounterアクセス数:", json.count);
+        setVisitCount(json.count);
+      })
+      .catch(error => {
+        console.error("GoatCounterアクセス数の取得に失敗:", error);
+      });
   }, []);
 
   const lastUpdate = data?.lastUpdate
