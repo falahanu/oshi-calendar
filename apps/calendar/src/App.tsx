@@ -18,6 +18,7 @@ function App() {
 
   const [selectedEvent, setSelectedEvent] = useState<any>(null);
   const [categoryFilter, setCategoryFilter] = useState<string[]>([]);
+  const [visitCount, setVisitCount] = useState<string>("");
 
   useEffect(() => {
 
@@ -30,6 +31,56 @@ function App() {
         setData(json);
 
       });
+
+  }, []);
+
+  useEffect(() => {
+
+    const loadVisitCount = () => {
+
+      const goatcounter = (window as any).goatcounter;
+
+      if (goatcounter?.visit_count) {
+
+        goatcounter.visit_count(
+          {
+            path: "TOTAL",
+            append: false,
+            no_branding: true,
+          },
+          (response: { count: string }) => {
+
+            console.log("GoatCounter訪問者数:", response);
+
+            setVisitCount(response.count);
+
+          }
+        );
+
+      }
+
+    };
+
+    if ((window as any).goatcounter) {
+
+      loadVisitCount();
+
+    } else {
+
+      const timer = setInterval(() => {
+
+        if ((window as any).goatcounter) {
+
+          clearInterval(timer);
+          loadVisitCount();
+
+        }
+
+      }, 100);
+
+      return () => clearInterval(timer);
+
+    }
 
   }, []);
 
@@ -68,7 +119,21 @@ function App() {
       <h1>
         {oshi.icon} {oshi.name} イベントカレンダー
       </h1>
+
+      {visitCount && (
+        <div
+          style={{
+            marginBottom: 16,
+            fontSize: 13,
+            color: "#666",
+          }}
+        >
+          アクセス数：{visitCount}
+        </div>
+      )}
+
       <div style={{ marginBottom: 20 }}>
+      </div>      <div style={{ marginBottom: 20 }}>
 
         最終更新：{lastUpdate}
 
