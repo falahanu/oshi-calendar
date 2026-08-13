@@ -1,6 +1,7 @@
 type MenuProps = {
   onSelectPage: (page: string) => void;
 };
+
 export default function Menu({ onSelectPage }: MenuProps) {
   return (
     <div>
@@ -11,6 +12,13 @@ export default function Menu({ onSelectPage }: MenuProps) {
         onClick={() => onSelectPage("calendar")}
       >
         📅 カレンダー
+      </p>
+
+      <p
+        className="menu-item"
+        onClick={() => onSelectPage("manualCollection")}
+      >
+        🔎 手動収集
       </p>
 
       <p
