@@ -16,6 +16,7 @@ function App() {
   const [data, setData] = useState<any>(null);
   const [selectedEvent, setSelectedEvent] = useState<any>(null);
   const [categoryFilter, setCategoryFilter] = useState<string[]>([]);
+  const [visitCount, setVisitCount] = useState<string>("");
 
   useEffect(() => {
     fetch(`./events_public.json?t=${Date.now()}`)
@@ -30,27 +31,36 @@ function App() {
     const loadVisitCount = () => {
       const goatcounter = (window as any).goatcounter;
 
-      if (goatcounter?.visit_count) {
-        goatcounter.visit_count({
-          path: "TOTAL",
-          append: "#visit-count",
-          no_branding: true,
-        });
+      if (!goatcounter?.visit_count) {
+        return false;
       }
+
+      goatcounter.visit_count(
+        {
+          path: "TOTAL",
+          append: false,
+          no_branding: true,
+        },
+        (response: { count: string }) => {
+          console.log("GoatCounterアクセス数:", response.count);
+          setVisitCount(response.count);
+        }
+      );
+
+      return true;
     };
 
-    if ((window as any).goatcounter?.visit_count) {
-      loadVisitCount();
-    } else {
-      const timer = setInterval(() => {
-        if ((window as any).goatcounter?.visit_count) {
-          clearInterval(timer);
-          loadVisitCount();
-        }
-      }, 100);
-
-      return () => clearInterval(timer);
+    if (loadVisitCount()) {
+      return;
     }
+
+    const timer = setInterval(() => {
+      if (loadVisitCount()) {
+        clearInterval(timer);
+      }
+    }, 100);
+
+    return () => clearInterval(timer);
   }, []);
 
   const lastUpdate = data?.lastUpdate
@@ -89,20 +99,34 @@ function App() {
         {oshi.icon} {oshi.name} イベントカレンダー
       </h1>
 
-      <div
-        id="visit-count"
+      <p
         style={{
-          display: "inline-block",
-          marginBottom: 20,
-          padding: "6px 12px",
-          border: "1px solid #ccc",
-          borderRadius: 4,
-          background: "#f5f5f5",
-          fontSize: 12,
+          marginTop: 0,
+          marginBottom: 16,
           color: "#555",
-          fontFamily: "monospace",
+          fontSize: 14,
         }}
-      />
+      >
+        ヤーレンズさんの出演情報・ライブ・テレビ・ラジオなどをまとめたイベントカレンダーです。
+      </p>
+
+      {visitCount && (
+        <div
+          style={{
+            display: "inline-block",
+            marginBottom: 20,
+            padding: "6px 12px",
+            border: "1px solid #aaa",
+            borderRadius: 4,
+            background: "#f5f5f5",
+            fontSize: 13,
+            color: "#555",
+            fontFamily: "monospace",
+          }}
+        >
+          👣 アクセス数：{visitCount}
+        </div>
+      )}
 
       <div style={{ marginBottom: 20 }}>
 
