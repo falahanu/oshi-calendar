@@ -13,86 +13,55 @@ import jaLocale from "@fullcalendar/core/locales/ja";
 import "./App.css";
 
 function App() {
-
   const [data, setData] = useState<any>(null);
-
   const [selectedEvent, setSelectedEvent] = useState<any>(null);
   const [categoryFilter, setCategoryFilter] = useState<string[]>([]);
-  const [visitCount, setVisitCount] = useState<string>("");
 
   useEffect(() => {
-
     fetch(`./events_public.json?t=${Date.now()}`)
       .then(res => res.json())
       .then(json => {
-
         console.log(json);
-
         setData(json);
-
       });
-
   }, []);
 
   useEffect(() => {
-
     const loadVisitCount = () => {
-
       const goatcounter = (window as any).goatcounter;
 
       if (goatcounter?.visit_count) {
-
-        goatcounter.visit_count(
-          {
-            path: "TOTAL",
-            append: false,
-            no_branding: true,
-          },
-          (response: { count: string }) => {
-
-            console.log("GoatCounter訪問者数:", response);
-
-            setVisitCount(response.count);
-
-          }
-        );
-
+        goatcounter.visit_count({
+          path: "TOTAL",
+          append: "#visit-count",
+          no_branding: true,
+        });
       }
-
     };
 
-    if ((window as any).goatcounter) {
-
+    if ((window as any).goatcounter?.visit_count) {
       loadVisitCount();
-
     } else {
-
       const timer = setInterval(() => {
-
-        if ((window as any).goatcounter) {
-
+        if ((window as any).goatcounter?.visit_count) {
           clearInterval(timer);
           loadVisitCount();
-
         }
-
       }, 100);
 
       return () => clearInterval(timer);
-
     }
-
   }, []);
 
   const lastUpdate = data?.lastUpdate
     ? new Date(data.lastUpdate).toLocaleString("ja-JP", {
-      timeZone: "Asia/Tokyo",
-      year: "numeric",
-      month: "2-digit",
-      day: "2-digit",
-      hour: "2-digit",
-      minute: "2-digit",
-    })
+        timeZone: "Asia/Tokyo",
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+        hour: "2-digit",
+        minute: "2-digit",
+      })
     : "";
 
   const groupedEvents = data?.events ?? [];
@@ -101,8 +70,8 @@ function App() {
     categoryFilter.length === 0
       ? groupedEvents
       : groupedEvents.filter((event: any) =>
-        categoryFilter.includes(event.category)
-      );
+          categoryFilter.includes(event.category)
+        );
 
   const today = new Date();
 
@@ -120,20 +89,22 @@ function App() {
         {oshi.icon} {oshi.name} イベントカレンダー
       </h1>
 
-      {visitCount && (
-        <div
-          style={{
-            marginBottom: 16,
-            fontSize: 13,
-            color: "#666",
-          }}
-        >
-          アクセス数：{visitCount}
-        </div>
-      )}
+      <div
+        id="visit-count"
+        style={{
+          display: "inline-block",
+          marginBottom: 20,
+          padding: "6px 12px",
+          border: "1px solid #ccc",
+          borderRadius: 4,
+          background: "#f5f5f5",
+          fontSize: 12,
+          color: "#555",
+          fontFamily: "monospace",
+        }}
+      />
 
       <div style={{ marginBottom: 20 }}>
-      </div>      <div style={{ marginBottom: 20 }}>
 
         最終更新：{lastUpdate}
 
@@ -141,10 +112,9 @@ function App() {
 
         公開期間：
         {data?.from ?? ""} ～ {data?.to ?? ""}
+
         <div style={{ marginBottom: 20 }}>
-
           イベント件数：{groupedEvents.length}件
-
         </div>
 
         <div
@@ -164,6 +134,7 @@ function App() {
         </div>
 
       </div>
+
       <div
         style={{
           display: "flex",
@@ -223,18 +194,18 @@ function App() {
           )
         )}
       </div>
+
       <div
         style={{
           border: "1px solid #ddd",
           borderRadius: 10,
           padding: 30,
-          textAlign: "center"
+          textAlign: "center",
         }}
       >
 
         <FullCalendar
           eventClick={(info) => {
-
             const event = groupedEvents.find(
               (e: any) =>
                 (e.id || `${e.date}-${e.title}`) === info.event.id
@@ -243,7 +214,6 @@ function App() {
             console.log("クリックしたイベント:", event);
 
             setSelectedEvent(event);
-
           }}
           plugins={[dayGridPlugin, interactionPlugin]}
           initialView="dayGridMonth"
@@ -251,23 +221,13 @@ function App() {
           height="auto"
           eventDisplay="block"
           fixedWeekCount={false}
-
           events={filteredEvents.map((event: any) => ({
-
             id: event.id || `${event.date}-${event.title}`,
-
             title: event.title,
-
             date: event.date,
-
             backgroundColor: getCategoryColor(event.category),
-
             borderColor: getCategoryColor(event.category),
-
-          }))
-          }
-
-
+          }))}
         />
 
         <div
@@ -346,14 +306,13 @@ function App() {
         </div>
 
         {selectedEvent && (
-
           <div
             style={{
               marginTop: 30,
               border: "1px solid #ddd",
               borderRadius: 12,
               padding: 20,
-              boxShadow: "0 2px 6px rgba(0,0,0,.08)"
+              boxShadow: "0 2px 6px rgba(0,0,0,.08)",
             }}
           >
 
@@ -364,7 +323,7 @@ function App() {
                 borderRadius: 20,
                 background: "#F3F4F6",
                 fontWeight: "bold",
-                marginBottom: 10
+                marginBottom: 10,
               }}
             >
               {selectedEvent.category}
@@ -385,39 +344,40 @@ function App() {
             <p>
               🌐{" "}
 
-              {selectedEvent.sources?.map((s: any, index: number) => (
+              {selectedEvent.sources?.map(
+                (s: any, index: number) => (
+                  <span key={index}>
 
-                <span key={index}>
+                    {index > 0 && " ・ "}
 
-                  {index > 0 && " ・ "}
+                    {s.url ? (
+                      <a
+                        href={s.url}
+                        target="_blank"
+                        rel="noreferrer"
+                        style={{
+                          color: "#2563eb",
+                          textDecoration: "none",
+                          fontWeight: "bold",
+                        }}
+                      >
+                        {s.source}
+                      </a>
+                    ) : (
+                      <span>
+                        {s.source}
+                      </span>
+                    )}
 
-                  {s.url ? (
-                    <a
-                      href={s.url}
-                      target="_blank"
-                      rel="noreferrer"
-                      style={{
-                        color: "#2563eb",
-                        textDecoration: "none",
-                        fontWeight: "bold"
-                      }}
-                    >
-                      {s.source}
-                    </a>
-                  ) : (
-                    <span>
-                      {s.source}
-                    </span>
-                  )}
+                  </span>
+                )
+              )}
 
-                </span>
-
-              ))}
             </p>
 
           </div>
-
         )}
+
       </div>
 
     </div>
