@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-14T14:34:40.488Z",
+  "lastUpdate": "2026-08-14T15:00:13.674Z",
   "from": "2025-08-14",
   "to": "2027-08-14",
   "events": [
@@ -4005,25 +4005,6 @@
       ]
     },
     {
-      "id": 92,
-      "date": "2026-07-26",
-      "title": "オールナイトニッポン0",
-      "category": "ラジオ",
-      "place": "TOKAI RADIO",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "終了",
-      "source": "Gガイド",
-      "detail": "",
-      "management": "手動",
-      "sources": [
-        {
-          "source": "Gガイド",
-          "url": ""
-        }
-      ]
-    },
-    {
       "id": "AI_20260811_300028",
       "date": "2026-07-26",
       "title": "サンキュータツオとヤーレンズ4",
@@ -4066,25 +4047,6 @@
       ]
     },
     {
-      "id": "20260726-001",
-      "date": "2026-07-26",
-      "title": "演芸トークライブ『サンキュータツオとヤーレンズ4』",
-      "category": "ライブ",
-      "place": "東新宿カフェコマド",
-      "performers": "サンキュータツオ／ヤーレンズ",
-      "url": "https://www.tiget.net/events/497000",
-      "status": "終了",
-      "source": "TIGET",
-      "detail": "開場18:30／開演19:00／期間限定配信あり",
-      "management": "AI収集",
-      "sources": [
-        {
-          "source": "TIGET",
-          "url": "https://www.tiget.net/events/497000"
-        }
-      ]
-    },
-    {
       "id": "AI_20260811_300031",
       "date": "2026-07-27",
       "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
@@ -4104,25 +4066,6 @@
       ]
     },
     {
-      "id": "yar_20260727_tv_01",
-      "date": "2026-07-27",
-      "title": "上沼・高田のクギズケ！",
-      "category": "テレビ",
-      "place": "読売テレビ・中京テレビ",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "終了",
-      "source": "公式",
-      "detail": "番組出演",
-      "management": "手動",
-      "sources": [
-        {
-          "source": "公式",
-          "url": ""
-        }
-      ]
-    },
-    {
       "id": 94,
       "date": "2026-07-29",
       "title": "おかべろ",
@@ -4133,25 +4076,6 @@
       "status": "終了",
       "source": "公式",
       "detail": "",
-      "management": "手動",
-      "sources": [
-        {
-          "source": "公式",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "yar_20260729_tv_01",
-      "date": "2026-07-29",
-      "title": "圏外絶景～北海道で極上のデトックス～",
-      "category": "テレビ",
-      "place": "青森放送",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "終了",
-      "source": "公式",
-      "detail": "番組出演",
       "management": "手動",
       "sources": [
         {
@@ -4812,25 +4736,6 @@
       ]
     },
     {
-      "id": 158,
-      "date": "2026-08-21",
-      "title": "やすとものいたって真剣です 未公開トークSP",
-      "category": "テレビ",
-      "place": "ABC朝日放送",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "予定",
-      "source": "公式",
-      "detail": "出演",
-      "management": "手動",
-      "sources": [
-        {
-          "source": "公式",
-          "url": ""
-        }
-      ]
-    },
-    {
       "id": "yar_20260823_03",
       "date": "2026-08-23",
       "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」 1部",
@@ -5016,7 +4921,7 @@
       "category": "ライブ",
       "place": "ハイジアV-1",
       "performers": "ツーナッカン、LLR、三日月マンハッタン、ヤーレンズ",
-      "url": "https://ticket.fany.lol/event/detail/18680",
+      "url": "https://ticket.fany.lol/reception/60512/49422",
       "status": "開催予定",
       "source": "FANY",
       "detail": "20:30開演／ゲスト：ヤーレンズ",
@@ -5024,7 +4929,7 @@
       "sources": [
         {
           "source": "FANY",
-          "url": "https://ticket.fany.lol/event/detail/18680"
+          "url": "https://ticket.fany.lol/reception/60512/49422"
         }
       ]
     },
@@ -5924,6 +5829,44 @@
         {
           "source": "公式",
           "url": "https://www.allnightnippon.com/zero-sat/"
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300058",
+      "date": "2026-09-08",
+      "title": "ニッポンの社長のネタとコーナーライブ「広沢」",
+      "category": "ライブ",
+      "place": "日本青年館ホール（東京都）",
+      "performers": "ニッポンの社長、ヤーレンズ（ケイダッシュステージ）、ダンビラムーチョ、kento fukaya、ラブレターズ（ASH&Dコーポレーション）、他\nMC：前田龍二",
+      "url": "https://ticket.fany.lol/reception/63032/50658",
+      "status": "開催予定",
+      "source": "FANY",
+      "detail": "開場 18:45 開演 19:15",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "FANY",
+          "url": "https://ticket.fany.lol/reception/63032/50658"
+        }
+      ]
+    },
+    {
+      "id": "yar_20260727_tv_01",
+      "date": "2026-08-09",
+      "title": "上沼・高田のクギズケ！",
+      "category": "テレビ",
+      "place": "読売テレビ・中京テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
         }
       ]
     }
