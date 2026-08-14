@@ -1,0 +1,42 @@
+﻿{
+"manifest_version": 3,
+"name": "推し活マネージャー 手動収集",
+"version": "1.0.0",
+"description": "現在開いているページの情報を取得する",
+"permissions": [
+"activeTab",
+"scripting"
+],
+"host_permissions": [
+"https://script.google.com/*"
+],
+"action": {
+"default_title": "ページ情報を取得"
+},
+"background": {
+"service_worker": "background.js"
+},
+"content_scripts": [
+{
+"matches": [
+"<all_urls>"
+],
+"js": [
+"tesseract.min.js",
+"content.js"
+]
+}
+],
+"web_accessible_resources": [
+{
+"resources": [
+"worker.min.js",
+"tesscore/*",
+"tessdata/*"
+],
+"matches": [
+"<all_urls>"
+]
+}
+]
+}
