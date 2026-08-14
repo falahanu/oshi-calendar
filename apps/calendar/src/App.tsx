@@ -29,7 +29,7 @@ function App() {
 
   useEffect(() => {
     fetch(
-      "https://falahanu.goatcounter.com/counter//.json"
+      "https://falahanu.goatcounter.com/counter/TOTAL.json"
     )
       .then(res => res.json())
       .then(json => {
