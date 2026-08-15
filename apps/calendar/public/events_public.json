@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-15T08:31:17.850Z",
+  "lastUpdate": "2026-08-15T08:37:09.438Z",
   "from": "2025-08-15",
   "to": "2027-08-15",
   "events": [
@@ -3727,25 +3727,6 @@
       ]
     },
     {
-      "id": "yar_20260720_tv_01",
-      "date": "2026-07-20",
-      "title": "キッズが見てる！もしもタレントじゃなかったら",
-      "category": "テレビ",
-      "place": "京都放送",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "終了",
-      "source": "公式",
-      "detail": "番組出演",
-      "management": "手動",
-      "sources": [
-        {
-          "source": "公式",
-          "url": ""
-        }
-      ]
-    },
-    {
       "id": 83,
       "date": "2026-07-20",
       "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
@@ -4275,10 +4256,6 @@
         {
           "source": "チケプラ",
           "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
-        },
-        {
-          "source": "Tixplus",
-          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
         }
       ]
     },
@@ -4302,10 +4279,6 @@
         {
           "source": "LivePocket",
           "url": "https://promoter.livepocket.jp/promoters/893/events/1081286/top"
-        },
-        {
-          "source": "Tixplus",
-          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
         }
       ]
     },
@@ -4404,6 +4377,25 @@
         },
         {
           "source": "ローチケ",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "yar_20260727_tv_01",
+      "date": "2026-08-09",
+      "title": "上沼・高田のクギズケ！",
+      "category": "テレビ",
+      "place": "読売テレビ・中京テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "番組出演",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
           "url": ""
         }
       ]
@@ -4599,10 +4591,6 @@
         {
           "source": "TIGET",
           "url": "https://livepocket.jp/e/92b-x"
-        },
-        {
-          "source": "LivePocket",
-          "url": ""
         }
       ]
     },
@@ -4621,10 +4609,6 @@
       "sources": [
         {
           "source": "公式",
-          "url": ""
-        },
-        {
-          "source": "公式HP",
           "url": ""
         }
       ]
@@ -4668,10 +4652,6 @@
         {
           "source": "公式",
           "url": ""
-        },
-        {
-          "source": "公式HP",
-          "url": ""
         }
       ]
     },
@@ -4694,10 +4674,6 @@
         },
         {
           "source": "公式",
-          "url": ""
-        },
-        {
-          "source": "公式HP",
           "url": ""
         }
       ]
@@ -4741,10 +4717,6 @@
         {
           "source": "公式",
           "url": ""
-        },
-        {
-          "source": "公式HP",
-          "url": ""
         }
       ]
     },
@@ -4764,10 +4736,29 @@
         {
           "source": "公式",
           "url": ""
+        }
+      ]
+    },
+    {
+      "id": "MANUAL1",
+      "date": "2026-08-21",
+      "title": "リニア主催「リニアが人生を賭けて6分ネタを磨くライブ～だってチヤホヤされたい～",
+      "category": "ライブ",
+      "place": "vatios",
+      "performers": "ヤーレンズ、トット",
+      "url": "https://eplus.jp/sf/detail/4462120002-P0030012P021001?P1=0175",
+      "status": "開催予定",
+      "source": "e+",
+      "detail": "開演：21:30～ (開場 21:15～)",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "e+",
+          "url": "https://eplus.jp/sf/detail/4462120002-P0030012P021001?P1=0175"
         },
         {
-          "source": "公式HP",
-          "url": ""
+          "source": "配信あり",
+          "url": "https://eplus.jp/sf/detail/4462120002-P0030012P021001?P1=1221"
         }
       ]
     },
@@ -4833,10 +4824,6 @@
         {
           "source": "公式",
           "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%AC%E3%83%B3%E3% ズ"
-        },
-        {
-          "source": "公式HP",
-          "url": ""
         }
       ]
     },
@@ -4855,10 +4842,6 @@
       "sources": [
         {
           "source": "公式",
-          "url": ""
-        },
-        {
-          "source": "公式HP",
           "url": ""
         }
       ]
@@ -4940,6 +4923,25 @@
       ]
     },
     {
+      "id": "MANUAL_1786780858169",
+      "date": "2026-08-30",
+      "title": "ヤーレンズトークライブ「ハッとしてトーク」",
+      "category": "ライブ",
+      "place": "新宿スパークル (東京都)",
+      "performers": "ヤーレンズ",
+      "url": "https://livepocket.jp/e/7z7fs",
+      "status": "開催予定",
+      "source": "TIGET",
+      "detail": "開演19:00 開場18:45",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "TIGET",
+          "url": "https://livepocket.jp/e/7z7fs"
+        }
+      ]
+    },
+    {
       "id": "yar_20260831_01",
       "date": "2026-08-31",
       "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
@@ -4955,10 +4957,6 @@
         {
           "source": "公式",
           "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%BA"
-        },
-        {
-          "source": "公式HP",
-          "url": ""
         }
       ]
     },
@@ -5020,14 +5018,25 @@
         {
           "source": "チケプラ",
           "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
-        },
+        }
+      ]
+    },
+    {
+      "id": "AI_20260811_300058",
+      "date": "2026-09-08",
+      "title": "ニッポンの社長のネタとコーナーライブ「広沢」",
+      "category": "ライブ",
+      "place": "日本青年館ホール (東京都)",
+      "performers": "ニッポンの社長、ヤーレンズ（ケイダッシュステージ）、ダンビラムーチョ、kento fukaya、ラブレターズ（ASH&Dコーポレーション）、他",
+      "url": "https://ticket.fany.lol/reception/63032/50658",
+      "status": "開催予定",
+      "source": "FANY",
+      "detail": "開場 18:45 / 開演 19:15",
+      "management": "手動",
+      "sources": [
         {
-          "source": "公式HP",
-          "url": ""
-        },
-        {
-          "source": "Tixplus",
-          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
+          "source": "FANY",
+          "url": "https://ticket.fany.lol/reception/63032/50658"
         }
       ]
     },
@@ -5185,25 +5194,25 @@
       ]
     },
     {
-      "id": "yar_20260923_02",
+      "id": "yar_20260923_04",
       "date": "2026-09-23",
       "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」 2部",
       "category": "ライブ",
       "place": "北ガス文化ホール 大ホール",
       "performers": "ヤーレンズ",
-      "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/",
+      "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%BA",
       "status": "販売中",
-      "source": "チケプラ",
-      "detail": "開場16:00／開演17:00／全席指定4,500円",
+      "source": "公式",
+      "detail": "開場16:00／開演17:00",
       "management": "手動",
       "sources": [
         {
-          "source": "チケプラ",
-          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
-        },
-        {
           "source": "公式",
           "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%BA"
+        },
+        {
+          "source": "チケプラ",
+          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
         }
       ]
     },
@@ -5303,14 +5312,6 @@
         {
           "source": "公式",
           "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%BA"
-        },
-        {
-          "source": "公式HP",
-          "url": ""
-        },
-        {
-          "source": "Tixplus",
-          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
         }
       ]
     },
@@ -5608,10 +5609,6 @@
         {
           "source": "公式",
           "url": "https://event.1242.com/events/yarlens_budokan/"
-        },
-        {
-          "source": "公式HP",
-          "url": ""
         }
       ]
     },
@@ -5897,566 +5894,6 @@
         {
           "source": "公式",
           "url": "https://www.allnightnippon.com/zero-sat/"
-        }
-      ]
-    },
-    {
-      "id": "AI_20260811_300058",
-      "date": "2026-09-08",
-      "title": "ニッポンの社長のネタとコーナーライブ「広沢」",
-      "category": "ライブ",
-      "place": "日本青年館ホール (東京都)",
-      "performers": "ニッポンの社長、ヤーレンズ（ケイダッシュステージ）、ダンビラムーチョ、kento fukaya、ラブレターズ（ASH&Dコーポレーション）、他",
-      "url": "https://ticket.fany.lol/reception/63032/50658",
-      "status": "開催予定",
-      "source": "FANY",
-      "detail": "開場 18:45 / 開演 19:15",
-      "management": "手動",
-      "sources": [
-        {
-          "source": "FANY",
-          "url": "https://ticket.fany.lol/reception/63032/50658"
-        }
-      ]
-    },
-    {
-      "id": "yar_20260727_tv_01",
-      "date": "2026-08-09",
-      "title": "上沼・高田のクギズケ！",
-      "category": "テレビ",
-      "place": "読売テレビ・中京テレビ",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "終了",
-      "source": "公式",
-      "detail": "番組出演",
-      "management": "手動",
-      "sources": [
-        {
-          "source": "公式",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "MANUAL_1786780858169",
-      "date": "2026-08-30",
-      "title": "ヤーレンズトークライブ「ハッとしてトーク」",
-      "category": "ライブ",
-      "place": "新宿スパークル (東京都)",
-      "performers": "ヤーレンズ",
-      "url": "https://livepocket.jp/e/7z7fs",
-      "status": "開催予定",
-      "source": "TIGET",
-      "detail": "開演19:00 開場18:45",
-      "management": "手動",
-      "sources": [
-        {
-          "source": "TIGET",
-          "url": "https://livepocket.jp/e/7z7fs"
-        },
-        {
-          "source": "LivePocket",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-08-17",
-      "title": "世界まる見え！テレビ特捜部 2時間SP",
-      "category": "テレビ",
-      "place": "日本テレビ",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "19:00～21:00",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-10-29",
-      "title": "真空レンズ",
-      "category": "テレビ",
-      "place": "テレビ東京",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "25:30～26:00",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-10-26",
-      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
-      "category": "ラジオ",
-      "place": "ABCラジオ",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "21:15～23:30",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-10-24",
-      "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」【1部】",
-      "category": "ライブ",
-      "place": "大阪・池田市民文化会館 アゼリアホール",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "開演 13:00",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        },
-        {
-          "source": "Tixplus",
-          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-10-24",
-      "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」【2部】",
-      "category": "ライブ",
-      "place": "大阪・池田市民文化会館 アゼリアホール",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "開演 17:00",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        },
-        {
-          "source": "Tixplus",
-          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-10-22",
-      "title": "真空レンズ",
-      "category": "テレビ",
-      "place": "テレビ東京",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "25:30～26:00",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-10-19",
-      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
-      "category": "ラジオ",
-      "place": "ABCラジオ",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "21:15～23:30",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-10-15",
-      "title": "真空レンズ",
-      "category": "テレビ",
-      "place": "テレビ東京",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "25:30～26:00",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-10-12",
-      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
-      "category": "ラジオ",
-      "place": "ABCラジオ",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "21:15～23:30",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-10-08",
-      "title": "真空レンズ",
-      "category": "テレビ",
-      "place": "テレビ東京",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "25:30～26:00",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-10-05",
-      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
-      "category": "ラジオ",
-      "place": "ABCラジオ",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "21:15～23:30",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-10-01",
-      "title": "真空レンズ",
-      "category": "テレビ",
-      "place": "テレビ東京",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "25:30～26:00",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-09-28",
-      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
-      "category": "ラジオ",
-      "place": "ABCラジオ",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "21:15～23:30",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-09-24",
-      "title": "真空レンズ",
-      "category": "テレビ",
-      "place": "テレビ東京",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "25:30～26:00",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-09-23",
-      "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」【1部】",
-      "category": "ライブ",
-      "place": "北海道・北ガス文化ホール 大ホール",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "開演 13:00",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        },
-        {
-          "source": "Tixplus",
-          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-09-23",
-      "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」【2部】",
-      "category": "ライブ",
-      "place": "北海道・北ガス文化ホール 大ホール",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "開演 17:00",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        },
-        {
-          "source": "Tixplus",
-          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-09-21",
-      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
-      "category": "ラジオ",
-      "place": "ABCラジオ",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "21:15～23:30",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-09-17",
-      "title": "真空レンズ",
-      "category": "テレビ",
-      "place": "テレビ東京",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "25:30～26:00",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-09-14",
-      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
-      "category": "ラジオ",
-      "place": "ABCラジオ",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "21:15～23:30",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-09-10",
-      "title": "真空レンズ",
-      "category": "テレビ",
-      "place": "テレビ東京",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "25:30～26:00",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-09-07",
-      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
-      "category": "ラジオ",
-      "place": "ABCラジオ",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "21:15～23:30",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-09-03",
-      "title": "真空レンズ",
-      "category": "テレビ",
-      "place": "テレビ東京",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "25:30～26:00",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-08-23",
-      "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」【1部】",
-      "category": "ライブ",
-      "place": "福岡国際会議場 メインホール",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "開演 13:00",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        },
-        {
-          "source": "Tixplus",
-          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-08-23",
-      "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」【2部】",
-      "category": "ライブ",
-      "place": "福岡国際会議場 メインホール",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "開演 17:00",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        },
-        {
-          "source": "Tixplus",
-          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-09-19",
-      "title": "【一部】ケイダッシュステージお笑い珍道中　京都編",
-      "category": "ライブ",
-      "place": "京都市呉竹文化センター（京都府）",
-      "performers": "ヤーレンズ / クロコップ / サツマカワRPG / トム・ブラウン",
-      "url": "",
-      "status": "開催予定",
-      "source": "LivePocket",
-      "detail": "",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "LivePocket",
-          "url": ""
         }
       ]
     }
