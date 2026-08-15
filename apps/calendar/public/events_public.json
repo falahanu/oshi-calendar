@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-08-14T15:00:13.674Z",
-  "from": "2025-08-14",
-  "to": "2027-08-14",
+  "lastUpdate": "2026-08-15T08:19:47.935Z",
+  "from": "2025-08-15",
+  "to": "2027-08-15",
   "events": [
     {
       "id": "yar_20250816_01",
@@ -4225,7 +4225,7 @@
       "place": "札幌テレビ放送",
       "performers": "ヤーレンズ",
       "url": "",
-      "status": "予定",
+      "status": "終了",
       "source": "公式",
       "detail": "15:48～19:00",
       "management": "手動",
@@ -4244,7 +4244,7 @@
       "place": "日本テレビ",
       "performers": "ヤーレンズ",
       "url": "",
-      "status": "予定",
+      "status": "終了",
       "source": "公式",
       "detail": "21:00～21:54",
       "management": "手動",
@@ -4309,7 +4309,7 @@
       "place": "日本テレビ",
       "performers": "ヤーレンズ",
       "url": "",
-      "status": "予定",
+      "status": "終了",
       "source": "公式",
       "detail": "11:55～13:55",
       "management": "手動",
@@ -4347,7 +4347,7 @@
       "place": "Podcast",
       "performers": "ヤーレンズ",
       "url": "",
-      "status": "予定",
+      "status": "終了",
       "source": "公式",
       "detail": "配信",
       "management": "手動",
@@ -4366,7 +4366,7 @@
       "place": "日本テレビ",
       "performers": "ヤーレンズ",
       "url": "",
-      "status": "予定",
+      "status": "終了",
       "source": "公式",
       "detail": "21:00～21:54",
       "management": "手動",
@@ -4408,7 +4408,7 @@
       "place": "札幌テレビ放送",
       "performers": "ヤーレンズ",
       "url": "",
-      "status": "予定",
+      "status": "終了",
       "source": "公式",
       "detail": "23:25～23:55",
       "management": "手動",
@@ -4560,7 +4560,7 @@
       "place": "Podcast",
       "performers": "ヤーレンズ",
       "url": "https://gekisaka.podcast.sonicbowl.cloud/",
-      "status": "予定",
+      "status": "終了",
       "source": "公式",
       "detail": "配信",
       "management": "手動",
@@ -5867,6 +5867,48 @@
         {
           "source": "公式",
           "url": ""
+        }
+      ]
+    },
+    {
+      "id": "MANUAL_1786780858169",
+      "date": "2026-08-30",
+      "title": "ヤーレンズトークライブ「ハッとしてトーク」",
+      "category": "ライブ",
+      "place": "新宿スパークル (東京都)",
+      "performers": "ヤーレンズ",
+      "url": "https://livepocket.jp/e/7z7fs",
+      "status": "開催予定",
+      "source": "TIGET",
+      "detail": "開演19:00 開場18:45",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "TIGET",
+          "url": "https://livepocket.jp/e/7z7fs"
+        }
+      ]
+    },
+    {
+      "id": "MANUAL1",
+      "date": "2026-08-21",
+      "title": "リニア主催「リニアが人生を賭けて6分ネタを磨くライブ～だってチヤホヤされたい～",
+      "category": "ライブ",
+      "place": "vatios （東京都）",
+      "performers": "リニア、ヤーレンズ、トット",
+      "url": "",
+      "status": "開催予定",
+      "source": "e+",
+      "detail": "開演：21:30～ (開場 21:15～)",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "e+",
+          "url": ""
+        },
+        {
+          "source": "配信あり",
+          "url": "https://eplus.jp/sf/detail/4462120002-P0030012P021001?P1=1221"
         }
       ]
     }
