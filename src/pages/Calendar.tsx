@@ -370,16 +370,46 @@ export default function CalendarPage() {
         <button
           onClick={async () => {
 
-            await fetch(
-              "http://localhost:3001/createPublicJson",
-              {
-                method: "POST"
-              }
-            );
+            try {
 
-            alert(
-              "公開データを更新しました"
-            );
+              const response = await fetch(
+                "http://localhost:3001/createPublicJson",
+                {
+                  method: "POST"
+                }
+              );
+
+              const result: {
+                success?: boolean;
+                message?: string;
+              } | null = await response.json().catch((error) => {
+                console.error(
+                  "公開データ更新のレスポンス解析に失敗しました:",
+                  error
+                );
+                return null;
+              });
+
+              if (!response.ok) {
+                console.error(
+                  "公開データの更新に失敗しました:",
+                  result?.message ?? result
+                );
+                alert("公開データの更新に失敗しました");
+                return;
+              }
+
+              alert("公開データを更新しました");
+
+            } catch (error) {
+
+              console.error(
+                "公開データの更新リクエストに失敗しました:",
+                error
+              );
+              alert("公開データの更新に失敗しました");
+
+            }
 
           }}
           style={{

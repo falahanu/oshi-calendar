@@ -1,24 +1,45 @@
-console.log("実行フォルダ:", process.cwd());
-console.log("このファイル:", import.meta.url);
-console.log("保存先:", "./public/events_public.json");
-import path from "path";
-
-console.log(
-  path.resolve("./public/events_public.json")
-);
-
+import "dotenv/config";
 import axios from "axios";
 import fs from "fs";
+import path from "path";
 
+import { groupEvents } from "../shared/groupEvents.ts";
+
+// ========================================
+// 設定
+// ========================================
+
+const PUBLIC_JSON_PATH = "./apps/calendar/public/events_public.json";
+
+const owner = "falahanu";
+const repo = "oshi-calendar";
+const filePath = "apps/calendar/public/events_public.json";
+
+// ========================================
+// 実行情報
+// ========================================
+
+console.log("実行フォルダ:", process.cwd());
+console.log("このファイル:", import.meta.url);
+console.log("保存先:", path.resolve(PUBLIC_JSON_PATH));
+
+// ========================================
 // Spreadsheet(GAS)から全件取得
+// ========================================
+
 const response = await axios.get(
   "https://script.google.com/macros/s/AKfycbw8N96LIXRrtqoWi0FgDYD4HDAjZluEviiq3dMx5m9npOJ3CnvhxgwUPswddlCt_Kq5Sw/exec"
 );
 
-import { groupEvents } from "../shared/groupEvents.ts";
 const events = response.data;
 
-console.log(JSON.stringify(events.slice(0, 3), null, 2));
+console.log(
+  JSON.stringify(events.slice(0, 3), null, 2)
+);
+
+// ========================================
+// 公開対象期間を設定
+// ========================================
 
 const today = new Date();
 
@@ -28,57 +49,70 @@ from.setDate(from.getDate() - 365);
 const to = new Date(today);
 to.setDate(to.getDate() + 365);
 
-// 前後365日だけ抽出
-const filteredEvents = events.filter(event => {
+// ========================================
+// 前後365日のイベントだけ抽出
+// ========================================
+
+const filteredEvents = events.filter((event) => {
   const eventDate = new Date(event.date);
+
   return eventDate >= from && eventDate <= to;
 });
 
+// ========================================
 // 管理者カレンダーと同じ統合処理を使用
+// ========================================
+
 const publicEvents = groupEvents(filteredEvents);
 
-console.log("公開用統合後:", publicEvents.length + "件");
+console.log(
+  "公開用統合後:",
+  publicEvents.length + "件"
+);
 
-// 公開用JSON
+// ========================================
+// 公開用JSONを作成
+// ========================================
+
 const output = {
-
   lastUpdate: new Date().toISOString(),
-
   from: from.toISOString().substring(0, 10),
-
   to: to.toISOString().substring(0, 10),
-
   events: publicEvents
-
 };
 
+// ========================================
+// ローカルの公開用JSONを保存
+// ========================================
 
 fs.writeFileSync(
-  "./apps/calendar/public/events_public.json",
-
+  PUBLIC_JSON_PATH,
   JSON.stringify(output, null, 2),
-
   "utf8"
-
 );
 
 console.log("公開JSON作成完了");
-console.log(publicEvents.length + "件");
+console.log("保存先:", path.resolve(PUBLIC_JSON_PATH));
+console.log("イベント件数:", publicEvents.length + "件");
 
-import "dotenv/config";
+// ========================================
+// GitHub設定
+// ========================================
 
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 
 if (!GITHUB_TOKEN) {
-  throw new Error("GITHUB_TOKENが設定されていません。.envを確認してください。");
+  throw new Error(
+    "GITHUB_TOKENが設定されていません。.envを確認してください。"
+  );
 }
 
-const owner = "falahanu";
-const repo = "oshi-calendar";
-const filePath = "public/events_public.json";
+// ========================================
+// GitHubへ公開用JSONをアップロード
+// ========================================
 
 const fileContent = fs.readFileSync(
-  "./apps/calendar/public/events_public.json"
+  PUBLIC_JSON_PATH
 );
 
 const contentBase64 = fileContent.toString("base64");
@@ -112,4 +146,10 @@ await axios.put(
   }
 );
 
-console.log("GitHubのevents_public.jsonを更新しました");
+console.log(
+  "GitHubのevents_public.jsonを更新しました"
+);
+
+console.log(
+  `GitHub保存先: ${filePath}`
+);
