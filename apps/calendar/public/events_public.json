@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-15T08:37:09.438Z",
+  "lastUpdate": "2026-08-15T08:53:56.034Z",
   "from": "2025-08-15",
   "to": "2027-08-15",
   "events": [
@@ -5894,6 +5894,25 @@
         {
           "source": "公式",
           "url": "https://www.allnightnippon.com/zero-sat/"
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "date": "2026-08-17",
+      "title": "世界まる見え！テレビ特捜部 2時間SP",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "19:00～21:00",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
         }
       ]
     }
