@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-15T08:31:13.309Z",
+  "lastUpdate": "2026-08-15T08:31:17.850Z",
   "from": "2025-08-15",
   "to": "2027-08-15",
   "events": [
@@ -5962,29 +5962,6 @@
       ]
     },
     {
-      "id": "MANUAL1",
-      "date": "2026-08-21",
-      "title": "リニア主催「リニアが人生を賭けて6分ネタを磨くライブ～だってチヤホヤされたい～",
-      "category": "ライブ",
-      "place": "vatios （東京都）",
-      "performers": "リニア、ヤーレンズ、トット",
-      "url": "",
-      "status": "開催予定",
-      "source": "e+",
-      "detail": "開演：21:30～ (開場 21:15～)",
-      "management": "手動",
-      "sources": [
-        {
-          "source": "e+",
-          "url": ""
-        },
-        {
-          "source": "配信あり",
-          "url": "https://eplus.jp/sf/detail/4462120002-P0030012P021001?P1=1221"
-        }
-      ]
-    },
-    {
       "id": "",
       "date": "2026-08-17",
       "title": "世界まる見え！テレビ特捜部 2時間SP",
@@ -6057,6 +6034,10 @@
         {
           "source": "公式HP",
           "url": ""
+        },
+        {
+          "source": "Tixplus",
+          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
         }
       ]
     },
@@ -6076,6 +6057,10 @@
         {
           "source": "公式HP",
           "url": ""
+        },
+        {
+          "source": "Tixplus",
+          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
         }
       ]
     },
