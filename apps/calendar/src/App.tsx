@@ -115,7 +115,7 @@ function App() {
             fontFamily: "monospace",
           }}
         >
-          👣 アクセス数：{visitCount}
+          👣 {visitCount} HIT
         </div>
       )}
 
