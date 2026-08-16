@@ -1,15 +1,11 @@
 import "dotenv/config";
 import axios from "axios";
-import fs from "fs";
-import path from "path";
 
 import { groupEvents } from "../shared/groupEvents.ts";
 
 // ========================================
 // 設定
 // ========================================
-
-const PUBLIC_JSON_PATH = "./apps/calendar/public/events_public.json";
 
 const owner = "falahanu";
 const repo = "oshi-calendar";
@@ -21,7 +17,7 @@ const filePath = "apps/calendar/public/events_public.json";
 
 console.log("実行フォルダ:", process.cwd());
 console.log("このファイル:", import.meta.url);
-console.log("保存先:", path.resolve(PUBLIC_JSON_PATH));
+console.log("GitHub保存先:", filePath);
 
 // ========================================
 // Spreadsheet(GAS)から全件取得
@@ -81,18 +77,7 @@ const output = {
   events: publicEvents
 };
 
-// ========================================
-// ローカルの公開用JSONを保存
-// ========================================
-
-fs.writeFileSync(
-  PUBLIC_JSON_PATH,
-  JSON.stringify(output, null, 2),
-  "utf8"
-);
-
 console.log("公開JSON作成完了");
-console.log("保存先:", path.resolve(PUBLIC_JSON_PATH));
 console.log("イベント件数:", publicEvents.length + "件");
 
 // ========================================
@@ -108,16 +93,21 @@ if (!GITHUB_TOKEN) {
 }
 
 // ========================================
-// GitHubへ公開用JSONをアップロード
+// 公開用JSONを直接Base64化
+// ※ローカルファイルには保存しない
 // ========================================
 
-const fileContent = fs.readFileSync(
-  PUBLIC_JSON_PATH
+const fileContent = Buffer.from(
+  JSON.stringify(output, null, 2),
+  "utf8"
 );
 
 const contentBase64 = fileContent.toString("base64");
 
+// ========================================
 // 現在のGitHub上のファイル情報を取得
+// ========================================
+
 const fileResponse = await axios.get(
   `https://api.github.com/repos/${owner}/${repo}/contents/${filePath}`,
   {
@@ -130,7 +120,10 @@ const fileResponse = await axios.get(
 
 const sha = fileResponse.data.sha;
 
+// ========================================
 // GitHub上のファイルを更新
+// ========================================
+
 await axios.put(
   `https://api.github.com/repos/${owner}/${repo}/contents/${filePath}`,
   {
