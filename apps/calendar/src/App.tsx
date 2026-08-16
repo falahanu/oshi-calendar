@@ -2,7 +2,7 @@ import {
   getCategoryColor,
   getCategoryLightColor,
 } from "../../../shared/categoryColors";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { oshi } from "./config/oshi";
 
 import FullCalendar from "@fullcalendar/react";
@@ -27,6 +27,7 @@ function App() {
   );
   const [categoryFilter, setCategoryFilter] = useState<string[]>([]);
   const [visitCount, setVisitCount] = useState<string>("");
+  const listRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     fetch(`./events_public.json?t=${Date.now()}`)
@@ -56,13 +57,13 @@ function App() {
 
   const lastUpdate = data?.lastUpdate
     ? new Date(data.lastUpdate).toLocaleString("ja-JP", {
-        timeZone: "Asia/Tokyo",
-        year: "numeric",
-        month: "2-digit",
-        day: "2-digit",
-        hour: "2-digit",
-        minute: "2-digit",
-      })
+      timeZone: "Asia/Tokyo",
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+    })
     : "";
 
   const groupedEvents = data?.events ?? [];
@@ -71,8 +72,8 @@ function App() {
     categoryFilter.length === 0
       ? groupedEvents
       : groupedEvents.filter((event: any) =>
-          categoryFilter.includes(event.category)
-        );
+        categoryFilter.includes(event.category)
+      );
 
   const selectedEvents = filteredEvents.filter(
     (event: any) => event.date === selectedDate
@@ -246,6 +247,12 @@ function App() {
 
           eventClick={(info) => {
             setSelectedDate(info.event.startStr);
+
+            setTimeout(() => {
+              listRef.current?.scrollIntoView({
+                behavior: "smooth",
+              });
+            }, 100);
           }}
 
           dayCellContent={(arg) => {
@@ -284,6 +291,7 @@ function App() {
         />
 
         <div
+          ref={listRef}
           style={{
             marginTop: 30,
             textAlign: "left",
