@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-16T04:20:13.991Z",
+  "lastUpdate": "2026-08-16T09:27:17.814Z",
   "from": "2025-08-16",
   "to": "2027-08-16",
   "events": [
@@ -5879,12 +5879,12 @@
       "performers": "ヤーレンズ",
       "url": "https://livepocket.jp/e/tigerwolf11?utm_campaign=1103205&utm_content=evt&utm_medium=social&utm_source=X",
       "status": "開催予定",
-      "source": "TIGET",
+      "source": "LivePocket",
       "detail": "開演19:00 開場18:30 終演21:00",
       "management": "手動",
       "sources": [
         {
-          "source": "TIGET",
+          "source": "LivePocket",
           "url": "https://livepocket.jp/e/tigerwolf11?utm_campaign=1103205&utm_content=evt&utm_medium=social&utm_source=X"
         }
       ]
@@ -5898,12 +5898,12 @@
       "performers": "ヤーレンズ",
       "url": "https://livepocket.jp/e/tigerwolf11?utm_campaign=1103205&utm_content=evt&utm_medium=social&utm_source=X",
       "status": "抽選販売受付",
-      "source": "TIGET",
+      "source": "LivePocket",
       "detail": "2026年8月15日(土) 19:00〜2026年8月29日(土) 23:59",
       "management": "手動",
       "sources": [
         {
-          "source": "TIGET",
+          "source": "LivePocket",
           "url": "https://livepocket.jp/e/tigerwolf11?utm_campaign=1103205&utm_content=evt&utm_medium=social&utm_source=X"
         }
       ]
