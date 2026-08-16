@@ -25,6 +25,7 @@ function App() {
   const [selectedDate, setSelectedDate] = useState(
     formatDate(new Date())
   );
+  const [selectedEventId, setSelectedEventId] = useState("");
   const [categoryFilter, setCategoryFilter] = useState<string[]>([]);
   const [visitCount, setVisitCount] = useState<string>("");
   const listRef = useRef<HTMLDivElement | null>(null);
@@ -247,6 +248,7 @@ function App() {
 
           eventClick={(info) => {
             setSelectedDate(info.event.startStr);
+            setSelectedEventId(info.event.id);
 
             setTimeout(() => {
               listRef.current?.scrollIntoView({
@@ -314,9 +316,17 @@ function App() {
                 `${event.date}-${event.title}`
               }
               style={{
-                border: `1px solid ${getCategoryColor(
-                  event.category
-                )}`,
+                border:
+                  (
+                    event.id ||
+                    `${event.date}-${event.title}`
+                  ) === selectedEventId
+                    ? `3px solid ${getCategoryColor(
+                      event.category
+                    )}`
+                    : `1px solid ${getCategoryColor(
+                      event.category
+                    )}`,
                 borderRadius: 14,
                 padding: 18,
                 marginBottom: 16,
