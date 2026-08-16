@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-16T12:40:51.105Z",
+  "lastUpdate": "2026-08-16T14:47:47.169Z",
   "from": "2025-08-16",
   "to": "2027-08-16",
   "events": [
@@ -5085,15 +5085,15 @@
       "category": "ライブ",
       "place": "京都市呉竹文化センター",
       "performers": "トム・ブラウン、クロコップ、ヤーレンズ、サツマカワRPG",
-      "url": "https://www.kdash.jp/profile/archives/4",
-      "status": "予定",
-      "source": "公式",
+      "url": "https://livepocket.jp/e/likqe",
+      "status": "開催予定",
+      "source": "Livepocket",
       "detail": "12:30開場／13:00開演／14:30終演予定",
       "management": "手動",
       "sources": [
         {
-          "source": "公式",
-          "url": "https://www.kdash.jp/profile/archives/4"
+          "source": "Livepocket",
+          "url": "https://livepocket.jp/e/likqe"
         },
         {
           "source": "公式",
@@ -5108,15 +5108,15 @@
       "category": "ライブ",
       "place": "京都市呉竹文化センター",
       "performers": "トム・ブラウン、クロコップ、ヤーレンズ、サツマカワRPG",
-      "url": "https://www.kdash.jp/profile/archives/4",
-      "status": "予定",
-      "source": "公式",
+      "url": "https://livepocket.jp/e/a_rev",
+      "status": "開催予定",
+      "source": "Livepocket",
       "detail": "16:00開場／16:30開演／18:00終演予定",
       "management": "手動",
       "sources": [
         {
-          "source": "公式",
-          "url": "https://www.kdash.jp/profile/archives/4"
+          "source": "Livepocket",
+          "url": "https://livepocket.jp/e/a_rev"
         },
         {
           "source": "公式",
