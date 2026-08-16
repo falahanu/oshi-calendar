@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-16T14:47:47.169Z",
+  "lastUpdate": "2026-08-16T15:39:59.945Z",
   "from": "2025-08-16",
   "to": "2027-08-16",
   "events": [
@@ -5943,6 +5943,25 @@
         {
           "source": "TIGET",
           "url": "https://livepocket.jp/e/7z7fs"
+        }
+      ]
+    },
+    {
+      "id": 276,
+      "date": "2026-08-23",
+      "title": "道産人間オズブラウン",
+      "category": "テレビ",
+      "place": "札幌テレビ放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "Tverあり",
+      "detail": "23:25～23:55",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "Tverあり",
+          "url": ""
         }
       ]
     }
