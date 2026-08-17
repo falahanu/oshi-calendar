@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-17T00:16:54.120Z",
+  "lastUpdate": "2026-08-17T15:16:04.439Z",
   "from": "2025-08-17",
   "to": "2027-08-17",
   "events": [
@@ -4615,17 +4615,13 @@
       "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
       "category": "ラジオ",
       "place": "ABCラジオ",
-      "performers": "ヤーレンズ",
-      "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%AC%E3%83%B3%E3% ズ",
+      "performers": "ヤーレンズ、ゲスト：カナメストーン",
+      "url": "",
       "status": "予定",
       "source": "公式",
       "detail": "21:15～23:30",
       "management": "手動",
       "sources": [
-        {
-          "source": "公式",
-          "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%AC%E3%83%B3%E3% ズ"
-        },
         {
           "source": "公式",
           "url": ""
@@ -4768,7 +4764,7 @@
       "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
       "category": "ラジオ",
       "place": "ABCラジオ",
-      "performers": "ヤーレンズ",
+      "performers": "ヤーレンズ、ゲスト：ジグザグジギー",
       "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%AC%E3%83%B3%E3% ズ",
       "status": "予定",
       "source": "公式",
@@ -5031,8 +5027,8 @@
           "url": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2669944"
         },
         {
-          "source": "チケットぴあ",
-          "url": ""
+          "source": "配信あり",
+          "url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2631393&rlsCd=001"
         }
       ]
     },
@@ -5054,8 +5050,8 @@
           "url": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2669944"
         },
         {
-          "source": "チケットぴあ",
-          "url": ""
+          "source": "配信あり",
+          "url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2631393&rlsCd=001"
         }
       ]
     },
