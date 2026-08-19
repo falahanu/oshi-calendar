@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-08-16T16:18:51.215Z",
-  "from": "2025-08-16",
-  "to": "2027-08-16",
+  "lastUpdate": "2026-08-17T15:16:04.439Z",
+  "from": "2025-08-17",
+  "to": "2027-08-17",
   "events": [
     {
       "id": 5,
@@ -4615,17 +4615,13 @@
       "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
       "category": "ラジオ",
       "place": "ABCラジオ",
-      "performers": "ヤーレンズ",
-      "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%AC%E3%83%B3%E3% ズ",
+      "performers": "ヤーレンズ、ゲスト：カナメストーン",
+      "url": "",
       "status": "予定",
       "source": "公式",
       "detail": "21:15～23:30",
       "management": "手動",
       "sources": [
-        {
-          "source": "公式",
-          "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%AC%E3%83%B3%E3% ズ"
-        },
         {
           "source": "公式",
           "url": ""
@@ -4768,7 +4764,7 @@
       "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
       "category": "ラジオ",
       "place": "ABCラジオ",
-      "performers": "ヤーレンズ",
+      "performers": "ヤーレンズ、ゲスト：ジグザグジギー",
       "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%AC%E3%83%B3%E3% ズ",
       "status": "予定",
       "source": "公式",
@@ -5031,8 +5027,8 @@
           "url": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2669944"
         },
         {
-          "source": "チケットぴあ",
-          "url": ""
+          "source": "配信あり",
+          "url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2631393&rlsCd=001"
         }
       ]
     },
@@ -5054,8 +5050,8 @@
           "url": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2669944"
         },
         {
-          "source": "チケットぴあ",
-          "url": ""
+          "source": "配信あり",
+          "url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2631393&rlsCd=001"
         }
       ]
     },
@@ -5947,7 +5943,7 @@
       ]
     },
     {
-      "id": 276,
+      "id": 362,
       "date": "2026-08-23",
       "title": "道産人間オズブラウン",
       "category": "テレビ",
@@ -5962,6 +5958,63 @@
         {
           "source": "Tverあり",
           "url": ""
+        }
+      ]
+    },
+    {
+      "id": 363,
+      "date": "2026-08-20",
+      "title": "やすとものいたって真剣です 未公開トークSP",
+      "category": "テレビ",
+      "place": "ABC朝日放送",
+      "performers": "ヤーレンズ他",
+      "url": "",
+      "status": "予定",
+      "source": "Tverあり",
+      "detail": "23:47 〜 24:47",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "Tverあり",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 364,
+      "date": "2026-10-01",
+      "title": "Owarai-night Sensation 『DJ KOO presents ちゃんKOOお笑いLIVE!! vol.8 in OSAKA』",
+      "category": "ライブ",
+      "place": "東京建物　Ｂｒｉｌｌｉａ　ＨＡＬＬ　箕面　大ホール (大阪府)",
+      "performers": "DJ KOO、ミルクボーイ、ヤーレンズ、真空ジェシカ",
+      "url": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2670280",
+      "status": "予定",
+      "source": "ぴあ",
+      "detail": "",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "ぴあ",
+          "url": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2670280"
+        }
+      ]
+    },
+    {
+      "id": 365,
+      "date": "2026-08-16",
+      "title": "Owarai-night Sensation 『DJ KOO presents ちゃんKOOお笑いLIVE!! vol.8 in OSAKA』",
+      "category": "チケット",
+      "place": "東京建物　Ｂｒｉｌｌｉａ　ＨＡＬＬ　箕面　大ホール (大阪府)",
+      "performers": "DJ KOO、ミルクボーイ、ヤーレンズ、真空ジェシカ",
+      "url": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=23862",
+      "status": "先行抽選抽選受付中",
+      "source": "ぴあ",
+      "detail": "2026/8/16(日) 13:00～026/8/30(日) 23:59",
+      "management": "手動",
+      "sources": [
+        {
+          "source": "ぴあ",
+          "url": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=23862"
         }
       ]
     }
