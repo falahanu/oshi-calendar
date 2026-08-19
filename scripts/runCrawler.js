@@ -1,3 +1,5 @@
+import path from "path";
+import { fileURLToPath } from "url";
 import { execSync } from "child_process";
 import axios from "axios";
 
@@ -10,7 +12,7 @@ import { getEplusEvents } from "./crawler/eplus.js";
 
 
 // ========================================
-// ① 情報収集
+// スクレイピング開始
 // ========================================
 
 console.log("===== 情報収集開始 =====");
@@ -26,12 +28,14 @@ const livePocketEvents = await getLivePocketEvents();
 const tixplusEvents = await getTixplusEvents(
     "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
 );
+
 const eplusEvents = await getEplusEvents(
     "https://eplus.jp/sf/word/0000075407"
 );
 
+
 // ========================================
-// ② 全情報をまとめる
+// 全情報をまとめる
 // ========================================
 
 const allEvents = [
@@ -45,13 +49,14 @@ const allEvents = [
     ...livePocketEvents,
 
     ...tixplusEvents,
-    
+
     ...eplusEvents
+
 ];
 
 
 // ========================================
-// ③ 重複除去はしない
+// 重複削除はしない
 // ========================================
 //
 // 同じイベントが複数の情報源に存在する場合も、
@@ -63,7 +68,7 @@ const uniqueEvents = allEvents;
 
 
 // ========================================
-// ④ 収集結果を確認
+// 収集結果を確認
 // ========================================
 
 console.log(
@@ -74,10 +79,10 @@ console.table(uniqueEvents);
 
 
 // ========================================
-// ⑤ Googleスプレッドシートへ送信
+// Googleスプレッドシートへ送信
 // ========================================
 
-console.log("===== Googleスプレッドシートへ送信開始 =====");
+console.log("===== Googleスプレッドシートへの送信開始 =====");
 
 const response = await axios.post(
 
@@ -99,12 +104,20 @@ console.log(response.data);
 
 
 // ========================================
-// ⑥ 公開用JSONを作成
+// 公開用JSONを作成
 // ========================================
 
 console.log("===== 公開JSON作成開始 =====");
 
-execSync("node scripts/createPublicJson.js", {
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const createPublicJsonPath = path.join(
+    __dirname,
+    "createPublicJson.js"
+);
+
+execSync(`node "${createPublicJsonPath}"`, {
     stdio: "inherit"
 });
 

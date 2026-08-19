@@ -1,5 +1,3 @@
-import React from "react";
-
 type ManualCollectionProps = {
   onNavigate: (page: string) => void;
 };
@@ -14,11 +12,11 @@ const searchSites = [
     url: "https://ticket.fany.lol/",
   },
   {
-    name: "Tixplus（チケプラ）",
+    name: "Tixplus・チケプラ",
     url: "https://tixplus.jp/",
   },
   {
-    name: "LIVEPICKET",
+    name: "LIVEPOCKET",
     url: "https://t.livepocket.jp/",
   },
   {
@@ -35,7 +33,7 @@ const spreadsheetUrl =
   "https://docs.google.com/spreadsheets/d/1fwHIox9YnZ1_5jyXONUoBoUYV4DfG5BCsvVpOcxmWE8/edit";
 
 export default function ManualCollection({
-  onNavigate,
+  onNavigate: _onNavigate,
 }: ManualCollectionProps) {
   return (
     <>
@@ -46,7 +44,8 @@ export default function ManualCollection({
           marginBottom: 20,
         }}
       >
-        🔎 手動収集 </h2>
+        🔎 手動情報収集
+      </h2>
 
       <div
         style={{
@@ -63,7 +62,7 @@ export default function ManualCollection({
             marginBottom: 8,
           }}
         >
-          情報源
+          情報収集先
         </div>
 
         <select
@@ -110,12 +109,6 @@ export default function ManualCollection({
                 return;
               }
 
-              if (site.name === "ZAIKO") {
-                event.preventDefault();
-                window.open(site.url, "_blank");
-                return;
-              }
-
               event.preventDefault();
               window.open(site.url, "_blank");
             }}
@@ -131,7 +124,7 @@ export default function ManualCollection({
               textDecoration: "none",
             }}
           >
-            🌐 対象サイトを開く
+            🔗 検索サイトを開く
           </a>
 
           <button
@@ -156,6 +149,5 @@ export default function ManualCollection({
         </div>
       </div>
     </>
-
   );
 }

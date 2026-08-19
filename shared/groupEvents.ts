@@ -4,88 +4,110 @@ export function groupEvents(events: any[]) {
 
   for (const event of events) {
 
-    const key =
-      `${event.date}_${event.title}`;
-
-
     // ========================================
-    // ① 初めて出てきたイベント
+    // 配信イベント
     // ========================================
 
-    if (!grouped[key]) {
+    if (event.category === "配信") {
 
-      // 配信が最初に来ても、
-      // すぐにはグループ本体にしない
-      if (event.category === "配信") {
-        grouped[key] = {
+      // 配信は必ず「ライブ」に紐付ける
+      const liveKey =
+        `${event.date}_${event.title}_ライブ`;
+
+      // ライブがまだ来ていない場合は
+      // 配信だけの仮グループを作る
+      if (!grouped[liveKey]) {
+
+        grouped[liveKey] = {
           ...event,
+
           sources: [
             {
               source: "配信あり",
               url: event.url
             }
           ],
+
           _streamingOnly: true
         };
 
       } else {
 
-        grouped[key] = {
-          ...event,
+        const existing = grouped[liveKey];
 
-          sources: event.sources
-            ? [...event.sources]
-            : [
-                {
-                  source: event.source,
-                  url: event.url
-                }
-              ]
-        };
+        const alreadyExists =
+          existing.sources?.some(
+            (s: any) =>
+              s.source === "配信あり" &&
+              s.url === event.url
+          );
+
+        if (!alreadyExists) {
+
+          existing.sources.push({
+            source: "配信あり",
+            url: event.url
+          });
+
+        }
 
       }
 
       continue;
     }
 
+
     // ========================================
-    // ② 既に同じイベントがある場合
+    // 通常イベント
+    // ========================================
+
+    // 日付・タイトル・カテゴリが同じものだけを
+    // 同じイベントとしてまとめる
+    const key =
+      `${event.date}_${event.title}_${event.category}`;
+
+
+    // ========================================
+    // ① 初めて出てきた通常イベント
+    // ========================================
+
+    if (!grouped[key]) {
+
+      grouped[key] = {
+        ...event,
+
+        sources: event.sources
+          ? [...event.sources]
+          : [
+              {
+                source: event.source,
+                url: event.url
+              }
+            ]
+      };
+
+      continue;
+    }
+
+
+    // ========================================
+    // ② 既に同じ通常イベントがある場合
     // ========================================
 
     const existing = grouped[key];
 
-    // ----------------------------------------
-    // 配信イベントの場合
-    // ----------------------------------------
-
-    if (event.category === "配信") {
-
-      const alreadyExists =
-        existing.sources?.some(
-          (s: any) =>
-            s.source === "配信あり" &&
-            s.url === event.url
-        );
-
-      if (!alreadyExists) {
-
-        existing.sources.push({
-          source: "配信あり",
-          url: event.url
-        });
-
-      }
-
-      continue;
-    }
 
     // ----------------------------------------
-    // 通常イベントの場合
+    // ライブ本体が来た場合
+    // ----------------------------------------
+    // 配信が先に来ていた場合は、
+    // 仮グループに保存されている配信情報を引き継ぐ
     // ----------------------------------------
 
-    // 最初に配信だけが来ていた場合、
-    // 今来た通常イベントをグループ本体にする
-    if (existing._streamingOnly) {
+    if (
+      event.category === "ライブ" &&
+      existing._streamingOnly
+    ) {
 
       const streamingSources =
         existing.sources ?? [];
@@ -106,6 +128,7 @@ export function groupEvents(events: any[]) {
 
       continue;
     }
+
 
     // ----------------------------------------
     // 通常イベント同士の場合
@@ -129,6 +152,7 @@ export function groupEvents(events: any[]) {
 
   }
 
+
   // ========================================
   // ③ 配信だけのイベントを除外
   // ========================================
@@ -136,7 +160,8 @@ export function groupEvents(events: any[]) {
   return Object.values(grouped)
     .filter(
       (event: any) =>
-        event.category !== "配信"
+        event.category !== "配信" &&
+        !event._streamingOnly
     )
     .map((event: any) => {
 
@@ -147,4 +172,3 @@ export function groupEvents(events: any[]) {
     });
 
 }
-
