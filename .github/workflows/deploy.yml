@@ -26,8 +26,6 @@ jobs:
           node-version: 22
 
       - run: npm install
-
-      - run: npm install
         working-directory: apps/calendar
 
       - run: npm run build
