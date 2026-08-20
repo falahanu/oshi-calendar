@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-08-17T15:16:04.439Z",
-  "from": "2025-08-17",
-  "to": "2027-08-17",
+  "lastUpdate": "2026-08-20T02:57:31.123Z",
+  "from": "2025-08-20",
+  "to": "2027-08-20",
   "events": [
     {
       "id": 5,
@@ -2299,7 +2299,7 @@
       "status": "終了",
       "source": "e+",
       "detail": "5/24出演",
-      "management": "AI収集",
+      "management": "手動",
       "sources": [
         {
           "source": "e+",
@@ -2318,7 +2318,7 @@
       "status": "終了",
       "source": "公式",
       "detail": "5/24出演",
-      "management": "AI収集",
+      "management": "手動",
       "sources": [
         {
           "source": "公式",
@@ -4537,9 +4537,9 @@
       "place": "としま区民センター多目的ホール (東京都)",
       "performers": "ヤーレンズ うちまつげ ハマノとヘンミ リニア フランツ にぼしいわし ベルナルド 太鵬 インテイク 兄弟 オフローズ キュウ カナイ ツーナッカン ザ・パーフェクト 今夜も星が綺麗 Let Me Show You THE まごころ",
       "url": "https://livepocket.jp/e/92b-x",
-      "status": "開催予定",
+      "status": "終了",
       "source": "TIGET",
-      "detail": "開演19:15 開場19:00 終演時間\n21:00",
+      "detail": "開演19:15 開場19:00 終演時間\n 21:00",
       "management": "手動",
       "sources": [
         {
@@ -4556,7 +4556,7 @@
       "place": "日本テレビ",
       "performers": "ヤーレンズ",
       "url": "",
-      "status": "予定",
+      "status": "終了",
       "source": "公式",
       "detail": "21:00～21:54",
       "management": "手動",
@@ -4572,10 +4572,10 @@
       "date": "2026-08-16",
       "title": "ぎょうぶサミット2026",
       "category": "ライブ",
-      "place": "心斎橋パルコ　SPACE14 (大阪府)",
+      "place": "心斎橋パルコ SPACE14 (大阪府)",
       "performers": "ぎょうぶ、ヤーレンズ、デルマパンゲ、タチマチ",
       "url": "https://ticket.fany.lol/reception/60362/49303",
-      "status": "開催予定",
+      "status": "終了",
       "source": "FANY",
       "detail": "開場 13:15 / 開演 13:30",
       "management": "自動",
@@ -4598,7 +4598,7 @@
       "place": "札幌テレビ放送",
       "performers": "ヤーレンズ",
       "url": "",
-      "status": "予定",
+      "status": "終了",
       "source": "公式",
       "detail": "23:25～23:55",
       "management": "手動",
@@ -4617,7 +4617,7 @@
       "place": "ABCラジオ",
       "performers": "ヤーレンズ、ゲスト：カナメストーン",
       "url": "",
-      "status": "予定",
+      "status": "終了",
       "source": "公式",
       "detail": "21:15～23:30",
       "management": "手動",
@@ -4686,29 +4686,6 @@
         {
           "source": "公式",
           "url": ""
-        }
-      ]
-    },
-    {
-      "id": 284,
-      "date": "2026-08-21",
-      "title": "リニア主催「リニアが人生を賭けて6分ネタを磨くライブ～だってチヤホヤされたい～",
-      "category": "ライブ",
-      "place": "vatios",
-      "performers": "ヤーレンズ、トット",
-      "url": "https://eplus.jp/sf/detail/4462120002-P0030012P021001?P1=0175",
-      "status": "開催予定",
-      "source": "e+",
-      "detail": "開演：21:30～ (開場 21:15～)",
-      "management": "手動",
-      "sources": [
-        {
-          "source": "e+",
-          "url": "https://eplus.jp/sf/detail/4462120002-P0030012P021001?P1=0175"
-        },
-        {
-          "source": "配信あり",
-          "url": "https://eplus.jp/sf/detail/4462120002-P0030012P021001?P1=1221"
         }
       ]
     },
@@ -4801,7 +4778,7 @@
       "date": "2026-08-28",
       "title": "ヤーレンズと太福の演芸会",
       "category": "ライブ",
-      "place": "浅草フランス座演芸場　東洋館 (東京都)",
+      "place": "浅草フランス座演芸場 東洋館 (東京都)",
       "performers": "ヤ―レンズ",
       "url": "https://livepocket.jp/e/abd6u",
       "status": "開催予定",
@@ -4859,7 +4836,7 @@
       "title": "例えば炎×ヤーレンズツーマンライブ「ヤー炎」",
       "category": "ライブ",
       "place": "科学技術館　サイエンスホール (東京都)",
-      "performers": "例えば炎、ヤーレンズ（ケイダッシュステージ）",
+      "performers": "例えば炎、ヤーレンズ（ケイダッシュステージ）、MC：カベポスター浜田",
       "url": "https://ticket.fany.lol/reception/60166/48993",
       "status": "開催予定",
       "source": "FANY",
@@ -5268,7 +5245,7 @@
     {
       "id": 324,
       "date": "2026-10-18",
-      "title": "ねじロックフェス2026　1部",
+      "title": "ねじロックフェス2026 1部",
       "category": "ライブ",
       "place": "秋田市にぎわい交流館au(秋田県)",
       "performers": "ねじ / ヤーレンズ / 街裏ぴんく / 三拍子 / リニア / 虹の黄昏 / ギフト⭐︎矢野 / ドドん",
@@ -5287,7 +5264,7 @@
     {
       "id": 325,
       "date": "2026-10-18",
-      "title": "ねじロックフェス2026　2部",
+      "title": "ねじロックフェス2026 2部",
       "category": "ライブ",
       "place": "秋田市にぎわい交流館au(秋田県)",
       "performers": "ねじ / ヤーレンズ / 街裏ぴんく / 三拍子 / リニア / 虹の黄昏 / ギフト⭐︎矢野 / ドドん",
@@ -5855,7 +5832,7 @@
       "place": "日本テレビ",
       "performers": "ヤーレンズ",
       "url": "",
-      "status": "予定",
+      "status": "終了",
       "source": "公式",
       "detail": "19:00～21:00",
       "management": "手動",
@@ -5871,8 +5848,8 @@
       "date": "2026-10-01",
       "title": "ヤーレンズ×ジグザグジギーツーマンライブ其の十一『コントの虎 漫才の狼』",
       "category": "ライブ",
-      "place": "なかのZERO小ホール (東京都)",
-      "performers": "ヤーレンズ",
+      "place": "なかのZERO小ホール（東京都）",
+      "performers": "ヤーレンズ / ジグザグジギー",
       "url": "https://livepocket.jp/e/tigerwolf11?utm_campaign=1103205&utm_content=evt&utm_medium=social&utm_source=X",
       "status": "開催予定",
       "source": "LivePocket",
@@ -5893,7 +5870,7 @@
       "place": "なかのZERO小ホール (東京都)",
       "performers": "ヤーレンズ",
       "url": "https://livepocket.jp/e/tigerwolf11?utm_campaign=1103205&utm_content=evt&utm_medium=social&utm_source=X",
-      "status": "抽選販売受付",
+      "status": "終了",
       "source": "LivePocket",
       "detail": "2026年8月15日(土) 19:00〜2026年8月29日(土) 23:59",
       "management": "手動",
@@ -5931,7 +5908,7 @@
       "place": "新宿スパークル (東京都)",
       "performers": "ヤーレンズ",
       "url": "https://livepocket.jp/e/7z7fs",
-      "status": "抽選販売受付",
+      "status": "終了",
       "source": "TIGET",
       "detail": "2026年8月15日(土) 12:00〜2026年8月20日(木) 23:59",
       "management": "手動",
@@ -5985,7 +5962,7 @@
       "date": "2026-10-01",
       "title": "Owarai-night Sensation 『DJ KOO presents ちゃんKOOお笑いLIVE!! vol.8 in OSAKA』",
       "category": "ライブ",
-      "place": "東京建物　Ｂｒｉｌｌｉａ　ＨＡＬＬ　箕面　大ホール (大阪府)",
+      "place": "東京建物 Ｂｒｉｌｌｉａ ＨＡＬＬ 箕面 大ホール (大阪府)",
       "performers": "DJ KOO、ミルクボーイ、ヤーレンズ、真空ジェシカ",
       "url": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2670280",
       "status": "予定",
@@ -6004,10 +5981,10 @@
       "date": "2026-08-16",
       "title": "Owarai-night Sensation 『DJ KOO presents ちゃんKOOお笑いLIVE!! vol.8 in OSAKA』",
       "category": "チケット",
-      "place": "東京建物　Ｂｒｉｌｌｉａ　ＨＡＬＬ　箕面　大ホール (大阪府)",
+      "place": "東京建物 Ｂｒｉｌｌｉａ ＨＡＬＬ 箕面 大ホール (大阪府)",
       "performers": "DJ KOO、ミルクボーイ、ヤーレンズ、真空ジェシカ",
       "url": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=23862",
-      "status": "先行抽選抽選受付中",
+      "status": "終了",
       "source": "ぴあ",
       "detail": "2026/8/16(日) 13:00～026/8/30(日) 23:59",
       "management": "手動",
