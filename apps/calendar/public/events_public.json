@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-20T07:55:05.069Z",
+  "lastUpdate": "2026-08-20T08:09:46.376Z",
   "from": "2025-08-20",
   "to": "2027-08-20",
   "events": [
@@ -4210,10 +4210,6 @@
         {
           "source": "チケプラ",
           "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
-        },
-        {
-          "source": "Tixplus",
-          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
         }
       ]
     },
@@ -4237,10 +4233,6 @@
         {
           "source": "LivePocket",
           "url": "https://promoter.livepocket.jp/promoters/893/events/1081286/top"
-        },
-        {
-          "source": "Tixplus",
-          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
         }
       ]
     },
@@ -4675,10 +4667,6 @@
         {
           "source": "公式",
           "url": ""
-        },
-        {
-          "source": "公式HP",
-          "url": ""
         }
       ]
     },
@@ -4697,10 +4685,6 @@
       "sources": [
         {
           "source": "公式",
-          "url": ""
-        },
-        {
-          "source": "公式HP",
           "url": ""
         }
       ]
@@ -4767,10 +4751,6 @@
         {
           "source": "公式",
           "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%AC%E3%83%B3%E3% ズ"
-        },
-        {
-          "source": "公式HP",
-          "url": ""
         }
       ]
     },
@@ -4885,10 +4865,6 @@
         {
           "source": "TIGET",
           "url": "https://livepocket.jp/e/7z7fs"
-        },
-        {
-          "source": "LivePocket",
-          "url": ""
         }
       ]
     },
@@ -4968,10 +4944,6 @@
         },
         {
           "source": "チケプラ",
-          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
-        },
-        {
-          "source": "Tixplus",
           "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
         }
       ]
@@ -5267,10 +5239,6 @@
         {
           "source": "公式",
           "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%BA"
-        },
-        {
-          "source": "Tixplus",
-          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
         }
       ]
     },
@@ -5929,10 +5897,6 @@
         {
           "source": "日テレ",
           "url": "https://www.ntv.co.jp/program/detail/?programid=20262102"
-        },
-        {
-          "source": "公式HP",
-          "url": ""
         }
       ]
     },
@@ -5970,10 +5934,6 @@
       "sources": [
         {
           "source": "Tverあり",
-          "url": ""
-        },
-        {
-          "source": "公式HP",
           "url": ""
         }
       ]
@@ -6036,192 +5996,59 @@
       ]
     },
     {
-      "id": "",
-      "date": "2026-08-23",
-      "title": "【1部】",
+      "id": 366,
+      "date": "2026-12-06",
+      "title": "爆笑！！お笑いスーパーライブ　ｉｎ　青森　２０２６- 1部",
       "category": "ライブ",
-      "place": "",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "1部：開場 12:00 ／ 開演 13:00 2部：開場 16:00 ／ 開演 17:00 福岡国際会議場 メインホール［ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」］",
-      "management": "自動",
+      "place": "リンクステーションホール青森 (青森県)",
+      "performers": "ナイツ / ラバーガール / 真空ジェシカ / カミナリ / 吉住 / マシンガンズ / ザ・マミィ / どぶろっく / リニア / や団 / スパイシーガーリック / ニッチェ / きしたかの / 三四郎 / ヤーレンズ",
+      "url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2632474&rlsCd=001",
+      "status": "予定",
+      "source": "ぴあ",
+      "detail": "10:45 開演 ( 10:15 開場 )",
+      "management": "手動",
       "sources": [
         {
-          "source": "公式HP",
-          "url": ""
+          "source": "ぴあ",
+          "url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2632474&rlsCd=001"
         }
       ]
     },
     {
-      "id": "",
-      "date": "2026-08-27",
-      "title": "パンサー向井の＃ふらっと［ヤーレンズの＃ふらっと］",
-      "category": "ラジオ",
-      "place": "TBSラジオ",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "8:30～11:00",
-      "management": "自動",
+      "id": 367,
+      "date": "2026-12-06",
+      "title": "爆笑！！お笑いスーパーライブ　ｉｎ　青森　２０２６- 2部",
+      "category": "ライブ",
+      "place": "リンクステーションホール青森 (青森県)",
+      "performers": "ナイツ / ラバーガール / 真空ジェシカ / カミナリ / 吉住 / マシンガンズ / ザ・マミィ / どぶろっく / リニア / や団 / スパイシーガーリック / ニッチェ / きしたかの / 三四郎 / ヤーレンズ",
+      "url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2632474&rlsCd=001",
+      "status": "予定",
+      "source": "ぴあ",
+      "detail": "14:15 開演 ( 13:45 開場 )",
+      "management": "手動",
       "sources": [
         {
-          "source": "公式HP",
-          "url": ""
+          "source": "ぴあ",
+          "url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2632474&rlsCd=001"
         }
       ]
     },
     {
-      "id": "",
-      "date": "2026-09-19",
-      "title": "【一部】ケイダッシュステージお笑い珍道中　京都編",
-      "category": "ライブ",
-      "place": "京都市呉竹文化センター（京都府）",
-      "performers": "ヤーレンズ / クロコップ / サツマカワRPG / トム・ブラウン",
-      "url": "",
-      "status": "開催予定",
-      "source": "LivePocket",
-      "detail": "",
-      "management": "自動",
+      "id": 368,
+      "date": "2026-09-18",
+      "title": "爆笑！！お笑いスーパーライブ　ｉｎ　青森　２０２６",
+      "category": "チケット",
+      "place": "リンクステーションホール青森 (青森県)",
+      "performers": "ナイツ / ラバーガール / 真空ジェシカ / カミナリ / 吉住 / マシンガンズ / ザ・マミィ / どぶろっく / リニア / や団 / スパイシーガーリック / ニッチェ / きしたかの / 三四郎 / ヤーレンズ",
+      "url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2632474&rlsCd=001",
+      "status": "一般発売",
+      "source": "ぴあ",
+      "detail": "2026/9/18(金) 10:00～",
+      "management": "手動",
       "sources": [
         {
-          "source": "LivePocket",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-09-19",
-      "title": "【二部】ケイダッシュステージお笑い珍道中　京都編",
-      "category": "ライブ",
-      "place": "京都市呉竹文化センター（京都府）",
-      "performers": "ヤーレンズ / クロコップ / サツマカワRPG / トム・ブラウン",
-      "url": "",
-      "status": "開催予定",
-      "source": "LivePocket",
-      "detail": "",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "LivePocket",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "TIXPLUS_20260823_1",
-      "date": "2026-08-23",
-      "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」【1部】",
-      "category": "ライブ",
-      "place": "福岡・福岡国際会議場 メインホール",
-      "performers": "ヤーレンズ",
-      "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/",
-      "status": "開催予定",
-      "source": "Tixplus",
-      "detail": "【1部】開場 12:00 / 開演 13:00 ※予定枚数終了",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "Tixplus",
-          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
-        }
-      ]
-    },
-    {
-      "id": "TIXPLUS_20260823_2",
-      "date": "2026-08-23",
-      "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」【2部】",
-      "category": "ライブ",
-      "place": "福岡・福岡国際会議場 メインホール",
-      "performers": "ヤーレンズ",
-      "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/",
-      "status": "開催予定",
-      "source": "Tixplus",
-      "detail": "【2部】開場 16:00 / 開演 17:00 ※予定枚数終了",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "Tixplus",
-          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
-        }
-      ]
-    },
-    {
-      "id": "TIXPLUS_20260923_1",
-      "date": "2026-09-23",
-      "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」【1部】",
-      "category": "ライブ",
-      "place": "北海道・北ガス文化ホール 大ホール",
-      "performers": "ヤーレンズ",
-      "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/",
-      "status": "開催予定",
-      "source": "Tixplus",
-      "detail": "【1部】開場 12:00 / 開演 13:00 ※予定枚数終了",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "Tixplus",
-          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
-        }
-      ]
-    },
-    {
-      "id": "TIXPLUS_20260923_2",
-      "date": "2026-09-23",
-      "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」【2部】",
-      "category": "ライブ",
-      "place": "北海道・北ガス文化ホール 大ホール",
-      "performers": "ヤーレンズ",
-      "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/",
-      "status": "開催予定",
-      "source": "Tixplus",
-      "detail": "【2部】開場 16:00 / 開演 17:00",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "Tixplus",
-          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
-        }
-      ]
-    },
-    {
-      "id": "TIXPLUS_20261024_1",
-      "date": "2026-10-24",
-      "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」【1部】",
-      "category": "ライブ",
-      "place": "大阪・池田市文化会館 アゼリアホール",
-      "performers": "ヤーレンズ",
-      "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/",
-      "status": "開催予定",
-      "source": "Tixplus",
-      "detail": "【1部】開場 12:00 / 開演 13:00 ※予定枚数終了",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "Tixplus",
-          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
-        }
-      ]
-    },
-    {
-      "id": "TIXPLUS_20261024_2",
-      "date": "2026-10-24",
-      "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」【2部】",
-      "category": "ライブ",
-      "place": "大阪・池田市文化会館 アゼリアホール",
-      "performers": "ヤーレンズ",
-      "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/",
-      "status": "開催予定",
-      "source": "Tixplus",
-      "detail": "【2部】開場 16:00 / 開演 17:00 ※予定枚数終了",
-      "management": "自動",
-      "sources": [
-        {
-          "source": "Tixplus",
-          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
+          "source": "ぴあ",
+          "url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2632474&rlsCd=001"
         }
       ]
     }
