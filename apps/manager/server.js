@@ -11,7 +11,8 @@ const app = express();
 
 app.use(cors());
 
-const scriptsDir = path.resolve(__dirname, "../../scripts");
+const projectRoot = path.resolve(__dirname, "../..");
+const scriptsDir = path.join(projectRoot, "scripts");
 
 const runCrawlerPath = path.join(
   scriptsDir,
@@ -27,26 +28,32 @@ app.post("/crawl", (req, res) => {
 
   console.log("===== スクレイピング開始 =====");
 
-  exec(`node "${runCrawlerPath}"`, (error, stdout, stderr) => {
+  exec(
+    `node "${runCrawlerPath}"`,
+    {
+      cwd: projectRoot
+    },
+    (error, stdout, stderr) => {
 
-    if (error) {
+      if (error) {
 
-      console.error(stderr);
+        console.error(stderr);
 
-      return res.status(500).json({
-        success: false,
-        message: stderr
+        return res.status(500).json({
+          success: false,
+          message: stderr
+        });
+
+      }
+
+      console.log(stdout);
+
+      res.json({
+        success: true
       });
 
     }
-
-    console.log(stdout);
-
-    res.json({
-      success: true
-    });
-
-  });
+  );
 
 });
 
@@ -56,6 +63,9 @@ app.post("/createPublicJson", (req, res) => {
 
   exec(
     `node "${createPublicJsonPath}"`,
+    {
+      cwd: projectRoot
+    },
     (error, stdout, stderr) => {
 
       if (error) {
