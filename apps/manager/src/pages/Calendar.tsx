@@ -1,5 +1,8 @@
 import { groupEvents } from "../../../../shared/groupEvents";
-import { getCategoryColor, getCategoryLightColor } from "../../../../shared/categoryColors";
+import {
+  getCategoryColor,
+  getCategoryLightColor,
+} from "../../../../shared/categoryColors";
 import { useEffect, useMemo, useRef, useState } from "react";
 import jaLocale from "@fullcalendar/core/locales/ja";
 import FullCalendar from "@fullcalendar/react";
@@ -46,9 +49,7 @@ function formatDate(date: Date) {
 
 export default function CalendarPage() {
   const [events, setEvents] = useState<Event[]>([]);
-  const [selectedDate, setSelectedDate] = useState(
-    formatDate(new Date())
-  );
+  const [selectedDate, setSelectedDate] = useState(formatDate(new Date()));
   const [selectedEventId, setSelectedEventId] = useState("");
   const [categoryFilter, setCategoryFilter] = useState<string[]>([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -164,6 +165,7 @@ export default function CalendarPage() {
                 }
               }}
               style={{
+                padding: "8px 14px",
                 borderRadius: 20,
                 border: "none",
                 cursor: "pointer",
@@ -204,14 +206,11 @@ export default function CalendarPage() {
         height="auto"
         eventDisplay="block"
         fixedWeekCount={false}
-
         events={calendarEvents}
-
         dateClick={(info) => {
           setSelectedDate(info.dateStr);
           setSelectedEventId("");
         }}
-
         eventClick={(info) => {
           setSelectedDate(info.event.startStr);
           setSelectedEventId(info.event.id);
@@ -222,7 +221,6 @@ export default function CalendarPage() {
             });
           }, 100);
         }}
-
         dayCellContent={(arg) => {
           const dateStr = formatDate(arg.date);
 
@@ -262,8 +260,12 @@ export default function CalendarPage() {
         style={{
           marginTop: 16,
           marginBottom: 20,
+          display: "flex",
+          gap: 8,
+          flexWrap: "wrap",
         }}
       >
+        {/* ① 最新情報を取得 */}
         <button
           disabled={isLoading}
           onClick={async () => {
@@ -279,20 +281,33 @@ export default function CalendarPage() {
                 }
               );
 
-              const result = await res.json();
+              const result: {
+                success?: boolean;
+                message?: string;
+              } = await res.json();
 
-              if (result.success) {
-                await loadEvents();
-              } else {
-                alert(
-                  "情報取得に失敗しました。"
+              if (!res.ok || !result.success) {
+                console.error(
+                  "最新情報の取得に失敗しました:",
+                  result.message
                 );
+
+                alert(
+                  result.message ||
+                    "最新情報の取得に失敗しました。"
+                );
+
+                return;
               }
-            } catch (e) {
-              console.error(e);
 
               alert(
-                "サーバーに接続できません。"
+                "最新情報の取得とスプレッドシートへの書き込みが完了しました。"
+              );
+            } catch (error) {
+              console.error(error);
+
+              alert(
+                "サーバーに接続できませんでした。"
               );
             } finally {
               setIsLoading(false);
@@ -305,14 +320,33 @@ export default function CalendarPage() {
             background: "#2563eb",
             color: "white",
             fontWeight: "bold",
-            cursor: "pointer",
+            cursor: isLoading ? "default" : "pointer",
           }}
         >
           {isLoading
-            ? "🔄 取得中..."
-            : "🔄 最新情報を取得"}
+            ? "取得中..."
+            : "最新情報を取得"}
         </button>
 
+        {/* ② 管理カレンダーを更新 */}
+        <button
+          onClick={() => {
+            window.location.reload();
+          }}
+          style={{
+            padding: "10px 18px",
+            borderRadius: 8,
+            border: "none",
+            background: "#2563eb",
+            color: "white",
+            fontWeight: "bold",
+            cursor: "pointer",
+          }}
+        >
+          管理カレンダーを更新
+        </button>
+
+        {/* ③ 公開ページを更新 */}
         <button
           onClick={async () => {
             try {
@@ -333,33 +367,35 @@ export default function CalendarPage() {
                     "公開データ更新のレスポンス解析に失敗しました:",
                     error
                   );
+
                   return null;
                 });
 
-              if (!response.ok) {
+              if (!response.ok || !result?.success) {
                 console.error(
                   "公開データの更新に失敗しました:",
-                  result?.message ?? result
+                  result?.message
                 );
 
                 alert(
-                  "公開データの更新に失敗しました"
+                  result?.message ||
+                    "公開データの更新に失敗しました。"
                 );
 
                 return;
               }
 
               alert(
-                "公開データを更新しました"
+                "公開ページのデータを更新しました。"
               );
             } catch (error) {
               console.error(
-                "公開データの更新リクエストに失敗しました:",
+                "公開データ更新リクエストに失敗しました:",
                 error
               );
 
               alert(
-                "公開データの更新に失敗しました"
+                "公開データの更新に失敗しました。"
               );
             }
           }}
@@ -376,6 +412,7 @@ export default function CalendarPage() {
           公開ページ更新
         </button>
 
+        {/* ④ スプレッドシートを開く */}
         <button
           onClick={() => {
             window.open(
@@ -393,7 +430,7 @@ export default function CalendarPage() {
             cursor: "pointer",
           }}
         >
-          📊 スプレッドシートを開く
+          スプレッドシートを開く
         </button>
       </div>
 
@@ -461,17 +498,17 @@ export default function CalendarPage() {
               border:
                 getEventId(event) === selectedEventId
                   ? `3px solid ${getCategoryColor(
-                    event.category
-                  )}`
+                      event.category
+                    )}`
                   : `1px solid ${getCategoryColor(
-                    event.category
-                  )}`,
+                      event.category
+                    )}`,
 
               background:
                 getEventId(event) === selectedEventId
                   ? getCategoryLightColor(
-                    event.category
-                  )
+                      event.category
+                    )
                   : "white",
 
               borderRadius: 14,
@@ -524,10 +561,9 @@ export default function CalendarPage() {
                   marginBottom: 6,
                 }}
               >
-                🕐{" "}
-
+                🎫{" "}
                 {event.detail === "配信あり" &&
-                  event.streamingUrl ? (
+                event.streamingUrl ? (
                   <a
                     href={event.streamingUrl}
                     target="_blank"
@@ -553,7 +589,6 @@ export default function CalendarPage() {
               }}
             >
               📍{" "}
-
               <a
                 href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
                   event.place
@@ -583,8 +618,7 @@ export default function CalendarPage() {
                 marginBottom: 12,
               }}
             >
-              🌐{" "}
-
+              🔗{" "}
               {event.sources?.map(
                 (
                   s: {
