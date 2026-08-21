@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-08-20T11:23:10.901Z",
-  "from": "2025-08-20",
-  "to": "2027-08-20",
+  "lastUpdate": "2026-08-21T11:55:49.731Z",
+  "from": "2025-08-21",
+  "to": "2027-08-21",
   "events": [
     {
       "id": 5,
@@ -4932,6 +4932,30 @@
       ]
     },
     {
+      "id": 284,
+      "date": "2026-08-21",
+      "title": "リニア主催「リニアが人生を賭けて6分ネタを磨くライブ～だってチヤホヤされたい～",
+      "category": "ライブ",
+      "place": "vatios",
+      "performers": "ヤーレンズ、トット",
+      "url": "https://eplus.jp/sf/detail/4462120002-P0030012P021001?P1=0175",
+      "status": "開催予定",
+      "source": "e+",
+      "detail": "",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "e+",
+          "url": "https://eplus.jp/sf/detail/4462120002-P0030012P021001?P1=0175"
+        },
+        {
+          "source": "配信あり",
+          "url": "https://eplus.jp/sf/detail/4462120002-P0030012P021001?P1=1221"
+        }
+      ]
+    },
+    {
       "id": 286,
       "date": "2026-08-23",
       "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」 1部",
@@ -6376,6 +6400,66 @@
         {
           "source": "Ticketdive",
           "url": "https://ticketdive.com/event/260820sonohanashi"
+        }
+      ]
+    },
+    {
+      "id": 370,
+      "date": "2026-09-11",
+      "title": "満場吉兆遊戯　よだれ September Love♥",
+      "category": "ライブ",
+      "place": "野方区民ホール",
+      "performers": "虹の黄昏、ぽんぽこ、ヤーレンズ",
+      "url": "https://livepocket.jp/e/nizi0911",
+      "status": "開催予定",
+      "source": "Livepocket",
+      "detail": "19:30 開演 ( 19:00 開場 )",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Livepocket",
+          "url": "https://livepocket.jp/e/nizi0911"
+        }
+      ]
+    },
+    {
+      "id": 371,
+      "date": "2026-09-24",
+      "title": "ミッション：出井ンポッシブル３",
+      "category": "ライブ",
+      "place": "なかのZERO 小ホール",
+      "performers": "ヤーレンズ・出井、ヨネダ2000・誠、ランジャタイ・国崎、しずる・池田、キュウ・ぴろ、フランツ・土岐",
+      "url": "https://t.pia.jp/pia/event/event.do?eventCd=2632849",
+      "status": "開催予定",
+      "source": "ぴあ",
+      "detail": "19:45 開演 ( 19:15 開場 )",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "ぴあ",
+          "url": "https://t.pia.jp/pia/event/event.do?eventCd=2632849"
+        }
+      ]
+    },
+    {
+      "id": 372,
+      "date": "2026-08-21",
+      "title": "ミッション：出井ンポッシブル３",
+      "category": "チケット",
+      "place": "なかのZERO 小ホール",
+      "performers": "ヤーレンズ・出井、ヨネダ2000・誠、ランジャタイ・国崎、しずる・池田、キュウ・ぴろ、フランツ・土岐",
+      "url": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=37077",
+      "status": "開催予定",
+      "source": "ぴあ",
+      "detail": "2026/8/21(金) 18:00～2026/8/27(木) 23:59",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "ぴあ",
+          "url": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=37077"
         }
       ]
     }
