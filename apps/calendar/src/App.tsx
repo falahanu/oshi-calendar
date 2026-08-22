@@ -65,7 +65,7 @@ function App() {
   }, []);
 
   // 日本武道館ライブのカウントダウン
-  // 2027年3月7日 00:00（日本時間）を終了時刻とする
+  // 2027年3月7日 16:00（日本時間）を終了時刻とする
   useEffect(() => {
     const targetTime = new Date(
       "2027-03-07T16:00:00+09:00"
@@ -111,8 +111,6 @@ function App() {
 
     updateCountdown();
 
-    // 1秒ごとに現在時刻を確認する
-    // 表示は「分」までだが、境界を確実に拾うため1秒単位で更新
     const timer = window.setInterval(
       updateCountdown,
       1000
@@ -148,453 +146,465 @@ function App() {
   );
 
   return (
-    <div
-      style={{
-        maxWidth: 1100,
-        margin: "0 auto",
-        padding: 20,
-      }}
-    >
-      <h1>
-        {oshi.icon} {oshi.name} イベントカレンダー
-      </h1>
+    <div className="page-background">
+      <div className="page-content">
+        <h1>
+          {oshi.icon} {oshi.name} イベントカレンダー
+        </h1>
 
-      <p
-        style={{
-          marginTop: 0,
-          marginBottom: 16,
-          color: "#555",
-          fontSize: 14,
-        }}
-      >
-        ヤーレンズさんの出演情報・ライブ・テレビ・ラジオなどをまとめたイベントカレンダーです。
-      </p>
-
-      {/* 日本武道館ライブ カウントダウン */}
-      <div
-        style={{
-          maxWidth: 700,
-          margin: "0 auto 20px",
-          padding: "22px 24px",
-          borderRadius: 14,
-          background: "#d94a3a",
-          color: "white",
-          textAlign: "center",
-          boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15)",
-          boxSizing: "border-box",
-        }}
-      >
-        <div
+        <p
           style={{
-            fontSize: 13,
-            fontWeight: "bold",
-            letterSpacing: "0.08em",
-            marginBottom: 5,
-            opacity: 0.9,
-          }}
-        >
-          YARLENS SOLO LIVE
-        </div>
-
-        <div
-          style={{
-            fontSize: 20,
-            fontWeight: "bold",
-            marginBottom: 14,
-          }}
-        >
-          一万人に漫才 in 日本武道館
-        </div>
-
-        <div
-          style={{
+            marginTop: 0,
+            marginBottom: 16,
+            color: "#555",
             fontSize: 14,
-            fontWeight: "bold",
-            marginBottom: 4,
           }}
         >
-          LIVEまで
+          ヤーレンズさんの出演情報・ライブ・テレビ・ラジオなどをまとめたイベントカレンダーです。
+        </p>
+
+        {/* YouTube通常埋め込みテスト */}
+        <div
+          style={{
+            maxWidth: 900,
+            margin: "0 auto 20px",
+            background: "white",
+            padding: 10,
+            borderRadius: 10,
+            boxSizing: "border-box",
+          }}
+        >
+          <iframe
+            width="100%"
+            height="506"
+            src="https://www.youtube.com/embed/6y6l6yARzxU"
+            title="ヤーレンズ 日本武道館 宣伝動画"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          />
         </div>
 
-        {countdown.isFinished ? (
+        {/* 日本武道館ライブ カウントダウン */}
+        <div
+          style={{
+            maxWidth: 700,
+            margin: "0 auto 20px",
+            padding: "22px 24px",
+            borderRadius: 14,
+            background: "#d94a3a",
+            color: "white",
+            textAlign: "center",
+            boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15)",
+            boxSizing: "border-box",
+          }}
+        >
           <div
             style={{
-              fontSize: 30,
+              fontSize: 13,
               fontWeight: "bold",
-              marginBottom: 12,
+              letterSpacing: "0.08em",
+              marginBottom: 5,
+              opacity: 0.9,
             }}
           >
-            🎉 開演しました！
+            YARLENS SOLO LIVE
           </div>
-        ) : countdown.days === 0 ? (
+
           <div
             style={{
-              fontSize: 30,
+              fontSize: 20,
               fontWeight: "bold",
-              lineHeight: 1.3,
-              marginBottom: 12,
+              marginBottom: 14,
             }}
           >
-            あと {countdown.hours}時間{" "}
-            {countdown.minutes}分
+            一万人に漫才 in 日本武道館
           </div>
-        ) : countdown.days === 1 ? (
+
           <div
             style={{
-              fontSize: 30,
+              fontSize: 14,
               fontWeight: "bold",
-              lineHeight: 1.3,
-              marginBottom: 12,
+              marginBottom: 4,
             }}
           >
-            あと {countdown.hours + 24}時間{" "}
-            {countdown.minutes}分
+            LIVEまで
           </div>
-        ) : (
+
+          {countdown.isFinished ? (
+            <div
+              style={{
+                fontSize: 30,
+                fontWeight: "bold",
+                marginBottom: 12,
+              }}
+            >
+              🎉 開演しました！
+            </div>
+          ) : countdown.days === 0 ? (
+            <div
+              style={{
+                fontSize: 30,
+                fontWeight: "bold",
+                lineHeight: 1.3,
+                marginBottom: 12,
+              }}
+            >
+              あと {countdown.hours}時間{" "}
+              {countdown.minutes}分
+            </div>
+          ) : countdown.days === 1 ? (
+            <div
+              style={{
+                fontSize: 30,
+                fontWeight: "bold",
+                lineHeight: 1.3,
+                marginBottom: 12,
+              }}
+            >
+              あと {countdown.hours + 24}時間{" "}
+              {countdown.minutes}分
+            </div>
+          ) : (
+            <div
+              style={{
+                fontSize: 34,
+                fontWeight: "bold",
+                lineHeight: 1.3,
+                marginBottom: 12,
+              }}
+            >
+              あと {countdown.days}日
+            </div>
+          )}
+
           <div
             style={{
-              fontSize: 34,
+              fontSize: 14,
               fontWeight: "bold",
-              lineHeight: 1.3,
-              marginBottom: 12,
             }}
           >
-            あと {countdown.days}日
+            2027年3月7日（日）
+          </div>
+
+          <div
+            style={{
+              marginTop: 4,
+              fontSize: 13,
+            }}
+          >
+            開場 15:00 ／ 開演 16:00
+          </div>
+        </div>
+
+        {visitCount && (
+          <div
+            style={{
+              display: "inline-block",
+              marginBottom: 20,
+              padding: "6px 12px",
+              border: "1px solid #aaa",
+              borderRadius: 4,
+              background: "#f5f5f5",
+              fontSize: 13,
+              color: "#555",
+              fontFamily: "monospace",
+            }}
+          >
+            👣 {visitCount} HIT
           </div>
         )}
-
-        <div
-          style={{
-            fontSize: 14,
-            fontWeight: "bold",
-          }}
-        >
-          2027年3月7日（日）
-        </div>
-
-        <div
-          style={{
-            marginTop: 4,
-            fontSize: 13,
-          }}
-        >
-          開場 15:00 ／ 開演 16:00
-        </div>
-      </div>
-
-      {visitCount && (
-        <div
-          style={{
-            display: "inline-block",
-            marginBottom: 20,
-            padding: "6px 12px",
-            border: "1px solid #aaa",
-            borderRadius: 4,
-            background: "#f5f5f5",
-            fontSize: 13,
-            color: "#555",
-            fontFamily: "monospace",
-          }}
-        >
-          👣 {visitCount} HIT
-        </div>
-      )}
-
-      <div style={{ marginBottom: 20 }}>
-        最終更新：{lastUpdate}
-
-        <br />
-
-        公開期間：
-        {data?.from ?? ""} ～ {data?.to ?? ""}
 
         <div style={{ marginBottom: 20 }}>
-          イベント件数：{groupedEvents.length}件
-        </div>
+          最終更新：{lastUpdate}
 
-        <div
-          style={{
-            marginTop: 16,
-            padding: "10px 14px",
-            fontSize: 13,
-            color: "#666",
-            background: "#f9fafb",
-            borderRadius: 8,
-            lineHeight: 1.6,
-          }}
-        >
-          個人的にスケジュールを確認するためにまとめています。
-          情報に抜けや反映までのタイムラグがある場合がありますので、
-          あくまで参考程度にご利用ください。
-        </div>
-      </div>
+          <br />
 
-      <div
-        style={{
-          display: "flex",
-          gap: 8,
-          flexWrap: "wrap",
-          marginBottom: 16,
-        }}
-      >
-        {["すべて", "ライブ", "テレビ", "ラジオ", "チケット"].map(
-          (category) => (
-            <button
-              key={category}
-              onClick={() => {
-                if (category === "すべて") {
-                  setCategoryFilter([]);
-                  return;
-                }
+          公開期間：
+          {data?.from ?? ""} ～ {data?.to ?? ""}
 
-                if (categoryFilter.includes(category)) {
-                  setCategoryFilter(
-                    categoryFilter.filter(
-                      (c) => c !== category
-                    )
-                  );
-                } else {
-                  setCategoryFilter([
-                    ...categoryFilter,
-                    category,
-                  ]);
-                }
-              }}
-              style={{
-                borderRadius: 20,
-                border: "none",
-                cursor: "pointer",
-                fontWeight: "bold",
+          <div style={{ marginBottom: 20 }}>
+            イベント件数：{groupedEvents.length}件
+          </div>
 
-                background:
-                  category === "すべて"
-                    ? categoryFilter.length === 0
-                      ? "#2563eb"
-                      : "#e5e7eb"
-                    : categoryFilter.includes(category)
-                      ? getCategoryColor(category)
-                      : getCategoryLightColor(category),
-
-                color:
-                  category === "すべて"
-                    ? categoryFilter.length === 0
-                      ? "white"
-                      : "black"
-                    : categoryFilter.includes(category)
-                      ? "white"
-                      : getCategoryColor(category),
-              }}
-            >
-              {category}
-            </button>
-          )
-        )}
-      </div>
-
-      <div
-        style={{
-          border: "1px solid #ddd",
-          borderRadius: 10,
-          padding: 30,
-          textAlign: "center",
-        }}
-      >
-        <FullCalendar
-          plugins={[dayGridPlugin, interactionPlugin]}
-          initialView="dayGridMonth"
-          locale={jaLocale}
-          height="auto"
-          eventDisplay="block"
-          fixedWeekCount={false}
-
-          events={filteredEvents.map((event: any) => ({
-            id:
-              event.id ||
-              `${event.date}-${event.title}`,
-            title: event.title,
-            date: event.date,
-            backgroundColor: getCategoryColor(
-              event.category
-            ),
-            borderColor: getCategoryColor(
-              event.category
-            ),
-          }))}
-
-          dateClick={(info) => {
-            setSelectedDate(info.dateStr);
-          }}
-
-          eventClick={(info) => {
-            setSelectedDate(info.event.startStr);
-            setSelectedEventId(info.event.id);
-
-            setTimeout(() => {
-              listRef.current?.scrollIntoView({
-                behavior: "smooth",
-              });
-            }, 100);
-          }}
-
-          dayCellContent={(arg) => {
-            const dateStr = formatDate(arg.date);
-
-            return (
-              <div
-                style={{
-                  width: 30,
-                  height: 30,
-                  margin: "0 auto",
-                  borderRadius: "50%",
-                  display: "flex",
-                  justifyContent: "center",
-                  alignItems: "center",
-
-                  background:
-                    dateStr === selectedDate
-                      ? "#2563EB"
-                      : arg.isToday
-                        ? "#FDE68A"
-                        : "transparent",
-
-                  color:
-                    dateStr === selectedDate
-                      ? "white"
-                      : "inherit",
-
-                  fontWeight: "bold",
-                }}
-              >
-                {arg.dayNumberText.replace("日", "")}
-              </div>
-            );
-          }}
-        />
-
-        <div
-          ref={listRef}
-          style={{
-            marginTop: 30,
-            textAlign: "left",
-          }}
-        >
-          <h2
+          <div
             style={{
-              fontSize: 22,
-              fontWeight: "bold",
-              marginBottom: 12,
+              marginTop: 16,
+              padding: "10px 14px",
+              fontSize: 13,
+              color: "#666",
+              background: "#f9fafb",
+              borderRadius: 8,
+              lineHeight: 1.6,
             }}
           >
-            イベント一覧（{selectedDate}）
-          </h2>
+            個人的にスケジュールを確認するためにまとめています。
+            情報に抜けや反映までのタイムラグがある場合がありますので、
+            あくまで参考程度にご利用ください。
+          </div>
+        </div>
 
-          {selectedEvents.map((event: any) => (
-            <div
-              key={
+        <div
+          style={{
+            display: "flex",
+            gap: 8,
+            flexWrap: "wrap",
+            marginBottom: 16,
+          }}
+        >
+          {["すべて", "ライブ", "テレビ", "ラジオ", "チケット"].map(
+            (category) => (
+              <button
+                key={category}
+                onClick={() => {
+                  if (category === "すべて") {
+                    setCategoryFilter([]);
+                    return;
+                  }
+
+                  if (categoryFilter.includes(category)) {
+                    setCategoryFilter(
+                      categoryFilter.filter(
+                        (c) => c !== category
+                      )
+                    );
+                  } else {
+                    setCategoryFilter([
+                      ...categoryFilter,
+                      category,
+                    ]);
+                  }
+                }}
+                style={{
+                  borderRadius: 20,
+                  border: "none",
+                  cursor: "pointer",
+                  fontWeight: "bold",
+
+                  background:
+                    category === "すべて"
+                      ? categoryFilter.length === 0
+                        ? "#2563eb"
+                        : "#e5e7eb"
+                      : categoryFilter.includes(category)
+                        ? getCategoryColor(category)
+                        : getCategoryLightColor(category),
+
+                  color:
+                    category === "すべて"
+                      ? categoryFilter.length === 0
+                        ? "white"
+                        : "black"
+                      : categoryFilter.includes(category)
+                        ? "white"
+                        : getCategoryColor(category),
+                }}
+              >
+                {category}
+              </button>
+            )
+          )}
+        </div>
+
+        <div
+          style={{
+            border: "1px solid #ddd",
+            borderRadius: 10,
+            padding: 30,
+            textAlign: "center",
+          }}
+        >
+          <FullCalendar
+            plugins={[dayGridPlugin, interactionPlugin]}
+            initialView="dayGridMonth"
+            locale={jaLocale}
+            height="auto"
+            eventDisplay="block"
+            fixedWeekCount={false}
+            events={filteredEvents.map((event: any) => ({
+              id:
                 event.id ||
-                `${event.date}-${event.title}`
-              }
+                `${event.date}-${event.title}`,
+              title: event.title,
+              date: event.date,
+              backgroundColor: getCategoryColor(
+                event.category
+              ),
+              borderColor: getCategoryColor(
+                event.category
+              ),
+            }))}
+            dateClick={(info) => {
+              setSelectedDate(info.dateStr);
+            }}
+            eventClick={(info) => {
+              setSelectedDate(info.event.startStr);
+              setSelectedEventId(info.event.id);
+
+              setTimeout(() => {
+                listRef.current?.scrollIntoView({
+                  behavior: "smooth",
+                });
+              }, 100);
+            }}
+            dayCellContent={(arg) => {
+              const dateStr = formatDate(arg.date);
+
+              return (
+                <div
+                  style={{
+                    width: 30,
+                    height: 30,
+                    margin: "0 auto",
+                    borderRadius: "50%",
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    background:
+                      dateStr === selectedDate
+                        ? "#2563EB"
+                        : arg.isToday
+                          ? "#FDE68A"
+                          : "transparent",
+                    color:
+                      dateStr === selectedDate
+                        ? "white"
+                        : "inherit",
+                    fontWeight: "bold",
+                  }}
+                >
+                  {arg.dayNumberText.replace("日", "")}
+                </div>
+              );
+            }}
+          />
+
+          <div
+            ref={listRef}
+            style={{
+              marginTop: 30,
+              textAlign: "left",
+            }}
+          >
+            <h2
               style={{
-                border:
-                  (
-                    event.id ||
-                    `${event.date}-${event.title}`
-                  ) === selectedEventId
-                    ? `3px solid ${getCategoryColor(
-                      event.category
-                    )}`
-                    : `1px solid ${getCategoryColor(
-                      event.category
-                    )}`,
-                borderRadius: 14,
-                padding: 18,
-                marginBottom: 16,
-                boxShadow:
-                  "0 2px 6px rgba(0,0,0,.08)",
-                background: "white",
+                fontSize: 22,
+                fontWeight: "bold",
+                marginBottom: 12,
               }}
             >
+              イベント一覧（{selectedDate}）
+            </h2>
+
+            {selectedEvents.map((event: any) => (
               <div
+                key={
+                  event.id ||
+                  `${event.date}-${event.title}`
+                }
                 style={{
-                  display: "inline-block",
-                  padding: "4px 10px",
-                  borderRadius: 20,
-                  background:
-                    getCategoryLightColor(
-                      event.category
-                    ),
-                  fontWeight: "bold",
-                  marginBottom: 10,
+                  border:
+                    (
+                      event.id ||
+                      `${event.date}-${event.title}`
+                    ) === selectedEventId
+                      ? `3px solid ${getCategoryColor(
+                        event.category
+                      )}`
+                      : `1px solid ${getCategoryColor(
+                        event.category
+                      )}`,
+                  borderRadius: 14,
+                  padding: 18,
+                  marginBottom: 16,
+                  boxShadow:
+                    "0 2px 6px rgba(0,0,0,.08)",
+                  background: "white",
                 }}
               >
-                {event.category}
-              </div>
-
-              <div
-                style={{
-                  fontSize: 22,
-                  fontWeight: "bold",
-                  marginBottom: 12,
-                }}
-              >
-                {event.title}
-              </div>
-
-              <div style={{ marginBottom: 6 }}>
-                📅 {event.date}
-              </div>
-
-              {event.detail && (
-                <div style={{ marginBottom: 6 }}>
-                  🕐 {event.detail}
+                <div
+                  style={{
+                    display: "inline-block",
+                    padding: "4px 10px",
+                    borderRadius: 20,
+                    background:
+                      getCategoryLightColor(
+                        event.category
+                      ),
+                    fontWeight: "bold",
+                    marginBottom: 10,
+                  }}
+                >
+                  {event.category}
                 </div>
-              )}
 
-              <div style={{ marginBottom: 6 }}>
-                📍 {event.place}
-              </div>
+                <div
+                  style={{
+                    fontSize: 22,
+                    fontWeight: "bold",
+                    marginBottom: 12,
+                  }}
+                >
+                  {event.title}
+                </div>
 
-              <div style={{ marginBottom: 6 }}>
-                👥 {event.performers}
-              </div>
+                <div style={{ marginBottom: 6 }}>
+                  📅 {event.date}
+                </div>
 
-              <div style={{ marginBottom: 12 }}>
-                🌐{" "}
-
-                {event.sources?.map(
-                  (
-                    s: {
-                      source: string;
-                      url?: string;
-                    },
-                    index: number
-                  ) => (
-                    <span key={index}>
-                      {index > 0 && " ・ "}
-
-                      {s.url ? (
-                        <a
-                          href={s.url}
-                          target="_blank"
-                          rel="noreferrer"
-                          style={{
-                            color: "#2563eb",
-                            textDecoration: "none",
-                            fontWeight: "bold",
-                            cursor: "pointer",
-                          }}
-                        >
-                          {s.source}
-                        </a>
-                      ) : (
-                        <span>{s.source}</span>
-                      )}
-                    </span>
-                  )
+                {event.detail && (
+                  <div style={{ marginBottom: 6 }}>
+                    🕐 {event.detail}
+                  </div>
                 )}
+
+                <div style={{ marginBottom: 6 }}>
+                  📍 {event.place}
+                </div>
+
+                <div style={{ marginBottom: 6 }}>
+                  👥 {event.performers}
+                </div>
+
+                <div style={{ marginBottom: 12 }}>
+                  🌐{" "}
+
+                  {event.sources?.map(
+                    (
+                      s: {
+                        source: string;
+                        url?: string;
+                      },
+                      index: number
+                    ) => (
+                      <span key={index}>
+                        {index > 0 && " ・ "}
+
+                        {s.url ? (
+                          <a
+                            href={s.url}
+                            target="_blank"
+                            rel="noreferrer"
+                            style={{
+                              color: "#2563eb",
+                              textDecoration: "none",
+                              fontWeight: "bold",
+                              cursor: "pointer",
+                            }}
+                          >
+                            {s.source}
+                          </a>
+                        ) : (
+                          <span>{s.source}</span>
+                        )}
+                      </span>
+                    )
+                  )}
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </div>
