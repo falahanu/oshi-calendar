@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-08-21T11:55:49.731Z",
-  "from": "2025-08-21",
-  "to": "2027-08-21",
+  "lastUpdate": "2026-08-22T00:45:55.964Z",
+  "from": "2025-08-22",
+  "to": "2027-08-22",
   "events": [
     {
       "id": 5,
@@ -6220,26 +6220,6 @@
         {
           "source": "日テレ",
           "url": "https://www.ntv.co.jp/program/detail/?programid=20262102"
-        }
-      ]
-    },
-    {
-      "id": 361,
-      "date": "2026-08-15",
-      "title": "ヤーレンズトークライブ「ハッとしてトーク」",
-      "category": "チケット",
-      "place": "新宿スパークル (東京都)",
-      "performers": "ヤーレンズ",
-      "url": "https://livepocket.jp/e/7z7fs",
-      "status": "終了",
-      "source": "TIGET",
-      "detail": "2026年8月15日(土) 12:00〜2026年8月20日(木) 23:59",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "TIGET",
-          "url": "https://livepocket.jp/e/7z7fs"
         }
       ]
     },
