@@ -150,7 +150,7 @@ function App() {
       {/* YouTube動画を背景として1枚だけ表示 */}
       <div className="video-background" aria-hidden="true">
         <iframe
-          src="https://www.youtube.com/embed/6y6l6yARzxU?autoplay=1&mute=0&loop=1&playlist=6y6l6yARzxU&playsinline=1&controls=0&rel=0&cc_load_policy=0"
+          src="https://www.youtube.com/embed/6y6l6yARzxU?autoplay=1&loop=1&playlist=6y6l6yARzxU&playsinline=1&controls=0&rel=0&cc_load_policy=0"
           title="ヤーレンズ 日本武道館 宣伝動画"
           allow="autoplay; encrypted-media"
           referrerPolicy="strict-origin-when-cross-origin"
