@@ -154,7 +154,7 @@ function App() {
 
       <div className="page-content">
         <h1>
-          {oshi.icon} {oshi.name} イベントカレンダー
+          {oshi.icon} {oshi.name} 推し活カレンダー
         </h1>
 
         <p
@@ -165,7 +165,7 @@ function App() {
             fontSize: 14,
           }}
         >
-          ヤーレンズさんの出演情報・ライブ・テレビ・ラジオなどをまとめたイベントカレンダーです。
+          ヤーレンズさんの出演情報・ライブ・テレビ・ラジオなどをまとめた、非公式の応援サイトです。
         </p>
 
         {/* 日本武道館ライブ カウントダウン */}
