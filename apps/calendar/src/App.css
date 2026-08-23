@@ -196,7 +196,7 @@
   pointer-events: none;
 }
 
-.video-background iframe {
+.video-background > iframe {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -206,14 +206,13 @@
   min-height: 100vh;
   transform: translate(-50%, -50%);
   border: 0;
-  pointer-events: none;
 }
 
 .video-overlay {
   position: absolute;
   inset: 0;
   z-index: 1;
-  background: rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.25);
   pointer-events: none;
 }
 
@@ -224,3 +223,4 @@
   margin: 0 auto;
   padding: 20px;
 }
+
