@@ -123,13 +123,13 @@ function App() {
 
   const lastUpdate = data?.lastUpdate
     ? new Date(data.lastUpdate).toLocaleString("ja-JP", {
-      timeZone: "Asia/Tokyo",
-      year: "numeric",
-      month: "2-digit",
-      day: "2-digit",
-      hour: "2-digit",
-      minute: "2-digit",
-    })
+        timeZone: "Asia/Tokyo",
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+        hour: "2-digit",
+        minute: "2-digit",
+      })
     : "";
 
   const groupedEvents = data?.events ?? [];
@@ -138,8 +138,8 @@ function App() {
     categoryFilter.length === 0
       ? groupedEvents
       : groupedEvents.filter((event: any) =>
-        categoryFilter.includes(event.category)
-      );
+          categoryFilter.includes(event.category)
+        );
 
   const selectedEvents = filteredEvents.filter(
     (event: any) => event.date === selectedDate
@@ -147,6 +147,17 @@ function App() {
 
   return (
     <div className="page-background">
+      {/* YouTube動画を背景として1枚だけ表示 */}
+      <div className="video-background" aria-hidden="true">
+        <iframe
+          src="https://www.youtube.com/embed/6y6l6yARzxU?autoplay=1&mute=1&loop=1&playlist=6y6l6yARzxU&playsinline=1&controls=0&rel=0"
+          title="ヤーレンズ 日本武道館 宣伝動画"
+          allow="autoplay; encrypted-media"
+          referrerPolicy="strict-origin-when-cross-origin"
+        />
+        <div className="video-overlay" />
+      </div>
+
       <div className="page-content">
         <h1>
           {oshi.icon} {oshi.name} イベントカレンダー
@@ -162,29 +173,6 @@ function App() {
         >
           ヤーレンズさんの出演情報・ライブ・テレビ・ラジオなどをまとめたイベントカレンダーです。
         </p>
-
-        {/* YouTube通常埋め込みテスト */}
-        <div
-          style={{
-            maxWidth: 900,
-            margin: "0 auto 20px",
-            background: "white",
-            padding: 10,
-            borderRadius: 10,
-            boxSizing: "border-box",
-          }}
-        >
-          <iframe
-            width="100%"
-            height="506"
-            src="https://www.youtube.com/embed/6y6l6yARzxU"
-            title="ヤーレンズ 日本武道館 宣伝動画"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
-          />
-        </div>
 
         {/* 日本武道館ライブ カウントダウン */}
         <div
@@ -510,11 +498,11 @@ function App() {
                       `${event.date}-${event.title}`
                     ) === selectedEventId
                       ? `3px solid ${getCategoryColor(
-                        event.category
-                      )}`
+                          event.category
+                        )}`
                       : `1px solid ${getCategoryColor(
-                        event.category
-                      )}`,
+                          event.category
+                        )}`,
                   borderRadius: 14,
                   padding: 18,
                   marginBottom: 16,
