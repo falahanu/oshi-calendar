@@ -147,15 +147,9 @@ function App() {
 
   return (
     <div className="page-background">
-      {/* YouTube動画を背景として1枚だけ表示 */}
-      <div className="video-background" aria-hidden="true">
-        <iframe
-          src="https://www.youtube.com/embed/6y6l6yARzxU?autoplay=1&loop=1&playlist=6y6l6yARzxU&playsinline=1&controls=0&rel=0&cc_load_policy=0"
-          title="ヤーレンズ 日本武道館 宣伝動画"
-          allow="autoplay; encrypted-media"
-          referrerPolicy="strict-origin-when-cross-origin"
-        />
-        <div className="video-overlay" />
+      {/* YouTube動画ではなく、公式動画のサムネイルを背景として表示 */}
+      <div className="image-background" aria-hidden="true">
+        <div className="image-overlay" />
       </div>
 
       <div className="page-content">
@@ -208,6 +202,29 @@ function App() {
             }}
           >
             一万人に漫才 in 日本武道館
+          </div>
+
+          {/* 見たい人だけ再生する通常のYouTube埋め込み */}
+          <div
+            style={{
+              maxWidth: 900,
+              margin: "0 auto 20px",
+              background: "white",
+              padding: 10,
+              borderRadius: 10,
+              boxSizing: "border-box",
+            }}
+          >
+            <iframe
+              width="100%"
+              height="506"
+              src="https://www.youtube.com/embed/6y6l6yARzxU"
+              title="ヤーレンズ 日本武道館 宣伝動画"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            />
           </div>
 
           <div
