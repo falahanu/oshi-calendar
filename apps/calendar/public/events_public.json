@@ -1,48 +1,8 @@
 {
-  "lastUpdate": "2026-08-22T00:45:55.964Z",
-  "from": "2025-08-22",
-  "to": "2027-08-22",
+  "lastUpdate": "2026-08-24T00:05:03.065Z",
+  "from": "2025-08-24",
+  "to": "2027-08-24",
   "events": [
-    {
-      "id": 5,
-      "date": "2025-08-24",
-      "title": "ヤーレンズ第1回単独ライブツアー2025「熱い胸さわぎ」 1部",
-      "category": "ライブ",
-      "place": "札幌教育文化会館小ホール",
-      "performers": "ヤーレンズ",
-      "url": "https://www.kdashstage.jp/topic/archives/1922",
-      "status": "終了",
-      "source": "公式",
-      "detail": "開場13:15／開演14:00～終演15:30",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式",
-          "url": "https://www.kdashstage.jp/topic/archives/1922"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "date": "2025-08-24",
-      "title": "ヤーレンズ第1回単独ライブツアー2025「熱い胸さわぎ」 2部",
-      "category": "ライブ",
-      "place": "札幌教育文化会館小ホール",
-      "performers": "ヤーレンズ",
-      "url": "https://www.kdashstage.jp/topic/archives/1922",
-      "status": "終了",
-      "source": "公式",
-      "detail": "開場16:45／開演17:30～終演19:00",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式",
-          "url": "https://www.kdashstage.jp/topic/archives/1922"
-        }
-      ]
-    },
     {
       "id": 7,
       "date": "2025-09-04",
@@ -6440,6 +6400,26 @@
         {
           "source": "ぴあ",
           "url": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=37077"
+        }
+      ]
+    },
+    {
+      "id": 371,
+      "date": "2026-09-30",
+      "title": "パンドラの匣",
+      "category": "ライブ",
+      "place": "セシオン杉並ホール",
+      "performers": "イチゴ・9番街レトロ京極・ネコニスズ・ママタルト・ヤーレンズ・他",
+      "url": "",
+      "status": "開催予定",
+      "source": "X",
+      "detail": "開場19:00 開演19:30 終演21:00（予定）",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "X",
+          "url": ""
         }
       ]
     }
