@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-25T05:18:24.529Z",
+  "lastUpdate": "2026-08-25T08:08:49.464Z",
   "from": "2025-08-25",
   "to": "2027-08-25",
   "events": [
@@ -5009,7 +5009,7 @@
       "title": "ヤーレンズと太福の演芸会",
       "category": "ライブ",
       "place": "浅草フランス座演芸場 東洋館 (東京都)",
-      "performers": "ヤ―レンズ",
+      "performers": "ヤ―レンズ/玉川太福/瀧川鯉八/かが屋",
       "url": "https://livepocket.jp/e/abd6u",
       "status": "開催予定",
       "source": "TIGET",
@@ -5129,7 +5129,7 @@
       "title": "セカンドデイドリーマー",
       "category": "ライブ",
       "place": "新宿バティオス (東京都)",
-      "performers": "ツーナッカン、LLR、三日月マンハッタン",
+      "performers": "ツーナッカン、LLR、三日月マンハッタン ゲスト：ヤーレンズ",
       "url": "https://ticket.fany.lol/reception/60512/49422",
       "status": "開催予定",
       "source": "FANY",
@@ -5436,46 +5436,6 @@
         {
           "source": "公式",
           "url": ""
-        }
-      ]
-    },
-    {
-      "id": 319,
-      "date": "2026-10-17",
-      "title": "HRF2026～偽物だらけの国内最大級フェス～ 1部",
-      "category": "ライブ",
-      "place": "東別院テラスホール",
-      "performers": "ヤーレンズ、原口あきまさ、ミラクルひかる、古賀シュウ、ジョニー志村",
-      "url": "https://www.kdash.jp/news/archives/date/2026/10",
-      "status": "予定",
-      "source": "公式",
-      "detail": "1部12:30開演",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式",
-          "url": "https://www.kdash.jp/news/archives/date/2026/10"
-        }
-      ]
-    },
-    {
-      "id": 320,
-      "date": "2026-10-17",
-      "title": "HRF2026～偽物だらけの国内最大級フェス～ 2部",
-      "category": "ライブ",
-      "place": "東別院テラスホール",
-      "performers": "ヤーレンズ、原口あきまさ、ミラクルひかる、古賀シュウ、ジョニー志村",
-      "url": "https://www.kdash.jp/news/archives/date/2026/10",
-      "status": "予定",
-      "source": "公式",
-      "detail": "2部17:00開演",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式",
-          "url": "https://www.kdash.jp/news/archives/date/2026/10"
         }
       ]
     },
