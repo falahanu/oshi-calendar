@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-28T02:09:39.316Z",
+  "lastUpdate": "2026-08-28T02:23:40.377Z",
   "from": "2025-08-28",
   "to": "2027-08-28",
   "events": [
@@ -4352,10 +4352,6 @@
         {
           "source": "チケプラ",
           "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
-        },
-        {
-          "source": "Tixplus",
-          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
         }
       ]
     },
@@ -4380,10 +4376,6 @@
         {
           "source": "LivePocket",
           "url": "https://promoter.livepocket.jp/promoters/893/events/1081286/top"
-        },
-        {
-          "source": "Tixplus",
-          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
         }
       ]
     },
@@ -5112,6 +5104,26 @@
       ]
     },
     {
+      "id": 334,
+      "date": "2026-08-27",
+      "title": "パンサー向井の＃ふらっと［ヤーレンズの＃ふらっと］",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "https://www.youtube.com/playlist?list=PLJjnyXnmK57ZLKpwc6LarZYbAFTGpFguq",
+      "status": "終了",
+      "source": "Youtubeあり",
+      "detail": "隔週木曜日8:30～11:00",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Youtubeあり",
+          "url": "https://www.youtube.com/playlist?list=PLJjnyXnmK57ZLKpwc6LarZYbAFTGpFguq"
+        }
+      ]
+    },
+    {
       "id": 288,
       "date": "2026-08-27",
       "title": "真空レンズ",
@@ -5168,10 +5180,6 @@
         {
           "source": "spotify",
           "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX"
-        },
-        {
-          "source": "公式HP",
-          "url": ""
         }
       ]
     },
@@ -5252,10 +5260,6 @@
         {
           "source": "Youtubeあり",
           "url": "https://www.youtube.com/channel/UCBBffCWDYaQeUa3uQs3-EBg"
-        },
-        {
-          "source": "公式HP",
-          "url": ""
         }
       ]
     },
@@ -5281,6 +5285,46 @@
     },
     {
       "id": 296,
+      "date": "2026-09-02",
+      "title": "ヒルナンデス",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "開催予定",
+      "source": "公式HP",
+      "detail": "11:55～13:55",
+      "management": "自動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "公式HP",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 297,
+      "date": "2026-09-03",
+      "title": "真空レンズ",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ、真空ジェシカ、スタミナパン",
+      "url": "https://tver.jp/series/sryhlrcydxb",
+      "status": "終了",
+      "source": "Tverあり",
+      "detail": "25:30～26:00",
+      "management": "自動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Tverあり",
+          "url": "https://tver.jp/series/sryhlrcydxb"
+        }
+      ]
+    },
+    {
+      "id": 298,
       "date": "2026-09-04",
       "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
       "category": "ラジオ",
@@ -5296,15 +5340,11 @@
         {
           "source": "spotify",
           "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX"
-        },
-        {
-          "source": "公式HP",
-          "url": ""
         }
       ]
     },
     {
-      "id": 297,
+      "id": 299,
       "date": "2026-09-05",
       "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」",
       "category": "ライブ",
@@ -5324,19 +5364,31 @@
         {
           "source": "チケプラ",
           "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
-        },
-        {
-          "source": "公式HP",
-          "url": ""
-        },
-        {
-          "source": "Tixplus",
-          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
         }
       ]
     },
     {
-      "id": 299,
+      "id": 301,
+      "date": "2026-09-07",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "https://www.youtube.com/channel/UCBBffCWDYaQeUa3uQs3-EBg",
+      "status": "予定",
+      "source": "Youtubeあり",
+      "detail": "21:15～23:30",
+      "management": "自動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Youtubeあり",
+          "url": "https://www.youtube.com/channel/UCBBffCWDYaQeUa3uQs3-EBg"
+        }
+      ]
+    },
+    {
+      "id": 302,
       "date": "2026-09-08",
       "title": "ニッポンの社長のネタとコーナーライブ「広沢」",
       "category": "ライブ",
@@ -5364,7 +5416,27 @@
       ]
     },
     {
-      "id": 302,
+      "id": 305,
+      "date": "2026-09-10",
+      "title": "真空レンズ",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ、真空ジェシカ、スタミナパン",
+      "url": "https://tver.jp/series/sryhlrcydxb",
+      "status": "終了",
+      "source": "Tverあり",
+      "detail": "25:30～26:00",
+      "management": "自動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Tverあり",
+          "url": "https://tver.jp/series/sryhlrcydxb"
+        }
+      ]
+    },
+    {
+      "id": 306,
       "date": "2026-09-11",
       "title": "パンサー向井の＃ふらっと［ヤーレンズの＃ふらっと］",
       "category": "ラジオ",
@@ -5384,7 +5456,7 @@
       ]
     },
     {
-      "id": 303,
+      "id": 307,
       "date": "2026-09-11",
       "title": "満場吉兆遊戯　よだれ September Love♥",
       "category": "ライブ",
@@ -5404,7 +5476,7 @@
       ]
     },
     {
-      "id": 304,
+      "id": 308,
       "date": "2026-09-12",
       "title": "笑ってノト！2026 SUMMER 1部",
       "category": "ライブ",
@@ -5428,7 +5500,7 @@
       ]
     },
     {
-      "id": 306,
+      "id": 310,
       "date": "2026-09-12",
       "title": "笑ってノト！2026 SUMMER 2部",
       "category": "ライブ",
@@ -5452,7 +5524,27 @@
       ]
     },
     {
-      "id": 308,
+      "id": 312,
+      "date": "2026-09-14",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "https://www.youtube.com/channel/UCBBffCWDYaQeUa3uQs3-EBg",
+      "status": "予定",
+      "source": "Youtubeあり",
+      "detail": "21:15～23:30",
+      "management": "自動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Youtubeあり",
+          "url": "https://www.youtube.com/channel/UCBBffCWDYaQeUa3uQs3-EBg"
+        }
+      ]
+    },
+    {
+      "id": 313,
       "date": "2026-09-15",
       "title": "紅 vol.2",
       "category": "ライブ",
@@ -5472,7 +5564,27 @@
       ]
     },
     {
-      "id": 309,
+      "id": 314,
+      "date": "2026-09-17",
+      "title": "真空レンズ",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ、真空ジェシカ、スタミナパン",
+      "url": "https://tver.jp/series/sryhlrcydxb",
+      "status": "終了",
+      "source": "Tverあり",
+      "detail": "25:30～26:00",
+      "management": "自動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Tverあり",
+          "url": "https://tver.jp/series/sryhlrcydxb"
+        }
+      ]
+    },
+    {
+      "id": 315,
       "date": "2026-09-18",
       "title": "爆笑！！お笑いスーパーライブ　ｉｎ　青森　２０２６",
       "category": "チケット",
@@ -5492,7 +5604,7 @@
       ]
     },
     {
-      "id": 310,
+      "id": 316,
       "date": "2026-09-19",
       "title": "ケイダッシュステージお笑い珍道中 京都編 1部",
       "category": "ライブ",
@@ -5516,7 +5628,7 @@
       ]
     },
     {
-      "id": 312,
+      "id": 318,
       "date": "2026-09-19",
       "title": "ケイダッシュステージお笑い珍道中 京都編 2部",
       "category": "ライブ",
@@ -5540,7 +5652,27 @@
       ]
     },
     {
-      "id": 314,
+      "id": 320,
+      "date": "2026-09-21",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "https://www.youtube.com/channel/UCBBffCWDYaQeUa3uQs3-EBg",
+      "status": "予定",
+      "source": "Youtubeあり",
+      "detail": "21:15～23:30",
+      "management": "自動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Youtubeあり",
+          "url": "https://www.youtube.com/channel/UCBBffCWDYaQeUa3uQs3-EBg"
+        }
+      ]
+    },
+    {
+      "id": 321,
       "date": "2026-09-23",
       "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」 1部",
       "category": "ライブ",
@@ -5564,7 +5696,7 @@
       ]
     },
     {
-      "id": 316,
+      "id": 323,
       "date": "2026-09-23",
       "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」 2部",
       "category": "ライブ",
@@ -5588,7 +5720,7 @@
       ]
     },
     {
-      "id": 318,
+      "id": 325,
       "date": "2026-09-24",
       "title": "ミッション：出井ンポッシブル３",
       "category": "ライブ",
@@ -5608,7 +5740,27 @@
       ]
     },
     {
-      "id": 319,
+      "id": 326,
+      "date": "2026-09-24",
+      "title": "真空レンズ",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ、真空ジェシカ、スタミナパン",
+      "url": "https://tver.jp/series/sryhlrcydxb",
+      "status": "終了",
+      "source": "Tverあり",
+      "detail": "25:30～26:00",
+      "management": "自動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Tverあり",
+          "url": "https://tver.jp/series/sryhlrcydxb"
+        }
+      ]
+    },
+    {
+      "id": 327,
       "date": "2026-09-27",
       "title": "ヤーレンズのオールナイトニッポン0",
       "category": "ラジオ",
@@ -5628,7 +5780,27 @@
       ]
     },
     {
-      "id": 320,
+      "id": 328,
+      "date": "2026-09-28",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "https://www.youtube.com/channel/UCBBffCWDYaQeUa3uQs3-EBg",
+      "status": "予定",
+      "source": "Youtubeあり",
+      "detail": "21:15～23:30",
+      "management": "自動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Youtubeあり",
+          "url": "https://www.youtube.com/channel/UCBBffCWDYaQeUa3uQs3-EBg"
+        }
+      ]
+    },
+    {
+      "id": 329,
       "date": "2026-09-30",
       "title": "パンドラの匣",
       "category": "ライブ",
@@ -5648,7 +5820,7 @@
       ]
     },
     {
-      "id": 321,
+      "id": 330,
       "date": "2026-10-01",
       "title": "Owarai-night Sensation 『DJ KOO presents ちゃんKOOお笑いLIVE!! vol.8 in OSAKA』",
       "category": "ライブ",
@@ -5668,7 +5840,7 @@
       ]
     },
     {
-      "id": 322,
+      "id": 331,
       "date": "2026-10-01",
       "title": "ヤーレンズ×ジグザグジギーツーマンライブ其の十一『コントの虎 漫才の狼』",
       "category": "ライブ",
@@ -5688,7 +5860,107 @@
       ]
     },
     {
-      "id": 323,
+      "id": 332,
+      "date": "2026-10-01",
+      "title": "真空レンズ",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ、真空ジェシカ、スタミナパン",
+      "url": "https://tver.jp/series/sryhlrcydxb",
+      "status": "終了",
+      "source": "Tverあり",
+      "detail": "25:30～26:00",
+      "management": "自動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Tverあり",
+          "url": "https://tver.jp/series/sryhlrcydxb"
+        }
+      ]
+    },
+    {
+      "id": 333,
+      "date": "2026-10-05",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "https://www.youtube.com/channel/UCBBffCWDYaQeUa3uQs3-EBg",
+      "status": "予定",
+      "source": "Youtubeあり",
+      "detail": "21:15～23:30",
+      "management": "自動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Youtubeあり",
+          "url": "https://www.youtube.com/channel/UCBBffCWDYaQeUa3uQs3-EBg"
+        }
+      ]
+    },
+    {
+      "id": 334,
+      "date": "2026-10-08",
+      "title": "真空レンズ",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ、真空ジェシカ、スタミナパン",
+      "url": "https://tver.jp/series/sryhlrcydxb",
+      "status": "終了",
+      "source": "Tverあり",
+      "detail": "25:30～26:00",
+      "management": "自動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Tverあり",
+          "url": "https://tver.jp/series/sryhlrcydxb"
+        }
+      ]
+    },
+    {
+      "id": 335,
+      "date": "2026-10-12",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "https://www.youtube.com/channel/UCBBffCWDYaQeUa3uQs3-EBg",
+      "status": "予定",
+      "source": "Youtubeあり",
+      "detail": "21:15～23:30",
+      "management": "自動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Youtubeあり",
+          "url": "https://www.youtube.com/channel/UCBBffCWDYaQeUa3uQs3-EBg"
+        }
+      ]
+    },
+    {
+      "id": 336,
+      "date": "2026-10-15",
+      "title": "真空レンズ",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ、真空ジェシカ、スタミナパン",
+      "url": "https://tver.jp/series/sryhlrcydxb",
+      "status": "終了",
+      "source": "Tverあり",
+      "detail": "25:30～26:00",
+      "management": "自動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Tverあり",
+          "url": "https://tver.jp/series/sryhlrcydxb"
+        }
+      ]
+    },
+    {
+      "id": 337,
       "date": "2026-10-17",
       "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」",
       "category": "ライブ",
@@ -5708,19 +5980,11 @@
         {
           "source": "公式",
           "url": "https://www.kdash.jp/news/archives/tag/%E3%83%A4%E3%83%BC%E3%83%AC%E3%83%B3%E3%82%BA"
-        },
-        {
-          "source": "公式HP",
-          "url": ""
-        },
-        {
-          "source": "Tixplus",
-          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
         }
       ]
     },
     {
-      "id": 325,
+      "id": 339,
       "date": "2026-10-18",
       "title": "ねじロックフェス2026 1部",
       "category": "ライブ",
@@ -5740,7 +6004,7 @@
       ]
     },
     {
-      "id": 326,
+      "id": 340,
       "date": "2026-10-18",
       "title": "ねじロックフェス2026 2部",
       "category": "ライブ",
@@ -5760,7 +6024,47 @@
       ]
     },
     {
-      "id": 327,
+      "id": 341,
+      "date": "2026-10-19",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "https://www.youtube.com/channel/UCBBffCWDYaQeUa3uQs3-EBg",
+      "status": "予定",
+      "source": "Youtubeあり",
+      "detail": "21:15～23:30",
+      "management": "自動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Youtubeあり",
+          "url": "https://www.youtube.com/channel/UCBBffCWDYaQeUa3uQs3-EBg"
+        }
+      ]
+    },
+    {
+      "id": 342,
+      "date": "2026-10-22",
+      "title": "真空レンズ",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ、真空ジェシカ、スタミナパン",
+      "url": "https://tver.jp/series/sryhlrcydxb",
+      "status": "終了",
+      "source": "Tverあり",
+      "detail": "25:30～26:00",
+      "management": "自動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Tverあり",
+          "url": "https://tver.jp/series/sryhlrcydxb"
+        }
+      ]
+    },
+    {
+      "id": 343,
       "date": "2026-10-24",
       "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」 1部",
       "category": "ライブ",
@@ -5784,7 +6088,7 @@
       ]
     },
     {
-      "id": 329,
+      "id": 345,
       "date": "2026-10-24",
       "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」 2部",
       "category": "ライブ",
@@ -5808,7 +6112,47 @@
       ]
     },
     {
-      "id": 331,
+      "id": 347,
+      "date": "2026-10-26",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "https://www.youtube.com/channel/UCBBffCWDYaQeUa3uQs3-EBg",
+      "status": "予定",
+      "source": "Youtubeあり",
+      "detail": "21:15～23:30",
+      "management": "自動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Youtubeあり",
+          "url": "https://www.youtube.com/channel/UCBBffCWDYaQeUa3uQs3-EBg"
+        }
+      ]
+    },
+    {
+      "id": 348,
+      "date": "2026-10-29",
+      "title": "真空レンズ",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ、真空ジェシカ、スタミナパン",
+      "url": "https://tver.jp/series/sryhlrcydxb",
+      "status": "終了",
+      "source": "Tverあり",
+      "detail": "25:30～26:00",
+      "management": "自動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Tverあり",
+          "url": "https://tver.jp/series/sryhlrcydxb"
+        }
+      ]
+    },
+    {
+      "id": 349,
       "date": "2026-12-06",
       "title": "爆笑！！お笑いスーパーライブ　ｉｎ　青森　２０２６- 1部",
       "category": "ライブ",
@@ -5828,7 +6172,7 @@
       ]
     },
     {
-      "id": 332,
+      "id": 350,
       "date": "2026-12-06",
       "title": "爆笑！！お笑いスーパーライブ　ｉｎ　青森　２０２６- 2部",
       "category": "ライブ",
@@ -5848,7 +6192,7 @@
       ]
     },
     {
-      "id": 333,
+      "id": 351,
       "date": "2027-03-07",
       "title": "ヤーレンズ単独ライブ 一万人に漫才 in 日本武道館",
       "category": "ライブ",
@@ -5864,626 +6208,6 @@
         {
           "source": "公式",
           "url": "https://event.1242.com/events/yarlens_budokan/"
-        },
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": 334,
-      "date": "2026-08-27",
-      "title": "パンサー向井の＃ふらっと［ヤーレンズの＃ふらっと］",
-      "category": "ラジオ",
-      "place": "TBSラジオ",
-      "performers": "ヤーレンズ",
-      "url": "https://www.youtube.com/playlist?list=PLJjnyXnmK57ZLKpwc6LarZYbAFTGpFguq",
-      "status": "終了",
-      "source": "Youtubeあり",
-      "detail": "隔週木曜日8:30～11:00",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "Youtubeあり",
-          "url": "https://www.youtube.com/playlist?list=PLJjnyXnmK57ZLKpwc6LarZYbAFTGpFguq"
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-08-29",
-      "title": "ニッポン放送「ヤーレンズのオールナイトニッポン0」",
-      "category": "その他",
-      "place": "",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "27:00～29:00",
-      "management": "自動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-09-02",
-      "title": "ヒルナンデス",
-      "category": "テレビ",
-      "place": "日本テレビ",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "11:55～13:55",
-      "management": "自動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-09-03",
-      "title": "真空レンズ",
-      "category": "テレビ",
-      "place": "テレビ東京",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "25:30～26:00",
-      "management": "自動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-10-29",
-      "title": "真空レンズ",
-      "category": "テレビ",
-      "place": "テレビ東京",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "25:30～26:00",
-      "management": "自動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-10-26",
-      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
-      "category": "ラジオ",
-      "place": "ABCラジオ",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "21:15～23:30",
-      "management": "自動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-10-24",
-      "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」【1部】",
-      "category": "ライブ",
-      "place": "大阪・池田市民文化会館 アゼリアホール",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "開演 13:00",
-      "management": "自動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        },
-        {
-          "source": "Tixplus",
-          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-10-24",
-      "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」【2部】",
-      "category": "ライブ",
-      "place": "大阪・池田市民文化会館 アゼリアホール",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "開演 17:00",
-      "management": "自動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        },
-        {
-          "source": "Tixplus",
-          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-10-22",
-      "title": "真空レンズ",
-      "category": "テレビ",
-      "place": "テレビ東京",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "25:30～26:00",
-      "management": "自動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-10-19",
-      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
-      "category": "ラジオ",
-      "place": "ABCラジオ",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "21:15～23:30",
-      "management": "自動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-10-15",
-      "title": "真空レンズ",
-      "category": "テレビ",
-      "place": "テレビ東京",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "25:30～26:00",
-      "management": "自動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-10-12",
-      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
-      "category": "ラジオ",
-      "place": "ABCラジオ",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "21:15～23:30",
-      "management": "自動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-10-08",
-      "title": "真空レンズ",
-      "category": "テレビ",
-      "place": "テレビ東京",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "25:30～26:00",
-      "management": "自動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-10-05",
-      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
-      "category": "ラジオ",
-      "place": "ABCラジオ",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "21:15～23:30",
-      "management": "自動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-10-01",
-      "title": "真空レンズ",
-      "category": "テレビ",
-      "place": "テレビ東京",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "25:30～26:00",
-      "management": "自動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-09-28",
-      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
-      "category": "ラジオ",
-      "place": "ABCラジオ",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "21:15～23:30",
-      "management": "自動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-09-24",
-      "title": "真空レンズ",
-      "category": "テレビ",
-      "place": "テレビ東京",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "25:30～26:00",
-      "management": "自動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-09-23",
-      "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」【1部】",
-      "category": "ライブ",
-      "place": "北海道・北ガス文化ホール 大ホール",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "開演 13:00",
-      "management": "自動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        },
-        {
-          "source": "Tixplus",
-          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-09-23",
-      "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」【2部】",
-      "category": "ライブ",
-      "place": "北海道・北ガス文化ホール 大ホール",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "開演 17:00",
-      "management": "自動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        },
-        {
-          "source": "Tixplus",
-          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-09-21",
-      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
-      "category": "ラジオ",
-      "place": "ABCラジオ",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "21:15～23:30",
-      "management": "自動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-09-17",
-      "title": "真空レンズ",
-      "category": "テレビ",
-      "place": "テレビ東京",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "25:30～26:00",
-      "management": "自動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-09-14",
-      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
-      "category": "ラジオ",
-      "place": "ABCラジオ",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "21:15～23:30",
-      "management": "自動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-09-10",
-      "title": "真空レンズ",
-      "category": "テレビ",
-      "place": "テレビ東京",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "25:30～26:00",
-      "management": "自動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-09-07",
-      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
-      "category": "ラジオ",
-      "place": "ABCラジオ",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "21:15～23:30",
-      "management": "自動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-08-29",
-      "title": "ヤーレンズのオールナイトニッポン0",
-      "category": "その他",
-      "place": "ニッポン放送",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "公式HP",
-      "detail": "27:00～29:00",
-      "management": "自動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式HP",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-09-19",
-      "title": "【一部】ケイダッシュステージお笑い珍道中　京都編",
-      "category": "ライブ",
-      "place": "京都市呉竹文化センター（京都府）",
-      "performers": "ヤーレンズ / クロコップ / サツマカワRPG / トム・ブラウン",
-      "url": "",
-      "status": "開催予定",
-      "source": "LivePocket",
-      "detail": "",
-      "management": "自動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "LivePocket",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-09-19",
-      "title": "【二部】ケイダッシュステージお笑い珍道中　京都編",
-      "category": "ライブ",
-      "place": "京都市呉竹文化センター（京都府）",
-      "performers": "ヤーレンズ / クロコップ / サツマカワRPG / トム・ブラウン",
-      "url": "",
-      "status": "開催予定",
-      "source": "LivePocket",
-      "detail": "",
-      "management": "自動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "LivePocket",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "",
-      "date": "2026-09-11",
-      "title": "満場吉兆遊戯 よだれ September Love♥",
-      "category": "ライブ",
-      "place": "野方区民ホール（東京都）",
-      "performers": "虹の黄昏 / ぽんぽこ / ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "LivePocket",
-      "detail": "",
-      "management": "自動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "LivePocket",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": "TIXPLUS_20260823_1",
-      "date": "2026-08-23",
-      "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」【1部】",
-      "category": "ライブ",
-      "place": "福岡・福岡国際会議場 メインホール",
-      "performers": "ヤーレンズ",
-      "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/",
-      "status": "終了",
-      "source": "Tixplus",
-      "detail": "【1部】開場 12:00 / 開演 13:00 ※予定枚数終了",
-      "management": "自動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "Tixplus",
-          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
-        }
-      ]
-    },
-    {
-      "id": "TIXPLUS_20260823_2",
-      "date": "2026-08-23",
-      "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」【2部】",
-      "category": "ライブ",
-      "place": "福岡・福岡国際会議場 メインホール",
-      "performers": "ヤーレンズ",
-      "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/",
-      "status": "終了",
-      "source": "Tixplus",
-      "detail": "【2部】開場 16:00 / 開演 17:00 ※予定枚数終了",
-      "management": "自動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "Tixplus",
-          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
         }
       ]
     }
