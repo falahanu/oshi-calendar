@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-08-28T02:23:40.377Z",
-  "from": "2025-08-28",
-  "to": "2027-08-28",
+  "lastUpdate": "2026-08-29T14:59:56.289Z",
+  "from": "2025-08-29",
+  "to": "2027-08-29",
   "events": [
     {
       "id": 7,
@@ -2654,16 +2654,16 @@
       "category": "ラジオ",
       "place": "TBSラジオ",
       "performers": "ヤーレンズ",
-      "url": "https://www.kdashstage.jp/topic/archives/112",
+      "url": "",
       "status": "終了",
-      "source": "公式",
-      "detail": "8:30～11:00",
+      "source": "Youtubeあり",
+      "detail": "隔週木曜日8:30～11:00",
       "management": "手動",
       "featured": false,
       "sources": [
         {
-          "source": "公式",
-          "url": "https://www.kdashstage.jp/topic/archives/112"
+          "source": "Youtubeあり",
+          "url": ""
         }
       ]
     },
@@ -3014,16 +3014,16 @@
       "category": "ラジオ",
       "place": "TBSラジオ",
       "performers": "ヤーレンズ",
-      "url": "",
+      "url": "https://www.youtube.com/playlist?list=PLJjnyXnmK57ZLKpwc6LarZYbAFTGpFguq",
       "status": "終了",
-      "source": "公式",
-      "detail": "8:30～11:00",
+      "source": "Youtubeあり",
+      "detail": "隔週木曜日8:30～11:00",
       "management": "手動",
       "featured": false,
       "sources": [
         {
-          "source": "公式",
-          "url": ""
+          "source": "Youtubeあり",
+          "url": "https://www.youtube.com/playlist?list=PLJjnyXnmK57ZLKpwc6LarZYbAFTGpFguq"
         }
       ]
     },
@@ -3302,16 +3302,16 @@
       "category": "ラジオ",
       "place": "TBSラジオ",
       "performers": "ヤーレンズ",
-      "url": "https://www.kdashstage.jp/profile/archives/4",
+      "url": "https://www.youtube.com/playlist?list=PLJjnyXnmK57ZLKpwc6LarZYbAFTGpFguq",
       "status": "終了",
-      "source": "公式",
-      "detail": "8:30～11:00",
+      "source": "Youtubeあり",
+      "detail": "隔週木曜日8:30～11:00",
       "management": "手動",
       "featured": false,
       "sources": [
         {
-          "source": "公式",
-          "url": "https://www.kdashstage.jp/profile/archives/4"
+          "source": "Youtubeあり",
+          "url": "https://www.youtube.com/playlist?list=PLJjnyXnmK57ZLKpwc6LarZYbAFTGpFguq"
         }
       ]
     },
@@ -3662,16 +3662,16 @@
       "category": "ラジオ",
       "place": "TBSラジオ",
       "performers": "ヤーレンズ",
-      "url": "",
+      "url": "https://www.youtube.com/playlist?list=PLJjnyXnmK57ZLKpwc6LarZYbAFTGpFguq",
       "status": "終了",
-      "source": "公式",
-      "detail": "",
+      "source": "Youtubeあり",
+      "detail": "隔週木曜日8:30～11:00",
       "management": "手動",
       "featured": false,
       "sources": [
         {
-          "source": "公式",
-          "url": ""
+          "source": "Youtubeあり",
+          "url": "https://www.youtube.com/playlist?list=PLJjnyXnmK57ZLKpwc6LarZYbAFTGpFguq"
         }
       ]
     },
@@ -3722,16 +3722,16 @@
       "category": "ラジオ",
       "place": "TBSラジオ",
       "performers": "ヤーレンズ",
-      "url": "",
+      "url": "https://www.youtube.com/playlist?list=PLJjnyXnmK57ZLKpwc6LarZYbAFTGpFguq",
       "status": "終了",
-      "source": "公式",
-      "detail": "",
+      "source": "Youtubeあり",
+      "detail": "隔週木曜日8:30～11:00",
       "management": "手動",
       "featured": false,
       "sources": [
         {
-          "source": "公式",
-          "url": ""
+          "source": "Youtubeあり",
+          "url": "https://www.youtube.com/playlist?list=PLJjnyXnmK57ZLKpwc6LarZYbAFTGpFguq"
         }
       ]
     },
@@ -3851,26 +3851,6 @@
       "sources": [
         {
           "source": "FANY",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": 214,
-      "date": "2026-07-21",
-      "title": "パンサー向井の＃ふらっと",
-      "category": "ラジオ",
-      "place": "TBSラジオ",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "終了",
-      "source": "公式",
-      "detail": "出演情報",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式",
           "url": ""
         }
       ]
@@ -4158,30 +4138,30 @@
       "category": "ラジオ",
       "place": "TBSラジオ",
       "performers": "ヤーレンズ",
-      "url": "",
+      "url": "https://www.youtube.com/playlist?list=PLJjnyXnmK57ZLKpwc6LarZYbAFTGpFguq",
       "status": "終了",
-      "source": "公式",
-      "detail": "8:30～11:00",
+      "source": "Youtubeあり",
+      "detail": "隔週木曜日8:30～11:00",
       "management": "手動",
       "featured": false,
       "sources": [
         {
-          "source": "公式",
-          "url": ""
+          "source": "Youtubeあり",
+          "url": "https://www.youtube.com/playlist?list=PLJjnyXnmK57ZLKpwc6LarZYbAFTGpFguq"
         }
       ]
     },
     {
-      "id": 234,
+      "id": 235,
       "date": "2026-07-30",
       "title": "真空レンズ",
       "category": "テレビ",
       "place": "テレビ東京",
-      "performers": "ヤーレンズ",
+      "performers": "ヤーレンズ、真空ジェシカ",
       "url": "",
       "status": "終了",
       "source": "公式",
-      "detail": "25:30～26:00",
+      "detail": "",
       "management": "手動",
       "featured": false,
       "sources": [
@@ -4406,16 +4386,16 @@
       "category": "テレビ",
       "place": "テレビ東京",
       "performers": "ヤーレンズ、真空ジェシカ",
-      "url": "",
+      "url": "https://tver.jp/series/sryhlrcydxb",
       "status": "終了",
-      "source": "公式",
-      "detail": "",
+      "source": "Tverあり",
+      "detail": "25:30～26:00",
       "management": "手動",
       "featured": false,
       "sources": [
         {
-          "source": "公式",
-          "url": ""
+          "source": "Tverあり",
+          "url": "https://tver.jp/series/sryhlrcydxb"
         }
       ]
     },
@@ -4630,16 +4610,16 @@
       "category": "ラジオ",
       "place": "TBSラジオ",
       "performers": "ヤーレンズ",
-      "url": "",
+      "url": "https://www.youtube.com/playlist?list=PLJjnyXnmK57ZLKpwc6LarZYbAFTGpFguq",
       "status": "終了",
-      "source": "公式",
-      "detail": "8:30～11:00／ヤーレンズの＃ふらっと",
+      "source": "Youtubeあり",
+      "detail": "隔週木曜日8:30～11:00",
       "management": "手動",
       "featured": false,
       "sources": [
         {
-          "source": "公式",
-          "url": ""
+          "source": "Youtubeあり",
+          "url": "https://www.youtube.com/playlist?list=PLJjnyXnmK57ZLKpwc6LarZYbAFTGpFguq"
         }
       ]
     },
@@ -4650,16 +4630,16 @@
       "category": "テレビ",
       "place": "テレビ東京",
       "performers": "ヤーレンズ、真空ジェシカ",
-      "url": "",
+      "url": "https://tver.jp/series/sryhlrcydxb",
       "status": "終了",
-      "source": "公式",
-      "detail": "",
+      "source": "Tverあり",
+      "detail": "25:30～26:00",
       "management": "手動",
       "featured": false,
       "sources": [
         {
-          "source": "公式",
-          "url": ""
+          "source": "Tverあり",
+          "url": "https://tver.jp/series/sryhlrcydxb"
         }
       ]
     },
@@ -4918,16 +4898,16 @@
       "category": "テレビ",
       "place": "テレビ東京",
       "performers": "ヤーレンズ、真空ジェシカ",
-      "url": "",
+      "url": "https://tver.jp/series/sryhlrcydxb",
       "status": "終了",
-      "source": "公式",
+      "source": "Tverあり",
       "detail": "25:30～26:00",
       "management": "手動",
       "featured": false,
       "sources": [
         {
-          "source": "公式",
-          "url": ""
+          "source": "Tverあり",
+          "url": "https://tver.jp/series/sryhlrcydxb"
         }
       ]
     },
@@ -5314,7 +5294,7 @@
       "status": "終了",
       "source": "Tverあり",
       "detail": "25:30～26:00",
-      "management": "自動",
+      "management": "手動",
       "featured": false,
       "sources": [
         {
@@ -5416,28 +5396,8 @@
       ]
     },
     {
-      "id": 305,
-      "date": "2026-09-10",
-      "title": "真空レンズ",
-      "category": "テレビ",
-      "place": "テレビ東京",
-      "performers": "ヤーレンズ、真空ジェシカ、スタミナパン",
-      "url": "https://tver.jp/series/sryhlrcydxb",
-      "status": "終了",
-      "source": "Tverあり",
-      "detail": "25:30～26:00",
-      "management": "自動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "Tverあり",
-          "url": "https://tver.jp/series/sryhlrcydxb"
-        }
-      ]
-    },
-    {
       "id": 306,
-      "date": "2026-09-11",
+      "date": "2026-09-10",
       "title": "パンサー向井の＃ふらっと［ヤーレンズの＃ふらっと］",
       "category": "ラジオ",
       "place": "TBSラジオ",
@@ -5452,6 +5412,46 @@
         {
           "source": "Youtubeあり",
           "url": "https://www.youtube.com/playlist?list=PLJjnyXnmK57ZLKpwc6LarZYbAFTGpFguq"
+        }
+      ]
+    },
+    {
+      "id": 305,
+      "date": "2026-09-10",
+      "title": "真空レンズ",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ、真空ジェシカ、スタミナパン",
+      "url": "https://tver.jp/series/sryhlrcydxb",
+      "status": "終了",
+      "source": "Tverあり",
+      "detail": "25:30～26:00",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Tverあり",
+          "url": "https://tver.jp/series/sryhlrcydxb"
+        }
+      ]
+    },
+    {
+      "id": 353,
+      "date": "2026-09-11",
+      "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
+      "category": "ラジオ",
+      "place": "Podcast",
+      "performers": "ヤーレンズ",
+      "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX",
+      "status": "予定",
+      "source": "spotify",
+      "detail": "配信",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "spotify",
+          "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX"
         }
       ]
     },
@@ -5574,12 +5574,32 @@
       "status": "終了",
       "source": "Tverあり",
       "detail": "25:30～26:00",
-      "management": "自動",
+      "management": "手動",
       "featured": false,
       "sources": [
         {
           "source": "Tverあり",
           "url": "https://tver.jp/series/sryhlrcydxb"
+        }
+      ]
+    },
+    {
+      "id": 354,
+      "date": "2026-09-18",
+      "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
+      "category": "ラジオ",
+      "place": "Podcast",
+      "performers": "ヤーレンズ",
+      "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX",
+      "status": "予定",
+      "source": "spotify",
+      "detail": "配信",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "spotify",
+          "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX"
         }
       ]
     },
@@ -5720,6 +5740,26 @@
       ]
     },
     {
+      "id": 357,
+      "date": "2026-09-24",
+      "title": "パンサー向井の＃ふらっと［ヤーレンズの＃ふらっと］",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "https://www.youtube.com/playlist?list=PLJjnyXnmK57ZLKpwc6LarZYbAFTGpFguq",
+      "status": "開催予定",
+      "source": "Youtubeあり",
+      "detail": "隔週木曜日8:30～11:00",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Youtubeあり",
+          "url": "https://www.youtube.com/playlist?list=PLJjnyXnmK57ZLKpwc6LarZYbAFTGpFguq"
+        }
+      ]
+    },
+    {
       "id": 325,
       "date": "2026-09-24",
       "title": "ミッション：出井ンポッシブル３",
@@ -5750,12 +5790,32 @@
       "status": "終了",
       "source": "Tverあり",
       "detail": "25:30～26:00",
-      "management": "自動",
+      "management": "手動",
       "featured": false,
       "sources": [
         {
           "source": "Tverあり",
           "url": "https://tver.jp/series/sryhlrcydxb"
+        }
+      ]
+    },
+    {
+      "id": 355,
+      "date": "2026-09-25",
+      "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
+      "category": "ラジオ",
+      "place": "Podcast",
+      "performers": "ヤーレンズ",
+      "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX",
+      "status": "予定",
+      "source": "spotify",
+      "detail": "配信",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "spotify",
+          "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX"
         }
       ]
     },
@@ -5870,12 +5930,32 @@
       "status": "終了",
       "source": "Tverあり",
       "detail": "25:30～26:00",
-      "management": "自動",
+      "management": "手動",
       "featured": false,
       "sources": [
         {
           "source": "Tverあり",
           "url": "https://tver.jp/series/sryhlrcydxb"
+        }
+      ]
+    },
+    {
+      "id": 356,
+      "date": "2026-10-02",
+      "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
+      "category": "ラジオ",
+      "place": "Podcast",
+      "performers": "ヤーレンズ",
+      "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX",
+      "status": "予定",
+      "source": "spotify",
+      "detail": "配信",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "spotify",
+          "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX"
         }
       ]
     },
@@ -5910,7 +5990,7 @@
       "status": "終了",
       "source": "Tverあり",
       "detail": "25:30～26:00",
-      "management": "自動",
+      "management": "手動",
       "featured": false,
       "sources": [
         {
@@ -5950,7 +6030,7 @@
       "status": "終了",
       "source": "Tverあり",
       "detail": "25:30～26:00",
-      "management": "自動",
+      "management": "手動",
       "featured": false,
       "sources": [
         {
@@ -6054,7 +6134,7 @@
       "status": "終了",
       "source": "Tverあり",
       "detail": "25:30～26:00",
-      "management": "自動",
+      "management": "手動",
       "featured": false,
       "sources": [
         {
@@ -6142,12 +6222,32 @@
       "status": "終了",
       "source": "Tverあり",
       "detail": "25:30～26:00",
-      "management": "自動",
+      "management": "手動",
       "featured": false,
       "sources": [
         {
           "source": "Tverあり",
           "url": "https://tver.jp/series/sryhlrcydxb"
+        }
+      ]
+    },
+    {
+      "id": 352,
+      "date": "2026-11-01",
+      "title": "アブナイヨセ　in 福岡",
+      "category": "ライブ",
+      "place": "SAWARAPIA 福岡県立ももち文化センター 大ホール",
+      "performers": "黒帯、金属バット、デルマパンゲ、九条ジョー、エバース、ヤ―レンズ",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E3%82%A2%E3%83%96%E3%83%8A%E3%82%A4+%E3%83%A8%E3%82%BB&search_type=search_string",
+      "status": "予定",
+      "source": "FANY",
+      "detail": "18:15開場｜19:00開演",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "FANY",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E3%82%A2%E3%83%96%E3%83%8A%E3%82%A4+%E3%83%A8%E3%82%BB&search_type=search_string"
         }
       ]
     },
