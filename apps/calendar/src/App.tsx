@@ -12,6 +12,7 @@ import jaLocale from "@fullcalendar/core/locales/ja";
 
 import Countdown from "./components/Countdown";
 import FeaturedEvents from "./components/FeaturedEvents";
+import YarlensIntro from "./components/YarlensIntro";
 import Footer from "./components/Footer";
 
 import "./App.css";
@@ -63,13 +64,13 @@ function App() {
 
   const lastUpdate = data?.lastUpdate
     ? new Date(data.lastUpdate).toLocaleString("ja-JP", {
-        timeZone: "Asia/Tokyo",
-        year: "numeric",
-        month: "2-digit",
-        day: "2-digit",
-        hour: "2-digit",
-        minute: "2-digit",
-      })
+      timeZone: "Asia/Tokyo",
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+    })
     : "";
 
   const groupedEvents = data?.events ?? [];
@@ -80,8 +81,8 @@ function App() {
     categoryFilter.length === 0
       ? groupedEvents
       : groupedEvents.filter((event: any) =>
-          categoryFilter.includes(event.category)
-        );
+        categoryFilter.includes(event.category)
+      );
 
   const selectedEvents = filteredEvents.filter(
     (event: any) => event.date === selectedDate
@@ -115,6 +116,8 @@ function App() {
         {/* ===== 注目イベント ===== */}
         <FeaturedEvents featuredEvents={featuredEvents} />
 
+        <YarlensIntro />
+        
         {/* ===== アクセスカウンター ===== */}
         {visitCount && (
           <div
@@ -336,11 +339,11 @@ function App() {
                       `${event.date}-${event.title}`
                     ) === selectedEventId
                       ? `3px solid ${getCategoryColor(
-                          event.category
-                        )}`
+                        event.category
+                      )}`
                       : `1px solid ${getCategoryColor(
-                          event.category
-                        )}`,
+                        event.category
+                      )}`,
                   borderRadius: 14,
                   padding: 18,
                   marginBottom: 16,
