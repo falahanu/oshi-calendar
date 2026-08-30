@@ -1,7 +1,3 @@
-type ManualCollectionProps = {
-  onNavigate: (page: string) => void;
-};
-
 const searchSites = [
   {
     name: "e+",
@@ -32,9 +28,7 @@ const searchSites = [
 const spreadsheetUrl =
   "https://docs.google.com/spreadsheets/d/1fwHIox9YnZ1_5jyXONUoBoUYV4DfG5BCsvVpOcxmWE8/edit";
 
-export default function ManualCollection({
-  onNavigate: _onNavigate,
-}: ManualCollectionProps) {
+export default function ManualCollection() {
   return (
     <>
       <h2
@@ -129,10 +123,7 @@ export default function ManualCollection({
 
           <button
             onClick={() => {
-              window.open(
-                spreadsheetUrl,
-                "_blank"
-              );
+              window.open(spreadsheetUrl, "_blank");
             }}
             style={{
               padding: "10px 18px",

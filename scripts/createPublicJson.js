@@ -56,6 +56,28 @@ const filteredEvents = events.filter((event) => {
 });
 
 // ========================================
+// 注目イベントを抽出
+// ※ groupEvents()で削除される前に取得する
+// ========================================
+
+const featuredEvents = filteredEvents
+  .filter((event) => event.featured === true)
+  .sort((a, b) => {
+    const dateCompare = a.date.localeCompare(b.date);
+
+    if (dateCompare !== 0) {
+      return dateCompare;
+    }
+
+    return a.title.localeCompare(b.title);
+  });
+
+console.log(
+  "注目イベント:",
+  featuredEvents.length + "件"
+);
+
+// ========================================
 // 管理者カレンダーと同じ統合処理を使用
 // ========================================
 
@@ -74,11 +96,13 @@ const output = {
   lastUpdate: new Date().toISOString(),
   from: from.toISOString().substring(0, 10),
   to: to.toISOString().substring(0, 10),
-  events: publicEvents
+  events: publicEvents,
+  featuredEvents: featuredEvents
 };
 
 console.log("公開JSON作成完了");
 console.log("イベント件数:", publicEvents.length + "件");
+console.log("注目イベント件数:", featuredEvents.length + "件");
 
 // ========================================
 // GitHub設定

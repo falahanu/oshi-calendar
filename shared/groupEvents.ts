@@ -35,6 +35,10 @@ export function groupEvents(events: any[]) {
 
         const existing = grouped[liveKey];
 
+        // 注目イベントは、どちらか一方でも true なら true を維持
+        existing.featured =
+          Boolean(existing.featured || event.featured);
+
         const alreadyExists =
           existing.sources?.some(
             (s: any) =>
@@ -115,6 +119,11 @@ export function groupEvents(events: any[]) {
       grouped[key] = {
         ...event,
 
+        // 配信側・ライブ側のどちらかが注目なら
+        // 統合後も注目を維持する
+        featured:
+          Boolean(existing.featured || event.featured),
+
         sources: [
           {
             source: event.source,
@@ -133,6 +142,11 @@ export function groupEvents(events: any[]) {
     // ----------------------------------------
     // 通常イベント同士の場合
     // ----------------------------------------
+
+    // どちらか一方でも注目なら、
+    // 統合後も注目イベントとして扱う
+    existing.featured =
+      Boolean(existing.featured || event.featured);
 
     const alreadyExists =
       existing.sources?.some(

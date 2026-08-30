@@ -9,6 +9,7 @@ import FullCalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
 import interactionPlugin from "@fullcalendar/interaction";
 
+
 type Event = {
   id: string;
   date: string;
@@ -22,6 +23,7 @@ type Event = {
   source: string;
   detail: string;
   management: string;
+  featured: boolean;
 
   sources?: {
     source: string;
@@ -294,7 +296,7 @@ export default function CalendarPage() {
 
                 alert(
                   result.message ||
-                    "最新情報の取得に失敗しました。"
+                  "最新情報の取得に失敗しました。"
                 );
 
                 return;
@@ -379,7 +381,7 @@ export default function CalendarPage() {
 
                 alert(
                   result?.message ||
-                    "公開データの更新に失敗しました。"
+                  "公開データの更新に失敗しました。"
                 );
 
                 return;
@@ -498,17 +500,17 @@ export default function CalendarPage() {
               border:
                 getEventId(event) === selectedEventId
                   ? `3px solid ${getCategoryColor(
-                      event.category
-                    )}`
+                    event.category
+                  )}`
                   : `1px solid ${getCategoryColor(
-                      event.category
-                    )}`,
+                    event.category
+                  )}`,
 
               background:
                 getEventId(event) === selectedEventId
                   ? getCategoryLightColor(
-                      event.category
-                    )
+                    event.category
+                  )
                   : "white",
 
               borderRadius: 14,
@@ -563,7 +565,7 @@ export default function CalendarPage() {
               >
                 🎫{" "}
                 {event.detail === "配信あり" &&
-                event.streamingUrl ? (
+                  event.streamingUrl ? (
                   <a
                     href={event.streamingUrl}
                     target="_blank"
