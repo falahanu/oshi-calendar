@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-30T09:17:13.683Z",
+  "lastUpdate": "2026-08-30T09:20:55.452Z",
   "from": "2025-08-30",
   "to": "2027-08-30",
   "events": [
@@ -6314,6 +6314,36 @@
           "url": "https://event.1242.com/events/yarlens_budokan/"
         }
       ]
+    }
+  ],
+  "featuredEvents": [
+    {
+      "id": 357,
+      "date": "2026-08-30",
+      "title": "ヤーレンズトークライブ「ハッとしてトーク」",
+      "category": "配信",
+      "place": "新宿スパークル (東京都)",
+      "performers": "ヤーレンズ",
+      "url": "https://kdashstage.zaiko.io/ja/e/yareyose-hatalk-0830?_gl=1%2A1vmkx0u%2A_gcl_au%2AMTU0OTY0NjAzLjE3ODIwMzcwNjk.",
+      "status": "開催予定",
+      "source": "ZAIKO",
+      "detail": "08月30日 (日) 18:40 – 09月06日 (日) 23:59",
+      "management": "手動",
+      "featured": true
+    },
+    {
+      "id": 356,
+      "date": "2027-03-07",
+      "title": "ヤーレンズ単独ライブ 一万人に漫才 in 日本武道館",
+      "category": "ライブ",
+      "place": "日本武道館",
+      "performers": "ヤーレンズ",
+      "url": "https://event.1242.com/events/yarlens_budokan/",
+      "status": "予定",
+      "source": "公式",
+      "detail": "開場15:00／開演16:00",
+      "management": "手動",
+      "featured": true
     }
   ]
 }
