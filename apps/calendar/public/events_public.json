@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-08-30T07:42:07.093Z",
+  "lastUpdate": "2026-08-30T09:17:13.683Z",
   "from": "2025-08-30",
   "to": "2027-08-30",
   "events": [
@@ -5215,7 +5215,7 @@
       "source": "TIGET",
       "detail": "開演19:00 開場18:45",
       "management": "手動",
-      "featured": false,
+      "featured": true,
       "sources": [
         {
           "source": "TIGET",
