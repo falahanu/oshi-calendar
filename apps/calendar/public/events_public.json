@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-08-31T14:52:02.084Z",
-  "from": "2025-08-31",
-  "to": "2027-08-31",
+  "lastUpdate": "2026-09-01T13:32:52.672Z",
+  "from": "2025-09-01",
+  "to": "2027-09-01",
   "events": [
     {
       "id": 7,
@@ -6312,6 +6312,46 @@
         {
           "source": "公式",
           "url": "https://event.1242.com/events/yarlens_budokan/"
+        }
+      ]
+    },
+    {
+      "id": 358,
+      "date": "2026-10-05",
+      "title": "ヤーレンズ・ラフ次元のツーマンライブ「ヤレ次元」vol.2",
+      "category": "ライブ",
+      "place": "野方区民ホール",
+      "performers": "ヤーレンズ・ラフ次元",
+      "url": "",
+      "status": "開催予定",
+      "source": "FANY",
+      "detail": "チケット発売は9/7(月)10:00～",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "FANY",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 359,
+      "date": "2026-09-21",
+      "title": "焼き芋フェスティバル2026🍠　 ～おいも争奪ネタ合戦～",
+      "category": "ライブ",
+      "place": "新宿バティオス (東京都)",
+      "performers": "大王 / 元祖いちごちゃん / スタミナパン / カラタチ / 豆鉄砲 / タワー / ぎょねこ / ジュン（大石＆宮原） / オフローズ / ヤッホイ / ヤーレンズ",
+      "url": "https://ticketdive.com/event/20260921YAKIIMOFES",
+      "status": "予定",
+      "source": "TicketDrive",
+      "detail": "開場時刻 18:15 / 開演時刻 18:30",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "TicketDrive",
+          "url": "https://ticketdive.com/event/20260921YAKIIMOFES"
         }
       ]
     }
