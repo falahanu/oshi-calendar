@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-09-01T13:35:29.621Z",
-  "from": "2025-09-01",
-  "to": "2027-09-01",
+  "lastUpdate": "2026-09-02T14:26:58.283Z",
+  "from": "2025-09-02",
+  "to": "2027-09-02",
   "events": [
     {
       "id": 7,
@@ -6352,6 +6352,26 @@
         {
           "source": "TicketDrive",
           "url": "https://ticketdive.com/event/20260921YAKIIMOFES"
+        }
+      ]
+    },
+    {
+      "id": 360,
+      "date": "2026-09-09",
+      "title": "有吉の壁",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "ヤーレンズ、他多数",
+      "url": "https://tver.jp/series/srxjstc489?utm_campaign=srxjstc489&utm_medium=web_lp&tkn=ec8e5646-32c7-43e2-8c52-ae91175070d7",
+      "status": "予定",
+      "source": "Tverあり",
+      "detail": "19:00～",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Tverあり",
+          "url": "https://tver.jp/series/srxjstc489?utm_campaign=srxjstc489&utm_medium=web_lp&tkn=ec8e5646-32c7-43e2-8c52-ae91175070d7"
         }
       ]
     }
