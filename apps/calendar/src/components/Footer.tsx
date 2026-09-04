@@ -213,7 +213,7 @@ function Footer() {
             color: "#888",
           }}
         >
-          © 2026 ヤーレンズ情報局
+          © 2026 ヤーレンズ情報室
         </div>
       </div>
     </footer>
