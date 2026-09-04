@@ -213,7 +213,7 @@ function Footer() {
             color: "#888",
           }}
         >
-          © 2026 推し活カレンダー
+          © 2026 ヤーレンズ情報局
         </div>
       </div>
     </footer>

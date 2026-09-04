@@ -95,11 +95,17 @@ function App() {
       </div>
 
       <div className="page-content">
-        <h1>
-          {oshi.icon} {oshi.name} 推し活カレンダー
+
+        <h1
+          style={{
+            color: "#fff",
+          }}
+        >
+          {oshi.icon} {oshi.name}情報室
         </h1>
 
         <p
+
           style={{
             marginTop: 0,
             marginBottom: 16,
@@ -117,7 +123,7 @@ function App() {
         <FeaturedEvents featuredEvents={featuredEvents} />
 
         <YarlensIntro />
-        
+
         {/* ===== アクセスカウンター ===== */}
         {visitCount && (
           <div
