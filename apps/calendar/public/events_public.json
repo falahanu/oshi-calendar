@@ -1,32 +1,8 @@
 {
-  "lastUpdate": "2026-09-02T14:26:58.283Z",
-  "from": "2025-09-02",
-  "to": "2027-09-02",
+  "lastUpdate": "2026-09-04T07:36:22.495Z",
+  "from": "2025-09-04",
+  "to": "2027-09-04",
   "events": [
-    {
-      "id": 7,
-      "date": "2025-09-04",
-      "title": "ヤーレンズ第1回単独ライブツアー2025「熱い胸さわぎ」",
-      "category": "ライブ",
-      "place": "北とぴあ・さくらホール",
-      "performers": "ヤーレンズ",
-      "url": "https://www.kdashstage.jp/topic/archives/1922",
-      "status": "終了",
-      "source": "公式",
-      "detail": "開場18:30／開演19:30～終演21:00",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式",
-          "url": "https://www.kdashstage.jp/topic/archives/1922"
-        },
-        {
-          "source": "チケプラ",
-          "url": "https://tixplus.jp/feature/yarlens_250904_02/"
-        }
-      ]
-    },
     {
       "id": 9,
       "date": "2025-09-20",
@@ -6372,6 +6348,46 @@
         {
           "source": "Tverあり",
           "url": "https://tver.jp/series/srxjstc489?utm_campaign=srxjstc489&utm_medium=web_lp&tkn=ec8e5646-32c7-43e2-8c52-ae91175070d7"
+        }
+      ]
+    },
+    {
+      "id": 361,
+      "date": "2026-10-29",
+      "title": "大激漫",
+      "category": "ライブ",
+      "place": "なかのZERO小ホール（東京都）",
+      "performers": "じぐざぐ/うちまつげ/リニア/今夜も星が綺麗/魂ず　ゲスト:錦鯉/ナイツ/ドンデコルテ/三四郎/ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "TIGET予定",
+      "detail": "開場19:10／開演19:30",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "TIGET予定",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 361,
+      "date": "2026-09-12",
+      "title": "大激漫",
+      "category": "チケット",
+      "place": "なかのZERO小ホール（東京都）",
+      "performers": "じぐざぐ/うちまつげ/リニア/今夜も星が綺麗/魂ず　ゲスト:錦鯉/ナイツ/ドンデコルテ/三四郎/ヤーレンズ",
+      "url": "",
+      "status": "先行",
+      "source": "TIGET予定",
+      "detail": "10：00～",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "TIGET予定",
+          "url": ""
         }
       ]
     }
