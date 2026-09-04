@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-04T07:36:22.495Z",
+  "lastUpdate": "2026-09-04T14:36:44.528Z",
   "from": "2025-09-04",
   "to": "2027-09-04",
   "events": [
@@ -6372,7 +6372,7 @@
       ]
     },
     {
-      "id": 361,
+      "id": 362,
       "date": "2026-09-12",
       "title": "大激漫",
       "category": "チケット",
@@ -6388,6 +6388,46 @@
         {
           "source": "TIGET予定",
           "url": ""
+        }
+      ]
+    },
+    {
+      "id": 363,
+      "date": "2026-09-05",
+      "title": "スマイルスタジアムNST",
+      "category": "テレビ",
+      "place": "NST新潟総合テレビ ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "18:00～",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 364,
+      "date": "2026-09-09",
+      "title": "ヒルナンデス",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "ヤーレンズ",
+      "url": "https://bangumi.org/tv_events/AmDQQQIwwAM?from=search",
+      "status": "予定",
+      "source": "GGuide",
+      "detail": "11:55～13:55",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "GGuide",
+          "url": "https://bangumi.org/tv_events/AmDQQQIwwAM?from=search"
         }
       ]
     }
