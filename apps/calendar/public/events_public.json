@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-09-04T14:36:44.528Z",
-  "from": "2025-09-04",
-  "to": "2027-09-04",
+  "lastUpdate": "2026-09-05T13:58:06.227Z",
+  "from": "2025-09-05",
+  "to": "2027-09-05",
   "events": [
     {
       "id": 9,
@@ -4706,7 +4706,7 @@
       "category": "チケット",
       "place": "東京建物 Ｂｒｉｌｌｉａ ＨＡＬＬ 箕面 大ホール (大阪府)",
       "performers": "DJ KOO、ミルクボーイ、ヤーレンズ、真空ジェシカ",
-      "url": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=23862",
+      "url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2630837&rlsCd=&lotRlsCd=25126",
       "status": "2次抽選",
       "source": "ぴあ",
       "detail": "2026/8/31(月) 0:00～2026/9/6(日) 23:59",
@@ -4715,7 +4715,7 @@
       "sources": [
         {
           "source": "ぴあ",
-          "url": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=23862"
+          "url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2630837&rlsCd=&lotRlsCd=25126"
         }
       ]
     },
@@ -4884,26 +4884,6 @@
         {
           "source": "Tverあり",
           "url": "https://tver.jp/series/sryhlrcydxb"
-        }
-      ]
-    },
-    {
-      "id": 275,
-      "date": "2026-08-21",
-      "title": "ミッション：出井ンポッシブル３",
-      "category": "チケット",
-      "place": "なかのZERO 小ホール",
-      "performers": "ヤーレンズ・出井、ヨネダ2000・誠、ランジャタイ・国崎、しずる・池田、キュウ・ぴろ、フランツ・土岐",
-      "url": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=37077",
-      "status": "終了",
-      "source": "ぴあ",
-      "detail": "2026/8/21(金) 18:00～2026/8/27(木) 23:59",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "ぴあ",
-          "url": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=37077"
         }
       ]
     },
@@ -6428,6 +6408,46 @@
         {
           "source": "GGuide",
           "url": "https://bangumi.org/tv_events/AmDQQQIwwAM?from=search"
+        }
+      ]
+    },
+    {
+      "id": 365,
+      "date": "2026-10-04",
+      "title": "光翔祭",
+      "category": "ライブ",
+      "place": "福島県立医科大学 講堂",
+      "performers": "真空ジェシカ/ヤーレンズ/ひつじねいり",
+      "url": "https://eplus.jp/sf/detail/4598460001",
+      "status": "予定",
+      "source": "e+",
+      "detail": "開場13:00 開演14:00チケット：先着発売 9/13 12:00",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "e+",
+          "url": "https://eplus.jp/sf/detail/4598460001"
+        }
+      ]
+    },
+    {
+      "id": 366,
+      "date": "2026-09-13",
+      "title": "光翔祭",
+      "category": "チケット",
+      "place": "福島県立医科大学 講堂",
+      "performers": "真空ジェシカ/ヤーレンズ/ひつじねいり",
+      "url": "https://eplus.jp/sf/detail/4598460001",
+      "status": "予定",
+      "source": "e+",
+      "detail": "先着発売12:00",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "e+",
+          "url": "https://eplus.jp/sf/detail/4598460001"
         }
       ]
     }
