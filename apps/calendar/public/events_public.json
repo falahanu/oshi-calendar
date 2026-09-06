@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-09-05T13:58:06.227Z",
-  "from": "2025-09-05",
-  "to": "2027-09-05",
+  "lastUpdate": "2026-09-06T15:38:55.075Z",
+  "from": "2025-09-06",
+  "to": "2027-09-06",
   "events": [
     {
       "id": 9,
@@ -5171,15 +5171,11 @@
       "source": "TIGET",
       "detail": "開演19:00 開場18:45",
       "management": "手動",
-      "featured": true,
+      "featured": false,
       "sources": [
         {
           "source": "TIGET",
           "url": "https://livepocket.jp/e/7z7fs"
-        },
-        {
-          "source": "配信あり",
-          "url": "https://kdashstage.zaiko.io/ja/e/yareyose-hatalk-0830?_gl=1%2A1vmkx0u%2A_gcl_au%2AMTU0OTY0NjAzLjE3ODIwMzcwNjk."
         }
       ]
     },
@@ -5313,7 +5309,7 @@
       "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
       "category": "ラジオ",
       "place": "ABCラジオ",
-      "performers": "ヤーレンズ",
+      "performers": "ヤーレンズ、岩崎諒太",
       "url": "https://www.youtube.com/channel/UCBBffCWDYaQeUa3uQs3-EBg",
       "status": "予定",
       "source": "Youtubeあり",
@@ -6453,20 +6449,6 @@
     }
   ],
   "featuredEvents": [
-    {
-      "id": 357,
-      "date": "2026-08-30",
-      "title": "ヤーレンズトークライブ「ハッとしてトーク」",
-      "category": "配信",
-      "place": "新宿スパークル (東京都)",
-      "performers": "ヤーレンズ",
-      "url": "https://kdashstage.zaiko.io/ja/e/yareyose-hatalk-0830?_gl=1%2A1vmkx0u%2A_gcl_au%2AMTU0OTY0NjAzLjE3ODIwMzcwNjk.",
-      "status": "開催予定",
-      "source": "ZAIKO",
-      "detail": "08月30日 (日) 18:40 – 09月06日 (日) 23:59",
-      "management": "手動",
-      "featured": true
-    },
     {
       "id": 317,
       "date": "2026-09-19",
