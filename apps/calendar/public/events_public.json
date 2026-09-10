@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-09-08T15:40:57.003Z",
-  "from": "2025-09-08",
-  "to": "2027-09-08",
+  "lastUpdate": "2026-09-10T13:44:02.121Z",
+  "from": "2025-09-10",
+  "to": "2027-09-10",
   "events": [
     {
       "id": 9,
@@ -4701,21 +4701,21 @@
     },
     {
       "id": 264,
-      "date": "2026-08-31",
+      "date": "2026-09-07",
       "title": "Owarai-night Sensation 『DJ KOO presents ちゃんKOOお笑いLIVE!! vol.8 in OSAKA』",
       "category": "チケット",
       "place": "東京建物 Ｂｒｉｌｌｉａ ＨＡＬＬ 箕面 大ホール (大阪府)",
       "performers": "DJ KOO、ミルクボーイ、ヤーレンズ、真空ジェシカ",
-      "url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2630837&rlsCd=&lotRlsCd=25126",
+      "url": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=20528",
       "status": "2次抽選",
       "source": "ぴあ",
-      "detail": "2026/8/31(月) 0:00～2026/9/6(日) 23:59",
+      "detail": "2026/9/7(月) 0:00～2026/9/13(日) 23:59",
       "management": "手動",
       "featured": false,
       "sources": [
         {
           "source": "ぴあ",
-          "url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2630837&rlsCd=&lotRlsCd=25126"
+          "url": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=20528"
         }
       ]
     },
@@ -6334,16 +6334,16 @@
       "category": "ライブ",
       "place": "なかのZERO小ホール（東京都）",
       "performers": "じぐざぐ/うちまつげ/リニア/今夜も星が綺麗/魂ず　ゲスト:錦鯉/ナイツ/ドンデコルテ/三四郎/ヤーレンズ",
-      "url": "",
+      "url": "https://tiget.net/events/521895",
       "status": "予定",
-      "source": "TIGET予定",
+      "source": "TIGET",
       "detail": "開場19:10／開演19:30",
       "management": "手動",
       "featured": false,
       "sources": [
         {
-          "source": "TIGET予定",
-          "url": ""
+          "source": "TIGET",
+          "url": "https://tiget.net/events/521895"
         }
       ]
     },
@@ -6354,16 +6354,16 @@
       "category": "チケット",
       "place": "なかのZERO小ホール（東京都）",
       "performers": "じぐざぐ/うちまつげ/リニア/今夜も星が綺麗/魂ず　ゲスト:錦鯉/ナイツ/ドンデコルテ/三四郎/ヤーレンズ",
-      "url": "",
+      "url": "https://tiget.net/events/521895",
       "status": "先行",
-      "source": "TIGET予定",
+      "source": "TIGET",
       "detail": "10：00～",
       "management": "手動",
       "featured": false,
       "sources": [
         {
-          "source": "TIGET予定",
-          "url": ""
+          "source": "TIGET",
+          "url": "https://tiget.net/events/521895"
         }
       ]
     },
@@ -6444,6 +6444,26 @@
         {
           "source": "e+",
           "url": "https://eplus.jp/sf/detail/4598460001"
+        }
+      ]
+    },
+    {
+      "id": 367,
+      "date": "2026-10-11",
+      "title": "青森県立保健大学 第27回大学祭 お笑いステージ",
+      "category": "ライブ",
+      "place": "青森県立保健大学 野外ステージ",
+      "performers": "ヤーレンズ、TCクラクション",
+      "url": "",
+      "status": "予定",
+      "source": "無料",
+      "detail": "13時開演",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "無料",
+          "url": ""
         }
       ]
     }
