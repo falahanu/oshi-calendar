@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-13T09:43:30.944Z",
+  "lastUpdate": "2026-09-13T11:18:02.748Z",
   "from": "2025-09-13",
   "to": "2027-09-13",
   "events": [
@@ -4641,26 +4641,6 @@
     },
     {
       "id": 261,
-      "date": "2026-09-03",
-      "title": "ヤーレンズ×ジグザグジギーツーマンライブ其の十一『コントの虎 漫才の狼』",
-      "category": "チケット販売",
-      "place": "なかのZERO小ホール (東京都)",
-      "performers": "ヤーレンズ",
-      "url": "https://livepocket.jp/e/tigerwolf11?utm_campaign=1103205&utm_content=evt&utm_medium=social&utm_source=X",
-      "status": "先着",
-      "source": "LivePocket",
-      "detail": "2026年9月3日(木) 20:00〜2026年10月1日(木) 19:00",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "LivePocket",
-          "url": "https://livepocket.jp/e/tigerwolf11?utm_campaign=1103205&utm_content=evt&utm_medium=social&utm_source=X"
-        }
-      ]
-    },
-    {
-      "id": 262,
       "date": "2026-08-16",
       "title": "BLACK BOX～ネタバレ厳禁のネタライブ～",
       "category": "ライブ",
@@ -4680,7 +4660,7 @@
       ]
     },
     {
-      "id": 263,
+      "id": 262,
       "date": "2026-08-16",
       "title": "Golden SixTONES",
       "category": "テレビ",
@@ -4700,27 +4680,7 @@
       ]
     },
     {
-      "id": 264,
-      "date": "2026-09-07",
-      "title": "Owarai-night Sensation 『DJ KOO presents ちゃんKOOお笑いLIVE!! vol.8 in OSAKA』",
-      "category": "チケット販売",
-      "place": "東京建物 Ｂｒｉｌｌｉａ ＨＡＬＬ 箕面 大ホール (大阪府)",
-      "performers": "DJ KOO、ミルクボーイ、ヤーレンズ、真空ジェシカ",
-      "url": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=20528",
-      "status": "2次抽選",
-      "source": "ぴあ",
-      "detail": "2026/9/7(月) 0:00～2026/9/13(日) 23:59",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "ぴあ",
-          "url": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=20528"
-        }
-      ]
-    },
-    {
-      "id": 265,
+      "id": 263,
       "date": "2026-08-16",
       "title": "ぎょうぶサミット2026",
       "category": "ライブ",
@@ -4744,7 +4704,7 @@
       ]
     },
     {
-      "id": 267,
+      "id": 265,
       "date": "2026-08-16",
       "title": "道産人間オズブラウン",
       "category": "テレビ",
@@ -4764,7 +4724,7 @@
       ]
     },
     {
-      "id": 268,
+      "id": 266,
       "date": "2026-08-17",
       "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
       "category": "ラジオ",
@@ -4784,7 +4744,7 @@
       ]
     },
     {
-      "id": 269,
+      "id": 267,
       "date": "2026-08-17",
       "title": "世界まる見え！テレビ特捜部 2時間SP",
       "category": "テレビ",
@@ -4804,7 +4764,7 @@
       ]
     },
     {
-      "id": 270,
+      "id": 268,
       "date": "2026-08-19",
       "title": "ADマーフィー救済ライブ HELP! VOL.9",
       "category": "ライブ",
@@ -4828,7 +4788,7 @@
       ]
     },
     {
-      "id": 272,
+      "id": 270,
       "date": "2026-08-20",
       "title": "その噺、凶暴につき",
       "category": "ライブ",
@@ -4848,7 +4808,7 @@
       ]
     },
     {
-      "id": 273,
+      "id": 271,
       "date": "2026-08-20",
       "title": "やすとものいたって真剣です 未公開トークSP",
       "category": "テレビ",
@@ -4868,7 +4828,7 @@
       ]
     },
     {
-      "id": 274,
+      "id": 272,
       "date": "2026-08-20",
       "title": "真空レンズ",
       "category": "テレビ",
@@ -4888,7 +4848,7 @@
       ]
     },
     {
-      "id": 275,
+      "id": 273,
       "date": "2026-08-21",
       "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
       "category": "ラジオ",
@@ -4908,7 +4868,7 @@
       ]
     },
     {
-      "id": 276,
+      "id": 274,
       "date": "2026-08-21",
       "title": "リニア主催「リニアが人生を賭けて6分ネタを磨くライブ～だってチヤホヤされたい～",
       "category": "ライブ",
@@ -4932,7 +4892,7 @@
       ]
     },
     {
-      "id": 278,
+      "id": 276,
       "date": "2026-08-22",
       "title": "シューイチ",
       "category": "テレビ",
@@ -4952,7 +4912,7 @@
       ]
     },
     {
-      "id": 279,
+      "id": 277,
       "date": "2026-08-23",
       "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」 1部",
       "category": "ライブ",
@@ -4976,7 +4936,7 @@
       ]
     },
     {
-      "id": 281,
+      "id": 279,
       "date": "2026-08-23",
       "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」 2部",
       "category": "ライブ",
@@ -5000,7 +4960,7 @@
       ]
     },
     {
-      "id": 283,
+      "id": 281,
       "date": "2026-08-23",
       "title": "道産人間オズブラウン",
       "category": "テレビ",
@@ -5020,7 +4980,7 @@
       ]
     },
     {
-      "id": 284,
+      "id": 282,
       "date": "2026-08-24",
       "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
       "category": "ラジオ",
@@ -5040,7 +5000,7 @@
       ]
     },
     {
-      "id": 285,
+      "id": 283,
       "date": "2026-08-27",
       "title": "パンサー向井の＃ふらっと［ヤーレンズの＃ふらっと］",
       "category": "ラジオ",
@@ -5060,7 +5020,7 @@
       ]
     },
     {
-      "id": 286,
+      "id": 284,
       "date": "2026-08-27",
       "title": "真空レンズ",
       "category": "テレビ",
@@ -5080,7 +5040,7 @@
       ]
     },
     {
-      "id": 287,
+      "id": 285,
       "date": "2026-08-28",
       "title": "ヤーレンズと太福の演芸会",
       "category": "ライブ",
@@ -5100,7 +5060,7 @@
       ]
     },
     {
-      "id": 288,
+      "id": 286,
       "date": "2026-08-28",
       "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
       "category": "ラジオ",
@@ -5120,7 +5080,7 @@
       ]
     },
     {
-      "id": 289,
+      "id": 287,
       "date": "2026-08-29",
       "title": "ヤーレンズのオールナイトニッポン0",
       "category": "ラジオ",
@@ -5140,7 +5100,7 @@
       ]
     },
     {
-      "id": 290,
+      "id": 288,
       "date": "2026-08-29",
       "title": "例えば炎×ヤーレンズツーマンライブ「ヤー炎」",
       "category": "ライブ",
@@ -5160,7 +5120,7 @@
       ]
     },
     {
-      "id": 291,
+      "id": 289,
       "date": "2026-08-30",
       "title": "ヤーレンズトークライブ「ハッとしてトーク」",
       "category": "ライブ",
@@ -5180,7 +5140,7 @@
       ]
     },
     {
-      "id": 292,
+      "id": 290,
       "date": "2026-08-31",
       "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
       "category": "ラジオ",
@@ -5200,7 +5160,7 @@
       ]
     },
     {
-      "id": 293,
+      "id": 291,
       "date": "2026-09-01",
       "title": "セカンドデイドリーマー",
       "category": "ライブ",
@@ -5220,7 +5180,7 @@
       ]
     },
     {
-      "id": 294,
+      "id": 292,
       "date": "2026-09-02",
       "title": "ヒルナンデス",
       "category": "テレビ",
@@ -5240,7 +5200,27 @@
       ]
     },
     {
-      "id": 295,
+      "id": 293,
+      "date": "2026-09-03",
+      "title": "ヤーレンズ×ジグザグジギーツーマンライブ其の十一『コントの虎 漫才の狼』",
+      "category": "チケット販売",
+      "place": "なかのZERO小ホール (東京都)",
+      "performers": "ヤーレンズ",
+      "url": "https://livepocket.jp/e/tigerwolf11?utm_campaign=1103205&utm_content=evt&utm_medium=social&utm_source=X",
+      "status": "先着",
+      "source": "LivePocket",
+      "detail": "2026年9月3日(木) 20:00〜2026年10月1日(木) 19:00",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "LivePocket",
+          "url": "https://livepocket.jp/e/tigerwolf11?utm_campaign=1103205&utm_content=evt&utm_medium=social&utm_source=X"
+        }
+      ]
+    },
+    {
+      "id": 294,
       "date": "2026-09-03",
       "title": "真空レンズ",
       "category": "テレビ",
@@ -5260,7 +5240,7 @@
       ]
     },
     {
-      "id": 296,
+      "id": 295,
       "date": "2026-09-04",
       "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
       "category": "ラジオ",
@@ -5276,6 +5256,26 @@
         {
           "source": "spotify",
           "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX"
+        }
+      ]
+    },
+    {
+      "id": 296,
+      "date": "2026-09-05",
+      "title": "スマイルスタジアムNST",
+      "category": "テレビ",
+      "place": "NST新潟総合テレビ ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "18:00～",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
         }
       ]
     },
@@ -5306,6 +5306,26 @@
     {
       "id": 299,
       "date": "2026-09-07",
+      "title": "Owarai-night Sensation 『DJ KOO presents ちゃんKOOお笑いLIVE!! vol.8 in OSAKA』",
+      "category": "チケット販売",
+      "place": "東京建物 Ｂｒｉｌｌｉａ ＨＡＬＬ 箕面 大ホール (大阪府)",
+      "performers": "DJ KOO、ミルクボーイ、ヤーレンズ、真空ジェシカ",
+      "url": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=20528",
+      "status": "2次抽選",
+      "source": "ぴあ",
+      "detail": "2026/9/7(月) 0:00～2026/9/13(日) 23:59",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "ぴあ",
+          "url": "https://t.pia.jp/pia/ticketInformation.do?lotRlsCd=20528"
+        }
+      ]
+    },
+    {
+      "id": 300,
+      "date": "2026-09-07",
       "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
       "category": "ラジオ",
       "place": "ABCラジオ",
@@ -5324,7 +5344,7 @@
       ]
     },
     {
-      "id": 300,
+      "id": 301,
       "date": "2026-09-08",
       "title": "ニッポンの社長のネタとコーナーライブ「広沢」",
       "category": "ライブ",
@@ -5352,7 +5372,47 @@
       ]
     },
     {
-      "id": 303,
+      "id": 304,
+      "date": "2026-09-09",
+      "title": "ヒルナンデス",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "ヤーレンズ",
+      "url": "https://bangumi.org/tv_events/AmDQQQIwwAM?from=search",
+      "status": "予定",
+      "source": "GGuide",
+      "detail": "11:55～13:55",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "GGuide",
+          "url": "https://bangumi.org/tv_events/AmDQQQIwwAM?from=search"
+        }
+      ]
+    },
+    {
+      "id": 305,
+      "date": "2026-09-09",
+      "title": "有吉の壁",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "ヤーレンズ、他多数",
+      "url": "https://tver.jp/series/srxjstc489?utm_campaign=srxjstc489&utm_medium=web_lp&tkn=ec8e5646-32c7-43e2-8c52-ae91175070d7",
+      "status": "予定",
+      "source": "Tverあり",
+      "detail": "19:00～",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Tverあり",
+          "url": "https://tver.jp/series/srxjstc489?utm_campaign=srxjstc489&utm_medium=web_lp&tkn=ec8e5646-32c7-43e2-8c52-ae91175070d7"
+        }
+      ]
+    },
+    {
+      "id": 306,
       "date": "2026-09-10",
       "title": "パンサー向井の＃ふらっと［ヤーレンズの＃ふらっと］",
       "category": "ラジオ",
@@ -5372,7 +5432,7 @@
       ]
     },
     {
-      "id": 304,
+      "id": 307,
       "date": "2026-09-10",
       "title": "真空レンズ",
       "category": "テレビ",
@@ -5392,7 +5452,7 @@
       ]
     },
     {
-      "id": 305,
+      "id": 308,
       "date": "2026-09-11",
       "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
       "category": "ラジオ",
@@ -5412,7 +5472,7 @@
       ]
     },
     {
-      "id": 306,
+      "id": 309,
       "date": "2026-09-11",
       "title": "満場吉兆遊戯　よだれ September Love♥",
       "category": "ライブ",
@@ -5432,7 +5492,27 @@
       ]
     },
     {
-      "id": 307,
+      "id": 310,
+      "date": "2026-09-12",
+      "title": "スマイルスタジアムNST",
+      "category": "テレビ",
+      "place": "NST新潟総合テレビ ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "18:00～",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 311,
       "date": "2026-09-12",
       "title": "笑ってノト！2026 SUMMER 1部",
       "category": "ライブ",
@@ -5456,7 +5536,7 @@
       ]
     },
     {
-      "id": 309,
+      "id": 313,
       "date": "2026-09-12",
       "title": "笑ってノト！2026 SUMMER 2部",
       "category": "ライブ",
@@ -5480,7 +5560,27 @@
       ]
     },
     {
-      "id": 311,
+      "id": 315,
+      "date": "2026-09-13",
+      "title": "光翔祭",
+      "category": "チケット販売",
+      "place": "福島県立医科大学 講堂",
+      "performers": "真空ジェシカ/ヤーレンズ/ひつじねいり",
+      "url": "https://eplus.jp/sf/detail/4598460001",
+      "status": "予定",
+      "source": "e+",
+      "detail": "先着発売12:00",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "e+",
+          "url": "https://eplus.jp/sf/detail/4598460001"
+        }
+      ]
+    },
+    {
+      "id": 316,
       "date": "2026-09-14",
       "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
       "category": "ラジオ",
@@ -5500,7 +5600,7 @@
       ]
     },
     {
-      "id": 312,
+      "id": 317,
       "date": "2026-09-15",
       "title": "紅 vol.2",
       "category": "ライブ",
@@ -5520,7 +5620,7 @@
       ]
     },
     {
-      "id": 313,
+      "id": 318,
       "date": "2026-09-17",
       "title": "真空レンズ",
       "category": "テレビ",
@@ -5540,7 +5640,7 @@
       ]
     },
     {
-      "id": 314,
+      "id": 319,
       "date": "2026-09-18",
       "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
       "category": "ラジオ",
@@ -5560,7 +5660,7 @@
       ]
     },
     {
-      "id": 315,
+      "id": 320,
       "date": "2026-09-18",
       "title": "爆笑！！お笑いスーパーライブ　ｉｎ　青森　２０２６",
       "category": "チケット販売",
@@ -5580,7 +5680,7 @@
       ]
     },
     {
-      "id": 316,
+      "id": 321,
       "date": "2026-09-19",
       "title": "ケイダッシュステージお笑い珍道中 京都編 1部",
       "category": "ライブ",
@@ -5604,7 +5704,7 @@
       ]
     },
     {
-      "id": 318,
+      "id": 323,
       "date": "2026-09-19",
       "title": "ケイダッシュステージお笑い珍道中 京都編 2部",
       "category": "ライブ",
@@ -5628,7 +5728,7 @@
       ]
     },
     {
-      "id": 320,
+      "id": 325,
       "date": "2026-09-21",
       "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
       "category": "ラジオ",
@@ -5648,7 +5748,27 @@
       ]
     },
     {
-      "id": 321,
+      "id": 326,
+      "date": "2026-09-21",
+      "title": "焼き芋フェスティバル2026🍠　 ～おいも争奪ネタ合戦～",
+      "category": "ライブ",
+      "place": "新宿バティオス (東京都)",
+      "performers": "大王 / 元祖いちごちゃん / スタミナパン / カラタチ / 豆鉄砲 / タワー / ぎょねこ / ジュン（大石＆宮原） / オフローズ / ヤッホイ / ヤーレンズ",
+      "url": "https://ticketdive.com/event/20260921YAKIIMOFES",
+      "status": "予定",
+      "source": "TicketDrive",
+      "detail": "開場時刻 18:15 / 開演時刻 18:30",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "TicketDrive",
+          "url": "https://ticketdive.com/event/20260921YAKIIMOFES"
+        }
+      ]
+    },
+    {
+      "id": 327,
       "date": "2026-09-23",
       "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」 1部",
       "category": "ライブ",
@@ -5672,7 +5792,7 @@
       ]
     },
     {
-      "id": 323,
+      "id": 329,
       "date": "2026-09-23",
       "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」 2部",
       "category": "ライブ",
@@ -5696,7 +5816,7 @@
       ]
     },
     {
-      "id": 325,
+      "id": 331,
       "date": "2026-09-24",
       "title": "パンサー向井の＃ふらっと［ヤーレンズの＃ふらっと］",
       "category": "ラジオ",
@@ -5716,7 +5836,7 @@
       ]
     },
     {
-      "id": 326,
+      "id": 332,
       "date": "2026-09-24",
       "title": "ミッション：出井ンポッシブル３",
       "category": "ライブ",
@@ -5736,7 +5856,7 @@
       ]
     },
     {
-      "id": 327,
+      "id": 333,
       "date": "2026-09-24",
       "title": "真空レンズ",
       "category": "テレビ",
@@ -5756,7 +5876,7 @@
       ]
     },
     {
-      "id": 328,
+      "id": 334,
       "date": "2026-09-25",
       "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
       "category": "ラジオ",
@@ -5776,7 +5896,7 @@
       ]
     },
     {
-      "id": 329,
+      "id": 335,
       "date": "2026-09-27",
       "title": "ヤーレンズのオールナイトニッポン0",
       "category": "ラジオ",
@@ -5796,7 +5916,27 @@
       ]
     },
     {
-      "id": 330,
+      "id": 336,
+      "date": "2026-09-27",
+      "title": "トム・ブラウン布川の1人4545ライブ～30玉目～2部",
+      "category": "ライブ",
+      "place": "大森スポーツセンター小ホール",
+      "performers": "布川ひろき（トム・ブラウン） / 大嶋の一番弟子 / マスオチョップ松本 / 納言安部 / さんぽとみやん / ヤーレンズ楢原 / クロコップしょうた",
+      "url": "https://tiget.net/events/518932",
+      "status": "開催予定",
+      "source": "TIGET",
+      "detail": "19:50 開演 ( 20:05 開場 )",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "TIGET",
+          "url": "https://tiget.net/events/518932"
+        }
+      ]
+    },
+    {
+      "id": 337,
       "date": "2026-09-28",
       "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
       "category": "ラジオ",
@@ -5816,7 +5956,27 @@
       ]
     },
     {
-      "id": 331,
+      "id": 338,
+      "date": "2026-09-29",
+      "title": "岩崎諒太が体を張って何かをする番組",
+      "category": "ラジオ",
+      "place": "NST新潟総合テレビ ",
+      "performers": "楢原真樹",
+      "url": "https://live.nicovideo.jp/watch/lv351359467",
+      "status": "予定",
+      "source": "X",
+      "detail": "20:55～",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "X",
+          "url": "https://live.nicovideo.jp/watch/lv351359467"
+        }
+      ]
+    },
+    {
+      "id": 339,
       "date": "2026-09-30",
       "title": "パンドラの匣",
       "category": "ライブ",
@@ -5836,27 +5996,7 @@
       ]
     },
     {
-      "id": 332,
-      "date": "2026-10-08",
-      "title": "Owarai-night Sensation 『DJ KOO presents ちゃんKOOお笑いLIVE!! vol.8 in OSAKA』",
-      "category": "ライブ",
-      "place": "東京建物 Ｂｒｉｌｌｉａ ＨＡＬＬ 箕面 大ホール (大阪府)",
-      "performers": "DJ KOO、ミルクボーイ、ヤーレンズ、真空ジェシカ",
-      "url": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2670280",
-      "status": "予定",
-      "source": "ぴあ",
-      "detail": "",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "ぴあ",
-          "url": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2670280"
-        }
-      ]
-    },
-    {
-      "id": 333,
+      "id": 340,
       "date": "2026-10-01",
       "title": "ヤーレンズ×ジグザグジギーツーマンライブ其の十一『コントの虎 漫才の狼』",
       "category": "ライブ",
@@ -5876,7 +6016,7 @@
       ]
     },
     {
-      "id": 334,
+      "id": 341,
       "date": "2026-10-01",
       "title": "真空レンズ",
       "category": "テレビ",
@@ -5896,7 +6036,7 @@
       ]
     },
     {
-      "id": 335,
+      "id": 342,
       "date": "2026-10-02",
       "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
       "category": "ラジオ",
@@ -5916,7 +6056,47 @@
       ]
     },
     {
-      "id": 336,
+      "id": 343,
+      "date": "2026-10-04",
+      "title": "光翔祭",
+      "category": "ライブ",
+      "place": "福島県立医科大学 講堂",
+      "performers": "真空ジェシカ/ヤーレンズ/ひつじねいり",
+      "url": "https://eplus.jp/sf/detail/4598460001",
+      "status": "予定",
+      "source": "e+",
+      "detail": "開場13:00 開演14:00チケット：先着発売 9/13 12:00",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "e+",
+          "url": "https://eplus.jp/sf/detail/4598460001"
+        }
+      ]
+    },
+    {
+      "id": 344,
+      "date": "2026-10-05",
+      "title": "#チゲコメ vol.3",
+      "category": "ライブ",
+      "place": "日本橋公会堂(東京都)",
+      "performers": "金の国 / 十九人 / 東京ホテイソン / ママタルト / ヤッホイ / サンタモニカ / リニア / ラパルフェ / 徳原旅行 / ヤーレンズ",
+      "url": "https://tiget.net/events/519174?utm_source=x&utm_medium=sns&utm_campaign=sns-x-519174-20260912",
+      "status": "予定",
+      "source": "TIGET",
+      "detail": "開場 18:00 開演 18:30",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "TIGET",
+          "url": "https://tiget.net/events/519174?utm_source=x&utm_medium=sns&utm_campaign=sns-x-519174-20260912"
+        }
+      ]
+    },
+    {
+      "id": 345,
       "date": "2026-10-05",
       "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
       "category": "ラジオ",
@@ -5936,7 +6116,47 @@
       ]
     },
     {
-      "id": 337,
+      "id": 346,
+      "date": "2026-10-05",
+      "title": "ヤーレンズ・ラフ次元のツーマンライブ「ヤレ次元」vol.2",
+      "category": "ライブ",
+      "place": "野方区民ホール",
+      "performers": "ヤーレンズ・ラフ次元",
+      "url": "https://ticket.fany.lol/reception/66894/53383",
+      "status": "開催予定",
+      "source": "FANY",
+      "detail": "開場 19:30 / 開演 20:00",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "FANY",
+          "url": "https://ticket.fany.lol/reception/66894/53383"
+        }
+      ]
+    },
+    {
+      "id": 347,
+      "date": "2026-10-08",
+      "title": "Owarai-night Sensation 『DJ KOO presents ちゃんKOOお笑いLIVE!! vol.8 in OSAKA』",
+      "category": "ライブ",
+      "place": "東京建物 Ｂｒｉｌｌｉａ ＨＡＬＬ 箕面 大ホール (大阪府)",
+      "performers": "DJ KOO、ミルクボーイ、ヤーレンズ、真空ジェシカ",
+      "url": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2670280",
+      "status": "予定",
+      "source": "ぴあ",
+      "detail": "",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "ぴあ",
+          "url": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2670280"
+        }
+      ]
+    },
+    {
+      "id": 348,
       "date": "2026-10-08",
       "title": "真空レンズ",
       "category": "テレビ",
@@ -5956,7 +6176,27 @@
       ]
     },
     {
-      "id": 338,
+      "id": 349,
+      "date": "2026-10-11",
+      "title": "青森県立保健大学 第27回大学祭 お笑いステージ",
+      "category": "ライブ",
+      "place": "青森県立保健大学 野外ステージ",
+      "performers": "ヤーレンズ、TCクラクション",
+      "url": "",
+      "status": "予定",
+      "source": "無料",
+      "detail": "13時開演",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "無料",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 350,
       "date": "2026-10-12",
       "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
       "category": "ラジオ",
@@ -5976,7 +6216,7 @@
       ]
     },
     {
-      "id": 339,
+      "id": 351,
       "date": "2026-10-15",
       "title": "真空レンズ",
       "category": "テレビ",
@@ -5996,7 +6236,7 @@
       ]
     },
     {
-      "id": 340,
+      "id": 352,
       "date": "2026-10-17",
       "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」",
       "category": "ライブ",
@@ -6020,7 +6260,7 @@
       ]
     },
     {
-      "id": 342,
+      "id": 354,
       "date": "2026-10-18",
       "title": "ねじロックフェス2026 1部",
       "category": "ライブ",
@@ -6040,7 +6280,7 @@
       ]
     },
     {
-      "id": 343,
+      "id": 355,
       "date": "2026-10-18",
       "title": "ねじロックフェス2026 2部",
       "category": "ライブ",
@@ -6060,7 +6300,7 @@
       ]
     },
     {
-      "id": 344,
+      "id": 356,
       "date": "2026-10-19",
       "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
       "category": "ラジオ",
@@ -6080,7 +6320,7 @@
       ]
     },
     {
-      "id": 345,
+      "id": 357,
       "date": "2026-10-22",
       "title": "真空レンズ",
       "category": "テレビ",
@@ -6100,7 +6340,7 @@
       ]
     },
     {
-      "id": 346,
+      "id": 358,
       "date": "2026-10-24",
       "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」 1部",
       "category": "ライブ",
@@ -6124,7 +6364,7 @@
       ]
     },
     {
-      "id": 348,
+      "id": 360,
       "date": "2026-10-24",
       "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」 2部",
       "category": "ライブ",
@@ -6148,7 +6388,7 @@
       ]
     },
     {
-      "id": 350,
+      "id": 362,
       "date": "2026-10-26",
       "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
       "category": "ラジオ",
@@ -6168,7 +6408,7 @@
       ]
     },
     {
-      "id": 351,
+      "id": 363,
       "date": "2026-10-29",
       "title": "真空レンズ",
       "category": "テレビ",
@@ -6188,147 +6428,7 @@
       ]
     },
     {
-      "id": 352,
-      "date": "2026-11-01",
-      "title": "アブナイヨセ　in 福岡",
-      "category": "ライブ",
-      "place": "SAWARAPIA 福岡県立ももち文化センター 大ホール",
-      "performers": "黒帯、金属バット、デルマパンゲ、九条ジョー、エバース、ヤ―レンズ",
-      "url": "https://ticket.fany.lol/search/event?keywords=%E3%82%A2%E3%83%96%E3%83%8A%E3%82%A4+%E3%83%A8%E3%82%BB&search_type=search_string",
-      "status": "予定",
-      "source": "FANY",
-      "detail": "18:15開場｜19:00開演",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "FANY",
-          "url": "https://ticket.fany.lol/search/event?keywords=%E3%82%A2%E3%83%96%E3%83%8A%E3%82%A4+%E3%83%A8%E3%82%BB&search_type=search_string"
-        }
-      ]
-    },
-    {
-      "id": 353,
-      "date": "2026-12-06",
-      "title": "爆笑！！お笑いスーパーライブ　ｉｎ　青森　２０２６- 1部",
-      "category": "ライブ",
-      "place": "リンクステーションホール青森 (青森県)",
-      "performers": "ナイツ / ラバーガール / 真空ジェシカ / カミナリ / 吉住 / マシンガンズ / ザ・マミィ / どぶろっく / リニア / や団 / スパイシーガーリック / ニッチェ / きしたかの / 三四郎 / ヤーレンズ",
-      "url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2632474&rlsCd=001",
-      "status": "予定",
-      "source": "ぴあ",
-      "detail": "10:45 開演 ( 10:15 開場 )",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "ぴあ",
-          "url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2632474&rlsCd=001"
-        }
-      ]
-    },
-    {
-      "id": 354,
-      "date": "2026-12-06",
-      "title": "爆笑！！お笑いスーパーライブ　ｉｎ　青森　２０２６- 2部",
-      "category": "ライブ",
-      "place": "リンクステーションホール青森 (青森県)",
-      "performers": "ナイツ / ラバーガール / 真空ジェシカ / カミナリ / 吉住 / マシンガンズ / ザ・マミィ / どぶろっく / リニア / や団 / スパイシーガーリック / ニッチェ / きしたかの / 三四郎 / ヤーレンズ",
-      "url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2632474&rlsCd=001",
-      "status": "予定",
-      "source": "ぴあ",
-      "detail": "14:15 開演 ( 13:45 開場 )",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "ぴあ",
-          "url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2632474&rlsCd=001"
-        }
-      ]
-    },
-    {
-      "id": 355,
-      "date": "2027-03-07",
-      "title": "ヤーレンズ単独ライブ 一万人に漫才 in 日本武道館",
-      "category": "ライブ",
-      "place": "日本武道館",
-      "performers": "ヤーレンズ",
-      "url": "https://event.1242.com/events/yarlens_budokan/",
-      "status": "予定",
-      "source": "公式",
-      "detail": "開場15:00／開演16:00",
-      "management": "手動",
-      "featured": true,
-      "sources": [
-        {
-          "source": "公式",
-          "url": "https://event.1242.com/events/yarlens_budokan/"
-        }
-      ]
-    },
-    {
-      "id": 356,
-      "date": "2026-10-05",
-      "title": "ヤーレンズ・ラフ次元のツーマンライブ「ヤレ次元」vol.2",
-      "category": "ライブ",
-      "place": "野方区民ホール",
-      "performers": "ヤーレンズ・ラフ次元",
-      "url": "https://ticket.fany.lol/reception/66894/53383",
-      "status": "開催予定",
-      "source": "FANY",
-      "detail": "開場 19:30 / 開演 20:00",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "FANY",
-          "url": "https://ticket.fany.lol/reception/66894/53383"
-        }
-      ]
-    },
-    {
-      "id": 357,
-      "date": "2026-09-21",
-      "title": "焼き芋フェスティバル2026🍠　 ～おいも争奪ネタ合戦～",
-      "category": "ライブ",
-      "place": "新宿バティオス (東京都)",
-      "performers": "大王 / 元祖いちごちゃん / スタミナパン / カラタチ / 豆鉄砲 / タワー / ぎょねこ / ジュン（大石＆宮原） / オフローズ / ヤッホイ / ヤーレンズ",
-      "url": "https://ticketdive.com/event/20260921YAKIIMOFES",
-      "status": "予定",
-      "source": "TicketDrive",
-      "detail": "開場時刻 18:15 / 開演時刻 18:30",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "TicketDrive",
-          "url": "https://ticketdive.com/event/20260921YAKIIMOFES"
-        }
-      ]
-    },
-    {
-      "id": 358,
-      "date": "2026-09-09",
-      "title": "有吉の壁",
-      "category": "テレビ",
-      "place": "日本テレビ",
-      "performers": "ヤーレンズ、他多数",
-      "url": "https://tver.jp/series/srxjstc489?utm_campaign=srxjstc489&utm_medium=web_lp&tkn=ec8e5646-32c7-43e2-8c52-ae91175070d7",
-      "status": "予定",
-      "source": "Tverあり",
-      "detail": "19:00～",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "Tverあり",
-          "url": "https://tver.jp/series/srxjstc489?utm_campaign=srxjstc489&utm_medium=web_lp&tkn=ec8e5646-32c7-43e2-8c52-ae91175070d7"
-        }
-      ]
-    },
-    {
-      "id": 359,
+      "id": 364,
       "date": "2026-10-29",
       "title": "大激漫",
       "category": "ライブ",
@@ -6348,187 +6448,27 @@
       ]
     },
     {
-      "id": 360,
-      "date": "2026-09-12",
-      "title": "大激漫",
-      "category": "チケット販売",
-      "place": "なかのZERO小ホール（東京都）",
-      "performers": "じぐざぐ/うちまつげ/リニア/今夜も星が綺麗/魂ず　ゲスト:錦鯉/ナイツ/ドンデコルテ/三四郎/ヤーレンズ",
-      "url": "https://tiget.net/events/521895",
-      "status": "先行",
-      "source": "TIGET",
-      "detail": "10：00～",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "TIGET",
-          "url": "https://tiget.net/events/521895"
-        }
-      ]
-    },
-    {
-      "id": 361,
-      "date": "2026-09-05",
-      "title": "スマイルスタジアムNST",
-      "category": "テレビ",
-      "place": "NST新潟総合テレビ ",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "予定",
-      "source": "公式",
-      "detail": "18:00～",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": 362,
-      "date": "2026-09-09",
-      "title": "ヒルナンデス",
-      "category": "テレビ",
-      "place": "日本テレビ",
-      "performers": "ヤーレンズ",
-      "url": "https://bangumi.org/tv_events/AmDQQQIwwAM?from=search",
-      "status": "予定",
-      "source": "GGuide",
-      "detail": "11:55～13:55",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "GGuide",
-          "url": "https://bangumi.org/tv_events/AmDQQQIwwAM?from=search"
-        }
-      ]
-    },
-    {
-      "id": 363,
-      "date": "2026-10-04",
-      "title": "光翔祭",
-      "category": "ライブ",
-      "place": "福島県立医科大学 講堂",
-      "performers": "真空ジェシカ/ヤーレンズ/ひつじねいり",
-      "url": "https://eplus.jp/sf/detail/4598460001",
-      "status": "予定",
-      "source": "e+",
-      "detail": "開場13:00 開演14:00チケット：先着発売 9/13 12:00",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "e+",
-          "url": "https://eplus.jp/sf/detail/4598460001"
-        }
-      ]
-    },
-    {
-      "id": 364,
-      "date": "2026-09-13",
-      "title": "光翔祭",
-      "category": "チケット販売",
-      "place": "福島県立医科大学 講堂",
-      "performers": "真空ジェシカ/ヤーレンズ/ひつじねいり",
-      "url": "https://eplus.jp/sf/detail/4598460001",
-      "status": "予定",
-      "source": "e+",
-      "detail": "先着発売12:00",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "e+",
-          "url": "https://eplus.jp/sf/detail/4598460001"
-        }
-      ]
-    },
-    {
       "id": 365,
-      "date": "2026-10-11",
-      "title": "青森県立保健大学 第27回大学祭 お笑いステージ",
+      "date": "2026-11-01",
+      "title": "アブナイヨセ　in 福岡",
       "category": "ライブ",
-      "place": "青森県立保健大学 野外ステージ",
-      "performers": "ヤーレンズ、TCクラクション",
-      "url": "",
+      "place": "SAWARAPIA 福岡県立ももち文化センター 大ホール",
+      "performers": "黒帯、金属バット、デルマパンゲ、九条ジョー、エバース、ヤ―レンズ",
+      "url": "https://ticket.fany.lol/search/event?keywords=%E3%82%A2%E3%83%96%E3%83%8A%E3%82%A4+%E3%83%A8%E3%82%BB&search_type=search_string",
       "status": "予定",
-      "source": "無料",
-      "detail": "13時開演",
+      "source": "FANY",
+      "detail": "18:15開場｜19:00開演",
       "management": "手動",
       "featured": false,
       "sources": [
         {
-          "source": "無料",
-          "url": ""
+          "source": "FANY",
+          "url": "https://ticket.fany.lol/search/event?keywords=%E3%82%A2%E3%83%96%E3%83%8A%E3%82%A4+%E3%83%A8%E3%82%BB&search_type=search_string"
         }
       ]
     },
     {
       "id": 366,
-      "date": "2026-10-05",
-      "title": "#チゲコメ vol.3",
-      "category": "ライブ",
-      "place": "日本橋公会堂(東京都)",
-      "performers": "金の国 / 十九人 / 東京ホテイソン / ママタルト / ヤッホイ / サンタモニカ / リニア / ラパルフェ / 徳原旅行 / ヤーレンズ",
-      "url": "https://tiget.net/events/519174?utm_source=x&utm_medium=sns&utm_campaign=sns-x-519174-20260912",
-      "status": "予定",
-      "source": "TIGET",
-      "detail": "開場 18:00 開演 18:30",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "TIGET",
-          "url": "https://tiget.net/events/519174?utm_source=x&utm_medium=sns&utm_campaign=sns-x-519174-20260912"
-        }
-      ]
-    },
-    {
-      "id": 367,
-      "date": "2026-09-12",
-      "title": "スマイルスタジアムNST",
-      "category": "テレビ",
-      "place": "NST新潟総合テレビ ",
-      "performers": "ヤーレンズ",
-      "url": "",
-      "status": "予定",
-      "source": "公式",
-      "detail": "18:00～",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": 368,
-      "date": "2026-09-29",
-      "title": "岩崎諒太が体を張って何かをする番組",
-      "category": "ラジオ",
-      "place": "NST新潟総合テレビ ",
-      "performers": "楢原真樹",
-      "url": "https://live.nicovideo.jp/watch/lv351359467",
-      "status": "予定",
-      "source": "X",
-      "detail": "20:55～",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "X",
-          "url": "https://live.nicovideo.jp/watch/lv351359467"
-        }
-      ]
-    },
-    {
-      "id": 369,
       "date": "2026-11-07",
       "title": "第5回令和健康科学大学 大学祭「令愛祭」",
       "category": "ライブ",
@@ -6546,11 +6486,71 @@
           "url": ""
         }
       ]
+    },
+    {
+      "id": 367,
+      "date": "2026-12-06",
+      "title": "爆笑！！お笑いスーパーライブ　ｉｎ　青森　２０２６- 1部",
+      "category": "ライブ",
+      "place": "リンクステーションホール青森 (青森県)",
+      "performers": "ナイツ / ラバーガール / 真空ジェシカ / カミナリ / 吉住 / マシンガンズ / ザ・マミィ / どぶろっく / リニア / や団 / スパイシーガーリック / ニッチェ / きしたかの / 三四郎 / ヤーレンズ",
+      "url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2632474&rlsCd=001",
+      "status": "予定",
+      "source": "ぴあ",
+      "detail": "10:45 開演 ( 10:15 開場 )",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "ぴあ",
+          "url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2632474&rlsCd=001"
+        }
+      ]
+    },
+    {
+      "id": 368,
+      "date": "2026-12-06",
+      "title": "爆笑！！お笑いスーパーライブ　ｉｎ　青森　２０２６- 2部",
+      "category": "ライブ",
+      "place": "リンクステーションホール青森 (青森県)",
+      "performers": "ナイツ / ラバーガール / 真空ジェシカ / カミナリ / 吉住 / マシンガンズ / ザ・マミィ / どぶろっく / リニア / や団 / スパイシーガーリック / ニッチェ / きしたかの / 三四郎 / ヤーレンズ",
+      "url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2632474&rlsCd=001",
+      "status": "予定",
+      "source": "ぴあ",
+      "detail": "14:15 開演 ( 13:45 開場 )",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "ぴあ",
+          "url": "https://t.pia.jp/pia/ticketInformation.do?eventCd=2632474&rlsCd=001"
+        }
+      ]
+    },
+    {
+      "id": 369,
+      "date": "2027-03-07",
+      "title": "ヤーレンズ単独ライブ 一万人に漫才 in 日本武道館",
+      "category": "ライブ",
+      "place": "日本武道館",
+      "performers": "ヤーレンズ",
+      "url": "https://event.1242.com/events/yarlens_budokan/",
+      "status": "予定",
+      "source": "公式",
+      "detail": "開場15:00／開演16:00",
+      "management": "手動",
+      "featured": true,
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://event.1242.com/events/yarlens_budokan/"
+        }
+      ]
     }
   ],
   "featuredEvents": [
     {
-      "id": 316,
+      "id": 321,
       "date": "2026-09-19",
       "title": "ケイダッシュステージお笑い珍道中 京都編 1部",
       "category": "ライブ",
@@ -6564,7 +6564,7 @@
       "featured": true
     },
     {
-      "id": 318,
+      "id": 323,
       "date": "2026-09-19",
       "title": "ケイダッシュステージお笑い珍道中 京都編 2部",
       "category": "ライブ",
@@ -6578,7 +6578,7 @@
       "featured": true
     },
     {
-      "id": 355,
+      "id": 369,
       "date": "2027-03-07",
       "title": "ヤーレンズ単独ライブ 一万人に漫才 in 日本武道館",
       "category": "ライブ",
