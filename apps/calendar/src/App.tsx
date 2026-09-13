@@ -25,6 +25,18 @@ function formatDate(date: Date) {
   return `${y}-${m}-${d}`;
 }
 
+function isMilestoneVisit(count: number) {
+  if (count < 100) {
+    return false;
+  }
+
+  if (count < 1000) {
+    return count % 100 === 0;
+  }
+
+  return count % 500 === 0;
+}
+
 function App() {
   const [data, setData] = useState<any>(null);
   const [selectedDate, setSelectedDate] = useState(
@@ -52,7 +64,7 @@ function App() {
       .then((res) => res.json())
       .then((json) => {
         console.log("GoatCounterアクセス数:", json.count);
-        setVisitCount(json.count);
+        setVisitCount(String(json.count));
       })
       .catch((error) => {
         console.error(
@@ -64,13 +76,13 @@ function App() {
 
   const lastUpdate = data?.lastUpdate
     ? new Date(data.lastUpdate).toLocaleString("ja-JP", {
-      timeZone: "Asia/Tokyo",
-      year: "numeric",
-      month: "2-digit",
-      day: "2-digit",
-      hour: "2-digit",
-      minute: "2-digit",
-    })
+        timeZone: "Asia/Tokyo",
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+        hour: "2-digit",
+        minute: "2-digit",
+      })
     : "";
 
   const groupedEvents = data?.events ?? [];
@@ -81,18 +93,239 @@ function App() {
     categoryFilter.length === 0
       ? groupedEvents
       : groupedEvents.filter((event: any) =>
-        categoryFilter.includes(event.category)
-      );
+          categoryFilter.includes(event.category)
+        );
 
   const selectedEvents = filteredEvents.filter(
     (event: any) => event.date === selectedDate
   );
+
+  const numericVisitCount = Number(
+    visitCount.replace(/,/g, "")
+  );
+
+  const showMilestoneCelebration =
+    Number.isFinite(numericVisitCount) &&
+    isMilestoneVisit(numericVisitCount);
+
+  const celebrationCount =
+    numericVisitCount.toLocaleString("ja-JP");
+
+  const confetti = [
+    "🎉",
+    "✨",
+    "🎊",
+    "⭐",
+    "✦",
+    "🎈",
+    "✨",
+    "🎉",
+    "✦",
+    "⭐",
+    "🎊",
+    "✨",
+  ];
 
   return (
     <div className="page-background">
       <div className="image-background" aria-hidden="true">
         <div className="image-overlay" />
       </div>
+
+      {/* ===== キリ番お祝いエフェクト ===== */}
+      {showMilestoneCelebration && (
+        <>
+          <style>
+            {`
+              .milestone-celebration {
+                position: fixed;
+                inset: 0;
+                z-index: 2;
+                pointer-events: none;
+                overflow: hidden;
+              }
+
+              .milestone-confetti {
+                position: absolute;
+                top: -40px;
+                font-size: 24px;
+                opacity: 0;
+                animation-name: milestone-fall;
+                animation-duration: 7s;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+              }
+
+              .milestone-confetti:nth-child(1) {
+                left: 5%;
+                animation-delay: 0s;
+              }
+
+              .milestone-confetti:nth-child(2) {
+                left: 13%;
+                animation-delay: 1.4s;
+              }
+
+              .milestone-confetti:nth-child(3) {
+                left: 22%;
+                animation-delay: 3.1s;
+              }
+
+              .milestone-confetti:nth-child(4) {
+                left: 31%;
+                animation-delay: 0.8s;
+              }
+
+              .milestone-confetti:nth-child(5) {
+                left: 40%;
+                animation-delay: 2.5s;
+              }
+
+              .milestone-confetti:nth-child(6) {
+                left: 49%;
+                animation-delay: 4s;
+              }
+
+              .milestone-confetti:nth-child(7) {
+                left: 58%;
+                animation-delay: 1.8s;
+              }
+
+              .milestone-confetti:nth-child(8) {
+                left: 67%;
+                animation-delay: 3.7s;
+              }
+
+              .milestone-confetti:nth-child(9) {
+                left: 76%;
+                animation-delay: 0.5s;
+              }
+
+              .milestone-confetti:nth-child(10) {
+                left: 84%;
+                animation-delay: 2.2s;
+              }
+
+              .milestone-confetti:nth-child(11) {
+                left: 91%;
+                animation-delay: 4.4s;
+              }
+
+              .milestone-confetti:nth-child(12) {
+                left: 97%;
+                animation-delay: 1.1s;
+              }
+
+              @keyframes milestone-fall {
+                0% {
+                  transform:
+                    translateY(-40px)
+                    rotate(0deg)
+                    scale(0.8);
+                  opacity: 0;
+                }
+
+                10% {
+                  opacity: 0.75;
+                }
+
+                70% {
+                  opacity: 0.65;
+                }
+
+                100% {
+                  transform:
+                    translateY(110vh)
+                    rotate(360deg)
+                    scale(1.1);
+                  opacity: 0;
+                }
+              }
+
+              .milestone-sparkle {
+                position: absolute;
+                font-size: 20px;
+                opacity: 0;
+                animation: milestone-sparkle 3s ease-in-out infinite;
+              }
+
+              .milestone-sparkle-1 {
+                top: 18%;
+                left: 8%;
+                animation-delay: 0s;
+              }
+
+              .milestone-sparkle-2 {
+                top: 28%;
+                right: 10%;
+                animation-delay: 1.2s;
+              }
+
+              .milestone-sparkle-3 {
+                top: 65%;
+                left: 12%;
+                animation-delay: 2s;
+              }
+
+              .milestone-sparkle-4 {
+                top: 72%;
+                right: 14%;
+                animation-delay: 0.7s;
+              }
+
+              @keyframes milestone-sparkle {
+                0%,
+                100% {
+                  transform: scale(0.7) rotate(0deg);
+                  opacity: 0;
+                }
+
+                50% {
+                  transform: scale(1.35) rotate(20deg);
+                  opacity: 0.8;
+                }
+              }
+
+              .milestone-message {
+                margin-top: 8px;
+                font-size: 13px;
+                font-weight: bold;
+                color: #b45309;
+              }
+            `}
+          </style>
+
+          <div
+            className="milestone-celebration"
+            aria-hidden="true"
+          >
+            {confetti.map((item, index) => (
+              <span
+                key={index}
+                className="milestone-confetti"
+              >
+                {item}
+              </span>
+            ))}
+
+            <span className="milestone-sparkle milestone-sparkle-1">
+              ✨
+            </span>
+
+            <span className="milestone-sparkle milestone-sparkle-2">
+              ✦
+            </span>
+
+            <span className="milestone-sparkle milestone-sparkle-3">
+              ✨
+            </span>
+
+            <span className="milestone-sparkle milestone-sparkle-4">
+              ⭐
+            </span>
+          </div>
+        </>
+      )}
 
       <div className="page-content">
 
@@ -105,7 +338,6 @@ function App() {
         </h1>
 
         <p
-
           style={{
             marginTop: 0,
             marginBottom: 16,
@@ -140,6 +372,12 @@ function App() {
             }}
           >
             👣 {visitCount} HIT
+
+            {showMilestoneCelebration && (
+              <div className="milestone-message">
+                🎉 {celebrationCount} HIT！見に来てくれてありがとう！
+              </div>
+            )}
           </div>
         )}
 
@@ -250,7 +488,10 @@ function App() {
           }}
         >
           <FullCalendar
-            plugins={[dayGridPlugin, interactionPlugin]}
+            plugins={[
+              dayGridPlugin,
+              interactionPlugin,
+            ]}
             initialView="dayGridMonth"
             locale={jaLocale}
             height="auto"
@@ -345,11 +586,11 @@ function App() {
                       `${event.date}-${event.title}`
                     ) === selectedEventId
                       ? `3px solid ${getCategoryColor(
-                        event.category
-                      )}`
+                          event.category
+                        )}`
                       : `1px solid ${getCategoryColor(
-                        event.category
-                      )}`,
+                          event.category
+                        )}`,
                   borderRadius: 14,
                   padding: 18,
                   marginBottom: 16,
