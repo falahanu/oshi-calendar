@@ -66,6 +66,7 @@ function FeaturedEvents({ featuredEvents }: Props) {
               style={{
                 display: "flex",
                 alignItems: "center",
+                justifyContent: "center",
                 gap: 8,
                 flexWrap: "wrap",
                 marginBottom: 8,
@@ -92,7 +93,7 @@ function FeaturedEvents({ featuredEvents }: Props) {
 
               <span
                 style={{
-                  fontSize: 14,
+                  fontSize: 17,
                   fontWeight: "bold",
                   color: "#555",
                 }}
