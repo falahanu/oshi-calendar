@@ -187,7 +187,7 @@ function App() {
             "ライブ",
             "テレビ",
             "ラジオ",
-            "チケット",
+            "チケット販売",
           ].map((category) => (
             <button
               key={category}

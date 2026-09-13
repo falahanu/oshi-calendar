@@ -143,7 +143,7 @@ export default function CalendarPage() {
           marginBottom: 16,
         }}
       >
-        {["すべて", "ライブ", "テレビ", "ラジオ", "チケット"].map(
+        {["すべて", "ライブ", "テレビ", "ラジオ", "チケット販売"].map(
           (category) => (
             <button
               key={category}
