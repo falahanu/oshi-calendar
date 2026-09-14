@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-14T14:58:23.494Z",
+  "lastUpdate": "2026-09-14T23:53:02.519Z",
   "from": "2025-09-14",
   "to": "2027-09-14",
   "events": [
@@ -6574,16 +6574,56 @@
       "category": "テレビ",
       "place": "フジテレビ",
       "performers": "出井隼之介",
-      "url": "https://bangumi.org/tv_events/AmEwQgTK4AM?from=search",
+      "url": "",
       "status": "予定",
-      "source": "GGuide",
+      "source": "公式",
       "detail": "23:00 -23:30",
       "management": "手動",
       "featured": false,
       "sources": [
         {
-          "source": "GGuide",
-          "url": "https://bangumi.org/tv_events/AmEwQgTK4AM?from=search"
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 372,
+      "date": "2026-09-19",
+      "title": "王様のブランチ",
+      "category": "テレビ",
+      "place": "TBS",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "9:30～14:00",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 373,
+      "date": "2026-09-19",
+      "title": "ゴットタン",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "26:10～26:35",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
         }
       ]
     }
