@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-09-13T11:18:02.748Z",
-  "from": "2025-09-13",
-  "to": "2027-09-13",
+  "lastUpdate": "2026-09-14T14:56:51.645Z",
+  "from": "2025-09-14",
+  "to": "2027-09-14",
   "events": [
     {
       "id": 9,
@@ -5629,7 +5629,7 @@
       "url": "https://tver.jp/series/sryhlrcydxb",
       "status": "終了",
       "source": "Tverあり",
-      "detail": "25:30～26:00",
+      "detail": "25:36～26:06",
       "management": "手動",
       "featured": false,
       "sources": [
@@ -6544,6 +6544,46 @@
         {
           "source": "公式",
           "url": "https://event.1242.com/events/yarlens_budokan/"
+        }
+      ]
+    },
+    {
+      "id": 370,
+      "date": "2026-09-17",
+      "title": "真空レンズ【仲良し芸人大集合で地下ライブみたいなノリになってしまいゴメンねSP】",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ、真空ジェシカ #ママタルト#トム・ブラウン#きしたかの#ちゃんぴおんず",
+      "url": "https://tver.jp/series/sryhlrcydxb",
+      "status": "予定",
+      "source": "Tverあり",
+      "detail": "11:30〜12:15",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Tverあり",
+          "url": "https://tver.jp/series/sryhlrcydxb"
+        }
+      ]
+    },
+    {
+      "id": 371,
+      "date": "2026-09-15",
+      "title": "千原ジュニアの座王　細身センスメガネSP",
+      "category": "テレビ",
+      "place": "フジテレビ",
+      "performers": "出井隼之介",
+      "url": "https://bangumi.org/tv_events/AmEwQgTK4AM?from=search",
+      "status": "予定",
+      "source": "GGuide",
+      "detail": "23:00 -23:30",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "GGuide",
+          "url": "https://bangumi.org/tv_events/AmEwQgTK4AM?from=search"
         }
       ]
     }
