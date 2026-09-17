@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-17T05:10:25.723Z",
+  "lastUpdate": "2026-09-17T05:18:57.584Z",
   "from": "2025-09-17",
   "to": "2027-09-17",
   "events": [
@@ -6216,6 +6216,46 @@
       ]
     },
     {
+      "id": 376,
+      "date": "2026-10-05",
+      "title": "世界まる見え！テレビ特捜部",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "MC：所ジョージ 岩田絵里奈 ビートたけし ゲスト：岩城滉一 玉木宏 長浜広奈 本田望結 ヤーレンズ",
+      "url": "https://www.ntv.co.jp/marumie/articles/3264uc0l85mjakr124mz.html?utm_source=Gunosy",
+      "status": "予定",
+      "source": "Tverあり",
+      "detail": "20時00分～21時00分",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Tverあり",
+          "url": "https://www.ntv.co.jp/marumie/articles/3264uc0l85mjakr124mz.html?utm_source=Gunosy"
+        }
+      ]
+    },
+    {
+      "id": 375,
+      "date": "2026-10-07",
+      "title": "漫才王者王様",
+      "category": "ライブ",
+      "place": "座・高円寺2",
+      "performers": "ハラハシモト / エマ / 高速ぷりん / TCクラクション / 大王 / インテイク / カラタチ / ストレッチーズ / シンクロニシティ / イチゴ / 共犯者国京 / 四千頭身 / ヤーレンズ / フランツ",
+      "url": "https://tiget.net/events/521037",
+      "status": "開催予定",
+      "source": "TIGET",
+      "detail": "開場 19:00 / 開演 19:30",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "TIGET",
+          "url": "https://tiget.net/events/521037"
+        }
+      ]
+    },
+    {
       "id": 351,
       "date": "2026-10-08",
       "title": "Owarai-night Sensation 『DJ KOO presents ちゃんKOOお笑いLIVE!! vol.8 in OSAKA』",
@@ -6548,6 +6588,26 @@
       ]
     },
     {
+      "id": 374,
+      "date": "2026-11-04",
+      "title": "ビビプロ 2nd ANNIVERSARY PREMIUM LIVE",
+      "category": "ライブ",
+      "place": "スタァライト劇場（飛行船シアター）",
+      "performers": "ヤーレンズ予想、他多数",
+      "url": "",
+      "status": "予定",
+      "source": "X",
+      "detail": "① HIGH LIGHT公演（16:00開演）② ALL STAR公演（19:00開演）",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "X",
+          "url": ""
+        }
+      ]
+    },
+    {
       "id": 370,
       "date": "2026-11-07",
       "title": "第5回令和健康科学大学 大学祭「令愛祭」",
@@ -6624,46 +6684,6 @@
         {
           "source": "公式",
           "url": "https://event.1242.com/events/yarlens_budokan/"
-        }
-      ]
-    },
-    {
-      "id": 374,
-      "date": "2026-11-04",
-      "title": "ビビプロ 2nd ANNIVERSARY PREMIUM LIVE",
-      "category": "ライブ",
-      "place": "スタァライト劇場（飛行船シアター）",
-      "performers": "ヤーレンズ予想、他多数",
-      "url": "",
-      "status": "予定",
-      "source": "X",
-      "detail": "① HIGH LIGHT公演（16:00開演）② ALL STAR公演（19:00開演）",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "X",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": 375,
-      "date": "2026-10-07",
-      "title": "漫才王者王様",
-      "category": "ライブ",
-      "place": "座・高円寺2",
-      "performers": "ハラハシモト / エマ / 高速ぷりん / TCクラクション / 大王 / インテイク / カラタチ / ストレッチーズ / シンクロニシティ / イチゴ / 共犯者国京 / 四千頭身 / ヤーレンズ / フランツ",
-      "url": "https://tiget.net/events/521037",
-      "status": "開催予定",
-      "source": "TIGET",
-      "detail": "開場 19:00 / 開演 19:30",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "TIGET",
-          "url": "https://tiget.net/events/521037"
         }
       ]
     }
