@@ -1,48 +1,8 @@
 {
-  "lastUpdate": "2026-09-19T01:22:05.885Z",
-  "from": "2025-09-19",
-  "to": "2027-09-19",
+  "lastUpdate": "2026-09-21T03:57:33.347Z",
+  "from": "2025-09-21",
+  "to": "2027-09-21",
   "events": [
-    {
-      "id": 9,
-      "date": "2025-09-20",
-      "title": "ヤーレンズ第1回単独ライブツアー2025「熱い胸さわぎ」 1部",
-      "category": "ライブ",
-      "place": "パピヨン24ガスホール",
-      "performers": "ヤーレンズ",
-      "url": "https://www.kdashstage.jp/topic/archives/1922",
-      "status": "終了",
-      "source": "公式",
-      "detail": "開場13:15／開演14:00～終演15:30",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式",
-          "url": "https://www.kdashstage.jp/topic/archives/1922"
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "date": "2025-09-20",
-      "title": "ヤーレンズ第1回単独ライブツアー2025「熱い胸さわぎ」 2部",
-      "category": "ライブ",
-      "place": "パピヨン24ガスホール",
-      "performers": "ヤーレンズ",
-      "url": "https://www.kdashstage.jp/topic/archives/1922",
-      "status": "終了",
-      "source": "公式",
-      "detail": "開場16:45／開演17:30～終演19:00",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式",
-          "url": "https://www.kdashstage.jp/topic/archives/1922"
-        }
-      ]
-    },
     {
       "id": 11,
       "date": "2025-10-04",
@@ -6784,6 +6744,106 @@
         {
           "source": "公式",
           "url": "https://event.1242.com/events/yarlens_budokan/"
+        }
+      ]
+    },
+    {
+      "id": 382,
+      "date": "2026-11-21",
+      "title": "ケイダッシュステージお笑い珍道中 鹿児島編 1部",
+      "category": "ライブ",
+      "place": "ラプラスホール (鹿児島県)",
+      "performers": "トム・ブラウン、クロコップ、ヤーレンズ、サツマカワRPG",
+      "url": "https://livepocket.jp/e/xyzj7",
+      "status": "開催予定",
+      "source": "Livepocket",
+      "detail": "12:00開場/12:30開演/14:15終演予定",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Livepocket",
+          "url": "https://livepocket.jp/e/xyzj7"
+        }
+      ]
+    },
+    {
+      "id": 383,
+      "date": "2026-11-21",
+      "title": "ケイダッシュステージお笑い珍道中 鹿児島編 2部",
+      "category": "ライブ",
+      "place": "ラプラスホール (鹿児島県)",
+      "performers": "トム・ブラウン、クロコップ、ヤーレンズ、サツマカワRPG",
+      "url": "https://livepocket.jp/e/78jaj",
+      "status": "開催予定",
+      "source": "Livepocket",
+      "detail": "15:00開場/15:30開演/17:15終演予定",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Livepocket",
+          "url": "https://livepocket.jp/e/78jaj"
+        }
+      ]
+    },
+    {
+      "id": 384,
+      "date": "2026-09-19",
+      "title": "ケイダッシュステージお笑い珍道中 鹿児島編 1部",
+      "category": "チケット販売",
+      "place": "ラプラスホール (鹿児島県)",
+      "performers": "トム・ブラウン、クロコップ、ヤーレンズ、サツマカワRPG",
+      "url": "https://livepocket.jp/e/xyzj7",
+      "status": "開催予定",
+      "source": "Livepocket",
+      "detail": "12:00開場/12:30開演/14:15終演予定",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Livepocket",
+          "url": "https://livepocket.jp/e/xyzj7"
+        }
+      ]
+    },
+    {
+      "id": 385,
+      "date": "2026-09-19",
+      "title": "ケイダッシュステージお笑い珍道中 鹿児島編 2部",
+      "category": "チケット販売",
+      "place": "ラプラスホール (鹿児島県)",
+      "performers": "トム・ブラウン、クロコップ、ヤーレンズ、サツマカワRPG",
+      "url": "https://livepocket.jp/e/78jaj",
+      "status": "開催予定",
+      "source": "Livepocket",
+      "detail": "15:00開場/15:30開演/17:15終演予定",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Livepocket",
+          "url": "https://livepocket.jp/e/78jaj"
+        }
+      ]
+    },
+    {
+      "id": 386,
+      "date": "2026-09-21",
+      "title": "スタンバイ！特別編",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "https://radiko.jp/#!/ts/TBS/20260921120000",
+      "status": "開催予定",
+      "source": "公式",
+      "detail": "12:00 – 14:30",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://radiko.jp/#!/ts/TBS/20260921120000"
         }
       ]
     }
