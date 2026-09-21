@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-21T03:57:33.347Z",
+  "lastUpdate": "2026-09-21T03:58:45.177Z",
   "from": "2025-09-21",
   "to": "2027-09-21",
   "events": [
@@ -5731,7 +5731,7 @@
       "source": "Livepocket",
       "detail": "12:30開場／13:00開演／14:30終演予定",
       "management": "手動",
-      "featured": true,
+      "featured": false,
       "sources": [
         {
           "source": "Livepocket",
@@ -5755,7 +5755,7 @@
       "source": "Livepocket",
       "detail": "16:00開場／16:30開演／18:00終演予定",
       "management": "手動",
-      "featured": true,
+      "featured": false,
       "sources": [
         {
           "source": "Livepocket",
@@ -6849,34 +6849,6 @@
     }
   ],
   "featuredEvents": [
-    {
-      "id": 325,
-      "date": "2026-09-19",
-      "title": "ケイダッシュステージお笑い珍道中 京都編 1部",
-      "category": "ライブ",
-      "place": "京都市呉竹文化センター",
-      "performers": "トム・ブラウン、クロコップ、ヤーレンズ、サツマカワRPG",
-      "url": "https://livepocket.jp/e/likqe",
-      "status": "開催予定",
-      "source": "Livepocket",
-      "detail": "12:30開場／13:00開演／14:30終演予定",
-      "management": "手動",
-      "featured": true
-    },
-    {
-      "id": 327,
-      "date": "2026-09-19",
-      "title": "ケイダッシュステージお笑い珍道中 京都編 2部",
-      "category": "ライブ",
-      "place": "京都市呉竹文化センター",
-      "performers": "トム・ブラウン、クロコップ、ヤーレンズ、サツマカワRPG",
-      "url": "https://livepocket.jp/e/a_rev",
-      "status": "開催予定",
-      "source": "Livepocket",
-      "detail": "16:00開場／16:30開演／18:00終演予定",
-      "management": "手動",
-      "featured": true
-    },
     {
       "id": 381,
       "date": "2027-03-07",
