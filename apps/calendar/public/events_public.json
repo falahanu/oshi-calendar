@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-21T03:58:45.177Z",
+  "lastUpdate": "2026-09-21T04:01:52.004Z",
   "from": "2025-09-21",
   "to": "2027-09-21",
   "events": [
@@ -6844,6 +6844,26 @@
         {
           "source": "公式",
           "url": "https://radiko.jp/#!/ts/TBS/20260921120000"
+        }
+      ]
+    },
+    {
+      "id": 387,
+      "date": "2026-09-26",
+      "title": "ヤーレンズのオールナイトニッポン0",
+      "category": "ラジオ",
+      "place": "ニッポン放送",
+      "performers": "ヤーレンズ",
+      "url": "https://www.allnightnippon.com/zero-sat/",
+      "status": "開催予定",
+      "source": "公式",
+      "detail": "27:00～29:00／毎月最終土曜日",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.allnightnippon.com/zero-sat/"
         }
       ]
     }
