@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-09-22T13:15:27.767Z",
-  "from": "2025-09-22",
-  "to": "2027-09-22",
+  "lastUpdate": "2026-09-23T09:14:30.296Z",
+  "from": "2025-09-23",
+  "to": "2027-09-23",
   "events": [
     {
       "id": 11,
@@ -6904,6 +6904,26 @@
         {
           "source": "X",
           "url": "https://www.nsttv.com/nstmatsuri/"
+        }
+      ]
+    },
+    {
+      "id": 390,
+      "date": "2026-10-25",
+      "title": "ヤーレンズ単独ライブ 一万人に漫才 オフィシャル最速先行",
+      "category": "チケット販売",
+      "place": "日本武道館",
+      "performers": "ヤーレンズ",
+      "url": "https://event.1242.com/events/yarlens_budokan/#ticket",
+      "status": "開催予定",
+      "source": "公式",
+      "detail": "受付期間：2026年10月25日(日)12:00 〜 11月23日(月・祝)23:59",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://event.1242.com/events/yarlens_budokan/#ticket"
         }
       ]
     }
