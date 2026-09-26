@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-09-25T05:02:56.257Z",
-  "from": "2025-09-25",
-  "to": "2027-09-25",
+  "lastUpdate": "2026-09-26T14:43:49.904Z",
+  "from": "2025-09-26",
+  "to": "2027-09-26",
   "events": [
     {
       "id": 11,
@@ -6397,6 +6397,26 @@
     },
     {
       "id": 362,
+      "date": "2026-10-10",
+      "title": "藤女子大学祭　62回藤陽祭",
+      "category": "ライブ",
+      "place": "北16条キャンパス 7階 755・756教室",
+      "performers": "ヤーレンズ、どんぐりたけし",
+      "url": "",
+      "status": "予定",
+      "source": "無料",
+      "detail": "整理券配布10:00～(1階受付横) 開場11:00 開演11:30",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "無料",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 363,
       "date": "2026-10-11",
       "title": "青森県立保健大学 第27回大学祭 お笑いステージ",
       "category": "ライブ",
@@ -6416,7 +6436,7 @@
       ]
     },
     {
-      "id": 363,
+      "id": 364,
       "date": "2026-10-12",
       "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
       "category": "ラジオ",
@@ -6436,7 +6456,7 @@
       ]
     },
     {
-      "id": 364,
+      "id": 365,
       "date": "2026-10-14",
       "title": "全国地域安全運動　池田市民大会",
       "category": "ライブ",
@@ -6456,7 +6476,7 @@
       ]
     },
     {
-      "id": 365,
+      "id": 366,
       "date": "2026-10-15",
       "title": "真空レンズ",
       "category": "テレビ",
@@ -6476,7 +6496,7 @@
       ]
     },
     {
-      "id": 366,
+      "id": 367,
       "date": "2026-10-17",
       "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」",
       "category": "ライブ",
@@ -6500,7 +6520,7 @@
       ]
     },
     {
-      "id": 368,
+      "id": 369,
       "date": "2026-10-18",
       "title": "ねじロックフェス2026 1部",
       "category": "ライブ",
@@ -6520,7 +6540,7 @@
       ]
     },
     {
-      "id": 369,
+      "id": 370,
       "date": "2026-10-18",
       "title": "ねじロックフェス2026 2部",
       "category": "ライブ",
@@ -6540,7 +6560,7 @@
       ]
     },
     {
-      "id": 370,
+      "id": 371,
       "date": "2026-10-19",
       "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
       "category": "ラジオ",
@@ -6560,7 +6580,7 @@
       ]
     },
     {
-      "id": 371,
+      "id": 372,
       "date": "2026-10-22",
       "title": "真空レンズ",
       "category": "テレビ",
@@ -6580,7 +6600,7 @@
       ]
     },
     {
-      "id": 372,
+      "id": 373,
       "date": "2026-10-24",
       "title": "OAB大感謝祭2026「もっとJIMOTTO！」",
       "category": "ライブ",
@@ -6600,7 +6620,7 @@
       ]
     },
     {
-      "id": 373,
+      "id": 374,
       "date": "2026-10-24",
       "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」 1部",
       "category": "ライブ",
@@ -6624,7 +6644,7 @@
       ]
     },
     {
-      "id": 375,
+      "id": 376,
       "date": "2026-10-24",
       "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」 2部",
       "category": "ライブ",
@@ -6648,7 +6668,7 @@
       ]
     },
     {
-      "id": 377,
+      "id": 378,
       "date": "2026-10-25",
       "title": "OAB大感謝祭2026「もっとJIMOTTO！」",
       "category": "ライブ",
@@ -6668,7 +6688,7 @@
       ]
     },
     {
-      "id": 378,
+      "id": 379,
       "date": "2026-10-25",
       "title": "ヤーレンズ単独ライブ 一万人に漫才 オフィシャル最速先行",
       "category": "チケット販売",
@@ -6688,7 +6708,7 @@
       ]
     },
     {
-      "id": 379,
+      "id": 380,
       "date": "2026-10-26",
       "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
       "category": "ラジオ",
@@ -6708,7 +6728,7 @@
       ]
     },
     {
-      "id": 380,
+      "id": 381,
       "date": "2026-10-29",
       "title": "真空レンズ",
       "category": "テレビ",
@@ -6728,7 +6748,7 @@
       ]
     },
     {
-      "id": 381,
+      "id": 382,
       "date": "2026-10-29",
       "title": "大激漫",
       "category": "ライブ",
@@ -6748,7 +6768,7 @@
       ]
     },
     {
-      "id": 382,
+      "id": 383,
       "date": "2026-11-01",
       "title": "アブナイヨセ　in 福岡",
       "category": "ライブ",
@@ -6768,7 +6788,7 @@
       ]
     },
     {
-      "id": 383,
+      "id": 384,
       "date": "2026-11-04",
       "title": "ビビプロ 2nd ANNIVERSARY PREMIUM LIVE",
       "category": "ライブ",
@@ -6788,7 +6808,7 @@
       ]
     },
     {
-      "id": 384,
+      "id": 385,
       "date": "2026-11-07",
       "title": "第5回令和健康科学大学 大学祭「令愛祭」",
       "category": "ライブ",
@@ -6808,7 +6828,7 @@
       ]
     },
     {
-      "id": 385,
+      "id": 386,
       "date": "2026-11-21",
       "title": "ケイダッシュステージお笑い珍道中 鹿児島編 1部",
       "category": "ライブ",
@@ -6828,7 +6848,7 @@
       ]
     },
     {
-      "id": 386,
+      "id": 387,
       "date": "2026-11-21",
       "title": "ケイダッシュステージお笑い珍道中 鹿児島編 2部",
       "category": "ライブ",
@@ -6848,7 +6868,7 @@
       ]
     },
     {
-      "id": 387,
+      "id": 388,
       "date": "2026-12-06",
       "title": "爆笑！！お笑いスーパーライブ　ｉｎ　青森　２０２６- 1部",
       "category": "ライブ",
@@ -6868,7 +6888,7 @@
       ]
     },
     {
-      "id": 388,
+      "id": 389,
       "date": "2026-12-06",
       "title": "爆笑！！お笑いスーパーライブ　ｉｎ　青森　２０２６- 2部",
       "category": "ライブ",
@@ -6888,7 +6908,7 @@
       ]
     },
     {
-      "id": 389,
+      "id": 390,
       "date": "2027-03-07",
       "title": "ヤーレンズ単独ライブ 一万人に漫才 in 日本武道館",
       "category": "ライブ",
@@ -6908,7 +6928,7 @@
       ]
     },
     {
-      "id": 390,
+      "id": 391,
       "date": "2026-09-27",
       "title": "Golden SixTONES",
       "category": "テレビ",
@@ -6928,7 +6948,7 @@
       ]
     },
     {
-      "id": 391,
+      "id": 392,
       "date": "2026-09-26",
       "title": "スマイルスタジアムNST",
       "category": "テレビ",
@@ -6946,11 +6966,91 @@
           "url": ""
         }
       ]
+    },
+    {
+      "id": 393,
+      "date": "2026-10-09",
+      "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
+      "category": "ラジオ",
+      "place": "Podcast",
+      "performers": "ヤーレンズ",
+      "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX",
+      "status": "予定",
+      "source": "spotify",
+      "detail": "配信",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "spotify",
+          "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX"
+        }
+      ]
+    },
+    {
+      "id": 394,
+      "date": "2026-10-16",
+      "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
+      "category": "ラジオ",
+      "place": "Podcast",
+      "performers": "ヤーレンズ",
+      "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX",
+      "status": "予定",
+      "source": "spotify",
+      "detail": "配信",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "spotify",
+          "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX"
+        }
+      ]
+    },
+    {
+      "id": 395,
+      "date": "2026-10-23",
+      "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
+      "category": "ラジオ",
+      "place": "Podcast",
+      "performers": "ヤーレンズ",
+      "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX",
+      "status": "予定",
+      "source": "spotify",
+      "detail": "配信",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "spotify",
+          "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX"
+        }
+      ]
+    },
+    {
+      "id": 396,
+      "date": "2026-10-30",
+      "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
+      "category": "ラジオ",
+      "place": "Podcast",
+      "performers": "ヤーレンズ",
+      "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX",
+      "status": "予定",
+      "source": "spotify",
+      "detail": "配信",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "spotify",
+          "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX"
+        }
+      ]
     }
   ],
   "featuredEvents": [
     {
-      "id": 389,
+      "id": 390,
       "date": "2027-03-07",
       "title": "ヤーレンズ単独ライブ 一万人に漫才 in 日本武道館",
       "category": "ライブ",
