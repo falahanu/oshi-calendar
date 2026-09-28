@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-09-27T14:28:25.227Z",
-  "from": "2025-09-27",
-  "to": "2027-09-27",
+  "lastUpdate": "2026-09-28T03:57:09.456Z",
+  "from": "2025-09-28",
+  "to": "2027-09-28",
   "events": [
     {
       "id": 11,
@@ -7064,6 +7064,46 @@
         {
           "source": "公式",
           "url": "https://event.1242.com/events/yarlens_budokan/"
+        }
+      ]
+    },
+    {
+      "id": 398,
+      "date": "2026-09-28",
+      "title": "にっぽり館9月公演",
+      "category": "ライブ",
+      "place": "落語演芸茶屋にっぽり館",
+      "performers": "林家たけ平 三遊亭萬橘 ヤーレンズ",
+      "url": "",
+      "status": "開催予定",
+      "source": "X",
+      "detail": "13時開演",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "X",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 399,
+      "date": "2026-10-26",
+      "title": "ヤーレンズトークライブ「ハッとしてトーク」",
+      "category": "ライブ",
+      "place": "新宿スパークル (東京都)",
+      "performers": "ヤーレンズ",
+      "url": "https://livepocket.jp/e/u0kmy",
+      "status": "開催予定",
+      "source": "Livepocket",
+      "detail": "開演19:00開場18:45",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Livepocket",
+          "url": "https://livepocket.jp/e/u0kmy"
         }
       ]
     }
