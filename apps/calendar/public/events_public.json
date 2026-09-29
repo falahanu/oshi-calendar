@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-09-28T03:57:09.456Z",
-  "from": "2025-09-28",
-  "to": "2027-09-28",
+  "lastUpdate": "2026-09-29T15:30:26.155Z",
+  "from": "2025-09-29",
+  "to": "2027-09-29",
   "events": [
     {
       "id": 11,
@@ -6161,7 +6161,7 @@
       "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
       "category": "ラジオ",
       "place": "ABCラジオ",
-      "performers": "ヤーレンズ",
+      "performers": "ヤーレンズ スタミナパン",
       "url": "https://www.youtube.com/channel/UCBBffCWDYaQeUa3uQs3-EBg",
       "status": "予定",
       "source": "Youtubeあり",
@@ -6184,13 +6184,13 @@
       "performers": "楢原真樹",
       "url": "https://live.nicovideo.jp/watch/lv351359467",
       "status": "予定",
-      "source": "公式",
+      "source": "ニコニコチャンネル",
       "detail": "20:55～",
       "management": "手動",
       "featured": false,
       "sources": [
         {
-          "source": "公式",
+          "source": "ニコニコチャンネル",
           "url": "https://live.nicovideo.jp/watch/lv351359467"
         }
       ]
