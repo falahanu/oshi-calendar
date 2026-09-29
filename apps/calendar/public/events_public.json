@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-09-29T15:34:05.467Z",
+  "lastUpdate": "2026-09-29T15:45:54.357Z",
   "from": "2025-09-29",
   "to": "2027-09-29",
   "events": [
@@ -6700,26 +6700,6 @@
       ]
     },
     {
-      "id": 378,
-      "date": "2026-10-24",
-      "title": "OAB大感謝祭2026「もっとJIMOTTO！」",
-      "category": "ライブ",
-      "place": "大分いこいの道広場、J:COMホルトホール大分、JR大分駅周辺",
-      "performers": "ヤーレンズ予想、他多数",
-      "url": "https://www.oab.co.jp/oab-fes/",
-      "status": "予定",
-      "source": "X",
-      "detail": "10:00 – 17:00",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "X",
-          "url": "https://www.oab.co.jp/oab-fes/"
-        }
-      ]
-    },
-    {
       "id": 379,
       "date": "2026-10-24",
       "title": "ヤーレンズ単独ライブ2026「10ナンバーズ・からっと」 1部",
@@ -6772,8 +6752,8 @@
       "date": "2026-10-25",
       "title": "OAB大感謝祭2026「もっとJIMOTTO！」",
       "category": "ライブ",
-      "place": "大分いこいの道広場、J:COMホルトホール大分、JR大分駅周辺",
-      "performers": "ヤーレンズ予想、他多数",
+      "place": "大分いこいの道広場",
+      "performers": "とにかく明るい安村·インポッシブル·ヤーレンズ·オダウエダほか",
       "url": "https://www.oab.co.jp/oab-fes/",
       "status": "予定",
       "source": "X",
