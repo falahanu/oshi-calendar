@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-09-29T15:45:54.357Z",
-  "from": "2025-09-29",
-  "to": "2027-09-29",
+  "lastUpdate": "2026-09-30T18:21:24.769Z",
+  "from": "2025-09-30",
+  "to": "2027-09-30",
   "events": [
     {
       "id": 11,
@@ -7084,6 +7084,26 @@
         {
           "source": "Livepocket",
           "url": "https://livepocket.jp/e/u0kmy"
+        }
+      ]
+    },
+    {
+      "id": 400,
+      "date": "2026-09-30",
+      "title": "山里亮太の不毛な議論 #fumou954",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "山里さん代理：トムブラウン・ヤーレンズ ",
+      "url": "https://radiko.jp/#!/ts/TBS/20261001010000",
+      "status": "予定",
+      "source": "radiko",
+      "detail": "25:00-27:00",
+      "management": "自動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "radiko",
+          "url": "https://radiko.jp/#!/ts/TBS/20261001010000"
         }
       ]
     }
