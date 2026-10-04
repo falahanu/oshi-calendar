@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-04T14:25:53.142Z",
+  "lastUpdate": "2026-10-04T14:45:56.854Z",
   "from": "2025-10-04",
   "to": "2027-10-04",
   "events": [
@@ -7104,6 +7104,26 @@
         {
           "source": "公式",
           "url": "https://event.1242.com/events/yarlens_budokan/"
+        }
+      ]
+    },
+    {
+      "id": 402,
+      "date": "2026-10-12",
+      "title": "M-1グランプリ2026 2回戦",
+      "category": "ライブ",
+      "place": "[東京] 雷5656会館ときわホール",
+      "performers": "ヤーレンズ、他多数",
+      "url": "https://ticket.fany.lol/reception/70175/55168",
+      "status": "予定",
+      "source": "FANY",
+      "detail": "開場 11:30 開演 12:00",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "FANY",
+          "url": "https://ticket.fany.lol/reception/70175/55168"
         }
       ]
     }
