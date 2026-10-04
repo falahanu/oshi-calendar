@@ -1,48 +1,8 @@
 {
-  "lastUpdate": "2026-09-30T18:21:24.769Z",
-  "from": "2025-09-30",
-  "to": "2027-09-30",
+  "lastUpdate": "2026-10-04T14:21:36.754Z",
+  "from": "2025-10-04",
+  "to": "2027-10-04",
   "events": [
-    {
-      "id": 11,
-      "date": "2025-10-04",
-      "title": "ヤーレンズ第1回単独ライブツアー2025「熱い胸さわぎ」 1部",
-      "category": "ライブ",
-      "place": "広島市南区民文化センターホール",
-      "performers": "ヤーレンズ",
-      "url": "https://www.kdashstage.jp/topic/archives/1922",
-      "status": "終了",
-      "source": "公式",
-      "detail": "開場13:15／開演14:00～終演15:30",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式",
-          "url": "https://www.kdashstage.jp/topic/archives/1922"
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "date": "2025-10-04",
-      "title": "ヤーレンズ第1回単独ライブツアー2025「熱い胸さわぎ」 2部",
-      "category": "ライブ",
-      "place": "広島市南区民文化センターホール",
-      "performers": "ヤーレンズ",
-      "url": "https://www.kdashstage.jp/topic/archives/1922",
-      "status": "終了",
-      "source": "公式",
-      "detail": "開場16:45／開演17:30～終演19:00",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式",
-          "url": "https://www.kdashstage.jp/topic/archives/1922"
-        }
-      ]
-    },
     {
       "id": 13,
       "date": "2025-10-18",
@@ -6176,6 +6136,26 @@
       ]
     },
     {
+      "id": 398,
+      "date": "2026-09-28",
+      "title": "にっぽり館9月公演",
+      "category": "ライブ",
+      "place": "落語演芸茶屋にっぽり館",
+      "performers": "林家たけ平 三遊亭萬橘 ヤーレンズ",
+      "url": "",
+      "status": "開催予定",
+      "source": "X",
+      "detail": "13時開演",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "X",
+          "url": ""
+        }
+      ]
+    },
+    {
       "id": 351,
       "date": "2026-09-29",
       "title": "岩崎諒太が体を張って何かをする番組",
@@ -6212,6 +6192,26 @@
         {
           "source": "X",
           "url": ""
+        }
+      ]
+    },
+    {
+      "id": 400,
+      "date": "2026-09-30",
+      "title": "山里亮太の不毛な議論 #fumou954",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "山里さん代理：トムブラウン・ヤーレンズ ",
+      "url": "https://radiko.jp/#!/ts/TBS/20261001010000",
+      "status": "予定",
+      "source": "radiko",
+      "detail": "25:00-27:00",
+      "management": "自動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "radiko",
+          "url": "https://radiko.jp/#!/ts/TBS/20261001010000"
         }
       ]
     },
@@ -6276,6 +6276,26 @@
       ]
     },
     {
+      "id": 359,
+      "date": "2026-10-04",
+      "title": "ヤーレンズ・ラフ次元のツーマンライブ「ヤレ次元」vol.2",
+      "category": "ライブ",
+      "place": "野方区民ホール",
+      "performers": "ヤーレンズ・ラフ次元",
+      "url": "https://ticket.fany.lol/reception/66894/53383",
+      "status": "開催予定",
+      "source": "FANY",
+      "detail": "開場 19:30 / 開演 20:00",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "FANY",
+          "url": "https://ticket.fany.lol/reception/66894/53383"
+        }
+      ]
+    },
+    {
       "id": 356,
       "date": "2026-10-04",
       "title": "光翔祭",
@@ -6332,26 +6352,6 @@
         {
           "source": "Youtubeあり",
           "url": "https://www.youtube.com/channel/UCBBffCWDYaQeUa3uQs3-EBg"
-        }
-      ]
-    },
-    {
-      "id": 359,
-      "date": "2026-10-04",
-      "title": "ヤーレンズ・ラフ次元のツーマンライブ「ヤレ次元」vol.2",
-      "category": "ライブ",
-      "place": "野方区民ホール",
-      "performers": "ヤーレンズ・ラフ次元",
-      "url": "https://ticket.fany.lol/reception/66894/53383",
-      "status": "開催予定",
-      "source": "FANY",
-      "detail": "開場 19:30 / 開演 20:00",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "FANY",
-          "url": "https://ticket.fany.lol/reception/66894/53383"
         }
       ]
     },
@@ -6452,6 +6452,26 @@
         {
           "source": "spotify",
           "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX"
+        }
+      ]
+    },
+    {
+      "id": 401,
+      "date": "2026-10-10",
+      "title": "ヴィランの言い分　ダチョウ",
+      "category": "テレビ",
+      "place": "NHKEテレ１",
+      "performers": "【司会】八嶋智人，【出演】楢原真樹，【ゲスト】中西アルノ，橋本直（銀シャリ）",
+      "url": "https://www.web.nhk/tv/pl/series-tep-YM3WKRZWZQ",
+      "status": "開催予定",
+      "source": "Gguide",
+      "detail": "10:30 -11:00",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Gguide",
+          "url": "https://www.web.nhk/tv/pl/series-tep-YM3WKRZWZQ"
         }
       ]
     },
@@ -6808,6 +6828,26 @@
       ]
     },
     {
+      "id": 399,
+      "date": "2026-10-26",
+      "title": "ヤーレンズトークライブ「ハッとしてトーク」",
+      "category": "ライブ",
+      "place": "新宿スパークル (東京都)",
+      "performers": "ヤーレンズ",
+      "url": "https://livepocket.jp/e/u0kmy",
+      "status": "開催予定",
+      "source": "Livepocket",
+      "detail": "開演19:00開場18:45",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Livepocket",
+          "url": "https://livepocket.jp/e/u0kmy"
+        }
+      ]
+    },
+    {
       "id": 386,
       "date": "2026-10-29",
       "title": "真空レンズ",
@@ -6910,20 +6950,40 @@
     {
       "id": 391,
       "date": "2026-11-04",
-      "title": "ビビプロ 2nd ANNIVERSARY PREMIUM LIVE",
+      "title": "ビビプロ 2nd ANNIVERSARY PREMIUM LIVE 1部　HIGH LIGHT",
       "category": "ライブ",
       "place": "スタァライト劇場（飛行船シアター）",
-      "performers": "ヤーレンズ予想、他多数",
-      "url": "",
+      "performers": "令和ロマン/ジグザグジギー/カラタチ/ひつじねいり/ママタルト",
+      "url": "https://livepocket.jp/t/vivipro2nd",
       "status": "予定",
-      "source": "X",
-      "detail": "① HIGH LIGHT公演（16:00開演）② ALL STAR公演（19:00開演）",
+      "source": "LivePocket",
+      "detail": "開場15:30／開演16:00／終演17:30",
       "management": "手動",
       "featured": false,
       "sources": [
         {
-          "source": "X",
-          "url": ""
+          "source": "LivePocket",
+          "url": "https://livepocket.jp/t/vivipro2nd"
+        }
+      ]
+    },
+    {
+      "id": 391,
+      "date": "2026-11-04",
+      "title": "ビビプロ2nd ANNIVERSARY PREMIUM LIVE【2部】ALL STAR公演",
+      "category": "ライブ",
+      "place": "スタァライト劇場（飛行船シアター）",
+      "performers": "令和ロマン/ヤーレンズ/ジグザグジギー/カラタチ/ひつじねいり/マシンガンズ/リニア/ファイヤーサンダー/ザ・マミィ/春とヒコーキ/サツマカワRPG/ネコニスズ/トム・ブラウン/ママタルト",
+      "url": "https://livepocket.jp/t/vivipro2nd",
+      "status": "予定",
+      "source": "LivePocket",
+      "detail": "開場18:30／開演19:00／終演21:30",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "LivePocket",
+          "url": "https://livepocket.jp/t/vivipro2nd"
         }
       ]
     },
@@ -7044,66 +7104,6 @@
         {
           "source": "公式",
           "url": "https://event.1242.com/events/yarlens_budokan/"
-        }
-      ]
-    },
-    {
-      "id": 398,
-      "date": "2026-09-28",
-      "title": "にっぽり館9月公演",
-      "category": "ライブ",
-      "place": "落語演芸茶屋にっぽり館",
-      "performers": "林家たけ平 三遊亭萬橘 ヤーレンズ",
-      "url": "",
-      "status": "開催予定",
-      "source": "X",
-      "detail": "13時開演",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "X",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "id": 399,
-      "date": "2026-10-26",
-      "title": "ヤーレンズトークライブ「ハッとしてトーク」",
-      "category": "ライブ",
-      "place": "新宿スパークル (東京都)",
-      "performers": "ヤーレンズ",
-      "url": "https://livepocket.jp/e/u0kmy",
-      "status": "開催予定",
-      "source": "Livepocket",
-      "detail": "開演19:00開場18:45",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "Livepocket",
-          "url": "https://livepocket.jp/e/u0kmy"
-        }
-      ]
-    },
-    {
-      "id": 400,
-      "date": "2026-09-30",
-      "title": "山里亮太の不毛な議論 #fumou954",
-      "category": "ラジオ",
-      "place": "TBSラジオ",
-      "performers": "山里さん代理：トムブラウン・ヤーレンズ ",
-      "url": "https://radiko.jp/#!/ts/TBS/20261001010000",
-      "status": "予定",
-      "source": "radiko",
-      "detail": "25:00-27:00",
-      "management": "自動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "radiko",
-          "url": "https://radiko.jp/#!/ts/TBS/20261001010000"
         }
       ]
     }
