@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-10-04T14:45:56.854Z",
-  "from": "2025-10-04",
-  "to": "2027-10-04",
+  "lastUpdate": "2026-10-06T14:55:47.031Z",
+  "from": "2025-10-06",
+  "to": "2027-10-06",
   "events": [
     {
       "id": 13,
@@ -7124,6 +7124,46 @@
         {
           "source": "FANY",
           "url": "https://ticket.fany.lol/reception/70175/55168"
+        }
+      ]
+    },
+    {
+      "id": 403,
+      "date": "2026-10-15",
+      "title": "ケイダッシュゴールドライブ",
+      "category": "ライブ",
+      "place": "新宿vatios",
+      "performers": "オッパショ石 ／ マードック ／ ジャガモンド ／ おミルク ／ どんぐりたけし ／ 出山 ／ 祝。エペ ／ ファイティングボンバー ／ ハルヨ ／ てんぱねら ／ コイオドリ ／ ヤーレンズ",
+      "url": "https://tiget.net/events/523550",
+      "status": "予定",
+      "source": "TIGET",
+      "detail": "開場 □ 18:30開演 ■ 19:00前売 □ 1,500円当日 ■ 1,800円",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "TIGET",
+          "url": "https://tiget.net/events/523550"
+        }
+      ]
+    },
+    {
+      "id": 404,
+      "date": "2026-11-02",
+      "title": "湘南お笑いライブ 東海大学クラブ連合会建学祭専門委員会",
+      "category": "ライブ",
+      "place": "東海大学 2号館2S-101",
+      "performers": "#ママタルト#ヤーレンズ#吉住#ロッチ#ワタリ119",
+      "url": "",
+      "status": "予定",
+      "source": "X",
+      "detail": "開場 13:00開演14:00",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "X",
+          "url": ""
         }
       ]
     }
