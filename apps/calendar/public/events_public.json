@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-10-06T14:55:47.031Z",
-  "from": "2025-10-06",
-  "to": "2027-10-06",
+  "lastUpdate": "2026-10-07T13:25:37.851Z",
+  "from": "2025-10-07",
+  "to": "2027-10-07",
   "events": [
     {
       "id": 13,
@@ -7164,6 +7164,46 @@
         {
           "source": "X",
           "url": ""
+        }
+      ]
+    },
+    {
+      "id": 405,
+      "date": "2026-10-14",
+      "title": "ヴィランの言い分　ダチョウ🈑🈞",
+      "category": "テレビ",
+      "place": "NHKEテレ１",
+      "performers": "【司会】八嶋智人，【出演】楢原真樹，【ゲスト】中西アルノ，橋本直（銀シャリ）",
+      "url": "https://bangumi.org/tv_events/AmMAQIeSQAM?from=search",
+      "status": "開催予定",
+      "source": "Gguide",
+      "detail": "19:25 -19:55",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Gguide",
+          "url": "https://bangumi.org/tv_events/AmMAQIeSQAM?from=search"
+        }
+      ]
+    },
+    {
+      "id": 406,
+      "date": "2026-10-20",
+      "title": "フロントライン Round.1",
+      "category": "ライブ",
+      "place": "月島社会教育会館ホール",
+      "performers": "カラタチ/イチゴ/フランツ/ネコニスズ/スタミナパン/シンクロニシティ/くらげ/今夜も星が綺麗/ﾚﾅﾁｮ/東京ホテイソン/きしたかの/ヤーレンズ",
+      "url": "https://livepocket.jp/e/frontline261020",
+      "status": "予定",
+      "source": "Livepocket",
+      "detail": "開演時間19:30開場時間19:10終演時間21:00",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Livepocket",
+          "url": "https://livepocket.jp/e/frontline261020"
         }
       ]
     }
