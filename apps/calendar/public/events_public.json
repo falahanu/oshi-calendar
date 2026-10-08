@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-10-07T13:25:37.851Z",
-  "from": "2025-10-07",
-  "to": "2027-10-07",
+  "lastUpdate": "2026-10-08T08:28:34.704Z",
+  "from": "2025-10-08",
+  "to": "2027-10-08",
   "events": [
     {
       "id": 13,
@@ -7204,6 +7204,26 @@
         {
           "source": "Livepocket",
           "url": "https://livepocket.jp/e/frontline261020"
+        }
+      ]
+    },
+    {
+      "id": 407,
+      "date": "2026-11-26",
+      "title": "🍂マセキ芸人コレクション〜2026秋冬〜🍂",
+      "category": "ライブ",
+      "place": "銀座ブロッサム 中央会館",
+      "performers": "ナイツ/三四郎/ルシファー吉岡/モグライダー/きしたかの/かが屋/カナメストーン/ハギノリザードマン/ニッチェ/寺田寛明/ガクヅケ/フランツ/清水駿平/ドラマ☆麺/《ゲスト》ドンデコルテ（吉本興業）/ヤーレンズ（ケイダッシュステージ）/他",
+      "url": "https://t.pia.jp/pia/event/event.do?eventCd=2637343",
+      "status": "予定",
+      "source": "ぴあ",
+      "detail": "16:30開場　17:00開演",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "ぴあ",
+          "url": "https://t.pia.jp/pia/event/event.do?eventCd=2637343"
         }
       ]
     }
