@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-10-10T13:31:35.642Z",
-  "from": "2025-10-10",
-  "to": "2027-10-10",
+  "lastUpdate": "2026-10-16T13:26:26.873Z",
+  "from": "2025-10-16",
+  "to": "2027-10-16",
   "events": [
     {
       "id": 13,
@@ -6915,7 +6915,7 @@
         },
         {
           "source": "チケプラ",
-          "url": ""
+          "url": "https://tixplus.jp/feature/yarlens/tour2026/general-q7w2x/"
         }
       ]
     },
@@ -7340,6 +7340,46 @@
         {
           "source": "公式",
           "url": "https://event.1242.com/events/yarlens_budokan/"
+        }
+      ]
+    },
+    {
+      "id": 414,
+      "date": "2026-11-08",
+      "title": "福山市立大学　第15回​港輝祭",
+      "category": "ライブ",
+      "place": "港町キャンパス研究棟2F アリーナ",
+      "performers": "ヤーレンズ",
+      "url": "https://www.fcufesta.com/post/2026guest",
+      "status": "予定",
+      "source": "X",
+      "detail": "開場 12:30~　開演 13:00~",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "X",
+          "url": "https://www.fcufesta.com/post/2026guest"
+        }
+      ]
+    },
+    {
+      "id": 415,
+      "date": "2026-10-21",
+      "title": "くりぃむクイズ　ミラクル9　全国紅葉の名所＆グルメ情報大連発スペシャル",
+      "category": "テレビ",
+      "place": "テレビ朝日",
+      "performers": "【解答者】 浦陸斗（AmBitious）、えなりかずき、小津玲奈（乃木坂46）、カズレーザー（メイプル超合金）、小手伸也、鈴木砂羽、高橋茂雄（サバンナ）、津田健次郎、弘中綾香（テレビ朝日アナウンサー）、松下由樹、ヤーレンズ",
+      "url": "https://www.tv-asahi.co.jp/miracle9/",
+      "status": "開催予定",
+      "source": "Gguide",
+      "detail": "19:00 -21:00 ",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Gguide",
+          "url": "https://www.tv-asahi.co.jp/miracle9/"
         }
       ]
     }
