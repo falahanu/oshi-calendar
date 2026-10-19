@@ -1,56 +1,8 @@
 {
-  "lastUpdate": "2026-10-16T13:26:26.873Z",
-  "from": "2025-10-16",
-  "to": "2027-10-16",
+  "lastUpdate": "2026-10-19T15:13:06.414Z",
+  "from": "2025-10-19",
+  "to": "2027-10-19",
   "events": [
-    {
-      "id": 13,
-      "date": "2025-10-18",
-      "title": "ヤーレンズ第1回単独ライブツアー2025「熱い胸さわぎ」 1部",
-      "category": "ライブ",
-      "place": "池田市文化会館アゼリアホール",
-      "performers": "ヤーレンズ",
-      "url": "https://www.kdashstage.jp/topic/archives/1922",
-      "status": "終了",
-      "source": "公式",
-      "detail": "開場13:00／開演14:00",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式",
-          "url": "https://www.kdashstage.jp/topic/archives/1922"
-        },
-        {
-          "source": "チケプラ",
-          "url": "https://tixplus.jp/feature/yarlens_251018_03/"
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "date": "2025-10-18",
-      "title": "ヤーレンズ第1回単独ライブツアー2025「熱い胸さわぎ」 2部",
-      "category": "ライブ",
-      "place": "池田市文化会館アゼリアホール",
-      "performers": "ヤーレンズ",
-      "url": "https://www.kdashstage.jp/topic/archives/1922",
-      "status": "終了",
-      "source": "公式",
-      "detail": "開場16:30／開演17:30",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式",
-          "url": "https://www.kdashstage.jp/topic/archives/1922"
-        },
-        {
-          "source": "チケプラ",
-          "url": "https://tixplus.jp/feature/yarlens_251018_03/"
-        }
-      ]
-    },
     {
       "id": 17,
       "date": "2025-11-07",
@@ -7380,6 +7332,26 @@
         {
           "source": "Gguide",
           "url": "https://www.tv-asahi.co.jp/miracle9/"
+        }
+      ]
+    },
+    {
+      "id": 416,
+      "date": "2026-11-15",
+      "title": "【MANZAI MANZAI MANZAI】",
+      "category": "ライブ",
+      "place": "GINZA ART BOX7",
+      "performers": "ヤーレンズ・今夜も星が綺麗・グリーンランプ・無尽蔵　他出演者追加予定",
+      "url": "https://tiget.net/events/531754",
+      "status": "予定",
+      "source": "X",
+      "detail": "11:30開場/11:50開演",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "X",
+          "url": "https://tiget.net/events/531754"
         }
       ]
     }
