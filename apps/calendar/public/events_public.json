@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-10-19T15:13:06.414Z",
-  "from": "2025-10-19",
-  "to": "2027-10-19",
+  "lastUpdate": "2026-10-20T00:38:47.736Z",
+  "from": "2025-10-20",
+  "to": "2027-10-20",
   "events": [
     {
       "id": 17,
@@ -7344,14 +7344,54 @@
       "performers": "ヤーレンズ・今夜も星が綺麗・グリーンランプ・無尽蔵　他出演者追加予定",
       "url": "https://tiget.net/events/531754",
       "status": "予定",
-      "source": "X",
+      "source": "TIGET",
       "detail": "11:30開場/11:50開演",
       "management": "手動",
       "featured": false,
       "sources": [
         {
-          "source": "X",
+          "source": "TIGET",
           "url": "https://tiget.net/events/531754"
+        }
+      ]
+    },
+    {
+      "id": 417,
+      "date": "2026-11-15",
+      "title": "👊おるぁ！vol.7👊",
+      "category": "ライブ",
+      "place": "方南会館 ",
+      "performers": "おミルク/からし蓮根/金魚番長/今夜も星が綺麗/さすらいラビー/ストレッチーズ/ネコニスズ/ひつじねいり/まんじゅう大帝国/ヤーレンズ/レシートズ/他",
+      "url": "https://tiget.net/events/530582",
+      "status": "予定",
+      "source": "TIGET",
+      "detail": "開場 19:00 開演 19:30 終演予定 21:00 ( 90分公演 )",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "TIGET",
+          "url": "https://tiget.net/events/530582"
+        }
+      ]
+    },
+    {
+      "id": 418,
+      "date": "2026-11-10",
+      "title": "BLACK BOX～ネタバレ厳禁のネタライブ～",
+      "category": "ライブ",
+      "place": "CC 代々木八幡コミュニティセンターホール",
+      "performers": "大王 / ミカボ / シンクロニシティ / うちまつげ / 今夜も星が綺麗 / 太鵬 / ネコニスズ / インテイク / 無尽蔵 / 豆鉄砲 / TCクラクション / 東京ホテイソン / スタミナパン / 素敵じゃないか / タルタル関数 / ヤーレンズ",
+      "url": "https://ticketdive.com/event/a6y1PLWChhDfqgoZjupI",
+      "status": "予定",
+      "source": "ticketdive",
+      "detail": "開場時刻 19:00 / 開演時刻 19:15",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "ticketdive",
+          "url": "https://ticketdive.com/event/a6y1PLWChhDfqgoZjupI"
         }
       ]
     }
