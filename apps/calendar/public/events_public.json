@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-10-20T23:29:53.714Z",
-  "from": "2025-10-20",
-  "to": "2027-10-20",
+  "lastUpdate": "2026-10-21T12:08:50.300Z",
+  "from": "2025-10-21",
+  "to": "2027-10-21",
   "events": [
     {
       "id": 17,
@@ -7118,11 +7118,11 @@
     {
       "id": 404,
       "date": "2026-11-04",
-      "title": "ビビプロ2nd ANNIVERSARY【1部】HIGH LIGHT　（ヤーレンズは今のところ、予定されていません）",
+      "title": "ビビプロ2nd ANNIVERSARY【1部】HIGH LIGHT",
       "category": "ライブ",
       "place": "スタァライト劇場（飛行船シアター）",
-      "performers": "令和ロマン/ジグザグジギー/カラタチ/ひつじねいり/ママタルト",
-      "url": "https://livepocket.jp/t/vivipro2nd",
+      "performers": "ヤーレンズ/令和ロマン/ジグザグジギー カラタチ/ひつじねいり ママタルト/ネコニスズ/サツマカワRPG",
+      "url": "https://livepocket.jp/e/vivipro2nd-highlight",
       "status": "予定",
       "source": "LivePocket",
       "detail": "開場15:30／開演16:00／終演17:30",
@@ -7131,7 +7131,7 @@
       "sources": [
         {
           "source": "LivePocket",
-          "url": "https://livepocket.jp/t/vivipro2nd"
+          "url": "https://livepocket.jp/e/vivipro2nd-highlight"
         }
       ]
     },
@@ -7142,7 +7142,7 @@
       "category": "ライブ",
       "place": "スタァライト劇場（飛行船シアター）",
       "performers": "令和ロマン/ヤーレンズ/ジグザグジギー/カラタチ/ひつじねいり/マシンガンズ/リニア/ファイヤーサンダー/ザ・マミィ/春とヒコーキ/サツマカワRPG/ネコニスズ/トム・ブラウン/ママタルト",
-      "url": "https://livepocket.jp/t/vivipro2nd",
+      "url": "https://livepocket.jp/e/vivipro2nd-allstar",
       "status": "予定",
       "source": "LivePocket",
       "detail": "開場18:30／開演19:00／終演21:30",
@@ -7151,7 +7151,7 @@
       "sources": [
         {
           "source": "LivePocket",
-          "url": "https://livepocket.jp/t/vivipro2nd"
+          "url": "https://livepocket.jp/e/vivipro2nd-allstar"
         }
       ]
     },
@@ -7432,6 +7432,26 @@
         {
           "source": "公式",
           "url": "https://event.1242.com/events/yarlens_budokan/"
+        }
+      ]
+    },
+    {
+      "id": 420,
+      "date": "2026-11-18",
+      "title": "無尽蔵漫才寄席",
+      "category": "ライブ",
+      "place": "浅草 東洋館",
+      "performers": "無尽蔵、ヤーレンズ、TCクラクション、ひつじねいり、めぞん、マリーマリー",
+      "url": "https://livepocket.jp/e/z2nvo",
+      "status": "予定",
+      "source": "Livepocket",
+      "detail": "19時半開演(19時開場)20時30分終演予定",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Livepocket",
+          "url": "https://livepocket.jp/e/z2nvo"
         }
       ]
     }
