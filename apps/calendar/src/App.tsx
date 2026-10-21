@@ -76,13 +76,13 @@ function App() {
 
   const lastUpdate = data?.lastUpdate
     ? new Date(data.lastUpdate).toLocaleString("ja-JP", {
-        timeZone: "Asia/Tokyo",
-        year: "numeric",
-        month: "2-digit",
-        day: "2-digit",
-        hour: "2-digit",
-        minute: "2-digit",
-      })
+      timeZone: "Asia/Tokyo",
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+    })
     : "";
 
   const groupedEvents = data?.events ?? [];
@@ -93,8 +93,8 @@ function App() {
     categoryFilter.length === 0
       ? groupedEvents
       : groupedEvents.filter((event: any) =>
-          categoryFilter.includes(event.category)
-        );
+        categoryFilter.includes(event.category)
+      );
 
   const selectedEvents = filteredEvents.filter(
     (event: any) => event.date === selectedDate
@@ -586,11 +586,11 @@ function App() {
                       `${event.date}-${event.title}`
                     ) === selectedEventId
                       ? `3px solid ${getCategoryColor(
-                          event.category
-                        )}`
+                        event.category
+                      )}`
                       : `1px solid ${getCategoryColor(
-                          event.category
-                        )}`,
+                        event.category
+                      )}`,
                   borderRadius: 14,
                   padding: 18,
                   marginBottom: 16,
@@ -635,9 +635,25 @@ function App() {
                   </div>
                 )}
 
-                <div style={{ marginBottom: 6 }}>
-                  📍 {event.place}
-                </div>
+                {event.place && (
+                  <div style={{ marginBottom: 6 }}>
+                    📍{" "}
+                    <a
+                      href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+                        event.place
+                      )}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{
+                        color: "#2563eb",
+                        textDecoration: "none",
+                        cursor: "pointer",
+                      }}
+                    >
+                      {event.place}
+                    </a>
+                  </div>
+                )}
 
                 <div style={{ marginBottom: 6 }}>
                   👥 {event.performers}
