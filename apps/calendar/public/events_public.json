@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-10-24T13:50:40.851Z",
+  "lastUpdate": "2026-10-24T14:13:39.700Z",
   "from": "2025-10-24",
   "to": "2027-10-24",
   "events": [
@@ -7592,6 +7592,306 @@
         {
           "source": "公式",
           "url": "https://event.1242.com/events/yarlens_budokan/"
+        }
+      ]
+    },
+    {
+      "id": 428,
+      "date": "2026-11-02",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "https://radiko.jp/r_seasons/42603",
+      "status": "予定",
+      "source": "Youtubeもあり",
+      "detail": "21:15～23:30",
+      "management": "自動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Youtubeもあり",
+          "url": "https://radiko.jp/r_seasons/42603"
+        }
+      ]
+    },
+    {
+      "id": 429,
+      "date": "2026-11-09",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "https://radiko.jp/r_seasons/42603",
+      "status": "予定",
+      "source": "Youtubeもあり",
+      "detail": "21:15～23:30",
+      "management": "自動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Youtubeもあり",
+          "url": "https://radiko.jp/r_seasons/42603"
+        }
+      ]
+    },
+    {
+      "id": 430,
+      "date": "2026-11-16",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "https://radiko.jp/r_seasons/42603",
+      "status": "予定",
+      "source": "Youtubeもあり",
+      "detail": "21:15～23:30",
+      "management": "自動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Youtubeもあり",
+          "url": "https://radiko.jp/r_seasons/42603"
+        }
+      ]
+    },
+    {
+      "id": 431,
+      "date": "2026-11-23",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "https://radiko.jp/r_seasons/42603",
+      "status": "予定",
+      "source": "Youtubeもあり",
+      "detail": "21:15～23:30",
+      "management": "自動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Youtubeもあり",
+          "url": "https://radiko.jp/r_seasons/42603"
+        }
+      ]
+    },
+    {
+      "id": 432,
+      "date": "2026-11-30",
+      "title": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "category": "ラジオ",
+      "place": "ABCラジオ",
+      "performers": "ヤーレンズ",
+      "url": "https://radiko.jp/r_seasons/42603",
+      "status": "予定",
+      "source": "Youtubeもあり",
+      "detail": "21:15～23:30",
+      "management": "自動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Youtubeもあり",
+          "url": "https://radiko.jp/r_seasons/42603"
+        }
+      ]
+    },
+    {
+      "id": 433,
+      "date": "2026-11-05",
+      "title": "真空レンズ",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ、真空ジェシカ",
+      "url": "https://tver.jp/series/sryhlrcydxb",
+      "status": "予定",
+      "source": "Tverあり",
+      "detail": "25:30～26:00",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Tverあり",
+          "url": "https://tver.jp/series/sryhlrcydxb"
+        }
+      ]
+    },
+    {
+      "id": 434,
+      "date": "2026-11-12",
+      "title": "真空レンズ",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ、真空ジェシカ",
+      "url": "https://tver.jp/series/sryhlrcydxb",
+      "status": "予定",
+      "source": "Tverあり",
+      "detail": "25:30～26:00",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Tverあり",
+          "url": "https://tver.jp/series/sryhlrcydxb"
+        }
+      ]
+    },
+    {
+      "id": 435,
+      "date": "2026-11-19",
+      "title": "真空レンズ",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ、真空ジェシカ",
+      "url": "https://tver.jp/series/sryhlrcydxb",
+      "status": "予定",
+      "source": "Tverあり",
+      "detail": "25:30～26:00",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Tverあり",
+          "url": "https://tver.jp/series/sryhlrcydxb"
+        }
+      ]
+    },
+    {
+      "id": 436,
+      "date": "2026-11-26",
+      "title": "真空レンズ",
+      "category": "テレビ",
+      "place": "テレビ東京",
+      "performers": "ヤーレンズ、真空ジェシカ",
+      "url": "https://tver.jp/series/sryhlrcydxb",
+      "status": "予定",
+      "source": "Tverあり",
+      "detail": "25:30～26:00",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Tverあり",
+          "url": "https://tver.jp/series/sryhlrcydxb"
+        }
+      ]
+    },
+    {
+      "id": 437,
+      "date": "2026-11-06",
+      "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
+      "category": "ラジオ",
+      "place": "Podcast",
+      "performers": "ヤーレンズ",
+      "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX",
+      "status": "予定",
+      "source": "spotify",
+      "detail": "配信",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "spotify",
+          "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX"
+        }
+      ]
+    },
+    {
+      "id": 438,
+      "date": "2026-11-13",
+      "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
+      "category": "ラジオ",
+      "place": "Podcast",
+      "performers": "ヤーレンズ",
+      "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX",
+      "status": "予定",
+      "source": "spotify",
+      "detail": "配信",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "spotify",
+          "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX"
+        }
+      ]
+    },
+    {
+      "id": 439,
+      "date": "2026-11-20",
+      "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
+      "category": "ラジオ",
+      "place": "Podcast",
+      "performers": "ヤーレンズ",
+      "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX",
+      "status": "予定",
+      "source": "spotify",
+      "detail": "配信",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "spotify",
+          "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX"
+        }
+      ]
+    },
+    {
+      "id": 440,
+      "date": "2026-11-27",
+      "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
+      "category": "ラジオ",
+      "place": "Podcast",
+      "performers": "ヤーレンズ",
+      "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX",
+      "status": "予定",
+      "source": "spotify",
+      "detail": "配信",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "spotify",
+          "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX"
+        }
+      ]
+    },
+    {
+      "id": 441,
+      "date": "2026-11-28",
+      "title": "ヤーレンズのオールナイトニッポン0",
+      "category": "ラジオ",
+      "place": "ニッポン放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "月1回最終土曜日27:00～29:00",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 442,
+      "date": "2026-10-30",
+      "title": "🈑ジンギス談！ #236",
+      "category": "テレビ",
+      "place": "BSよしもと",
+      "performers": "タカアンドトシ、 堀内美里(HBCアナウンサー) 【ゲスト】 前田壮太/大山和也(カラタチ) 楢原真樹/出井隼之介(ヤーレンズ)",
+      "url": "https://bangumi.org/tv_events/AmQAEJkBQAE?from=search",
+      "status": "予定",
+      "source": "Gguide",
+      "detail": "18:30 -19:00",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Gguide",
+          "url": "https://bangumi.org/tv_events/AmQAEJkBQAE?from=search"
         }
       ]
     }
