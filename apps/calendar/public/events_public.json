@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-10-21T13:31:42.143Z",
-  "from": "2025-10-21",
-  "to": "2027-10-21",
+  "lastUpdate": "2026-10-24T13:50:40.851Z",
+  "from": "2025-10-24",
+  "to": "2027-10-24",
   "events": [
     {
       "id": 17,
@@ -7058,6 +7058,26 @@
     {
       "id": 401,
       "date": "2026-10-29",
+      "title": "ナイツ ザ・ラジオショー",
+      "category": "ラジオ",
+      "place": "ニッポン放送",
+      "performers": "ナイツ/ ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "X",
+      "detail": "13:00〜15:30",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "X",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 402,
+      "date": "2026-10-29",
       "title": "真空レンズ",
       "category": "テレビ",
       "place": "テレビ東京",
@@ -7076,7 +7096,7 @@
       ]
     },
     {
-      "id": 402,
+      "id": 403,
       "date": "2026-10-29",
       "title": "大激漫",
       "category": "ライブ",
@@ -7096,7 +7116,7 @@
       ]
     },
     {
-      "id": 403,
+      "id": 404,
       "date": "2026-10-30",
       "title": "ヤーレンズの一生ボケても怒られないサッカーの話 powered by ゲキサカ",
       "category": "ラジオ",
@@ -7112,26 +7132,6 @@
         {
           "source": "spotify",
           "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX"
-        }
-      ]
-    },
-    {
-      "id": 404,
-      "date": "2026-10-31",
-      "title": "東京電機大学　お笑いライブ",
-      "category": "ライブ",
-      "place": "東京千住キャンパス3号館 野外ステージ",
-      "performers": "ゴー☆ジャス/ヤーレンズ",
-      "url": "https://www.sg.dendai.ac.jp/s1j-asahisai/ComedyLive.html",
-      "status": "予定",
-      "source": "Ｘ",
-      "detail": "11:00～12:00 無料",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "Ｘ",
-          "url": "https://www.sg.dendai.ac.jp/s1j-asahisai/ComedyLive.html"
         }
       ]
     },
@@ -7157,6 +7157,26 @@
     },
     {
       "id": 406,
+      "date": "2026-10-31",
+      "title": "東京電機大学　お笑いライブ",
+      "category": "ライブ",
+      "place": "東京千住キャンパス3号館 野外ステージ",
+      "performers": "ゴー☆ジャス/ヤーレンズ",
+      "url": "https://www.sg.dendai.ac.jp/s1j-asahisai/ComedyLive.html",
+      "status": "予定",
+      "source": "Ｘ",
+      "detail": "11:00～12:00 無料",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Ｘ",
+          "url": "https://www.sg.dendai.ac.jp/s1j-asahisai/ComedyLive.html"
+        }
+      ]
+    },
+    {
+      "id": 407,
       "date": "2026-11-01",
       "title": "アブナイヨセ　in 福岡",
       "category": "ライブ",
@@ -7176,7 +7196,7 @@
       ]
     },
     {
-      "id": 407,
+      "id": 408,
       "date": "2026-11-02",
       "title": "湘南お笑いライブ 東海大学クラブ連合会建学祭専門委員会",
       "category": "ライブ",
@@ -7196,7 +7216,7 @@
       ]
     },
     {
-      "id": 408,
+      "id": 409,
       "date": "2026-11-03",
       "title": "第78回シオン祭　お笑いライブ",
       "category": "ライブ",
@@ -7216,7 +7236,27 @@
       ]
     },
     {
-      "id": 409,
+      "id": 410,
+      "date": "2026-11-04",
+      "title": "M-1グランプリ2026 3回戦",
+      "category": "ライブ",
+      "place": "[東京] KANDA SQUARE HALL",
+      "performers": "ヤーレンズ、他多数",
+      "url": "https://ticket.fany.lol/search/event?keywords=M-1%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%97%E3%83%AA2026%E3%80%803%E5%9B%9E%E6%88%A6&from=&to=&prefectures=13&genre=0&search_type=form",
+      "status": "予定",
+      "source": "FANY",
+      "detail": "開場 12:30 開演 13:00",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "FANY",
+          "url": "https://ticket.fany.lol/search/event?keywords=M-1%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%97%E3%83%AA2026%E3%80%803%E5%9B%9E%E6%88%A6&from=&to=&prefectures=13&genre=0&search_type=form"
+        }
+      ]
+    },
+    {
+      "id": 411,
       "date": "2026-11-04",
       "title": "ビビプロ2nd ANNIVERSARY【1部】HIGH LIGHT",
       "category": "ライブ",
@@ -7236,7 +7276,7 @@
       ]
     },
     {
-      "id": 410,
+      "id": 412,
       "date": "2026-11-04",
       "title": "ビビプロ2nd ANNIVERSARY【2部】ALL STAR",
       "category": "ライブ",
@@ -7256,7 +7296,7 @@
       ]
     },
     {
-      "id": 411,
+      "id": 413,
       "date": "2026-11-07",
       "title": "第5回令和健康科学大学 大学祭「令愛祭」",
       "category": "ライブ",
@@ -7276,7 +7316,7 @@
       ]
     },
     {
-      "id": 412,
+      "id": 414,
       "date": "2026-11-08",
       "title": "福山市立大学　第15回​港輝祭",
       "category": "ライブ",
@@ -7296,7 +7336,7 @@
       ]
     },
     {
-      "id": 413,
+      "id": 415,
       "date": "2026-11-10",
       "title": "BLACK BOX～ネタバレ厳禁のネタライブ～",
       "category": "ライブ",
@@ -7316,7 +7356,7 @@
       ]
     },
     {
-      "id": 414,
+      "id": 416,
       "date": "2026-11-15",
       "title": "【MANZAI MANZAI MANZAI】",
       "category": "ライブ",
@@ -7336,7 +7376,7 @@
       ]
     },
     {
-      "id": 415,
+      "id": 417,
       "date": "2026-11-15",
       "title": "👊おるぁ！vol.7👊",
       "category": "ライブ",
@@ -7356,7 +7396,7 @@
       ]
     },
     {
-      "id": 416,
+      "id": 418,
       "date": "2026-11-18",
       "title": "無尽蔵漫才寄席",
       "category": "ライブ",
@@ -7376,7 +7416,7 @@
       ]
     },
     {
-      "id": 417,
+      "id": 419,
       "date": "2026-11-21",
       "title": "ケイダッシュステージお笑い珍道中 鹿児島編 1部",
       "category": "ライブ",
@@ -7396,7 +7436,7 @@
       ]
     },
     {
-      "id": 418,
+      "id": 420,
       "date": "2026-11-21",
       "title": "ケイダッシュステージお笑い珍道中 鹿児島編 2部",
       "category": "ライブ",
@@ -7416,7 +7456,7 @@
       ]
     },
     {
-      "id": 419,
+      "id": 421,
       "date": "2026-11-25",
       "title": "11/25 東京漫才博覧会",
       "category": "ライブ",
@@ -7436,7 +7476,7 @@
       ]
     },
     {
-      "id": 420,
+      "id": 422,
       "date": "2026-11-26",
       "title": "🍂マセキ芸人コレクション〜2026秋冬〜🍂",
       "category": "ライブ",
@@ -7456,7 +7496,7 @@
       ]
     },
     {
-      "id": 421,
+      "id": 423,
       "date": "2026-11-26",
       "title": "ガオマンザイ～最強漫才師限定ライブ～",
       "category": "ライブ",
@@ -7476,7 +7516,7 @@
       ]
     },
     {
-      "id": 422,
+      "id": 424,
       "date": "2026-12-02",
       "title": "池袋お笑い劇場2026 in サンシャイン劇場",
       "category": "ライブ",
@@ -7496,7 +7536,7 @@
       ]
     },
     {
-      "id": 423,
+      "id": 425,
       "date": "2026-12-06",
       "title": "爆笑！！お笑いスーパーライブ　ｉｎ　青森　２０２６- 1部",
       "category": "ライブ",
@@ -7516,7 +7556,7 @@
       ]
     },
     {
-      "id": 424,
+      "id": 426,
       "date": "2026-12-06",
       "title": "爆笑！！お笑いスーパーライブ　ｉｎ　青森　２０２６- 2部",
       "category": "ライブ",
@@ -7536,7 +7576,7 @@
       ]
     },
     {
-      "id": 425,
+      "id": 427,
       "date": "2027-03-07",
       "title": "ヤーレンズ単独ライブ 一万人に漫才 in 日本武道館",
       "category": "ライブ",
@@ -7558,7 +7598,7 @@
   ],
   "featuredEvents": [
     {
-      "id": 425,
+      "id": 427,
       "date": "2027-03-07",
       "title": "ヤーレンズ単独ライブ 一万人に漫才 in 日本武道館",
       "category": "ライブ",
