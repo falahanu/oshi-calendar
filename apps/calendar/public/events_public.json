@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-10-24T14:13:39.700Z",
-  "from": "2025-10-24",
-  "to": "2027-10-24",
+  "lastUpdate": "2026-10-28T14:19:41.116Z",
+  "from": "2025-10-28",
+  "to": "2027-10-28",
   "events": [
     {
       "id": 17,
@@ -7202,7 +7202,7 @@
       "category": "ライブ",
       "place": "東海大学 2号館2S-101",
       "performers": "#ママタルト#ヤーレンズ#吉住#ロッチ#ワタリ119",
-      "url": "",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSc7Car5xWOnNHg8fsns6M0YSL-Q7Nl-xLD_D-RqTxsFFlxLeg/viewform",
       "status": "予定",
       "source": "X",
       "detail": "開場 13:00開演14:00",
@@ -7211,7 +7211,7 @@
       "sources": [
         {
           "source": "X",
-          "url": ""
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSc7Car5xWOnNHg8fsns6M0YSL-Q7Nl-xLD_D-RqTxsFFlxLeg/viewform"
         }
       ]
     },
@@ -7892,6 +7892,86 @@
         {
           "source": "Gguide",
           "url": "https://bangumi.org/tv_events/AmQAEJkBQAE?from=search"
+        }
+      ]
+    },
+    {
+      "id": 443,
+      "date": "2026-10-28",
+      "title": "事後メモ：ラスタ池袋　お笑いライブ",
+      "category": "ライブ",
+      "place": "ラスタ池袋",
+      "performers": "ヤーレンズ他",
+      "url": "",
+      "status": "開催予定",
+      "source": "X",
+      "detail": "13:00～",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "X",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 444,
+      "date": "2026-10-31",
+      "title": "さんまのお笑い向上委員会▼老化が急進行中の錦鯉！リアルボケ長谷川＆こどおじ渡辺🈑",
+      "category": "テレビ",
+      "place": "フジテレビ",
+      "performers": "【愛のクレーマー】 滝沢秀一（マシンガンズ）　 出井隼之介（ヤーレンズ）　 楢原真樹（ヤーレンズ）　 西堀亮（マシンガンズ）",
+      "url": "https://bangumi.org/tv_events/AmQQQgVKUAM?from=search",
+      "status": "予定",
+      "source": "Gguide",
+      "detail": "23:10 -23:40 ",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Gguide",
+          "url": "https://bangumi.org/tv_events/AmQQQgVKUAM?from=search"
+        }
+      ]
+    },
+    {
+      "id": 445,
+      "date": "2026-11-02",
+      "title": "エンドレス ヤーレンズ〜人生で一番ボケてツッコんだ、とある日の記録〜",
+      "category": "テレビ",
+      "place": "映画・chNECO",
+      "performers": "ヤーレンズ、小林麗奈",
+      "url": "https://bangumi.org/tv_events/AmQwDfgmQAI?from=search",
+      "status": "予定",
+      "source": "Gguide",
+      "detail": "19:05 -20:50 ",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Gguide",
+          "url": "https://bangumi.org/tv_events/AmQwDfgmQAI?from=search"
+        }
+      ]
+    },
+    {
+      "id": 446,
+      "date": "2026-11-03",
+      "title": "本日の司会は　オードリー若林！　第4弾🈑",
+      "category": "テレビ",
+      "place": "NHK総合1・東京",
+      "performers": "【司会】若林正恭，【出演】吉村崇，横澤夏子，佐々木久美，明治大学教授…齋藤孝，ヤーレンズ，ほか",
+      "url": "https://bangumi.org/tv_events/AmRAQAMf4AM?from=search",
+      "status": "予定",
+      "source": "Gguide",
+      "detail": "20:15 -20:55",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Gguide",
+          "url": "https://bangumi.org/tv_events/AmRAQAMf4AM?from=search"
         }
       ]
     }
