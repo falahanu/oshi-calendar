@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-10-28T14:19:41.116Z",
-  "from": "2025-10-28",
-  "to": "2027-10-28",
+  "lastUpdate": "2026-10-29T04:58:10.399Z",
+  "from": "2025-10-29",
+  "to": "2027-10-29",
   "events": [
     {
       "id": 17,
@@ -7972,6 +7972,26 @@
         {
           "source": "Gguide",
           "url": "https://bangumi.org/tv_events/AmRAQAMf4AM?from=search"
+        }
+      ]
+    },
+    {
+      "id": 447,
+      "date": "2026-10-31",
+      "title": "サタブラ！",
+      "category": "テレビ",
+      "place": "HBC北海道放送",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "12:10～13:27",
+      "management": "自動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
         }
       ]
     }
