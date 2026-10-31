@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-10-30T02:55:08.228Z",
-  "from": "2025-10-30",
-  "to": "2027-10-30",
+  "lastUpdate": "2026-10-31T13:46:48.854Z",
+  "from": "2025-10-31",
+  "to": "2027-10-31",
   "events": [
     {
       "id": 17,
@@ -7083,7 +7083,7 @@
       "place": "ニッポン放送",
       "performers": "ナイツ/ ヤーレンズ",
       "url": "",
-      "status": "予定",
+      "status": "終了",
       "source": "X",
       "detail": "13:00〜15:30",
       "management": "手動",
@@ -7123,7 +7123,7 @@
       "place": "なかのZERO小ホール（東京都）",
       "performers": "じぐざぐ/うちまつげ/リニア/今夜も星が綺麗/魂ず　ゲスト:錦鯉/ナイツ/ドンデコルテ/三四郎/ヤーレンズ",
       "url": "https://tiget.net/events/521895",
-      "status": "予定",
+      "status": "終了",
       "source": "TIGET",
       "detail": "開場19:10／開演19:30",
       "management": "手動",
@@ -7143,7 +7143,7 @@
       "place": "Podcast",
       "performers": "ヤーレンズ",
       "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX",
-      "status": "予定",
+      "status": "終了",
       "source": "spotify",
       "detail": "配信",
       "management": "手動",
@@ -7163,7 +7163,7 @@
       "place": "BSよしもと",
       "performers": "タカアンドトシ、 堀内美里(HBCアナウンサー) 【ゲスト】 前田壮太/大山和也(カラタチ) 楢原真樹/出井隼之介(ヤーレンズ)",
       "url": "https://bangumi.org/tv_events/AmQAEJkBQAE?from=search",
-      "status": "予定",
+      "status": "終了",
       "source": "Gguide",
       "detail": "18:30 -19:00",
       "management": "手動",
@@ -7183,7 +7183,7 @@
       "place": "日本獣医生命科学大学",
       "performers": "ヤーレンズ、サツマカワRPG、どんぐりたけし",
       "url": "",
-      "status": "予定",
+      "status": "終了",
       "source": "無料",
       "detail": "15:00~16:00",
       "management": "手動",
@@ -8072,6 +8072,26 @@
         {
           "source": "公式",
           "url": "https://event.1242.com/events/yarlens_budokan/"
+        }
+      ]
+    },
+    {
+      "id": 452,
+      "date": "2026-11-23",
+      "title": "ネタライブ涼介",
+      "category": "ライブ",
+      "place": "新宿永谷ホール(新宿Fu-)(東京都)",
+      "performers": "デッサンズ / バベコンブ / 日本クレール / オッパショ石 / 凛凛パーカー / 高田柾希 / タワー / ギャノン / 江戸川ジャンクジャンク / GHOST / ギュインギュイン / 上下する / 金の国 / ヤーレンズ / 相性はいいよね",
+      "url": "https://tiget.net/events/531620",
+      "status": "開催予定",
+      "source": "TIGET",
+      "detail": "開場 12:00 / 開演 12:15",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "TIGET",
+          "url": "https://tiget.net/events/531620"
         }
       ]
     }
