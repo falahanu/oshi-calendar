@@ -1,4 +1,10 @@
-import { groupEvents } from "../../../../shared/groupEvents";
+import {
+  compareEventsByDateAndStartTime,
+  formatEventDateForDisplay,
+  getEventTimeDisplay,
+  groupEvents,
+  normalizeEventDate,
+} from "../../../../shared/groupEvents";
 import {
   getCategoryColor,
   getCategoryLightColor,
@@ -13,7 +19,9 @@ import interactionPlugin from "@fullcalendar/interaction";
 type Event = {
   id: string;
   date: string;
-  time: string;
+  startTime: string;
+  endTime: string;
+  openTime: string;
   title: string;
   category: string;
   place: string;
@@ -34,11 +42,11 @@ type Event = {
 };
 
 function normalizeDate(date: string) {
-  return date.replaceAll("/", "-");
+  return normalizeEventDate(date);
 }
 
 function getEventId(event: Event) {
-  return `${event.id || `${event.date}-${event.title}`}-${event.category}`;
+  return `${event.id || `${event.date.replaceAll("/", "-")}-${event.title}`}-${event.category}`;
 }
 
 function formatDate(date: Date) {
@@ -69,11 +77,17 @@ export default function CalendarPage() {
         const normalized = data.map((event) => ({
           ...event,
           date: normalizeDate(event.date),
+          startTime:
+            typeof event.startTime === "string" && event.startTime.trim()
+              ? event.startTime.trim()
+              : "不明",
+          endTime:
+            typeof event.endTime === "string" ? event.endTime.trim() : "",
+          openTime:
+            typeof event.openTime === "string" ? event.openTime.trim() : "",
         }));
 
-        const sorted = [...normalized].sort((a, b) =>
-          a.date.localeCompare(b.date)
-        );
+        const sorted = [...normalized].sort(compareEventsByDateAndStartTime);
 
         setEvents(sorted);
       })
@@ -103,13 +117,17 @@ export default function CalendarPage() {
     );
   }, [groupedEvents, categoryFilter]);
 
-  const calendarEvents = filteredEvents.map((event: any) => ({
-    id: getEventId(event),
-    title: event.title,
-    date: event.date,
-    backgroundColor: getCategoryColor(event.category),
-    borderColor: getCategoryColor(event.category),
-  }));
+  const calendarEvents = [...filteredEvents]
+    .sort(compareEventsByDateAndStartTime)
+    .map((event: any) => ({
+      id: getEventId(event),
+      title: event.title,
+      start: normalizeDate(event.date),
+      allDay: true,
+      backgroundColor: getCategoryColor(event.category),
+      borderColor: getCategoryColor(event.category),
+    }))
+    .sort(compareEventsByDateAndStartTime);
 
   const selectedEvents = useMemo(() => {
     let result = filteredEvents;
@@ -120,7 +138,7 @@ export default function CalendarPage() {
       );
     }
 
-    return result;
+    return [...result].sort(compareEventsByDateAndStartTime);
   }, [filteredEvents, selectedDate]);
 
   return (
@@ -207,14 +225,16 @@ export default function CalendarPage() {
         locale={jaLocale}
         height="auto"
         eventDisplay="block"
+        eventOrder="start"
+        eventOrderStrict
         fixedWeekCount={false}
         events={calendarEvents}
         dateClick={(info) => {
-          setSelectedDate(info.dateStr);
+          setSelectedDate(normalizeDate(info.dateStr));
           setSelectedEventId("");
         }}
         eventClick={(info) => {
-          setSelectedDate(info.event.startStr);
+          setSelectedDate(normalizeDate(info.event.startStr.slice(0, 10)));
           setSelectedEventId(info.event.id);
 
           setTimeout(() => {
@@ -451,7 +471,7 @@ export default function CalendarPage() {
         >
           イベント一覧{" "}
           {selectedDate
-            ? `（${selectedDate}）`
+            ? `（${formatEventDateForDisplay(selectedDate)}）`
             : ""}
         </h3>
 
@@ -554,17 +574,17 @@ export default function CalendarPage() {
                 marginBottom: 6,
               }}
             >
-              📅 {event.date}
+              📅 {formatEventDateForDisplay(event.date)}
             </div>
 
-            {event.detail && (
+            {getEventTimeDisplay(event) && (
               <div
                 style={{
                   marginBottom: 6,
                 }}
               >
                 🎫{" "}
-                {event.detail === "配信あり" &&
+                {getEventTimeDisplay(event) === "配信あり" &&
                   event.streamingUrl ? (
                   <a
                     href={event.streamingUrl}
@@ -580,7 +600,7 @@ export default function CalendarPage() {
                     配信あり
                   </a>
                 ) : (
-                  event.detail
+                  getEventTimeDisplay(event)
                 )}
               </div>
             )}

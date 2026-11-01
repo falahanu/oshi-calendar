@@ -1,7 +1,11 @@
 import "dotenv/config";
 import axios from "axios";
 
-import { groupEvents } from "../shared/groupEvents.ts";
+import {
+  compareEventsByDateAndStartTime,
+  groupEvents,
+  normalizeEventDate,
+} from "../shared/groupEvents.ts";
 
 // ========================================
 // 設定
@@ -27,7 +31,17 @@ const response = await axios.get(
   "https://script.google.com/macros/s/AKfycbw8N96LIXRrtqoWi0FgDYD4HDAjZluEviiq3dMx5m9npOJ3CnvhxgwUPswddlCt_Kq5Sw/exec"
 );
 
-const events = response.data;
+const events = response.data.map((event) => ({
+  ...event,
+  date: normalizeEventDate(event.date),
+  startTime:
+    typeof event.startTime === "string" && event.startTime.trim()
+      ? event.startTime.trim()
+      : "不明",
+  endTime: typeof event.endTime === "string" ? event.endTime.trim() : "",
+  openTime:
+    typeof event.openTime === "string" ? event.openTime.trim() : "",
+}));
 
 console.log(
   JSON.stringify(events.slice(0, 3), null, 2)
@@ -45,12 +59,15 @@ from.setDate(from.getDate() - 365);
 const to = new Date(today);
 to.setDate(to.getDate() + 365);
 
+const toDateText = (date) => date.toISOString().substring(0, 10);
+
 // ========================================
 // 前後365日のイベントだけ抽出
 // ========================================
 
 const filteredEvents = events.filter((event) => {
-  const eventDate = new Date(event.date);
+  const [year, month, day] = event.date.split("-").map(Number);
+  const eventDate = new Date(year, month - 1, day);
 
   return eventDate >= from && eventDate <= to;
 });
@@ -62,15 +79,7 @@ const filteredEvents = events.filter((event) => {
 
 const featuredEvents = filteredEvents
   .filter((event) => event.featured === true)
-  .sort((a, b) => {
-    const dateCompare = a.date.localeCompare(b.date);
-
-    if (dateCompare !== 0) {
-      return dateCompare;
-    }
-
-    return a.title.localeCompare(b.title);
-  });
+  .sort(compareEventsByDateAndStartTime);
 
 console.log(
   "注目イベント:",
@@ -81,7 +90,8 @@ console.log(
 // 管理者カレンダーと同じ統合処理を使用
 // ========================================
 
-const publicEvents = groupEvents(filteredEvents);
+const publicEvents = groupEvents(filteredEvents)
+  .sort(compareEventsByDateAndStartTime);
 
 console.log(
   "公開用統合後:",
@@ -94,8 +104,8 @@ console.log(
 
 const output = {
   lastUpdate: new Date().toISOString(),
-  from: from.toISOString().substring(0, 10),
-  to: to.toISOString().substring(0, 10),
+  from: toDateText(from),
+  to: toDateText(to),
   events: publicEvents,
   featuredEvents: featuredEvents
 };

@@ -72,6 +72,9 @@ export async function getFanyEvents() {
         let place = "";
         let performers = "";
         let detail = "";
+        let startTime = "不明";
+        let endTime = "";
+        let openTime = "";
 
         for (let i = 0; i < lines.length; i++) {
 
@@ -90,11 +93,25 @@ export async function getFanyEvents() {
                 for (let j = i; j < Math.min(i + 15, lines.length); j++) {
 
                     const timeMatch = lines[j].match(
-                        /(?:開場\s*)?\d{1,2}:\d{2}\s*(?:[～~\/／]\s*(?:開演\s*)?\d{1,2}:\d{2})?/
+                        /(?:開場\s*)?\d{1,}:\d{2}\s*(?:[～~\/／]\s*(?:開演\s*)?\d{1,}:\d{2})?/
                     );
 
                     if (timeMatch) {
                         detail = timeMatch[0];
+                        const openTimeMatch = timeMatch[0].match(
+                            /開場\s*(\d{1,}:\d{2})/
+                        );
+                        const startTimeMatch = timeMatch[0].match(
+                            /開演\s*(\d{1,}:\d{2})/
+                        );
+                        const timeRangeMatch = timeMatch[0].match(
+                            /(\d{1,}:\d{2})\s*[～~]\s*(\d{1,}:\d{2})/
+                        );
+
+                        openTime = openTimeMatch?.[1] ?? "";
+                        startTime =
+                            startTimeMatch?.[1] ?? timeRangeMatch?.[1] ?? "不明";
+                        endTime = timeRangeMatch?.[2] ?? "";
                         break;
                     }
 
@@ -121,6 +138,9 @@ export async function getFanyEvents() {
             events.push({
                 id,
                 date,
+                startTime,
+                endTime,
+                openTime,
                 title,
                 category: "ライブ",
                 place,

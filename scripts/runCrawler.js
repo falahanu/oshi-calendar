@@ -2,6 +2,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import { execSync } from "child_process";
 import axios from "axios";
+import { normalizeEventDate } from "../shared/groupEvents.ts";
 
 import { getOfficialEvents } from "./crawler/official.js";
 import { getOfficialNewsEvents } from "./crawler/officialNews.js";
@@ -64,7 +65,22 @@ const allEvents = [
 // チケットサイトの1部・2部などもそのまま残す。
 // ========================================
 
-const uniqueEvents = allEvents;
+const uniqueEvents = allEvents.map((event) => ({
+    ...event,
+    date: normalizeEventDate(event.date),
+    startTime:
+        typeof event.startTime === "string" && event.startTime.trim()
+            ? event.startTime.trim()
+            : "不明",
+    endTime:
+        typeof event.endTime === "string"
+            ? event.endTime.trim()
+            : "",
+    openTime:
+        typeof event.openTime === "string"
+            ? event.openTime.trim()
+            : "",
+}));
 
 
 // ========================================

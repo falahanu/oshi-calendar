@@ -142,11 +142,11 @@ export async function getOfficialNewsEvents() {
                  * 1部・2部を検索
                  */
                 const part1Match = nextLine.match(
-                    /[１1]部.*?開演\s*(\d{1,2}:\d{2})/
+                    /[１1]部.*?開演\s*(\d{1,}:\d{2})/
                 );
 
                 const part2Match = nextLine.match(
-                    /[２2]部.*?開演\s*(\d{1,2}:\d{2})/
+                    /[２2]部.*?開演\s*(\d{1,}:\d{2})/
                 );
 
                 /*
@@ -164,7 +164,7 @@ export async function getOfficialNewsEvents() {
                     if (part2Match) {
 
                         const placeMatch = nextLine.match(
-                            /[２2]部.*?開演\s*\d{1,2}:\d{2}\s*(.*)$/
+                            /[２2]部.*?開演\s*\d{1,}:\d{2}\s*(.*)$/
                         );
 
                         if (placeMatch) {
@@ -178,8 +178,15 @@ export async function getOfficialNewsEvents() {
                      */
                     if (part1Match) {
 
+                        const part1Line = nextLine.match(
+                            /[１1]部.*?(開場\s*(\d{1,}:\d{2}))?.*?開演\s*(\d{1,}:\d{2})/
+                        );
+
                         events.push({
                             date,
+                            startTime: part1Line?.[3] ?? part1Match[1],
+                            endTime: "",
+                            openTime: part1Line?.[2] ?? "",
                             title: `${title}【1部】`,
                             category,
                             place: partPlace,
@@ -197,8 +204,15 @@ export async function getOfficialNewsEvents() {
                      */
                     if (part2Match) {
 
+                        const part2Line = nextLine.match(
+                            /[２2]部.*?(開場\s*(\d{1,}:\d{2}))?.*?開演\s*(\d{1,}:\d{2})/
+                        );
+
                         events.push({
                             date,
+                            startTime: part2Line?.[3] ?? part2Match[1],
+                            endTime: "",
+                            openTime: part2Line?.[2] ?? "",
                             title: `${title}【2部】`,
                             category,
                             place: partPlace,
@@ -220,6 +234,9 @@ export async function getOfficialNewsEvents() {
 
                     let time = "";
                     let place = "";
+                    let startTime = "不明";
+                    let endTime = "";
+                    let openTime = "";
 
                     /*
                      * ライブ
@@ -228,13 +245,24 @@ export async function getOfficialNewsEvents() {
 
                         const timeMatch =
                             nextLine.match(
-                                /開演\s*(\d{1,2}:\d{2})/
+                                /開演\s*(\d{1,}:\d{2})/
                             );
 
                         if (timeMatch) {
                             time =
                                 `開演 ${timeMatch[1]}`;
+                            startTime = timeMatch[1];
                         }
+
+                        const openTimeMatch = nextLine.match(
+                            /開場\s*(\d{1,}:\d{2})/
+                        );
+
+                        openTime = openTimeMatch?.[1] ?? "";
+                        const endTimeMatch = nextLine.match(
+                            /終演\s*(\d{1,}:\d{2})/
+                        );
+                        endTime = endTimeMatch?.[1] ?? "";
 
                         const lastOpeningIndex =
                             nextLine.lastIndexOf("開演");
@@ -244,7 +272,7 @@ export async function getOfficialNewsEvents() {
                             place = nextLine
                                 .substring(lastOpeningIndex)
                                 .replace(
-                                    /^開演\s*\d{1,2}:\d{2}/,
+                                    /^開演\s*\d{1,}:\d{2}/,
                                     ""
                                 )
                                 .trim();
@@ -259,16 +287,18 @@ export async function getOfficialNewsEvents() {
 
                         const timeMatch =
                             nextLine.match(
-                                /\d{1,2}:\d{2}～\d{1,2}:\d{2}/
+                                /(\d{1,}:\d{2})\s*[～~]\s*(\d{1,}:\d{2})/
                             );
 
                         if (timeMatch) {
-                            time = timeMatch[0];
+                            time = `${timeMatch[1]}～${timeMatch[2]}`;
+                            startTime = timeMatch[1];
+                            endTime = timeMatch[2];
                         }
 
                         place = nextLine
                             .replace(
-                                /\d{1,2}:\d{2}～\d{1,2}:\d{2}/,
+                                /\d{1,}:\d{2}\s*[～~]\s*\d{1,}:\d{2}/,
                                 ""
                             )
                             .trim();
@@ -276,6 +306,9 @@ export async function getOfficialNewsEvents() {
 
                     events.push({
                         date,
+                        startTime,
+                        endTime,
+                        openTime,
                         title,
                         category,
                         place,

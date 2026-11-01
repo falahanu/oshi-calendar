@@ -2,6 +2,12 @@ import {
   getCategoryColor,
   getCategoryLightColor,
 } from "../../../shared/categoryColors";
+import {
+  compareEventsByDateAndStartTime,
+  formatEventDateForDisplay,
+  getEventTimeDisplay,
+  normalizeEventDate,
+} from "../../../shared/groupEvents";
 import { useEffect, useRef, useState } from "react";
 import { oshi } from "./config/oshi";
 
@@ -53,7 +59,19 @@ function App() {
       .then((res) => res.json())
       .then((json) => {
         console.log(json);
-        setData(json);
+        setData({
+          ...json,
+          from: normalizeEventDate(json.from),
+          to: normalizeEventDate(json.to),
+          events: (json.events ?? []).map((event: any) => ({
+            ...event,
+            date: normalizeEventDate(event.date),
+          })),
+          featuredEvents: (json.featuredEvents ?? []).map((event: any) => ({
+            ...event,
+            date: normalizeEventDate(event.date),
+          })),
+        });
       });
   }, []);
 
@@ -98,7 +116,7 @@ function App() {
 
   const selectedEvents = filteredEvents.filter(
     (event: any) => event.date === selectedDate
-  );
+  ).sort(compareEventsByDateAndStartTime);
 
   const numericVisitCount = Number(
     visitCount.replace(/,/g, "")
@@ -388,7 +406,7 @@ function App() {
           <br />
 
           公開期間：
-          {data?.from ?? ""} ～ {data?.to ?? ""}
+          {formatEventDateForDisplay(data?.from ?? "")} ～ {formatEventDateForDisplay(data?.to ?? "")}
 
           <div style={{ marginBottom: 20 }}>
             イベント件数：{groupedEvents.length}件
@@ -497,12 +515,13 @@ function App() {
             height="auto"
             eventDisplay="block"
             fixedWeekCount={false}
-            events={filteredEvents.map((event: any) => ({
+            events={[...filteredEvents].sort(compareEventsByDateAndStartTime).map((event: any) => ({
               id:
                 event.id ||
-                `${event.date}-${event.title}`,
+                `${event.date.replaceAll("/", "-")}-${event.title}`,
               title: event.title,
-              date: event.date,
+              start: normalizeEventDate(event.date),
+              allDay: true,
               backgroundColor: getCategoryColor(
                 event.category
               ),
@@ -510,11 +529,13 @@ function App() {
                 event.category
               ),
             }))}
+            eventOrder="start"
+            eventOrderStrict
             dateClick={(info) => {
-              setSelectedDate(info.dateStr);
+              setSelectedDate(normalizeEventDate(info.dateStr));
             }}
             eventClick={(info) => {
-              setSelectedDate(info.event.startStr);
+              setSelectedDate(normalizeEventDate(info.event.startStr.slice(0, 10)));
               setSelectedEventId(info.event.id);
 
               setTimeout(() => {
@@ -570,7 +591,7 @@ function App() {
                 marginBottom: 12,
               }}
             >
-              イベント一覧（{selectedDate}）
+              イベント一覧（{formatEventDateForDisplay(selectedDate)}）
             </h2>
 
             {selectedEvents.map((event: any) => (
@@ -626,12 +647,12 @@ function App() {
                 </div>
 
                 <div style={{ marginBottom: 6 }}>
-                  📅 {event.date}
+                  📅 {formatEventDateForDisplay(event.date)}
                 </div>
 
-                {event.detail && (
+                {getEventTimeDisplay(event) && (
                   <div style={{ marginBottom: 6 }}>
-                    🕐 {event.detail}
+                    🕐 {getEventTimeDisplay(event)}
                   </div>
                 )}
 

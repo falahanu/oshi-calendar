@@ -1,8 +1,17 @@
 import { useEffect, useState } from "react";
+import {
+  compareEventsByDateAndStartTime,
+  formatEventDateForDisplay,
+  getEventTimeDisplay,
+  normalizeEventDate,
+} from "../../../../shared/groupEvents";
 
 type FeaturedEvent = {
   id: string | number;
   date: string;
+  startTime: string;
+  endTime?: string;
+  openTime?: string;
   title: string;
   category: string;
   detail: string;
@@ -22,16 +31,9 @@ export default function Featured() {
       .then((res) => res.json())
       .then((data: FeaturedEvent[]) => {
         const featuredEvents = data
+          .map((event) => ({ ...event, date: normalizeEventDate(event.date) }))
           .filter((event) => event.featured === true)
-          .sort((a, b) => {
-            const dateCompare = a.date.localeCompare(b.date);
-
-            if (dateCompare !== 0) {
-              return dateCompare;
-            }
-
-            return a.title.localeCompare(b.title);
-          });
+          .sort(compareEventsByDateAndStartTime);
 
         setEvents(featuredEvents);
       })
@@ -106,7 +108,7 @@ export default function Featured() {
                     whiteSpace: "nowrap",
                   }}
                 >
-                  {event.date}
+                  {formatEventDateForDisplay(event.date)}
                 </div>
 
                 <div
@@ -137,7 +139,7 @@ export default function Featured() {
                     color: "#555",
                   }}
                 >
-                  {event.detail || ""}
+                  {getEventTimeDisplay(event)}
                 </div>
 
                 {event.url ? (

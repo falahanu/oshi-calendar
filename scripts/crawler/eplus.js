@@ -268,12 +268,21 @@ export async function getEplusEvents(URL) {
                 // ------------------------------------
 
                 const timeMatch = bodyText.match(
-                    /開演[：:]\s*(\d{1,2}:\d{2})/
+                    /開演[：:]\s*(\d{1,}:\d{2})/
                 );
 
                 const time = timeMatch
                     ? timeMatch[1]
                     : "";
+
+                const openTimeMatch = bodyText.match(
+                    /開場[：:]\s*(\d{1,}:\d{2})/
+                );
+                const endTimeMatch = bodyText.match(
+                    /終演[：:]\s*(\d{1,}:\d{2})/
+                );
+                const openTime = openTimeMatch?.[1] ?? "";
+                const endTime = endTimeMatch?.[1] ?? "";
 
                 // ------------------------------------
                 // タイトル
@@ -368,7 +377,9 @@ export async function getEplusEvents(URL) {
                 const eventData = {
                     id: `EPLUS_${extractEventKey(event.href)}`,
                     date,
-                    time,
+                    startTime: time || "不明",
+                    endTime,
+                    openTime,
                     title,
                     category: "ライブ",
                     place,
@@ -410,7 +421,7 @@ export async function getEplusEvents(URL) {
 
             const timeMatch =
                 streaming.text.match(
-                    /配信開始[：:]\s*(\d{1,2}:\d{2})/
+                    /配信開始[：:]\s*(\d{1,}:\d{2})/
                 );
 
             const time =
@@ -421,7 +432,9 @@ export async function getEplusEvents(URL) {
             const streamingEvent = {
                 id: `EPLUS_STREAMING_${extractEventKey(streaming.href)}`,
                 date,
-                time,
+                startTime: time || "不明",
+                endTime: "",
+                openTime: "",
                 title,
                 category: "配信",
                 place: "",

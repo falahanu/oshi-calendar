@@ -2,10 +2,18 @@ import {
   getCategoryColor,
   getCategoryLightColor,
 } from "../../../../shared/categoryColors";
+import {
+  compareEventsByDateAndStartTime,
+  formatEventDateForDisplay,
+  getEventTimeDisplay,
+} from "../../../../shared/groupEvents";
 
 type FeaturedEvent = {
   id?: string;
   date: string;
+  startTime: string;
+  endTime?: string;
+  openTime?: string;
   title: string;
   category: string;
   place?: string;
@@ -50,7 +58,9 @@ function FeaturedEvents({ featuredEvents }: Props) {
           gap: 14,
         }}
       >
-        {featuredEvents.map((event) => (
+        {[...featuredEvents]
+          .sort(compareEventsByDateAndStartTime)
+          .map((event) => (
           <div
             key={`${event.id}-${event.date}-${event.title}`}
             style={{
@@ -98,7 +108,7 @@ function FeaturedEvents({ featuredEvents }: Props) {
                   color: "#555",
                 }}
               >
-                {event.date}
+                {formatEventDateForDisplay(event.date)}
               </span>
             </div>
 
@@ -112,7 +122,7 @@ function FeaturedEvents({ featuredEvents }: Props) {
               {event.title}
             </div>
 
-            {event.detail && (
+            {getEventTimeDisplay(event) && (
               <div
                 style={{
                   marginBottom: 6,
@@ -120,7 +130,7 @@ function FeaturedEvents({ featuredEvents }: Props) {
                   fontSize: 14,
                 }}
               >
-                🕐 {event.detail}
+                🕐 {getEventTimeDisplay(event)}
               </div>
             )}
 
@@ -152,7 +162,7 @@ function FeaturedEvents({ featuredEvents }: Props) {
               </a>
             )}
           </div>
-        ))}
+          ))}
       </div>
     </section>
   );

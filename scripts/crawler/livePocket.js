@@ -56,6 +56,9 @@ export async function getLivePocketEvents() {
                 events.push({
                     // id,
                     date,
+                    startTime: "不明",
+                    endTime: "",
+                    openTime: "",
                     title,
                     category: "ライブ",
                     place,

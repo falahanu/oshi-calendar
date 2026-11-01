@@ -179,6 +179,9 @@ export async function getTixplusEvents(URL) {
          */
 
         let detail = "";
+        let startTime = "不明";
+        let endTime = "";
+        let openTime = "";
 
         if (scheduleItem) {
 
@@ -221,6 +224,23 @@ export async function getTixplusEvents(URL) {
 
             }
 
+            const timeSource = part
+                ? detail.replace(/^【\d+部】\s*/, "")
+                : scheduleTime;
+            const openTimeMatch = timeSource.match(
+                /開場\s*(\d{1,}:\d{2})/
+            );
+            const startTimeMatch = timeSource.match(
+                /開演\s*(\d{1,}:\d{2})/
+            );
+            const endTimeMatch = timeSource.match(
+                /終演\s*(\d{1,}:\d{2})/
+            );
+
+            openTime = openTimeMatch?.[1] ?? "";
+            startTime = startTimeMatch?.[1] ?? "不明";
+            endTime = endTimeMatch?.[1] ?? "";
+
         }
 
 
@@ -237,6 +257,9 @@ export async function getTixplusEvents(URL) {
                 : `TIXPLUS_${date.replaceAll("/", "")}`,
 
             date,
+            startTime,
+            endTime,
+            openTime,
 
             title: part
                 ? `${cleanTitle}【${part}部】`

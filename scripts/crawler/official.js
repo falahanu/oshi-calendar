@@ -69,7 +69,7 @@ export async function getOfficialEvents() {
         // テレビ・ラジオなど
         // 例：25:30～26:00
         const timeRangeMatch = rest.match(
-            /\d{1,2}:\d{2}\s*[～~]\s*\d{1,2}:\d{2}/
+            /\d{1,}:\d{2}\s*[～~]\s*\d{1,}:\d{2}/
         );
 
         if (timeRangeMatch) {
@@ -88,7 +88,7 @@ export async function getOfficialEvents() {
             // 開場 15:00 ／ 開演 16:00
             // 1部：開場 12:00 ／ 開演 13:00
             const liveTimeMatch = rest.match(
-                /(?:\d部：)?\s*開場\s*\d{1,2}:\d{2}\s*[／/]\s*開演\s*\d{1,2}:\d{2}(?:.*)?/
+                /(?:\d部：)?\s*開場\s*\d{1,}:\d{2}\s*[／/]\s*開演\s*\d{1,}:\d{2}(?:.*)?/
             );
 
             if (liveTimeMatch) {
@@ -200,9 +200,35 @@ export async function getOfficialEvents() {
         // イベントデータ
         // ================================
 
+        let startTime = "不明";
+        let endTime = "";
+        let openTime = "";
+
+        if (category === "ライブ") {
+            const openTimeMatch = time.match(/開場\s*(\d{1,}:\d{2})/);
+            const startTimeMatch = time.match(/開演\s*(\d{1,}:\d{2})/);
+            const endTimeMatch = time.match(/終演\s*(\d{1,}:\d{2})/);
+
+            openTime = openTimeMatch?.[1] ?? "";
+            startTime = startTimeMatch?.[1] ?? "不明";
+            endTime = endTimeMatch?.[1] ?? "";
+        } else if (category === "テレビ" || category === "ラジオ") {
+            const timeRangeMatch = time.match(
+                /(\d{1,}:\d{2})\s*[～~]\s*(\d{1,}:\d{2})/
+            );
+
+            if (timeRangeMatch) {
+                startTime = timeRangeMatch[1];
+                endTime = timeRangeMatch[2];
+            }
+        }
+
         events.push({
 
             date,
+            startTime,
+            endTime,
+            openTime,
             title,
             category,
             place,
