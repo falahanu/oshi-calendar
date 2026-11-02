@@ -6,6 +6,7 @@ import {
   compareEventsByDateAndStartTime,
   formatEventDateForDisplay,
   getEventTimeDisplay,
+  isPodcastEvent,
   normalizeEventDate,
 } from "../../../shared/groupEvents";
 import { useEffect, useRef, useState } from "react";
@@ -712,18 +713,54 @@ function App() {
               >
                 <div
                   style={{
-                    display: "inline-block",
-                    padding: "4px 10px",
-                    borderRadius: 20,
-                    background:
-                      getCategoryLightColor(
-                        event.category
-                      ),
-                    fontWeight: "bold",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    flexWrap: "wrap",
+                    gap: 8,
                     marginBottom: 10,
                   }}
                 >
-                  {event.category}
+                  <div
+                    style={{
+                      display: "inline-block",
+                      padding: "4px 10px",
+                      borderRadius: 20,
+                      background:
+                        getCategoryLightColor(
+                          event.category
+                        ),
+                      fontWeight: "bold",
+                    }}
+                  >
+                    {event.category}
+                  </div>
+
+                  {!isPodcastEvent(event) && (
+                    <button
+                      type="button"
+                      onClick={() => {
+                        window.open(
+                          buildGoogleCalendarUrl(event),
+                          "_blank",
+                          "noopener,noreferrer"
+                        );
+                      }}
+                      style={{
+                        flexShrink: 0,
+                        padding: "6px 9px",
+                        border: "1px solid #4285f4",
+                        borderRadius: 6,
+                        background: "white",
+                        color: "#1a73e8",
+                        fontSize: 13,
+                        fontWeight: "bold",
+                        cursor: "pointer",
+                      }}
+                    >
+                      Googleカレンダーに追加
+                    </button>
+                  )}
                 </div>
 
                 <div
@@ -806,27 +843,6 @@ function App() {
                   )}
                 </div>
 
-                <button
-                  type="button"
-                  onClick={() => {
-                    window.open(
-                      buildGoogleCalendarUrl(event),
-                      "_blank",
-                      "noopener,noreferrer"
-                    );
-                  }}
-                  style={{
-                    padding: "9px 14px",
-                    border: "1px solid #4285f4",
-                    borderRadius: 6,
-                    background: "white",
-                    color: "#1a73e8",
-                    fontWeight: "bold",
-                    cursor: "pointer",
-                  }}
-                >
-                  Googleカレンダーに追加
-                </button>
               </div>
             ))}
           </div>
