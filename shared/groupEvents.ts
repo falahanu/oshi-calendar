@@ -82,9 +82,20 @@ export function getEventTimeDisplay(event: any): string {
   }
 
   if (event.category === "ライブ") {
-    return openTime
-      ? `開場 ${openTime} / 開演 ${startTime}`
-      : `開演 ${startTime}`;
+    const endTime =
+      typeof event.endTime === "string" ? event.endTime.trim() : "";
+    const endTimeMatch = endTime.match(/^(\d+):(\d{2})$/);
+    const endTimeDisplay =
+      getStartTimeMinutes(endTime) !== null && endTimeMatch
+        ? `${endTimeMatch[1].padStart(2, "0")}:${endTimeMatch[2]}`
+        : "";
+    const timeLabels = [
+      getStartTimeMinutes(openTime) !== null ? `開場 ${openTime}` : "",
+      `開演 ${startTime}`,
+      endTimeDisplay ? `終演 ${endTimeDisplay}` : "",
+    ].filter(Boolean);
+
+    return timeLabels.join(" / ");
   }
 
   if (event.category === "テレビ" || event.category === "ラジオ") {

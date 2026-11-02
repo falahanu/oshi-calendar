@@ -31,6 +31,96 @@ function formatDate(date: Date) {
   return `${y}-${m}-${d}`;
 }
 
+function toGoogleCalendarDateTime(date: string, time: string) {
+  const normalizedDate = normalizeEventDate(date);
+  const dateMatch = normalizedDate.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  const timeMatch = time.trim().match(/^(\d+):(\d{2})$/);
+
+  if (!dateMatch || !timeMatch || Number(timeMatch[2]) > 59) {
+    return null;
+  }
+
+  const totalMinutes = Number(timeMatch[1]) * 60 + Number(timeMatch[2]);
+  const dayOffset = Math.floor(totalMinutes / (24 * 60));
+  const minuteOfDay = totalMinutes % (24 * 60);
+  const eventDate = new Date(Date.UTC(
+    Number(dateMatch[1]),
+    Number(dateMatch[2]) - 1,
+    Number(dateMatch[3]) + dayOffset
+  ));
+  const year = eventDate.getUTCFullYear();
+  const month = String(eventDate.getUTCMonth() + 1).padStart(2, "0");
+  const day = String(eventDate.getUTCDate()).padStart(2, "0");
+  const hour = String(Math.floor(minuteOfDay / 60)).padStart(2, "0");
+  const minute = String(minuteOfDay % 60).padStart(2, "0");
+
+  return `${year}${month}${day}T${hour}${minute}00`;
+}
+
+function buildGoogleCalendarUrl(event: any) {
+  const date = normalizeEventDate(event.date);
+  const startTime =
+    typeof event.startTime === "string" ? event.startTime.trim() : "";
+  const start =
+    startTime && startTime !== "不明"
+      ? toGoogleCalendarDateTime(date, startTime)
+      : null;
+  const endTime =
+    typeof event.endTime === "string" ? event.endTime.trim() : "";
+  const end = start && endTime && endTime !== "不明"
+    ? toGoogleCalendarDateTime(date, endTime)
+    : null;
+  const dateMatch = date.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  const params = new URLSearchParams({
+    action: "TEMPLATE",
+    text: event.title ?? "",
+  });
+
+  if (start && end) {
+    params.set("dates", `${start}/${end}`);
+  } else if (start) {
+    params.set("dates", `${start}/`);
+  } else if (dateMatch) {
+    const nextDate = new Date(Date.UTC(
+      Number(dateMatch[1]),
+      Number(dateMatch[2]) - 1,
+      Number(dateMatch[3]) + 1
+    ));
+    const formatDay = (value: Date) =>
+      `${value.getUTCFullYear()}${String(value.getUTCMonth() + 1).padStart(2, "0")}${String(value.getUTCDate()).padStart(2, "0")}`;
+    params.set("dates", `${formatDay(new Date(Date.UTC(
+      Number(dateMatch[1]),
+      Number(dateMatch[2]) - 1,
+      Number(dateMatch[3])
+    )))}/${formatDay(nextDate)}`);
+  }
+
+  params.set("stz", "Asia/Tokyo");
+  params.set("etz", "Asia/Tokyo");
+
+  if (event.place) {
+    params.set("location", event.place);
+  }
+
+  const descriptionLines = [
+    event.openTime && event.openTime !== "不明"
+      ? `開場時刻: ${event.openTime}`
+      : "",
+    event.performers ? `出演者: ${event.performers}` : "",
+    event.detail || "",
+    ...(event.sources ?? [])
+      .filter((source: any) => source.url)
+      .map((source: any) => `${source.source || "情報元"}: ${source.url}`),
+    ...(!event.sources?.length && event.url ? [event.url] : []),
+  ].filter(Boolean);
+
+  if (descriptionLines.length > 0) {
+    params.set("details", descriptionLines.join("\n"));
+  }
+
+  return `https://calendar.google.com/calendar/render?${params.toString()}`;
+}
+
 function isMilestoneVisit(count: number) {
   if (count < 100) {
     return false;
@@ -715,6 +805,28 @@ function App() {
                     )
                   )}
                 </div>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    window.open(
+                      buildGoogleCalendarUrl(event),
+                      "_blank",
+                      "noopener,noreferrer"
+                    );
+                  }}
+                  style={{
+                    padding: "9px 14px",
+                    border: "1px solid #4285f4",
+                    borderRadius: 6,
+                    background: "white",
+                    color: "#1a73e8",
+                    fontWeight: "bold",
+                    cursor: "pointer",
+                  }}
+                >
+                  Googleカレンダーに追加
+                </button>
               </div>
             ))}
           </div>
