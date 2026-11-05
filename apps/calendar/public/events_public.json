@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-11-02T13:55:40.331Z",
-  "from": "2025-11-02",
-  "to": "2027-11-02",
+  "lastUpdate": "2026-11-05T13:26:55.110Z",
+  "from": "2025-11-05",
+  "to": "2027-11-05",
   "events": [
     {
       "id": 17,
@@ -8337,7 +8337,7 @@
       "place": "東海大学 2号館2S-101",
       "performers": "#ママタルト#ヤーレンズ#吉住#ロッチ#ワタリ119",
       "url": "",
-      "status": "予定",
+      "status": "終了",
       "source": "X",
       "detail": "開場 13:00開演14:00",
       "management": "手動",
@@ -8360,7 +8360,7 @@
       "place": "映画・chNECO",
       "performers": "ヤーレンズ、小林麗奈",
       "url": "https://bangumi.org/tv_events/AmQwDfgmQAI?from=search",
-      "status": "予定",
+      "status": "終了",
       "source": "Gguide",
       "detail": "19:05 -20:50",
       "management": "手動",
@@ -8383,7 +8383,7 @@
       "place": "ABCラジオ",
       "performers": "ヤーレンズ、元祖いちごちゃん",
       "url": "https://radiko.jp/r_seasons/42603",
-      "status": "予定",
+      "status": "終了",
       "source": "Radiko、Youtubeもあり",
       "detail": "21:15～23:30",
       "management": "自動",
@@ -8406,7 +8406,7 @@
       "place": "茨城キリスト教大学",
       "performers": "真空ジェシカ、ヤーレンズ、どんぐりたけし",
       "url": "https://snapwidget.com/v/ib/18632501971004919/?src=lnLGLVMg",
-      "status": "予定",
+      "status": "終了",
       "source": "HP",
       "detail": "16:00～@メインステージ（野外） 観覧無料",
       "management": "自動",
@@ -8429,7 +8429,7 @@
       "place": "NHK総合1・東京",
       "performers": "【司会】若林正恭，【出演】吉村崇，横澤夏子，佐々木久美，明治大学教授…齋藤孝，ヤーレンズ，ほか",
       "url": "https://bangumi.org/tv_events/AmRAQAMf4AM?from=search",
-      "status": "予定",
+      "status": "終了",
       "source": "Gguide",
       "detail": "20:15 -20:55",
       "management": "手動",
@@ -8452,7 +8452,7 @@
       "place": "[東京] KANDA SQUARE HALL",
       "performers": "ヤーレンズ、他多数",
       "url": "https://ticket.fany.lol/search/event?keywords=M-1%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%97%E3%83%AA2026%E3%80%803%E5%9B%9E%E6%88%A6&from=&to=&prefectures=13&genre=0&search_type=form",
-      "status": "予定",
+      "status": "終了",
       "source": "FANY",
       "detail": "開場 12:30 開演 13:00",
       "management": "手動",
@@ -8475,7 +8475,7 @@
       "place": "スタァライト劇場（飛行船シアター）",
       "performers": "ヤーレンズ/令和ロマン/ジグザグジギー カラタチ/ひつじねいり ママタルト/ネコニスズ/サツマカワRPG",
       "url": "https://livepocket.jp/e/vivipro2nd-highlight",
-      "status": "予定",
+      "status": "終了",
       "source": "LivePocket",
       "detail": "開場15:30／開演16:00／終演17:30",
       "management": "手動",
@@ -8498,7 +8498,7 @@
       "place": "スタァライト劇場（飛行船シアター）",
       "performers": "令和ロマン/ヤーレンズ/ジグザグジギー/カラタチ/ひつじねいり/マシンガンズ/リニア/ファイヤーサンダー/ザ・マミィ/春とヒコーキ/サツマカワRPG/ネコニスズ/トム・ブラウン/ママタルト",
       "url": "https://livepocket.jp/e/vivipro2nd-allstar",
-      "status": "予定",
+      "status": "終了",
       "source": "LivePocket",
       "detail": "開場18:30／開演19:00／終演21:30",
       "management": "手動",
@@ -9201,6 +9201,29 @@
       ]
     },
     {
+      "id": 458,
+      "date": "2026-11-30",
+      "startTime": "19:10",
+      "endTime": "",
+      "openTime": "18:50",
+      "title": "紅 vol.3",
+      "category": "ライブ",
+      "place": "銀座お笑いPLACE(東京都)",
+      "performers": "ヤーレンズ / DITO /にゃんこスター/ぽんぽこ/ジャンク/",
+      "url": "https://tiget.net/events/535917",
+      "status": "予定",
+      "source": "TIGET予定",
+      "detail": "URL先まだ",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "TIGET予定",
+          "url": "https://tiget.net/events/535917"
+        }
+      ]
+    },
+    {
       "id": 449,
       "date": "2026-11-30",
       "startTime": "21:15",
@@ -9224,6 +9247,29 @@
       ]
     },
     {
+      "id": 457,
+      "date": "2026-12-01",
+      "startTime": "19:30",
+      "endTime": "",
+      "openTime": "19:10",
+      "title": "プレミアムスパークル３",
+      "category": "ライブ",
+      "place": "南大塚ホール(東京都)",
+      "performers": "ヤーレンズ / 今夜も星が綺麗 / TCクラクション / ひつじねいり / フランツ / ミラクルST計画 / カガリ / ボーヨー",
+      "url": "https://tiget.net/events/535318",
+      "status": "予定",
+      "source": "TIGET",
+      "detail": "11/10（火）22時よりチケット発売開始",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "TIGET",
+          "url": "https://tiget.net/events/535318"
+        }
+      ]
+    },
+    {
       "id": 450,
       "date": "2026-12-02",
       "startTime": "19:00",
@@ -9233,16 +9279,39 @@
       "category": "ライブ",
       "place": "東京・サンシャイン劇場",
       "performers": "TCクラクション / ヤーレンズ / ネコニスズ / 東京ホテイソン / フランスピアノ / 豆鉄砲 / 十九人 / パパパスタ!? ほか",
-      "url": "",
+      "url": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2671497",
       "status": "予定",
-      "source": "ぴあ予定",
+      "source": "ぴあ",
       "detail": "18:30開場 19:00開演",
       "management": "手動",
       "featured": false,
       "sources": [
         {
-          "source": "ぴあ予定",
-          "url": ""
+          "source": "ぴあ",
+          "url": "https://t.pia.jp/pia/event/event.do?eventBundleCd=b2671497"
+        }
+      ]
+    },
+    {
+      "id": 459,
+      "date": "2026-12-02",
+      "startTime": "19:30",
+      "endTime": "",
+      "openTime": "19:00",
+      "title": "オードリーとケイダッシュ芸人のネタライブ",
+      "category": "ライブ",
+      "place": "一ツ橋ホール (東京都)",
+      "performers": "オードリー/はなわ/ハマカーン/トム・ブラウン/ヤーレンズ",
+      "url": "https://livepocket.jp/e/xkxm-",
+      "status": "開催予定",
+      "source": "TIGET",
+      "detail": "5,000円（税込）",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "TIGET",
+          "url": "https://livepocket.jp/e/xkxm-"
         }
       ]
     },
