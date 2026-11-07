@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-07T16:54:00.610Z",
+  "lastUpdate": "2026-11-07T22:53:28.122Z",
   "from": "2025-11-07",
   "to": "2027-11-07",
   "events": [
@@ -8475,7 +8475,7 @@
       "place": "テレビ東京",
       "performers": "ヤーレンズ、真空ジェシカ",
       "url": "https://tver.jp/series/sryhlrcydxb",
-      "status": "予定",
+      "status": "終了",
       "source": "Tverあり",
       "detail": "25:30～26:00",
       "management": "手動",
@@ -8498,7 +8498,7 @@
       "place": "10301教室(生田キャンパス10号館3階)",
       "performers": "ヤーレンズ",
       "url": "",
-      "status": "予定",
+      "status": "終了",
       "source": "X",
       "detail": "観覧無料",
       "management": "手動",
@@ -8521,7 +8521,7 @@
       "place": "Podcast",
       "performers": "ヤーレンズ",
       "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX",
-      "status": "予定",
+      "status": "終了",
       "source": "spotify",
       "detail": "配信",
       "management": "手動",
@@ -8544,7 +8544,7 @@
       "place": "令和健康科学大学 体育館",
       "performers": "ヤーレンズ、しゃかりき",
       "url": "",
-      "status": "予定",
+      "status": "終了",
       "source": "X",
       "detail": "無料",
       "management": "手動",
@@ -8567,7 +8567,7 @@
       "place": "フジテレビ",
       "performers": "【愛のクレーマー】 滝沢秀一（マシンガンズ） 出井隼之介（ヤーレンズ） 楢原真樹（ヤーレンズ） 西堀亮（マシンガンズ）",
       "url": "https://bangumi.org/tv_events/AmQQQgVKUAM?from=search",
-      "status": "予定",
+      "status": "終了",
       "source": "Gguide",
       "detail": "23:10 -23:40",
       "management": "手動",
@@ -8599,6 +8599,29 @@
         {
           "source": "X",
           "url": "https://www.fcufesta.com/post/2026guest"
+        }
+      ]
+    },
+    {
+      "id": 462,
+      "date": "2026-11-08",
+      "startTime": "19:20",
+      "endTime": "",
+      "openTime": "19:00",
+      "title": "11/8(日)バティオスで#ワイガヤ《3部》",
+      "category": "ライブ",
+      "place": "新宿バティオス(東京都)",
+      "performers": "Yes!アキト / イチゴ / 鬼塚ムソウ / 思わず触れたくなるよぴぴ / キュウ / 世界クジラ / ドラマ☆麺 / 生ファラオ / ハマノとヘンミ / ファイヤーサンダー / ブラゴーリ / ぺ / めぞん / 百恵 / リバーマン / ヤーレンズ",
+      "url": "https://tiget.net/events/532846",
+      "status": "開催予定",
+      "source": "TIGET",
+      "detail": "開場 19:00 / 開演 19:20",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "TIGET",
+          "url": "https://tiget.net/events/532846"
         }
       ]
     },
