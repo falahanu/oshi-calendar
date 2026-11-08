@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2026-11-07T22:53:28.122Z",
-  "from": "2025-11-07",
-  "to": "2027-11-07",
+  "lastUpdate": "2026-11-08T05:45:04.684Z",
+  "from": "2025-11-08",
+  "to": "2027-11-08",
   "events": [
     {
       "id": 20,
@@ -8622,6 +8622,29 @@
         {
           "source": "TIGET",
           "url": "https://tiget.net/events/532846"
+        }
+      ]
+    },
+    {
+      "id": 463,
+      "date": "2026-11-09",
+      "startTime": "19:00",
+      "endTime": "",
+      "openTime": "18:45",
+      "title": "ファンファン魂！",
+      "category": "ライブ",
+      "place": "新宿バッシュ!!(東京都)",
+      "performers": "相性はいいよね / セッツァー / 魂ず / ピュンパティ / ハラハシモト / 青御膳 / ピクニック / トワイライト渚 / ランパンプス / ブリキカラス / 世界クジラ / 西ノ京 / ニューシャネル / ゆむら / レシートズ / うちまつげ / ぱろぱろ / うすらトンカチ / 海岸 / Reオリオン / ヤーレンズ",
+      "url": "https://tiget.net/events/529808",
+      "status": "開催予定",
+      "source": "TIGET",
+      "detail": "開場 18:45 / 開演 19:00",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "TIGET",
+          "url": "https://tiget.net/events/529808"
         }
       ]
     },
