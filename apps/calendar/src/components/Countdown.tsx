@@ -5,6 +5,7 @@ function Countdown() {
     days: 0,
     hours: 0,
     minutes: 0,
+    isUnder24Hours: false,
     isToday: false,
     isFinished: false,
   });
@@ -25,6 +26,7 @@ function Countdown() {
           days: 0,
           hours: 0,
           minutes: 0,
+          isUnder24Hours: false,
           isToday: true,
           isFinished: true,
         });
@@ -35,20 +37,27 @@ function Countdown() {
         remaining / (1000 * 60)
       );
 
-      const days = Math.floor(
-        totalMinutes / (60 * 24)
-      );
-
-      const hours = Math.floor(
-        (totalMinutes % (60 * 24)) / 60
-      );
-
+      const isUnder24Hours = remaining < 24 * 60 * 60 * 1000;
+      const hours = Math.floor(totalMinutes / 60);
       const minutes = totalMinutes % 60;
+
+      // 日付単位の残日数は日本時間で比較する。
+      const jstNow = new Date(now + 9 * 60 * 60 * 1000);
+      const todayJst = Date.UTC(
+        jstNow.getUTCFullYear(),
+        jstNow.getUTCMonth(),
+        jstNow.getUTCDate()
+      );
+      const liveDateJst = Date.UTC(2027, 2, 7);
+      const days = Math.floor(
+        (liveDateJst - todayJst) / (24 * 60 * 60 * 1000)
+      );
 
       setCountdown({
         days,
         hours,
         minutes,
+        isUnder24Hours,
         isToday: false,
         isFinished: false,
       });
@@ -144,7 +153,7 @@ function Countdown() {
         >
           🎉 開演しました！
         </div>
-      ) : countdown.days === 0 ? (
+      ) : countdown.isUnder24Hours ? (
         <div
           style={{
             fontSize: 30,
@@ -154,18 +163,6 @@ function Countdown() {
           }}
         >
           あと {countdown.hours}時間{" "}
-          {countdown.minutes}分
-        </div>
-      ) : countdown.days === 1 ? (
-        <div
-          style={{
-            fontSize: 30,
-            fontWeight: "bold",
-            lineHeight: 1.3,
-            marginBottom: 12,
-          }}
-        >
-          あと {countdown.hours + 24}時間{" "}
           {countdown.minutes}分
         </div>
       ) : (
