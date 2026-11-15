@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-15T02:19:07.966Z",
+  "lastUpdate": "2026-11-15T11:49:30.571Z",
   "from": "2025-11-15",
   "to": "2027-11-15",
   "events": [
@@ -8705,7 +8705,7 @@
       "place": "月島社会教育会館ホール",
       "performers": "キュウ／カラタチ／インテイク／ストレッチーズ／今夜も星が綺麗／ひつじねいり／センチネル／TCクラクション／豆鉄砲／十九人／こてつ園田／パンプキンポテトフライ／ヤーレンズ",
       "url": "https://livepocket.jp/e/frontline261112",
-      "status": "予定",
+      "status": "終了",
       "source": "Livepocket",
       "detail": "",
       "management": "手動",
@@ -8728,7 +8728,7 @@
       "place": "銀座お笑いPLACE(東京都)",
       "performers": "高校ズ / バベコンブ / タワー / 太鵬 / ヤーレンズ / 他",
       "url": "https://tiget.net/events/530076",
-      "status": "開催予定",
+      "status": "終了",
       "source": "TIGET",
       "detail": "開場 19:15 / 開演 19:30",
       "management": "手動",
@@ -8751,7 +8751,7 @@
       "place": "銀座お笑いPLACE(東京都)",
       "performers": "高校ズ / バベコンブ / タワー / 太鵬 / ヤーレンズ / 他",
       "url": "https://tiget.net/events/530077",
-      "status": "開催予定",
+      "status": "終了",
       "source": "TIGET",
       "detail": "開場 20:45 / 開演 21:00",
       "management": "手動",
@@ -8774,7 +8774,7 @@
       "place": "テレビ東京",
       "performers": "ヤーレンズ、真空ジェシカ",
       "url": "https://tver.jp/series/sryhlrcydxb",
-      "status": "予定",
+      "status": "終了",
       "source": "Tverあり",
       "detail": "25:30～26:00",
       "management": "手動",
@@ -8797,7 +8797,7 @@
       "place": "野方区民ホール (東京都)",
       "performers": "ヤーレンズ/キュウ/さすらいラビー 随時追加",
       "url": "https://livepocket.jp/e/4hf1l",
-      "status": "予定",
+      "status": "終了",
       "source": "Livepocket",
       "detail": "",
       "management": "手動",
@@ -8820,7 +8820,7 @@
       "place": "Podcast",
       "performers": "ヤーレンズ",
       "url": "https://open.spotify.com/show/11ahQvh5b9pEdxBgBDpDWX",
-      "status": "予定",
+      "status": "終了",
       "source": "spotify",
       "detail": "配信",
       "management": "手動",
@@ -8833,7 +8833,30 @@
       ]
     },
     {
-      "id": 437,
+      "id": 436,
+      "date": "2026-11-14",
+      "startTime": "14:25",
+      "endTime": "15:10",
+      "openTime": "",
+      "title": "おとな時間研究所（出井・再放送）",
+      "category": "テレビ",
+      "place": "NHKEテレ",
+      "performers": "出井隼之介",
+      "url": "",
+      "status": "終了",
+      "source": "公式",
+      "detail": "",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 438,
       "date": "2026-11-15",
       "startTime": "11:50",
       "endTime": "",
@@ -8856,7 +8879,7 @@
       ]
     },
     {
-      "id": 436,
+      "id": 437,
       "date": "2026-11-15",
       "startTime": "19:30",
       "endTime": "21:00",
@@ -8879,7 +8902,7 @@
       ]
     },
     {
-      "id": 438,
+      "id": 439,
       "date": "2026-11-16",
       "startTime": "19:00",
       "endTime": "20:00",
@@ -8902,7 +8925,7 @@
       ]
     },
     {
-      "id": 439,
+      "id": 440,
       "date": "2026-11-16",
       "startTime": "21:15",
       "endTime": "23:30",
@@ -8926,6 +8949,52 @@
     },
     {
       "id": 441,
+      "date": "2026-11-17",
+      "startTime": "22:15",
+      "endTime": "",
+      "openTime": "22:05",
+      "title": "ネタ叩き〜みんなで本番直前SP〜【11/17(火)】",
+      "category": "ライブ",
+      "place": "中野の劇場サッチー(東京都)",
+      "performers": "鬼塚ムソウ / うえしえがしら / さすらいラビー / 十九人 / ストレッチーズ / ちゃんぴおんず / 生ハムバジルチーズ / バリカタ友情飯 / ふゆう空間 / ヤーレンズ / ラパルフェ",
+      "url": "https://tiget.net/events/539146",
+      "status": "開催予定",
+      "source": "TIGET",
+      "detail": "開場 22:05 / 開演 22:15",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "TIGET",
+          "url": "https://tiget.net/events/539146"
+        }
+      ]
+    },
+    {
+      "id": 444,
+      "date": "2026-11-18",
+      "startTime": "11:55",
+      "endTime": "13:55",
+      "openTime": "",
+      "title": "ヒルナンデス",
+      "category": "テレビ",
+      "place": "日本テレビ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "11:55～13:55",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 443,
       "date": "2026-11-18",
       "startTime": "19:30",
       "endTime": "20:30",
@@ -8948,7 +9017,7 @@
       ]
     },
     {
-      "id": 440,
+      "id": 442,
       "date": "2026-11-18",
       "startTime": "24:00",
       "endTime": "25:00",
@@ -8971,7 +9040,7 @@
       ]
     },
     {
-      "id": 443,
+      "id": 446,
       "date": "2026-11-19",
       "startTime": "8:30",
       "endTime": "11:00",
@@ -8994,7 +9063,7 @@
       ]
     },
     {
-      "id": 442,
+      "id": 445,
       "date": "2026-11-19",
       "startTime": "25:30",
       "endTime": "26:00",
@@ -9017,7 +9086,7 @@
       ]
     },
     {
-      "id": 445,
+      "id": 448,
       "date": "2026-11-20",
       "startTime": "17:00",
       "endTime": "",
@@ -9026,7 +9095,7 @@
       "category": "ライブ",
       "place": "[東京] ルミネtheよしもと",
       "performers": "ヤーレンズ、他多数",
-      "url": "http://ticket.fany.lol/event/detail/23022",
+      "url": "https://ticket.fany.lol/reception/74266/58814",
       "status": "開催予定",
       "source": "FANY",
       "detail": "配信もあるよ",
@@ -9035,12 +9104,12 @@
       "sources": [
         {
           "source": "FANY",
-          "url": "http://ticket.fany.lol/event/detail/23022"
+          "url": "https://ticket.fany.lol/reception/74266/58814"
         }
       ]
     },
     {
-      "id": 444,
+      "id": 447,
       "date": "2026-11-20",
       "startTime": "不明",
       "endTime": "",
@@ -9063,7 +9132,7 @@
       ]
     },
     {
-      "id": 447,
+      "id": 450,
       "date": "2026-11-21",
       "startTime": "12:30",
       "endTime": "14:15",
@@ -9086,7 +9155,7 @@
       ]
     },
     {
-      "id": 446,
+      "id": 449,
       "date": "2026-11-21",
       "startTime": "15:30",
       "endTime": "17:15",
@@ -9109,7 +9178,7 @@
       ]
     },
     {
-      "id": 448,
+      "id": 451,
       "date": "2026-11-22",
       "startTime": "12:30",
       "endTime": "",
@@ -9132,7 +9201,7 @@
       ]
     },
     {
-      "id": 451,
+      "id": 454,
       "date": "2026-11-23",
       "startTime": "12:15",
       "endTime": "",
@@ -9155,7 +9224,7 @@
       ]
     },
     {
-      "id": 449,
+      "id": 452,
       "date": "2026-11-23",
       "startTime": "16:10",
       "endTime": "",
@@ -9178,7 +9247,7 @@
       ]
     },
     {
-      "id": 450,
+      "id": 453,
       "date": "2026-11-23",
       "startTime": "21:15",
       "endTime": "23:30",
@@ -9201,7 +9270,7 @@
       ]
     },
     {
-      "id": 452,
+      "id": 455,
       "date": "2026-11-25",
       "startTime": "19:30",
       "endTime": "",
@@ -9224,7 +9293,7 @@
       ]
     },
     {
-      "id": 455,
+      "id": 458,
       "date": "2026-11-26",
       "startTime": "17:00",
       "endTime": "",
@@ -9247,7 +9316,7 @@
       ]
     },
     {
-      "id": 454,
+      "id": 457,
       "date": "2026-11-26",
       "startTime": "19:30",
       "endTime": "21:30",
@@ -9270,7 +9339,7 @@
       ]
     },
     {
-      "id": 453,
+      "id": 456,
       "date": "2026-11-26",
       "startTime": "25:30",
       "endTime": "26:00",
@@ -9293,7 +9362,7 @@
       ]
     },
     {
-      "id": 456,
+      "id": 459,
       "date": "2026-11-27",
       "startTime": "不明",
       "endTime": "",
@@ -9316,7 +9385,7 @@
       ]
     },
     {
-      "id": 458,
+      "id": 461,
       "date": "2026-11-28",
       "startTime": "16:00",
       "endTime": "17:00",
@@ -9339,7 +9408,7 @@
       ]
     },
     {
-      "id": 457,
+      "id": 460,
       "date": "2026-11-28",
       "startTime": "27:00",
       "endTime": "29:00",
@@ -9362,7 +9431,7 @@
       ]
     },
     {
-      "id": 461,
+      "id": 464,
       "date": "2026-11-29",
       "startTime": "10:30",
       "endTime": "",
@@ -9385,7 +9454,7 @@
       ]
     },
     {
-      "id": 460,
+      "id": 463,
       "date": "2026-11-29",
       "startTime": "16:00",
       "endTime": "",
@@ -9408,7 +9477,7 @@
       ]
     },
     {
-      "id": 459,
+      "id": 462,
       "date": "2026-11-29",
       "startTime": "24:00",
       "endTime": "24:30",
@@ -9431,7 +9500,7 @@
       ]
     },
     {
-      "id": 462,
+      "id": 465,
       "date": "2026-11-30",
       "startTime": "19:10",
       "endTime": "",
@@ -9454,7 +9523,7 @@
       ]
     },
     {
-      "id": 463,
+      "id": 466,
       "date": "2026-11-30",
       "startTime": "21:15",
       "endTime": "23:30",
@@ -9477,7 +9546,7 @@
       ]
     },
     {
-      "id": 465,
+      "id": 468,
       "date": "2026-12-01",
       "startTime": "19:30",
       "endTime": "",
@@ -9500,7 +9569,7 @@
       ]
     },
     {
-      "id": 464,
+      "id": 467,
       "date": "2026-12-01",
       "startTime": "21:30",
       "endTime": "",
@@ -9523,7 +9592,7 @@
       ]
     },
     {
-      "id": 467,
+      "id": 470,
       "date": "2026-12-02",
       "startTime": "19:00",
       "endTime": "",
@@ -9546,7 +9615,7 @@
       ]
     },
     {
-      "id": 466,
+      "id": 469,
       "date": "2026-12-02",
       "startTime": "19:30",
       "endTime": "",
@@ -9569,7 +9638,7 @@
       ]
     },
     {
-      "id": 469,
+      "id": 472,
       "date": "2026-12-06",
       "startTime": "10:45",
       "endTime": "",
@@ -9592,7 +9661,7 @@
       ]
     },
     {
-      "id": 468,
+      "id": 471,
       "date": "2026-12-06",
       "startTime": "14:15",
       "endTime": "",
@@ -9615,7 +9684,7 @@
       ]
     },
     {
-      "id": 470,
+      "id": 473,
       "date": "2026-12-13",
       "startTime": "19:30",
       "endTime": "",
@@ -9638,7 +9707,7 @@
       ]
     },
     {
-      "id": 471,
+      "id": 474,
       "date": "2026-12-14",
       "startTime": "18:00",
       "endTime": "",
@@ -9661,7 +9730,7 @@
       ]
     },
     {
-      "id": 472,
+      "id": 475,
       "date": "2026-12-19",
       "startTime": "15:30",
       "endTime": "17:00",
@@ -9684,7 +9753,7 @@
       ]
     },
     {
-      "id": 473,
+      "id": 476,
       "date": "2027-01-31",
       "startTime": "14:00",
       "endTime": "20:00",
@@ -9707,7 +9776,7 @@
       ]
     },
     {
-      "id": 474,
+      "id": 477,
       "date": "2027-03-07",
       "startTime": "16:00",
       "endTime": "",
@@ -9732,7 +9801,7 @@
   ],
   "featuredEvents": [
     {
-      "id": 474,
+      "id": 477,
       "date": "2027-03-07",
       "startTime": "16:00",
       "endTime": "",
