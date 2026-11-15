@@ -1,31 +1,8 @@
 {
-  "lastUpdate": "2026-11-12T13:58:26.582Z",
-  "from": "2025-11-12",
-  "to": "2027-11-12",
+  "lastUpdate": "2026-11-15T02:19:07.966Z",
+  "from": "2025-11-15",
+  "to": "2027-11-15",
   "events": [
-    {
-      "id": 20,
-      "date": "2025-11-13",
-      "startTime": "19:30",
-      "endTime": "",
-      "openTime": "",
-      "title": "ヤーレンズ寄席 ＃14",
-      "category": "ライブ",
-      "place": "西荻窪勤労福祉会館",
-      "performers": "ヤーレンズ、カナメストーン、真空ジェシカ",
-      "url": "https://www.kdashstage.jp/topic/archives/2014",
-      "status": "終了",
-      "source": "公式",
-      "detail": "開場19:00／開演19:30／終演21:00",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式",
-          "url": "https://www.kdashstage.jp/topic/archives/2014"
-        }
-      ]
-    },
     {
       "id": 22,
       "date": "2025-11-22",
@@ -8913,13 +8890,13 @@
       "performers": "ヤーレンズ/たまゆら学園/らくちんペクチン/偽ビートルズ",
       "url": "https://livepocket.jp/e/4f54s",
       "status": "開催予定",
-      "source": "TIGET",
+      "source": "Livepocket",
       "detail": "整理番号付き自由席2500円",
       "management": "手動",
       "featured": false,
       "sources": [
         {
-          "source": "TIGET",
+          "source": "Livepocket",
           "url": "https://livepocket.jp/e/4f54s"
         }
       ]
@@ -8948,29 +8925,6 @@
       ]
     },
     {
-      "id": 440,
-      "date": "2026-11-17",
-      "startTime": "24:00",
-      "endTime": "25:00",
-      "openTime": "",
-      "title": "J-WAVE「SPARK」",
-      "category": "ラジオ",
-      "place": "J-WAVE",
-      "performers": "新井和輝（King Gnu）、ヤーレンズ",
-      "url": "https://www.kdashstage.jp/news/legacy-kdashstage-112/",
-      "status": "予定",
-      "source": "公式",
-      "detail": "",
-      "management": "手動",
-      "featured": false,
-      "sources": [
-        {
-          "source": "公式",
-          "url": "https://www.kdashstage.jp/news/legacy-kdashstage-112/"
-        }
-      ]
-    },
-    {
       "id": 441,
       "date": "2026-11-18",
       "startTime": "19:30",
@@ -8990,6 +8944,29 @@
         {
           "source": "Livepocket",
           "url": "https://livepocket.jp/e/z2nvo"
+        }
+      ]
+    },
+    {
+      "id": 440,
+      "date": "2026-11-18",
+      "startTime": "24:00",
+      "endTime": "25:00",
+      "openTime": "",
+      "title": "J-WAVE「SPARK」",
+      "category": "ラジオ",
+      "place": "J-WAVE",
+      "performers": "新井和輝（King Gnu）、ヤーレンズ",
+      "url": "https://www.kdashstage.jp/news/legacy-kdashstage-112/",
+      "status": "予定",
+      "source": "公式",
+      "detail": "",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "公式",
+          "url": "https://www.kdashstage.jp/news/legacy-kdashstage-112/"
         }
       ]
     },
@@ -9339,6 +9316,29 @@
       ]
     },
     {
+      "id": 458,
+      "date": "2026-11-28",
+      "startTime": "16:00",
+      "endTime": "17:00",
+      "openTime": "15:50",
+      "title": "いざ戦へ！～頑張れ頑張れみんなワァ〜M-1グランプリ2026編🏆",
+      "category": "ライブ",
+      "place": "新宿ハイジアV-1",
+      "performers": "イチゴ/ヤーレンズ/and more‼️",
+      "url": "",
+      "status": "予定",
+      "source": "TicketDive",
+      "detail": "🎫前売料金　1,111円",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "TicketDive",
+          "url": ""
+        }
+      ]
+    },
+    {
       "id": 457,
       "date": "2026-11-28",
       "startTime": "27:00",
@@ -9362,7 +9362,30 @@
       ]
     },
     {
-      "id": 458,
+      "id": 461,
+      "date": "2026-11-29",
+      "startTime": "10:30",
+      "endTime": "",
+      "openTime": "12:30",
+      "title": "日本福祉大学東海キャンパス キャンパス祭",
+      "category": "ライブ",
+      "place": "日本福祉大学東海キャンパス\r\n",
+      "performers": "ぱーてぃーちゃん・なかやまきんに君・ヤーレンズ",
+      "url": "",
+      "status": "開催予定",
+      "source": "X",
+      "detail": "ヤーレンズは12時から",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "X",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 460,
       "date": "2026-11-29",
       "startTime": "16:00",
       "endTime": "",
@@ -9386,6 +9409,29 @@
     },
     {
       "id": 459,
+      "date": "2026-11-29",
+      "startTime": "24:00",
+      "endTime": "24:30",
+      "openTime": "",
+      "title": "NOW OFF AIR！byヤーレンズ",
+      "category": "ラジオ",
+      "place": "RKBラジオ",
+      "performers": "ヤーレンズ",
+      "url": "",
+      "status": "予定",
+      "source": "公式",
+      "detail": "",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "公式",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 462,
       "date": "2026-11-30",
       "startTime": "19:10",
       "endTime": "",
@@ -9408,7 +9454,7 @@
       ]
     },
     {
-      "id": 460,
+      "id": 463,
       "date": "2026-11-30",
       "startTime": "21:15",
       "endTime": "23:30",
@@ -9431,7 +9477,7 @@
       ]
     },
     {
-      "id": 462,
+      "id": 465,
       "date": "2026-12-01",
       "startTime": "19:30",
       "endTime": "",
@@ -9454,7 +9500,7 @@
       ]
     },
     {
-      "id": 461,
+      "id": 464,
       "date": "2026-12-01",
       "startTime": "21:30",
       "endTime": "",
@@ -9477,7 +9523,7 @@
       ]
     },
     {
-      "id": 464,
+      "id": 467,
       "date": "2026-12-02",
       "startTime": "19:00",
       "endTime": "",
@@ -9500,7 +9546,7 @@
       ]
     },
     {
-      "id": 463,
+      "id": 466,
       "date": "2026-12-02",
       "startTime": "19:30",
       "endTime": "",
@@ -9523,7 +9569,7 @@
       ]
     },
     {
-      "id": 466,
+      "id": 469,
       "date": "2026-12-06",
       "startTime": "10:45",
       "endTime": "",
@@ -9546,7 +9592,7 @@
       ]
     },
     {
-      "id": 465,
+      "id": 468,
       "date": "2026-12-06",
       "startTime": "14:15",
       "endTime": "",
@@ -9569,7 +9615,7 @@
       ]
     },
     {
-      "id": 467,
+      "id": 470,
       "date": "2026-12-13",
       "startTime": "19:30",
       "endTime": "",
@@ -9592,7 +9638,7 @@
       ]
     },
     {
-      "id": 468,
+      "id": 471,
       "date": "2026-12-14",
       "startTime": "18:00",
       "endTime": "",
@@ -9615,7 +9661,7 @@
       ]
     },
     {
-      "id": 469,
+      "id": 472,
       "date": "2026-12-19",
       "startTime": "15:30",
       "endTime": "17:00",
@@ -9638,7 +9684,7 @@
       ]
     },
     {
-      "id": 470,
+      "id": 473,
       "date": "2027-01-31",
       "startTime": "14:00",
       "endTime": "20:00",
@@ -9661,7 +9707,7 @@
       ]
     },
     {
-      "id": 471,
+      "id": 474,
       "date": "2027-03-07",
       "startTime": "16:00",
       "endTime": "",
@@ -9686,7 +9732,7 @@
   ],
   "featuredEvents": [
     {
-      "id": 471,
+      "id": 474,
       "date": "2027-03-07",
       "startTime": "16:00",
       "endTime": "",
