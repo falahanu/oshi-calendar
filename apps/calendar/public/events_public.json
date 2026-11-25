@@ -1,5 +1,5 @@
 {
-  "lastUpdate": "2026-11-25T07:57:26.142Z",
+  "lastUpdate": "2026-11-25T09:06:00.135Z",
   "from": "2025-11-25",
   "to": "2027-11-25",
   "events": [
@@ -9753,6 +9753,29 @@
       ]
     },
     {
+      "id": 480,
+      "date": "2026-12-03",
+      "startTime": "8:30",
+      "endTime": "11:00",
+      "openTime": "",
+      "title": "パンサー向井の＃ふらっと［ヤーレンズの＃ふらっと］",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "https://www.youtube.com/playlist?list=PLJjnyXnmK57ZLKpwc6LarZYbAFTGpFguq",
+      "status": "予定",
+      "source": "Youtubeあり",
+      "detail": "隔週木曜日8:30～11:00",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Youtubeあり",
+          "url": "https://www.youtube.com/playlist?list=PLJjnyXnmK57ZLKpwc6LarZYbAFTGpFguq"
+        }
+      ]
+    },
+    {
       "id": 479,
       "date": "2026-12-03",
       "startTime": "16:00",
@@ -9799,7 +9822,7 @@
       ]
     },
     {
-      "id": 480,
+      "id": 481,
       "date": "2026-12-04",
       "startTime": "不明",
       "endTime": "",
@@ -9822,7 +9845,7 @@
       ]
     },
     {
-      "id": 482,
+      "id": 483,
       "date": "2026-12-06",
       "startTime": "10:45",
       "endTime": "",
@@ -9845,7 +9868,7 @@
       ]
     },
     {
-      "id": 481,
+      "id": 482,
       "date": "2026-12-06",
       "startTime": "14:15",
       "endTime": "",
@@ -9868,7 +9891,7 @@
       ]
     },
     {
-      "id": 483,
+      "id": 484,
       "date": "2026-12-07",
       "startTime": "21:15",
       "endTime": "23:30",
@@ -9891,7 +9914,7 @@
       ]
     },
     {
-      "id": 484,
+      "id": 485,
       "date": "2026-12-10",
       "startTime": "25:30",
       "endTime": "26:00",
@@ -9914,7 +9937,7 @@
       ]
     },
     {
-      "id": 485,
+      "id": 486,
       "date": "2026-12-11",
       "startTime": "不明",
       "endTime": "",
@@ -9937,7 +9960,7 @@
       ]
     },
     {
-      "id": 486,
+      "id": 487,
       "date": "2026-12-13",
       "startTime": "19:30",
       "endTime": "",
@@ -9960,7 +9983,7 @@
       ]
     },
     {
-      "id": 488,
+      "id": 489,
       "date": "2026-12-14",
       "startTime": "18:00",
       "endTime": "",
@@ -9983,7 +10006,7 @@
       ]
     },
     {
-      "id": 487,
+      "id": 488,
       "date": "2026-12-14",
       "startTime": "21:15",
       "endTime": "23:30",
@@ -10006,7 +10029,30 @@
       ]
     },
     {
-      "id": 489,
+      "id": 491,
+      "date": "2026-12-17",
+      "startTime": "8:30",
+      "endTime": "11:00",
+      "openTime": "",
+      "title": "パンサー向井の＃ふらっと［ヤーレンズの＃ふらっと］",
+      "category": "ラジオ",
+      "place": "TBSラジオ",
+      "performers": "ヤーレンズ",
+      "url": "https://www.youtube.com/playlist?list=PLJjnyXnmK57ZLKpwc6LarZYbAFTGpFguq",
+      "status": "予定",
+      "source": "Youtubeあり",
+      "detail": "隔週木曜日8:30～11:00",
+      "management": "手動",
+      "featured": false,
+      "sources": [
+        {
+          "source": "Youtubeあり",
+          "url": "https://www.youtube.com/playlist?list=PLJjnyXnmK57ZLKpwc6LarZYbAFTGpFguq"
+        }
+      ]
+    },
+    {
+      "id": 490,
       "date": "2026-12-17",
       "startTime": "25:30",
       "endTime": "26:00",
@@ -10029,7 +10075,7 @@
       ]
     },
     {
-      "id": 490,
+      "id": 492,
       "date": "2026-12-18",
       "startTime": "不明",
       "endTime": "",
@@ -10052,7 +10098,7 @@
       ]
     },
     {
-      "id": 491,
+      "id": 493,
       "date": "2026-12-19",
       "startTime": "15:30",
       "endTime": "17:00",
@@ -10075,7 +10121,7 @@
       ]
     },
     {
-      "id": 492,
+      "id": 494,
       "date": "2026-12-20",
       "startTime": "16:30",
       "endTime": "",
@@ -10098,7 +10144,7 @@
       ]
     },
     {
-      "id": 493,
+      "id": 495,
       "date": "2026-12-21",
       "startTime": "21:15",
       "endTime": "23:30",
@@ -10121,7 +10167,7 @@
       ]
     },
     {
-      "id": 494,
+      "id": 496,
       "date": "2026-12-24",
       "startTime": "25:30",
       "endTime": "26:00",
@@ -10144,7 +10190,7 @@
       ]
     },
     {
-      "id": 495,
+      "id": 497,
       "date": "2026-12-25",
       "startTime": "不明",
       "endTime": "",
@@ -10167,7 +10213,7 @@
       ]
     },
     {
-      "id": 496,
+      "id": 498,
       "date": "2026-12-26",
       "startTime": "27:00",
       "endTime": "29:00",
@@ -10190,7 +10236,7 @@
       ]
     },
     {
-      "id": 497,
+      "id": 499,
       "date": "2026-12-28",
       "startTime": "21:15",
       "endTime": "23:30",
@@ -10213,7 +10259,7 @@
       ]
     },
     {
-      "id": 498,
+      "id": 500,
       "date": "2027-01-08",
       "startTime": "19:00",
       "endTime": "",
@@ -10236,7 +10282,7 @@
       ]
     },
     {
-      "id": 499,
+      "id": 501,
       "date": "2027-01-31",
       "startTime": "14:00",
       "endTime": "20:00",
@@ -10259,7 +10305,7 @@
       ]
     },
     {
-      "id": 500,
+      "id": 502,
       "date": "2027-03-07",
       "startTime": "16:00",
       "endTime": "",
@@ -10284,7 +10330,7 @@
   ],
   "featuredEvents": [
     {
-      "id": 500,
+      "id": 502,
       "date": "2027-03-07",
       "startTime": "16:00",
       "endTime": "",
